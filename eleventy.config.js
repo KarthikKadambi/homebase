@@ -4,4 +4,8 @@
 export default async function(eleventyConfig) {
     eleventyConfig.setInputDirectory('src');
     eleventyConfig.setOutputDirectory('dist');
+    return {
+        markdownTemplateEngine: 'njk',
+        htmlTemplateEngine: 'njk',
+    }
 }
