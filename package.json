@@ -1,5 +1,5 @@
 {
-  "name": "homebase",
+  "name": "karthik-homebase",
   "version": "1.0.0",
   "main": "eleventy.config.js",
   "type": "module",
@@ -12,7 +12,7 @@
   "description": "Karthik Kadambi's portfolio site and blog",
   "homepage": "https://karthikkadambi.com",
   "dependencies": {
-    "@11ty/eleventy": "^3.0.0"
+    "@11ty/eleventy": "^3.1.1"
   },
   "private": true
 }

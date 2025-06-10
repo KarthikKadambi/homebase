@@ -1,5 +1,5 @@
 /**
- * @param {import('@11ty/eleventy').UserConfig} eleventyConfig
+ * @param {import('@11ty/eleventy/UserConfig').default} eleventyConfig
  */
 export default async function(eleventyConfig) {
     eleventyConfig.setInputDirectory('src');
@@ -7,5 +7,6 @@ export default async function(eleventyConfig) {
     return {
         markdownTemplateEngine: 'njk',
         htmlTemplateEngine: 'njk',
+        dataTemplateEngine: 'njk',
     }
 }
