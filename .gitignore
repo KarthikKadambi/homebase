@@ -1,2 +1,6 @@
-node_modules
+#Misc
+.DS_Store
+
+# Output and node modules
 dist
+node_modules
