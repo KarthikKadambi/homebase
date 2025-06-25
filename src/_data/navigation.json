@@ -6,19 +6,27 @@
 		},
 		{
 			"text": "About",
-			"url": "/about-us/"
+			"url": "/about/"
 		},
 		{
 			"text": "Work",
 			"url": "/work/"
 		},
 		{
-			"text": "Blog",
-			"url": "/blog/"
+			"text": "Content",
+			"url": "/posts/"
+		},
+		{
+			"text": "Uses",
+			"url": "/uses/"
 		},
 		{
 			"text": "Contact",
 			"url": "/contact/"
+		},
+		{
+			"text": "RSS",
+			"url": ""
 		}
 	]
 }

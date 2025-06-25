@@ -1,11 +1,12 @@
-<a href ="/" aria-label={{ site.name }}></a>
 <header>
-  <h1>Karthik Kadambi</h1>
-  <ul class="nav__list">
-    {% for item in navigation.items %}
-    <li>
-      <a href="{{ item.url }}">{{ item.text }}</a>
-    </li>
-    {% endfor %}
-  </ul>
+  <a href="{{ htmlBaseUrl }}" aria-label={{ site.name }}>{{site.name}}</a>
+  <nav>
+    <ul class="nav__list">
+      {% for item in navigation.items %}
+        <li>
+          <a href="{{ item.url }}">{{ item.text }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav> 
 </header>
