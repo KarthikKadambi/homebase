@@ -1,0 +1,42 @@
+{
+    "id": "/",
+    "name": "Karthik Kadambi",
+    "categories": ["personal", "portfolio", "blog"],
+    "short_name": "KK",
+    "start_url": "/",
+    "description": "Karthik Kadambi's website",
+    "display_override": [
+        "window-controls-overlay"
+    ],
+    "screenshots": [
+        {
+            "src": "desktop.png",
+            "sizes": "640x320",
+            "type": "image/png",
+            "form_factor": "wide",
+            "label": "Karthik Kadambi's Website"
+        },
+           {
+            "src": "mobile.png",
+            "sizes": "752x1424",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "Karthik Kadambi's Website"
+        }
+    ],
+    "icons": [
+        {
+            "src": "android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}
