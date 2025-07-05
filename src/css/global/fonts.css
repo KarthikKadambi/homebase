@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'AtkinsonHyperlegibleNext';
+  src: url('/fonts/AtkinsonHyperlegibleNext-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AtkinsonHyperlegibleNext';
+  src: url('/fonts/AtkinsonHyperlegibleNext-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'AtkinsonHyperlegibleNext';
+  src: url('/fonts/AtkinsonHyperlegibleNext-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AtkinsonHyperlegibleNext';
+  src: url('/fonts/AtkinsonHyperlegibleNext-MediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'AtkinsonHyperlegibleNext';
+  src: url('/fonts/AtkinsonHyperlegibleNext-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
