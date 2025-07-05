@@ -4,7 +4,10 @@
   "main": "eleventy.config.js",
   "type": "module",
   "scripts": {
-    "start": "npx eleventy --serve"
+    "css": "npx postcss src/css/*.css --dir dist/css",
+    "clean": "rm -r -f dist && mkdir dist",
+    "start": "concurrently \"eleventy --serve\" \"npm run css -- --watch\"",
+    "build": "npm run clean && eleventy && NODE_ENV=production npm run css"
   },
   "keywords": [],
   "author": "Karthik Kadambi",
@@ -14,5 +17,12 @@
   "dependencies": {
     "@11ty/eleventy": "^3.1.2"
   },
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "concurrently": "^9.2.0",
+    "cssnano": "^7.0.7",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "postcss-import": "^16.1.1"
+  }
 }

@@ -8,6 +8,7 @@ export default async function(eleventyConfig) {
     eleventyConfig.setOutputDirectory('dist');
     eleventyConfig.addPassthroughCopy('src/fonts');
     eleventyConfig.addPassthroughCopy('src/images');
+    eleventyConfig.addWatchTarget("src/css/");
     eleventyConfig.addPlugin(HtmlBasePlugin, {
         baseHref: 'https://karthikkadambi.com/',
     });
