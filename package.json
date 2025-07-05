@@ -12,7 +12,7 @@
   "description": "Karthik Kadambi's portfolio site and blog",
   "homepage": "https://karthikkadambi.com",
   "dependencies": {
-    "@11ty/eleventy": "^3.1.1"
+    "@11ty/eleventy": "^3.1.2"
   },
   "private": true
 }

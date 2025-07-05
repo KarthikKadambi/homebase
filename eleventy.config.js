@@ -6,8 +6,8 @@ import { HtmlBasePlugin } from '@11ty/eleventy';
 export default async function(eleventyConfig) {
     eleventyConfig.setInputDirectory('src');
     eleventyConfig.setOutputDirectory('dist');
-    eleventyConfig.addPassthroughCopy('src/images');
     eleventyConfig.addPassthroughCopy('src/fonts');
+    eleventyConfig.addPassthroughCopy('src/images');
     eleventyConfig.addPlugin(HtmlBasePlugin, {
         baseHref: 'https://karthikkadambi.com/',
     });
