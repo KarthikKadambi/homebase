@@ -1,6 +1,9 @@
+const isProd = process.env.NODE_ENV === 'production';
+
 export default {
   plugins: {
     'postcss-import': {},
-    'cssnano': {}
+    'tailwindcss': {},
+    ...(isProd && { 'cssnano': {} })
   }
 };

@@ -8,10 +8,8 @@ export default async function(eleventyConfig) {
     eleventyConfig.setOutputDirectory('dist');
     eleventyConfig.addPassthroughCopy('src/fonts');
     eleventyConfig.addPassthroughCopy('src/images');
-    eleventyConfig.addWatchTarget("src/css/");
-    eleventyConfig.addPlugin(HtmlBasePlugin, {
-        baseHref: 'https://karthikkadambi.com/',
-    });
+    eleventyConfig.addWatchTarget("src/css");
+    eleventyConfig.addPlugin(HtmlBasePlugin);
     return {
         markdownTemplateEngine: 'njk',
         htmlTemplateEngine: 'njk',
