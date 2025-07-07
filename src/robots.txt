@@ -1,0 +1,6 @@
+# Allow all crawlers complete access
+User-agent: *
+Disallow:
+
+# Sitemap (update the URL if you have a sitemap)
+Sitemap: https://karthikkadambi.com/sitemap.xml
