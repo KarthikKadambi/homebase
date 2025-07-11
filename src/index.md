@@ -5,4 +5,4 @@ type: "website"
 url: "https://karthikkadambi.com/"
 layout: 'layouts/home.html'
 ---
-This is homepage
+<p>Some content..</p>
