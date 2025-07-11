@@ -10,14 +10,14 @@
     ],
     "screenshots": [
         {
-            "src": "desktop.png",
+            "src": "images/screenshots/desktop.png",
             "sizes": "640x320",
             "type": "image/png",
             "form_factor": "wide",
             "label": "Karthik Kadambi's Website"
         },
            {
-            "src": "mobile.png",
+            "src": "images/screenshots/mobile.png",
             "sizes": "752x1424",
             "type": "image/png",
             "form_factor": "narrow",
