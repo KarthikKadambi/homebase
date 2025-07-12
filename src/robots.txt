@@ -2,5 +2,5 @@
 User-agent: *
 Disallow:
 
-# Sitemap (update the URL if you have a sitemap)
+# Sitemap
 Sitemap: https://karthikkadambi.com/sitemap.xml
