@@ -1,6 +1,12 @@
-#Misc
+# Misc
+*.log
+npm-debug.*
+*.swp
 .DS_Store
+Thumbs.db
+.env
+.cache
 
-# Output and node modules
-dist
+# Node modules and output
 node_modules
+dist
