@@ -1,8 +1,7 @@
-const plugin = require('tailwindcss/plugin');
-const postcss = require('postcss');
-const postcssJs = require('postcss-js');
-
-const tokensToTailwind = require('./src/css-utils/tokens-to-tailwind.js');
+import plugin from 'tailwindcss/plugin';
+import postcss from 'postcss';
+import postcssJs from 'postcss-js';
+import { tokensToTailwind } from './src/css-utils/tokens-to-tailwind.js';
 
 // Raw design tokens
 const fontTokens = require('./src/design-tokens/fonts.json');
