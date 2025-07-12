@@ -9,6 +9,11 @@
         "AtkinsonHyperlegibleNext",
         "sans-serif"
       ]
+    },
+    {
+      "name": "Mono",
+      "description": "Monospace font for code samples etc",
+      "value": ["monospace"]
     }
   ]
 }
