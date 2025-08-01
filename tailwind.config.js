@@ -2,6 +2,7 @@ import plugin from 'tailwindcss/plugin';
 import postcss from 'postcss';
 import postcssJs from 'postcss-js';
 import { tokensToTailwind } from './src/css-utils/tokens-to-tailwind.js';
+import { clampGenerator } from './src/css-utils/clamp-generator.js';
 
 // Raw design tokens
 const colorTokens = require('./src/design-tokens/colors.json');
