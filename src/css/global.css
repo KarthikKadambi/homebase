@@ -5,4 +5,5 @@
 
 @import 'tailwindcss/components';
 
+@import 'global/variables.css';
 @import 'global/global-styles.css';

@@ -45,6 +45,21 @@
 
 <body>
     <main id="main-content">{% block content %}{% endblock %}</main>
+    <script>
+        // Color scheme toggle functionality
+        function updateColorScheme(scheme) {
+            if(!document.startViewTransition) {
+                document.documentElement.style.colorScheme = scheme;
+                return;
+            }
+            document.startViewTransition(() => { document.documentElement.style.colorScheme = scheme });
+        }
+        const colorSchemeSelectInput = document.querySelector('select[name="color-scheme"]');
+        colorSchemeSelectInput.addEventListener('change', (event) => {
+            const selectedValue = colorSchemeSelectInput.value;
+            updateColorScheme(selectedValue);
+        });
+    </script>
 </body>
 
 </html>

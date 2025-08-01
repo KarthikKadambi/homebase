@@ -1,7 +1,9 @@
 {% extends "layouts/base.html" %}
 {% block content %}
-<article>
-	<h1 style="font-size:2em;">Home</h1>
+	<h1>Home</h1>
+	<select name="color-scheme" id="color-scheme">
+  		<option value="dark">Dark</option>
+  		<option value="light">Light</option>
+	</select>
 	{{ content | safe }}
-</article>
 {% endblock %}

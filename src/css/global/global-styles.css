@@ -1,10 +1,20 @@
-body {
+html {
     font-family: var(--font-base);
+    background-color: var(--primary-background);
+}
+
+::view-transition-group(root) {
+    transition: background-color 1s ease, color 1s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    ::view-transition-group(root) {
+        transition: none;
+        animation: none;
+    }
 }
 
 h1 {
     font-size: 2rem;
-    color: #FFD700;
-    /* color: #E03C31; */
-    /* color: #FFD700 */
+    color: var(--primary-color);
 }
