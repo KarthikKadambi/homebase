@@ -7,6 +7,9 @@ export default async function(eleventyConfig) {
     eleventyConfig.setInputDirectory('src');
     eleventyConfig.setOutputDirectory('dist');
     
+    // Ignore pattern library files from being processed as pages
+    eleventyConfig.ignores.add('src/pattern-library/**');
+    
     eleventyConfig.addPassthroughCopy('src/fonts');
     eleventyConfig.addPassthroughCopy('src/images');
     eleventyConfig.addPassthroughCopy('src/robots.txt');
