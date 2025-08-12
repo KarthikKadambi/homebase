@@ -1,5 +1,5 @@
-{% extends "layouts/base.html" %}
-{% block content %}
-	<h1>{{ title or "Content" }}</h1>
-	{{ content | safe }}
-{% endblock %}
+---
+layout: layouts/base.html
+---
+<h1>{{ title or "Content" }}</h1>
+{{ content | safe }}

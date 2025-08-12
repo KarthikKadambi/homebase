@@ -49,7 +49,7 @@
 
 <body>
     {% include "src/pattern-library/patterns/site-head/site-head.njk" %}
-    <main class="wrapper">{% block content %}{% endblock %}</main>
+    <main class="wrapper">{{ content | safe }}</main>
     <script>
         // Color scheme toggle functionality
         function updateColorScheme(scheme) {

@@ -5,15 +5,15 @@
     "items": [
       {
         "label": "About",
-        "href": "/about"
+        "href": "/about/"
       },
       {
         "label": "Content",
-        "href": "/content"
+        "href": "/content/"
       },
       {
         "label": "RSS",
-        "href": "/rss"
+        "href": "/rss/"
       }
     ]
   },
