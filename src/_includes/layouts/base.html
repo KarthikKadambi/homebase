@@ -48,7 +48,8 @@
 </head>
 
 <body>
-    <main id="main-content">{% block content %}{% endblock %}</main>
+    {% include "src/pattern-library/patterns/site-head/site-head.njk" %}
+    <main class="wrapper">{% block content %}{% endblock %}</main>
     <script>
         // Color scheme toggle functionality
         function updateColorScheme(scheme) {

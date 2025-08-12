@@ -1,9 +1,14 @@
+/* Tailwind Base */
 @import 'tailwindcss/base';
 
 @import 'global/reset.css';
 @import 'global/fonts.css';
 
+/* Tailwind Components */
 @import 'tailwindcss/components';
 
 @import 'global/variables.css';
 @import 'global/global-styles.css';
+
+@import-glob 'blocks/*.css';
+@import-glob 'compositions/*.css';

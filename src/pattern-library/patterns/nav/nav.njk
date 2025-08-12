@@ -1,0 +1,9 @@
+<nav aria-label="{{ nav.context.label }}" class="nav">
+  <ul class="{{ 'flow' if nav.context.variant === 'stacked' else 'cluster' }}" role="list">
+    {% for item in nav.context.items %}
+      <li>
+        <a href="{{ item.href }}" {% if item.current %}aria-current="page"{% endif %}>{{ item.label }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
