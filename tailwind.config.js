@@ -23,7 +23,7 @@ const spacing = tokensToTailwind(clampGenerator(spacingTokens.items));
 
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./src/**/*.{html,js,jsx,mdx,njk,twig,vue,json}'],
+  content: ['src/**/*.{html,js,md,njk,json}'],
   blocklist: ['container'],
   theme: {
     screens: {

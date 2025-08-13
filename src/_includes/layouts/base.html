@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
-    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="{{ '/assets/css/global.css' | url }}">
     <!-- Preloads -->
-    <link rel="preload" href="/fonts/AtkinsonHyperlegibleNext-Regular.woff2" as="font" type="font/woff2" crossorigin> 
-    <link rel="preload" href="/fonts/AtkinsonHyperlegibleNext-Italic.woff2" as="font" type="font/woff2" crossorigin> 
-    <link rel="preload" href="/fonts/AtkinsonHyperlegibleNext-Medium.woff2" as="font" type="font/woff2" crossorigin> 
-    <link rel="preload" href="/fonts/AtkinsonHyperlegibleNext-MediumItalic.woff2" as="font" type="font/woff2" crossorigin> 
-    <link rel="preload" href="/fonts/AtkinsonHyperlegibleNext-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ '/assets/fonts/AtkinsonHyperlegibleNext-Regular.woff2' | url }}" as="font" type="font/woff2" crossorigin> 
+    <link rel="preload" href="{{ '/assets/fonts/AtkinsonHyperlegibleNext-Italic.woff2' | url }}" as="font" type="font/woff2" crossorigin> 
+    <link rel="preload" href="{{ '/assets/fonts/AtkinsonHyperlegibleNext-Medium.woff2' | url }}" as="font" type="font/woff2" crossorigin> 
+    <link rel="preload" href="{{ '/assets/fonts/AtkinsonHyperlegibleNext-MediumItalic.woff2' | url }}" as="font" type="font/woff2" crossorigin> 
+    <link rel="preload" href="{{ '/assets/fonts/AtkinsonHyperlegibleNext-Bold.woff2' | url }}" as="font" type="font/woff2" crossorigin>
     <!-- Meta tags -->
     <meta name="author" content="Karthik Kadambi">
     <meta name="description" content="{{ description }}">
@@ -36,11 +36,11 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="">
     <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/favicon/apple-touch-icon.png' | url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicon/favicon-32x32.png' | url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/images/favicon/favicon-16x16.png' | url }}">
     <!-- Manifest -->
-    <link rel="manifest" href="site.webmanifest">
+    <link rel="manifest" href="{{ '/site.webmanifest' | url }}">
     <!-- IndieWeb -->
     <link rel="webmention" href="https://webmention.io/karthikkadambi.com/webmention">
     <link rel="me" href="https://github.com/karthikkadambi">
@@ -48,8 +48,15 @@
 </head>
 
 <body>
-    {% include "src/pattern-library/patterns/site-head/site-head.njk" %}
-    <main class="wrapper">{{ content | safe }}</main>
+    {% include "../partials/site-head/site-head.njk" %}
+    <main class="wrapper">
+        <label for="color-scheme">Select Theme:</label>
+	    <select name="color-scheme" id="color-scheme">
+  		    <option value="dark">Dark</option>
+  		    <option value="light">Light</option>
+	    </select>
+        {{ content | safe }}
+    </main>
     <script>
         // Color scheme toggle functionality
         function updateColorScheme(scheme) {

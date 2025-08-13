@@ -4,7 +4,7 @@
   "main": "eleventy.config.js",
   "type": "module",
   "scripts": {
-    "css": "npx postcss src/css/*.css --dir dist/css",
+    "css": "npx postcss src/css/*.css --dir dist/assets/css",
     "clean": "rm -r -f dist && mkdir dist",
     "start": "concurrently \"eleventy --serve\" \"npm run css -- --watch\"",
     "build": "npm run clean && eleventy && NODE_ENV=production npm run css"

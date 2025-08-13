@@ -1,4 +1,4 @@
-/* Root */
+/* Variables */
 :root {
   --gutter: var(--space-m-l);
   --transition-base: 250ms ease;
