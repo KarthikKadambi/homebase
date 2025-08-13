@@ -16,14 +16,5 @@
         "href": "/rss/"
       }
     ]
-  },
-  "variants": [
-    {
-      "name": "stacked",
-      "title": "Stacked",
-      "context": {
-        "variant": "stacked"
-      }
-    }
-  ]
+  }
 }

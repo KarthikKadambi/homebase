@@ -1,9 +1,7 @@
 ---
-title: 'Karthik Kadambi | Full Stack Web Developer'
-description: "Full Stack Web Developer, Teacher, Personal Finance Enthusiast"
-type: "website"
-url: "https://karthikkadambi.com"
+description: "Learn about web development, and more by Karthik Kadambi, full stack web developer"
 layout: 'layouts/base.html'
+title: 'Articles and more'
 ---
 <p>blog content..</p>
 {% for post in collections.posts %}

@@ -20,7 +20,11 @@
     },
     {
       "name": "Primary",
-      "value": "#fccd26"
+      "value": "#ffd700"
+    },
+    {
+      "name": "Secondary",
+      "value": "#e03c31"
     }
   ]
 }

@@ -23,8 +23,14 @@ const spacing = tokensToTailwind(clampGenerator(spacingTokens.items));
 
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['src/**/*.{html,js,md,njk,json}'],
   blocklist: ['container'],
+  content: ['src/**/*.{html,js,md,njk,json}'],
+  corePlugins: {
+    preflight: false,
+    textOpacity: false,
+    backgroundOpacity: false,
+    borderOpacity: false
+  },
   theme: {
     screens: {
       sm: `${viewportTokens.min}px`,
@@ -79,10 +85,4 @@ export default {
       });
     }),
   ],
-  corePlugins: {
-    preflight: false,
-    textOpacity: false,
-    backgroundOpacity: false,
-    borderOpacity: false
-  },
 }
