@@ -21,7 +21,7 @@
 
 body {
   background-color: light-dark(var(--color-light), var(--color-dark));
-  color: light-dark(var(--color-dark), var(--color-primary));
+  color: light-dark(var(--color-dark), var(--color-light));
   font-size: var(--size-step-1);
   font-family: var(--font-base);
   line-height: var(--leading-standard);

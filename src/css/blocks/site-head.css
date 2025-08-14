@@ -28,16 +28,8 @@
   --hr-stroke: var(--stroke-width) solid var(--color-primary);
 }
 
-
 hr {
   border: none;
   border-block-start: var(--hr-stroke, var(--stroke));
   margin-block: var(--flow-space, var(--space-xl));
-}
-
-
-@container site-head-brand (68vi <= width <= 50rem) {
-  .site-head__brand a {
-    color: var(--color-light);
-  }
 }

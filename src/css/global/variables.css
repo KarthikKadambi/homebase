@@ -1,5 +1,6 @@
 /* Variables */
 :root {
+  color-scheme: light dark;
   --gutter: var(--space-m-l);
   --transition-base: 250ms ease;
   --transition-movement: 200ms linear;
@@ -11,5 +12,4 @@
   --radius-m: 0.75rem;
   --radius-l: 2.5rem;
   --uppercase-kerning: 0.04ch;
-   color-scheme: light dark;
 }
