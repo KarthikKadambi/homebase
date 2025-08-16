@@ -20,8 +20,8 @@
 }
 
 body {
-  background-color: light-dark(var(--color-light), var(--color-dark));
-  color: light-dark(var(--color-dark), var(--color-light));
+  background-color: var(--bg-color);
+  color: var(--text-color);
   font-size: var(--size-step-1);
   font-family: var(--font-base);
   line-height: var(--leading-standard);
@@ -69,6 +69,11 @@ h3 {
   outline-offset: var(--focus-offset, 0.2lh);
 }
 
+a:hover {
+  text-decoration-color: var(--accent-color, currentColor);
+  text-decoration-thickness: 5px;
+}
+
 /* Firefox is the only browser that doesn't outline the whole element unless you make it display: inline-block. That in itself causes multiple flow issues so we can detect it, using its own vendor prefix and reduce focus offset
 */
 @supports (-moz-appearance: none) {
@@ -78,8 +83,8 @@ h3 {
 }
 
 ::selection {
-  background-color: light-dark(var(--color-dark), var(--color-light));
-  color: light-dark(var(--color-light), var(--color-dark));
+  background-color: var(--bg-color);
+  color: var(--selection-color));
 }
 
 hr {
@@ -94,7 +99,7 @@ form > * + * {
 }
 
 :is(input, select, textarea) {
-  accent-color: var(--color-primary);
+  accent-color: var(--accent-color);
 }
 
 :is(input:not([type='checkbox'], [type='radio'], [type='color']), select, textarea) {
@@ -102,7 +107,7 @@ form > * + * {
   border-radius: var(--radius-s);
   border: var(--stroke-solid);
   background: light-dark(var(--color-dark-glare), var(--color-light-glare));
-  color: light-dark(var(--color-dark), var(--color-light));
+  color: var(--text);
   width: 100%;
 
   &::placeholder {

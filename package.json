@@ -13,7 +13,7 @@
   "author": "Karthik Kadambi",
   "license": "See LICENSE IN LICENSE.txt",
   "description": "Karthik Kadambi's portfolio site and blog",
-  "homepage": "https://karthikkadambi.com",
+  "homepage": "https://karthikkadambi.com/",
   "dependencies": {
     "@11ty/eleventy": "^3.1.2",
     "@11ty/eleventy-plugin-rss": "^2.0.4"

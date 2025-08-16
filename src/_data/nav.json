@@ -4,6 +4,10 @@
     "label": "Primary",
     "items": [
       {
+        "label": "Home",
+        "href": "/"
+      },
+      {
         "label": "About",
         "href": "/about/"
       },

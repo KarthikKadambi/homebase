@@ -11,6 +11,8 @@
     <link rel="preload" href="{{ '/assets/fonts/AtkinsonHyperlegibleNext-Medium.woff2' | url }}" as="font" type="font/woff2" crossorigin> 
     <link rel="preload" href="{{ '/assets/fonts/AtkinsonHyperlegibleNext-MediumItalic.woff2' | url }}" as="font" type="font/woff2" crossorigin> 
     <link rel="preload" href="{{ '/assets/fonts/AtkinsonHyperlegibleNext-Bold.woff2' | url }}" as="font" type="font/woff2" crossorigin>
+    <!-- Alternate -->
+     <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Karthik Kadambi | Full Stack Web Developer">
     <!-- Meta tags -->
     <meta name="author" content="Karthik Kadambi">
     <meta name="description" content="{{ description }}">
@@ -59,6 +61,7 @@
 	    </select>
         {{ content | safe }}
     </main>
+    {% include "../partials/footer/footer.njk" %}
     <script>
         // Color scheme toggle functionality
         function updateColorScheme(scheme) {
