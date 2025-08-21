@@ -69,11 +69,6 @@ h3 {
   outline-offset: var(--focus-offset, 0.2lh);
 }
 
-a:hover {
-  text-decoration-color: var(--accent-color, currentColor);
-  text-decoration-thickness: 5px;
-}
-
 /* Firefox is the only browser that doesn't outline the whole element unless you make it display: inline-block. That in itself causes multiple flow issues so we can detect it, using its own vendor prefix and reduce focus offset
 */
 @supports (-moz-appearance: none) {
@@ -89,7 +84,7 @@ a:hover {
 
 hr {
   border: none;
-  border-block-start: var(--stroke);
+  border-block-start: var(--hr-stroke, var(--stroke));
   margin-block: var(--flow-space, var(--space-xl));
 }
 
@@ -106,8 +101,8 @@ form > * + * {
   padding: 0.5em 0.8em;
   border-radius: var(--radius-s);
   border: var(--stroke-solid);
-  background: light-dark(var(--color-dark-glare), var(--color-light-glare));
-  color: var(--text);
+  background: var(--bg-color);
+  color: var(--text-color);
   width: 100%;
 
   &::placeholder {

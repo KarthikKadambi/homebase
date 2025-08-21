@@ -10,3 +10,8 @@
 .nav a:not(:hover):not([aria-current='page']) {
   text-decoration: none;
 }
+
+.nav a:hover {
+  text-decoration-color: var(--accent-color);
+  text-decoration-thickness: 5px;
+}
