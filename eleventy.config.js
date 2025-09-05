@@ -12,10 +12,11 @@ export default async function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy({ 'src/images': 'assets/images' });
     eleventyConfig.addPassthroughCopy('src/robots.txt');
     eleventyConfig.addPassthroughCopy('src/site.webmanifest');
+	eleventyConfig.addPassthroughCopy("_headers");
+
+	eleventyConfig.addWatchTarget("src/css");
     
     eleventyConfig.addPlugin(HtmlBasePlugin);
-
-    eleventyConfig.addWatchTarget("src/css");
 
 	eleventyConfig.addPlugin(feedPlugin, {
 		type: "atom", // or "rss", "json"
