@@ -101,6 +101,8 @@
             updateColorScheme(selectedValue);
         });
     </script>
+    <!-- Add schema.org structured data as JSON-LD -->
+    <script type="application/ld+json">{{ schemaorg | dump | safe }}</script>
 </body>
 
 </html>
