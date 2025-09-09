@@ -8,10 +8,10 @@
 * design-tokens - JSON files that define design token values for colour, text sizes, fonts, spacing, leading (line height), font weights and viewports.
 * fonts - web fonts.
 * images - images that are used on the site.
-* <page>.md - the template file for respective page.
+* <page>.md - the template file for respective page. ??
 * robots.txt - implements Robots exclusion protocol.
 * site.webmanifest - Web manifest.
-* sitemap.njk - the sitemap template file.
+* sitemap.njk - the sitemap template file. ??
 
 ## Packages
 
