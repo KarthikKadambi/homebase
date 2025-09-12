@@ -5,14 +5,16 @@ import { feedPlugin } from "@11ty/eleventy-plugin-rss";
  * @param {import('@11ty/eleventy/UserConfig').default} eleventyConfig
  */
 export default async function(eleventyConfig) {
-    eleventyConfig.setInputDirectory('src');
-    eleventyConfig.setOutputDirectory('dist');
+    eleventyConfig.setInputDirectory('src/pages');
+	eleventyConfig.setIncludesDirectory('../_includes');
+	eleventyConfig.setDataDirectory('../_data');
+	eleventyConfig.setOutputDirectory('dist');
     
     eleventyConfig.addPassthroughCopy({ 'src/fonts': 'assets/fonts' });
     eleventyConfig.addPassthroughCopy({ 'src/images': 'assets/images' });
 	eleventyConfig.addPassthroughCopy({ 'src/js': 'assets/js' });
-    eleventyConfig.addPassthroughCopy('src/robots.txt');
-    eleventyConfig.addPassthroughCopy('src/site.webmanifest');
+    eleventyConfig.addPassthroughCopy({ 'src/robots.txt': 'robots.txt' });
+    eleventyConfig.addPassthroughCopy({ 'src/site.webmanifest': 'site.webmanifest' });
 	eleventyConfig.addPassthroughCopy("_headers");
 
 	eleventyConfig.addWatchTarget("src/css");
