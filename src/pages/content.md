@@ -1,6 +1,5 @@
 ---
 description: "Learn about web development, and more by Karthik Kadambi, full stack web developer"
-layout: 'layouts/base.html'
 title: 'Articles and more'
 ---
 <p>Blog content..</p>
