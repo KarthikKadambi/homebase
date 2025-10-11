@@ -12,7 +12,7 @@
     <link rel="preload" href="{{ '/assets/fonts/AtkinsonHyperlegibleNext-MediumItalic.woff2' | url }}" as="font" type="font/woff2" crossorigin> 
     <link rel="preload" href="{{ '/assets/fonts/AtkinsonHyperlegibleNext-Bold.woff2' | url }}" as="font" type="font/woff2" crossorigin>
     <!-- Alternate -->
-     <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Karthik Kadambi | Full Stack Web Developer">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Karthik Kadambi | Full Stack Web Developer">
     <!-- Meta tags -->
     <meta name="author" content="Karthik Kadambi">
     <meta name="description" content="{{ description }}">
@@ -54,15 +54,10 @@
 <body>
     {% include "../partials/site-head/site-head.njk" %}
     <main class="wrapper">
-        <label for="color-scheme">Select Theme:</label>
-	    <select name="color-scheme" id="color-scheme">
-  		    <option value="dark">Dark</option>
-  		    <option value="light">Light</option>
-	    </select>
         {{ content | safe }}
     </main>
     {% include "../partials/footer/footer.njk" %}
-    <script src="{{ '/assets/js/theme-toggle.js' | url }}"></script>
+    <script src="{{ '/assets/js/theme-toggle.js' | url }}" defer></script>
     <!-- Add schema.org structured data as JSON-LD -->
     <script type="application/ld+json">{{ schemaorg | dump | safe }}</script>
 </body>

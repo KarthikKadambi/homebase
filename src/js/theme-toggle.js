@@ -1,3 +1,20 @@
+// Load saved color scheme on page load
+function loadSavedColorScheme() {
+    const savedScheme = localStorage.getItem('colorScheme');
+    let currentScheme;
+    
+    if (savedScheme) {
+        currentScheme = savedScheme;
+    } else {
+        // Default to system preference if no saved scheme
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        currentScheme = prefersDark ? 'dark' : 'light';
+    }
+    
+    document.documentElement.style.colorScheme = currentScheme;
+    updateThemeIcons(currentScheme);
+}
+
 // Color scheme toggle functionality
 function updateColorScheme(scheme) {
     if(!document.startViewTransition) {
@@ -7,33 +24,37 @@ function updateColorScheme(scheme) {
     }
     // Save to localStorage
     localStorage.setItem('colorScheme', scheme);
+    
+    // Update button icons
+    updateThemeIcons(scheme);
 }
 
-// Load saved color scheme on page load
-function loadSavedColorScheme() {
-    const savedScheme = localStorage.getItem('colorScheme');
-    const colorSchemeSelectInput = document.querySelector('select[name="color-scheme"]');
+// Update theme toggle button icons
+function updateThemeIcons(scheme) {
+    const button = document.querySelector('#theme-toggle');
+    const sunIcon = button.querySelector('.sun-icon');
+    const moonIcon = button.querySelector('.moon-icon');
     
-    if (savedScheme) {
-        document.documentElement.style.colorScheme = savedScheme;
-        colorSchemeSelectInput.value = savedScheme;
+    if (scheme === 'dark') {
+        sunIcon.style.display = 'none';
+        moonIcon.style.display = 'block';
     } else {
-        // Default to system preference if no saved scheme
-        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        const defaultScheme = prefersDark ? 'dark' : 'light';
-        document.documentElement.style.colorScheme = defaultScheme;
-        colorSchemeSelectInput.value = defaultScheme;
+        sunIcon.style.display = 'block';
+        moonIcon.style.display = 'none';
     }
 }
 
-// Initialize on page load
-document.addEventListener('DOMContentLoaded', loadSavedColorScheme);
-
-// Handle color scheme changes
-document.addEventListener('DOMContentLoaded', () => {
-    const colorSchemeSelectInput = document.querySelector('select[name="color-scheme"]');
-    colorSchemeSelectInput.addEventListener('change', (event) => {
-        const selectedValue = colorSchemeSelectInput.value;
-        updateColorScheme(selectedValue);
+// Initialize on page load - DOM is ready since script is deferred
+function init() {
+    loadSavedColorScheme();
+    
+    const themeToggleButton = document.querySelector('#theme-toggle');
+    themeToggleButton.addEventListener('click', () => {
+        const currentScheme = document.documentElement.style.colorScheme;
+        const newScheme = currentScheme === 'dark' ? 'light' : 'dark';
+        updateColorScheme(newScheme);
     });
-});
+}
+
+// Run initialization
+init();
