@@ -27,11 +27,11 @@ export default {
 						"familyName": "Kadambi",
 						"jobTitle": "Senior Lead Engineer",
 						"sameAs": [
-							"https://www.linkedin.com/in/kkadambi",
 							"https://github.com/KarthikKadambi",
+							"https://karthikkadambi.substack.com/",
+							"https://linkedin.com/in/kkadambi",
 							"https://mastodon.social/@karthikkadambi",
-							"https://www.youtube.com/user/karthik24590",
-							"https://karthikkadambi.substack.com/"
+							"https://youtube.com/user/karthik24590"
 						]
 					},
 					{

@@ -22,20 +22,20 @@ export default async function(eleventyConfig) {
     eleventyConfig.addPlugin(HtmlBasePlugin);
 
 	eleventyConfig.addPlugin(feedPlugin, {
-		type: "atom", // or "rss", "json"
+		type: "atom",
 		outputPath: "/feed/feed.xml",
 		collection: {
-			name: "posts", // iterate over `collections.posts`
-			limit: 0,     // 0 means no limit
+			name: "posts",
+			limit: 0,
 		},
 		metadata: {
 			language: "en",
-			title: "Karthik Kadambi's Blog",
+			title: "Karthik Kadambi's website",
 			subtitle: "Learn about web development, and more by Karthik Kadambi, full stack web developer",
 			base: "https://karthikkadambi.com/",
 			author: {
 				name: "Karthik Kadambi",
-				email: "krtkram@gmail.com", // Optional
+				email: "krtkram@gmail.com",
 			},
 		}
 	});

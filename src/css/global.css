@@ -13,4 +13,5 @@
 @import-glob 'blocks/*.css';
 @import-glob 'compositions/*.css';
 
+/* Tailwind Utilities */
 @import 'tailwindcss/utilities';

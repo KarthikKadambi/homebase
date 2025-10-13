@@ -1,18 +1,18 @@
 # Eleventy
 
 ## Folder structure
-* _data - global data for 11ty to use on templates.
-* _includes - reusable partials and layouts for 11ty to use on templates.
+* _data - Global data for 11ty to use on templates.
+* _includes - Reusable partials and layouts for 11ty to use on templates.
 * css - CSS codebase.
-* css-utils - little helper functions that the Tailwind system uses to generate utilities and CSS custom properties.
+* css-utils - Little helper functions that the Tailwind system uses to generate utilities and CSS custom properties.
 * design-tokens - JSON files that define design token values for colour, text sizes, fonts, spacing, leading (line height), font weights and viewports.
-* fonts - web fonts.
-* images - images that are used on the site.
-* pages/<page>.md - the template file for respective page.
-* pages/posts/<post>.md - the template file for respective post.
-* pages/sitemap.njk - the sitemap template file.
-* robots.txt - implements Robots exclusion protocol.
-* site.webmanifest - web manifest.
+* fonts - Web fonts.
+* images - Images that are used on the site.
+* pages/<page>.md - The template file for respective page.
+* pages/posts/<post>.md - The template file for respective post.
+* pages/sitemap.njk - The sitemap template file.
+* robots.txt - Implements Robots exclusion protocol.
+* site.webmanifest - Web manifest.
 
 ## Packages
 

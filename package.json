@@ -12,7 +12,7 @@
   "keywords": [],
   "author": "Karthik Kadambi",
   "license": "See LICENSE IN LICENSE.txt",
-  "description": "Karthik Kadambi's portfolio site and blog",
+  "description": "Karthik Kadambi's website",
   "homepage": "https://karthikkadambi.com/",
   "dependencies": {
     "@11ty/eleventy": "^3.1.2",
