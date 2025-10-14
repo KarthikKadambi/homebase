@@ -9,3 +9,6 @@ title: 'Articles and more'
         <p>{{ post.templateContent | safe }}</p>
     </article>
 {% endfor %}
+<br />
+<h1>Talks</h1>
+<p>No talks yet.</p>

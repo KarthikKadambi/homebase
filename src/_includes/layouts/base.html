@@ -56,6 +56,7 @@
     <main class="wrapper">
         {{ content | safe }}
     </main>
+    <br/>
     {% include "../partials/footer/footer.njk" %}
     <!-- Add schema.org structured data as JSON-LD -->
     <script type="application/ld+json">{{ schemaorg | dump | safe }}</script>
