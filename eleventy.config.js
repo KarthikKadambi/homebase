@@ -39,6 +39,13 @@ export default async function(eleventyConfig) {
 			},
 		}
 	});
+
+	eleventyConfig.addFilter("cloudinaryEncode", function(text) {
+		if (!text || typeof text !== 'string') {
+			return '';
+		}
+  		return encodeURIComponent(text.replace(/,/g, ' -'));
+	});
     
     return {
         markdownTemplateEngine: 'njk',
