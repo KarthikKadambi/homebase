@@ -52,12 +52,11 @@
 </head>
 
 <body>
-    {% include "../partials/site-head/site-head.njk" %}
+    {% include "partials/site-head/site-head.njk" %}
     <main class="wrapper">
         {{ content | safe }}
     </main>
-    <br/>
-    {% include "../partials/footer/footer.njk" %}
+    {% include "partials/footer/footer.njk" %}
     <!-- Add schema.org structured data as JSON-LD -->
     <script type="application/ld+json">{{ schemaorg | dump | safe }}</script>
     <script src="{{ '/assets/js/theme-toggle.js' | url }}" defer></script>

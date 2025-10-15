@@ -1,0 +1,13 @@
+.hero-btn-primary {
+    background-color: var(--accent-color);
+    padding: 10px;
+    border-radius: var(--radius-m);
+    color: var(--bg-color);
+}
+
+.hero-btn-secondary {
+    background-color: var(--accent-alt-color);
+    padding: 10px;
+    border-radius: var(--radius-m);
+    color: var(--bg-color);
+}

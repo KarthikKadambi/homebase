@@ -110,3 +110,9 @@ form > * + * {
     opacity: 1;
   }
 }
+
+/* Speicific styles */
+.section-inset {
+  background-color: light-dark(#E8E8E8, #696969);
+  padding: var(--space-m);
+}

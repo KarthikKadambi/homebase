@@ -1,4 +1,3 @@
-
 /**
  * CSS Custom Properties - Semantic Layer
  * 
@@ -38,7 +37,7 @@
   /* Typography */
   --uppercase-kerning: 0.04ch;
   
-  /* Semantic Colors - These reference your design tokens */
+  /* Colors */
   --bg-color: light-dark(var(--color-light), var(--color-dark));
   --text-color: light-dark(var(--color-dark), var(--color-light));
   --accent-color: var(--color-primary);

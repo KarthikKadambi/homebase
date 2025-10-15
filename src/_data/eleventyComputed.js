@@ -26,7 +26,7 @@ export default {
           "jobTitle": "Senior Lead Engineer",
           "sameAs": [
             "https://github.com/KarthikKadambi",
-            "https://karthikkadambi.substack.com/",
+            "https://karthikkadambi.substack.com",
             "https://linkedin.com/in/kkadambi",
             "https://mastodon.social/@karthikkadambi",
             "https://youtube.com/user/karthik24590"
