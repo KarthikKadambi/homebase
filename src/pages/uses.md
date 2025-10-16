@@ -2,9 +2,13 @@
 description: "The tools Karthik Kadambi uses"
 title: 'What Karthik Kadambi uses'
 ---
-<section class="uses">
-  <h1>What I Use — My Developer Setup</h1>
-
+<section class="section-inset">
+  <div class="flow">
+    <h1>Uses</h1>
+    <p>What i use</p>
+  </div>
+</section>
+<section class="uses" aria-label="Karthik uses">
   <h2>🖥️ Hardware</h2>
   <ul>
     <li><strong>Laptop:</strong> MacBook Air 13.6” M2.</li>

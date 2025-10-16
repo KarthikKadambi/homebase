@@ -2,9 +2,13 @@
 description: "Full Stack Web Developer, Teacher, Personal Finance Enthusiast"
 title: 'About Karthik Kadambi'
 ---
+<section class="section-inset">
+  <div class="flow">
+    <h1>About</h1>
+    <h2>👋 Hi, I'm Karthik Kadambi</h2>
+  </div>
+</section>
 <section class="about">
-  <h1>About Me</h1>
-
   <h2>👋 Hi, I'm Karthik Kadambi</h2>
 
   I was born in 1990 in Bengaluru, Karnataka.
