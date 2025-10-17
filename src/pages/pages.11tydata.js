@@ -1,6 +1,12 @@
 export default {
-	layout: "layouts/base.html",
 	eleventyComputed: {
+		layout: (data) => {
+			// keep sitemap template layout null (it has frontmatter layout: null)
+			if (data.page && data.page.fileSlug === "sitemap") {
+				return null;
+			}
+			return "layouts/base.html";
+		},
 		schemaorg: (data) => {
 			return {
 				"@context": "https://schema.org",
