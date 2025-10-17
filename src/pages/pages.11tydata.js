@@ -1,12 +1,7 @@
 export default {
+	// set a default layout that can be overridden by child directory data files
+	layout: "layouts/base.html",
 	eleventyComputed: {
-		layout: (data) => {
-			// keep sitemap template layout null (it has frontmatter layout: null)
-			if (data.page && data.page.fileSlug === "sitemap") {
-				return null;
-			}
-			return "layouts/base.html";
-		},
 		schemaorg: (data) => {
 			return {
 				"@context": "https://schema.org",
@@ -38,7 +33,19 @@ export default {
 							"https://linkedin.com/in/kkadambi",
 							"https://mastodon.social/@karthikkadambi",
 							"https://youtube.com/user/karthik24590"
-						]
+						],
+						spouse: {
+							"@type": "Person",
+							"name": "Neha Pradeep",
+							"gender": "Female",
+							"givenName": "Neha",
+							"familyName": "Pradeep",
+							"sameAs": [
+								"https://www.youtube.com/@Veggiedelicacies",
+								"https://www.linkedin.com/in/neha-pradeep-7b152147",
+								"https://www.instagram.com/veggie_delicacies"
+							]
+          				}	
 					},
 					{
 						"@type": "WebPage",

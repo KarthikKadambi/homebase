@@ -23,6 +23,7 @@ export default {
           "givenName": "Karthik",
           "email": data.metadata.author.email,
           "familyName": "Kadambi",
+          "birthDate": "1990-05-24",
           "jobTitle": "Senior Lead Engineer",
           "sameAs": [
             "https://github.com/KarthikKadambi",
@@ -30,7 +31,19 @@ export default {
             "https://linkedin.com/in/kkadambi",
             "https://mastodon.social/@karthikkadambi",
             "https://youtube.com/user/karthik24590"
-          ]
+          ],
+          spouse: {
+            "@type": "Person",
+            "name": "Neha Pradeep",
+            "gender": "Female",
+            "givenName": "Neha",
+            "familyName": "Pradeep",
+            "sameAs": [
+              "https://www.youtube.com/@Veggiedelicacies",
+              "https://www.linkedin.com/in/neha-pradeep-7b152147",
+              "https://www.instagram.com/veggie_delicacies"
+            ]
+          }
         }
       ]
     };
