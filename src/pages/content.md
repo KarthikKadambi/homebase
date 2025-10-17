@@ -2,18 +2,18 @@
 description: "Learn about web development, and more by Karthik Kadambi, full stack web developer"
 title: 'Articles and more'
 ---
-<section class="section-inset">
+<section class="section-inset" aria-label="Articles">
   <div class="flow">
     <h1>Articles</h1>
-    <h2>learn from me</h2>
+    <p>learn from me</p>
   </div>
 </section>
 <h2>Posts</h2>
 {% for post in collections.posts %}
     <article>
-        <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
+        <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
         <p>{{ post.templateContent | safe }}</p>
     </article>
 {% endfor %}
-<h1>Talks</h1>
+<h2>Talks</h2>
 <p>No talks yet.</p>
