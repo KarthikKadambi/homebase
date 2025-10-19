@@ -6,12 +6,17 @@
   line-height: var(--leading-flat);
 }
 
+.nav a {
+  text-decoration-color: var(--accent-color);
+}
+
 /* The default behaviour for links is to have an underline. We remove that only if the item isn't being hovered or is the current active page */
 .nav a:not(:hover):not([aria-current='page']) {
   text-decoration: none;
+  text-decoration-color: var(--accent-color);
 }
 
 .nav a:hover {
-  text-decoration-color: var(--accent-color);
   text-decoration-thickness: 5px;
+  text-decoration-color: var(--accent-color);
 }

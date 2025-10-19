@@ -1,0 +1,7 @@
+.blog-teaser__heading {
+    color: var(--accent-color);
+}
+
+.blog-teaser__article-heading a {
+    text-decoration-color: var(--accent-color);
+}

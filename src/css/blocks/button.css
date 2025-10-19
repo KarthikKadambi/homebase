@@ -1,0 +1,28 @@
+.button {
+  --button-bg: var(--color-primary);
+  --button-text: var(--color-dark);
+  --button-x-padding: 2em;
+  --button-y-padding: 1.1em;
+  --button-gutter: 0.5ch;
+  --focus-color: var(--color-primary);
+
+  line-height: var(--leading-flat);
+  border: none;
+  cursor: pointer;
+  background: var(--accent-color);
+  color: var(--accent-alt-color);
+  padding: var(--button-y-padding) var(--button-x-padding);
+  text-transform: uppercase;
+  letter-spacing: var(--uppercase-kerning);
+  font-size: var(--size-step-00);
+  font-weight: var(--font-bold);
+  border-radius: 999px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.button:hover {
+  background: var(--accent-alt-color);
+  color: var(--accent-color);
+  /* box-shadow: 0 0 10px var(--gold, #FFD700), 0 0 25px var(--red, #C80016); */
+}
+

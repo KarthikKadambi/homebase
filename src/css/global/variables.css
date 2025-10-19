@@ -40,8 +40,8 @@
   /* Colors */
   --bg-color: light-dark(var(--color-light), var(--color-dark));
   --text-color: light-dark(var(--color-dark), var(--color-light));
-  --accent-color: var(--color-primary);
-  --accent-alt-color: var(--color-secondary);
+  --accent-color: light-dark(var(--color-secondary), var(--color-primary)); ;
+  --accent-alt-color: light-dark(var(--color-primary), var(--color-secondary));
   --focus-color: var(--color-primary);
   --selection-color: rgba(255,215,0,0.3);
 }

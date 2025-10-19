@@ -14,8 +14,12 @@
 .site-head__brand {
   container-type: inline-size;
   container-name: site-head-brand;
-  flex-basis: clamp(25ch, 40%, 50rem);
+  flex-basis: clamp(25ch, 60%, 50rem);
   flex-grow: 1;
+}
+
+.site-head__brand a {
+  color: var(--accent-color);
 }
 
 .site-head__brand a:not(:hover) {
@@ -23,7 +27,6 @@
 }
 
 .site-head__brand a:hover {
-  text-decoration-color: var(--accent-color);
   text-decoration-thickness: 5px;
 }
 
@@ -34,6 +37,6 @@
 
 @container site-head-brand (68vi <= width <= 50rem) {
   .site-head__brand a {
-    color: light-dark(var(--accent-alt-color), var(--accent-color));
+    color: var(--text-color);
   }
 }

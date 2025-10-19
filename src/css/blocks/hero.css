@@ -1,13 +1,14 @@
-.hero-btn-primary {
-    background-color: var(--accent-color);
-    padding: 10px;
-    border-radius: var(--radius-m);
-    color: var(--bg-color);
+.hero__hero-text-headline {
+  font-size: 2.5rem;
+  color: var(--accent-color);
 }
 
-.hero-btn-secondary {
-    background-color: var(--accent-alt-color);
-    padding: 10px;
-    border-radius: var(--radius-m);
-    color: var(--bg-color);
+.hero__hero-text-subtitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  /* color: light-dark(#dc2104, #e5514a); */
+  color: var(--accent-alt-color);
+  /* Optional: Subtle border or outline for contrast */
+  /* border: 1.5px solid var(--primary-red); */
 }

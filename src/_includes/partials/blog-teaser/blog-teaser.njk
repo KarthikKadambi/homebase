@@ -1,9 +1,9 @@
 <section class="blog-teaser" aria-label="Latest blog posts">
-  <h2>Latest from my blog</h2>
+  <h2 class=blog-teaser__heading>Featured content</h2>
   <div class="grid three-columns" data-layout="thirds">
     {% for post in collections.posts %}
-      <article class="flow">
-        <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+      <article class="flow | blog-teaser__article-">
+        <h3 class="blog-teaser__article-heading"><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
         <p>{{ post.templateContent | safe }}</p>
       </article>
     {% endfor %}

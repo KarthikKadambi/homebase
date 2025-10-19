@@ -113,6 +113,10 @@ form > * + * {
 
 /* Speicific styles */
 .section-inset {
-  background-color: light-dark(#E8E8E8, #696969);
+  background: light-dark(#F5F5F6, #1C1C22);
   padding: var(--space-m);
+  /* Optional: add blur/glass effect for layering */
+  backdrop-filter: blur(2px);
+  /* subtle shadow for elevation */
+  box-shadow: 0 2px 24px 0 rgba(0,0,0,0.08);
 }

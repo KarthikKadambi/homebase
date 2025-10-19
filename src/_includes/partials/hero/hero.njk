@@ -1,14 +1,13 @@
-<section class="hero section-inset" aria-label="Hero section for Karthik Kadambi">
+<section class="section-inset | hero" aria-label="Hero section for Karthik Kadambi">
   <div class="grid" data-layout='50-50'>
-    <div class="hero-text flow">
-      <h1 class="hero-headline">Hi, I'm <span class="hero-highlight">Karthik</span></h1>
-      <p>Full Stack Web Developer · UX Enthusiast · Aspiring AI Engineer</p>
-      <p class="hero-subheadline">
+    <div class="flow | hero__hero-text">
+      <h1 class="hero__hero-text-headline">Hi, I'm <span class="hero__hero-text-highlight">Karthik Kadambi</span></h1>
+      <p class="hero__hero-text-subtitle">Full Stack Web Developer · UX Enthusiast · Aspiring AI Engineer</p>
+      <p class="hero__hero-text-subheadline">
         I craft performant, accessible, and visually engaging web experiences with creativity and problem-solving at the core. I bring a balance of technical depth and breadth, coupled with adaptability, continuous learning, and meticulous attention to detail.
       </p>
-      <button href="mailto:krtkram@gmail.com" class="hero-btn-primary">Let's connect</button>
-      <button href="" class="hero-btn-secondary">View resume</button>
+      {%- set text = "Let's connect" -%}{%- set onclick = "location.href='mailto:krtkram@gmail.com'" -%}{%- include "partials/button/button.njk" -%}
+      {%- set text = "View resume" -%}{%- set onclick = "window.open('/resume.pdf', '_blank')" -%}{%- include "partials/button/button.njk" -%}
     </div>
-    <img class="hero-image" src="" alt="Karthik Kadambi's portrait"/>
-  </div>
+    <img class="hero__hero-image" src="" alt="Karthik Kadambi's portrait"/></div>
 </section>
