@@ -4,17 +4,18 @@ title: 'What Karthik Kadambi uses'
 ---
 <section class="section-inset" aria-label="Karthik uses">
   <div class="flow">
-    <h1>Uses</h1>
+    <h1  class="header-branding">Uses</h1>
     <p>What i use</p>
   </div>
 </section>
 <section class="uses" aria-label="Uses list">
-  <h2>Desk setup</h2>
+  <h2  class="header-branding">Desk setup</h2>
+  <img src="/assets/images/site/desk_setup.png" />
   <ul>
     <li>Sweetcrispy Computer Desk - Office 48 Inch Writing Work Student Study Modern Simple Style Wooden Table with Storage Bag & Iron Hook for Home Bedroom - Rustic Brown <a href="https://a.co/d/huTmnja" target=_blank" nofollow>Link</a></li>
     <li>Ergonomic Office Chair  <a href="https://a.co/d/7X2FuSY" target=_blank" nofollow>Link</a></li>
   </ul>
-  <h2>Hardware</h2>
+  <h2  class="header-branding">Hardware</h2>
   <ul>
     <li>MacBook Air (M2, 20222) 16GB memory, 256GB SSD <a href="https://support.apple.com/en-us/111867" target=_blank" nofollow>Link</a></li>
     <li>iPad mini (5th generation) 64 GB Space gray <a href="https://support.apple.com/en-us/111904" target=_blank" nofollow>Link</a></li>
@@ -25,7 +26,7 @@ title: 'What Karthik Kadambi uses'
     <li>AirPods Pro (2nd generation) <a href="https://support.apple.com/en-us/docs/airpods/300992" target=_blank" nofollow>Link</a></li>
     <li>Nintendo Switch Lite  <a href="https://www.nintendo.com/us/gaming-systems/switch/lite/" target=_blank" nofollow>Link</a></li>
   </ul>
-  <h2>Software</h2>
+  <h2  class="header-branding">Software</h2>
   <ul>
     <li>VsCode - <a href="https://code.visualstudio.com/" target=_blank" nofollow>Link</a></li>
     <li>Comet - <a href="https://www.perplexity.ai/comet" target=_blank" nofollow>Link</a></li>
@@ -43,7 +44,7 @@ title: 'What Karthik Kadambi uses'
     <li>Homebrew - <a href="https://brew.sh/" target=_blank" nofollow>Link</a></li>
     <li>Fnm- <a href="https://github.com/Schniz/fnm" target=_blank" nofollow>Link</a></li>
   </ul>
-  <h2>Others</h2>
+  <h2  class="header-branding">Others</h2>
   <ul>
     <li>YOREPEK Large Backpack for Men, Extra Large Laptop Backpacks for Men Women <a href="https://a.co/d/f0d0BfR</li>
     <li>LEVOIT Air Purifier <a href="https://a.co/d/hiGu3DG" target=_blank" nofollow>Link</a></li>
