@@ -8,6 +8,7 @@ title: 'Articles and more'
     <p>learn from me</p>
   </div>
 </section>
+<div class="flow">
 <h2  class="header-branding">Posts</h2>
 {% for post in collections.posts %}
     <article>
@@ -15,5 +16,8 @@ title: 'Articles and more'
         <p>{{ post.templateContent | safe }}</p>
     </article>
 {% endfor %}
+</div>
+<div class="flow">
 <h2  class="header-branding">Talks</h2>
 <p>No talks yet.</p>
+</div>

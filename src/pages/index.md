@@ -1,5 +1,5 @@
 ---
-description: "Full Stack Web Developer, Teacher, Personal Finance Enthusiast"
+description: "Full Stack Web Developer, Teacher, UX & Personal Finance Enthusiast, Aspiring AI Engineer"
 title: 'Karthik Kadambi | Full Stack Web Developer'
 ---
 <div class="flow">
