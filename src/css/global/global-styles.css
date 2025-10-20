@@ -111,7 +111,7 @@ form > * + * {
   }
 }
 
-/* Speicific styles */
+/* Speicific styles - to remove */
 .section-inset {
   background: light-dark(#F5F5F6, #1C1C22);
   padding: var(--space-m);
