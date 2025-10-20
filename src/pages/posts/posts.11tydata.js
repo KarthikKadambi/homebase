@@ -31,7 +31,8 @@ export default {
 							"https://karthikkadambi.substack.com",
 							"https://linkedin.com/in/kkadambi",
 							"https://mastodon.social/@karthikkadambi",
-							"https://youtube.com/user/karthik24590"
+							"https://youtube.com/user/karthik24590",
+							"https://linktr.ee/karthikkadambi"
 						],
 						spouse: {
 							"@type": "Person",
