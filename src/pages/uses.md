@@ -10,6 +10,7 @@ title: 'What Karthik Kadambi uses'
 </section>
 <section class="uses" aria-label="Uses list">
   <img src="/assets/images/site/desk_setup.png" style="margin: auto" alt="Karthik desk setup" />
+  <p><b><i><u>Disclaimer:</u></i></b> None of the links on this page are affiliate links. As I am currently on an H1B visa, I do not participate in any affiliate or paid-link programs, and do not receive any compensation for these recommendations. All links are purely for reference.</p>
   <h2  class="header-branding">Desk setup</h2>
   <ul>
     <li>Sweetcrispy Computer Desk - Office 48 Inch Writing Work Student Study Modern Simple Style Wooden Table with Storage Bag & Iron Hook for Home Bedroom - Rustic Brown <a href="https://a.co/d/huTmnja" target="_blank" rel="nofollow">Desk link</a></li>
