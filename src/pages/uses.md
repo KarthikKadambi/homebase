@@ -5,7 +5,7 @@ title: 'What Karthik Kadambi uses'
 <section class="section-inset" aria-label="Karthik uses">
   <div class="flow">
     <h1  class="header-branding">Uses</h1>
-    <p>What i use</p>
+    <p>The Gear behind the grind.</p>
   </div>
 </section>
 <section class="uses" aria-label="Uses list">
