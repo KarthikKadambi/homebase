@@ -1,4 +1,4 @@
 
-<button type="button" class="button"{% if onclick %} onclick="{{ onclick | safe }}"{% endif %}>
+<button type="button" class="button" id="{{id | default("button-partial") }}">
   <span>{{ text | default("Find out more") }}</span>
 </button>

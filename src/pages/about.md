@@ -72,5 +72,5 @@ title: 'About Karthik Kadambi'
 
   <h2  class="header-branding">Let’s Connect</h2>
   Want to collaborate, talk tech, or build something together?
-  {%- set text = "Let's connect" -%}{%- set onclick = "location.href='mailto:krtkram@gmail.com'" -%}{%- include "partials/button/button.njk" -%}
+  {%- set text = "Let's connect" -%}{%- set id = "connect-button" -%}{%- include "partials/button/button.njk" -%}
 </section>

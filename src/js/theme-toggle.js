@@ -54,6 +54,21 @@ function init() {
         const newScheme = currentScheme === 'dark' ? 'light' : 'dark';
         updateColorScheme(newScheme);
     });
+
+    const connectButton = document.querySelector('#connect-button');
+    connectButton.addEventListener('click', () => {
+        location.href = 'mailto:ramens.regress_8l@icloud.com?subject-=Let\'s%20Connect';
+        const timeout = setTimeout(() => {
+            // Fallback: open Gmail web compose
+            window.open('https://mail.google.com/mail/?view=cm&to=ramens.regress_8l@icloud.com');
+        }, 500);
+        window.addEventListener('blur', () => clearTimeout(timeout));
+    });
+
+    const viewResumeButton = document.querySelector('#view-resume-button');
+    viewResumeButton.addEventListener('click', () => {
+        window.open('/path/to/resume.pdf', '_blank');
+    });
 }
 
 // Run initialization

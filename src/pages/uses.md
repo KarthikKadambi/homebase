@@ -59,6 +59,6 @@ title: 'What Karthik Kadambi uses'
   </ul>
   <p>
     Want to geek out over setups or suggest tools?
-    {%- set text = "Let's connect" -%}{%- set onclick = "location.href='mailto:krtkram@gmail.com'" -%}{%- include "partials/button/button.njk" -%}
+    {%- set text = "Let's connect" -%}{%- set id = "connect-button" -%}{%- include "partials/button/button.njk" -%}
   </p>
 </section>

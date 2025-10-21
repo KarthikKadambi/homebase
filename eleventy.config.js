@@ -35,7 +35,7 @@ export default async function(eleventyConfig) {
 			base: "https://karthikkadambi.com/",
 			author: {
 				name: "Karthik Kadambi",
-				email: "krtkram@gmail.com",
+				email: "ramens.regress_8l@icloud.com",
 			},
 		}
 	});
