@@ -1,10 +1,6 @@
 .button {
-  --button-bg: var(--color-primary);
-  --button-text: var(--color-dark);
-  --button-x-padding: 1.8em;
+  --button-x-padding: 2em;
   --button-y-padding: 1.1em;
-  --button-gutter: 0.5ch;
-  --focus-color: var(--color-primary);
 
   line-height: var(--leading-flat);
   border: none;
