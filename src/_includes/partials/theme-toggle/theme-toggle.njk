@@ -1,9 +1,20 @@
-<button id="theme-toggle" aria-label="Toggle theme">
-    <svg class="sun-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <circle cx="12" cy="12" r="5"/>
-        <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+<button id="theme-toggle" type="button" aria-label="Toggle theme" aria-pressed="false"
+    style="position:relative; width:40px; height:40px; display:inline-flex; align-items:center; justify-content:center; padding:0; border:0; background:transparent;">
+    <svg class="sun-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+         style="display:block; color:var(--icon-color,#111); stroke:currentColor; fill:currentColor;" stroke-linecap="round">
+        <circle cx="12" cy="12" r="5" fill="currentColor"/>
+        <!-- sun rays: vertical, horizontal, and diagonals -->
+        <line x1="12" y1="1" x2="12" y2="4" stroke="currentColor"/>
+        <line x1="12" y1="20" x2="12" y2="23" stroke="currentColor"/>
+        <line x1="1" y1="12" x2="4" y2="12" stroke="currentColor"/>
+        <line x1="20" y1="12" x2="23" y2="12" stroke="currentColor"/>
+        <line x1="4.2" y1="4.2" x2="6.3" y2="6.3" stroke="currentColor"/>
+        <line x1="17.7" y1="17.7" x2="19.8" y2="19.8" stroke="currentColor"/>
+        <line x1="4.2" y1="19.8" x2="6.3" y2="17.7" stroke="currentColor"/>
+        <line x1="17.7" y1="6.3" x2="19.8" y2="4.2" stroke="currentColor"/>
     </svg>
-    <svg class="moon-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+    <svg class="moon-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+         style="display:none;">
         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
     </svg>
 </button>

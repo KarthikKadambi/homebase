@@ -56,7 +56,7 @@ function init() {
     });
 
     const connectButton = document.querySelector('#connect-button');
-    connectButton.addEventListener('click', () => {
+    connectButton && connectButton.addEventListener('click', () => {
         location.href = 'mailto:ramens.regress_8l@icloud.com?subject-=Let\'s%20Connect';
         const timeout = setTimeout(() => {
             // Fallback: open Gmail web compose
@@ -66,7 +66,7 @@ function init() {
     });
 
     const viewResumeButton = document.querySelector('#view-resume-button');
-    viewResumeButton.addEventListener('click', () => {
+    viewResumeButton && viewResumeButton.addEventListener('click', () => {
         window.open('/path/to/resume.pdf', '_blank');
     });
 }
