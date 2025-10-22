@@ -20,6 +20,7 @@
 
 .site-head__brand a {
   color: var(--accent-color);
+  font-size: var(--size-step-1);
 }
 
 .site-head__brand a:not(:hover) {

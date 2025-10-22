@@ -6,7 +6,8 @@
   font-weight: 600;
   letter-spacing: 0.04em;
   /* Exception for contrast */
-  color: light-dark(#856f00, #e5514a);
+  color: light-dark(#ffd700, #e5514a);
+  background: light-dark(var(--color-dark), transparent);
 }
 
 .hero__hero-image {
