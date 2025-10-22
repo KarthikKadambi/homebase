@@ -3,7 +3,10 @@ layout: 'layouts/base.html'
 ---
 <article>
   <header>
-    <h1>{{ title }}</h1>
+    <h1 class="header-branding">{{ title }}</h1>
   </header>   
   {{ content | safe }}
 </article>
+
+{% set canonical = "https://karthikkadambi.com" ~ page.url %}
+{% include 'partials/webmentions/webmentions.njk' %}
