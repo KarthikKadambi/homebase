@@ -53,6 +53,10 @@ h3 {
   font-size: var(--size-step-3);
 }
 
+p {
+  margin-block: var(--flow-space, var(--space-m));
+}
+
 /* Lists with classes and roles will be out of standard flow, so remove the default spacing */
 [role='list'][class],
 [role='tablist'][class] {

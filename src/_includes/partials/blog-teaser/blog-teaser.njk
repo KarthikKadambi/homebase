@@ -4,7 +4,8 @@
     {% for post in collections.posts %}
       <article class="flow | blog-teaser__article">
         <h3 class="blog-teaser__article-heading"><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
-        <p>{{ post.templateContent | safe }}</p>
+        {% set teaser = post.templateContent | striptags | truncate(125, false, '...') %}
+        <p>{{ teaser }}</p>
       </article>
     {% endfor %}
   </div>
