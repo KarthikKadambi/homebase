@@ -51,7 +51,7 @@ title: 'About Karthik Kadambi'
   I am a full-stack developer specializing in building scalable, secure, and high-performance web applications with a strong focus on cloud architecture and AI integration.
   <ul>
     <li><b>Frontend Development:</b>Building dynamic, maintainable interfaces using React, Next.js, and 11ty, combined with advanced styling techniques like CUBE methodology, Sass, and CSS-in-JS for modular, scalable CSS architecture.</li>
-    <li><b>Backend Development & APIs:</b> Designing an>d developing RESTful APIs and serverless backend solutions with Node.js, integrating third-party services, and building scalable serverless pipelines for efficient business logic execution.</li>
+    <li><b>Backend Development & APIs:</b> Designing and developing RESTful APIs and serverless backend solutions with Node.js, integrating third-party services, and building scalable serverless pipelines for efficient business logic execution.</li>
     <li><b>Cloud & Architecture:</b> Experienced in designing cloud-native applications, leveraging platforms such as AWS, Azure, or GCP for scalable infrastructure, serverless functions, and CI/CD pipelines. Skilled in microservices architecture and ensuring application reliability and scalability.</li>
     <li><b>AI & Data Integration:</b> Incorporating AI-powered features and data-driven solutions by integrating machine learning APIs, natural language processing, and data pipelines to enhance user experience and automate workflows.</li>
     <li><b>Design Systems & UX:</b> Creating accessible and scalable design systems that ensure UI consistency and exceptional user experience.</li>

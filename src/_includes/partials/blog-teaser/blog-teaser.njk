@@ -1,5 +1,5 @@
-<section class="blog-teaser" aria-label="Featured blog posts">
-  <h2 class=blog-teaser__heading>Featured content</h2>
+<section class="blog-teaser" aria-label="{{ ariaLabel | default(heading | default('Featured blog posts')) }}">
+  <h2 class="blog-teaser__heading">{{ heading | default('Featured posts') }}</h2>
   <div class="grid three-columns" data-layout="thirds">
     {% for post in collections.posts %}
       <article class="flow | blog-teaser__article">

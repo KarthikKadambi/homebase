@@ -8,15 +8,9 @@ title: 'Articles and more'
     <p>Learn about Web development, Personal Finance, Travel and More.</p>
   </div>
 </section>
-<section class="flow" aria-label="Latest posts">
-  <h2 class="header-branding">Posts</h2>
-  {% for post in collections.posts %}
-      <article>
-          <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
-          <p>{{ post.templateContent | safe }}</p>
-      </article>
-  {% endfor %}
-</section>
+{% set heading = "Latest posts" %}
+{% set ariaLabel = "Latest blog posts" %}
+{% include "partials/blog-teaser/blog-teaser.njk" %}
 <section class="flow" aria-label="Latest talks">
   <h2 class="header-branding">Talks</h2>
   <p>No talks yet.</p>
