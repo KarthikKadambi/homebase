@@ -34,7 +34,31 @@ export default {
 							"https://youtube.com/user/karthik24590",
 							"https://linktr.ee/karthikkadambi"
 						],
-						spouse: {
+						"knowsAbout": [
+							"Full Stack Web Development",
+							"React",
+							"Next.js",
+							"Node.js",
+							"Design Systems",
+							"Web Accessibility",
+							"Cloud Architecture",
+							"AI Integration",
+							"User Experience"
+						],
+						"worksFor": {
+							"@type": "Organization",
+							"name": "Brillio",
+							"url": "https://www.brillio.com/"
+						},
+						"alumniOf": [
+							{
+							"@type": "CollegeOrUniversity",
+							"name": "S.J.B. Institute of Technology (SJBIT)",
+							"url": "https://sjbit.edu.in/"
+							}
+						],
+						"image": `${data.metadata.url}/assets/images/site/karthik.jpg`,
+						"spouse": {
 							"@type": "Person",
 							"name": "Neha Pradeep",
 							"gender": "Female",
