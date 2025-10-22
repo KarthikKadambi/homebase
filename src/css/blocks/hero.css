@@ -1,12 +1,22 @@
 .hero__hero-text-headline {
-  font-size: 2.5rem;
   color: var(--accent-color);
 }
 
 .hero__hero-text-subtitle {
-  font-size: 1.25rem;
   font-weight: 600;
   letter-spacing: 0.04em;
   /* Exception for contrast */
   color: light-dark(#856f00, #e5514a);
+}
+
+.hero__hero-image {
+  border: 4px solid var(--accent-color);
+  box-shadow: 0 0 12px rgba(255, 215, 0, 0.3);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero__hero-image :hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 16px rgba(224, 60, 49, 0.4);
 }

@@ -1,7 +1,7 @@
 <section class="section-inset | hero" aria-label="Hero section for Karthik Kadambi">
   <div class="grid" data-layout='50-50'>
     <div class="flow | hero__hero-text">
-      <h1 class="hero__hero-text-headline">Hi, I'm <span class="hero__hero-text-highlight">Karthik Kadambi</span></h1>
+      <h1 class="hero__hero-text-headline">Karthik Kadambi</h1>
       <p class="hero__hero-text-subtitle">Full Stack Web Developer · UX Enthusiast · Aspiring AI Engineer</p>
       <p class="hero__hero-text-subheadline">
         I craft performant, accessible, and visually engaging web experiences with creativity and problem-solving at the core. I bring a balance of technical depth and breadth, coupled with adaptability, continuous learning, and meticulous attention to detail.
@@ -9,5 +9,7 @@
       {%- set text = "Let's connect" -%}{%- set id = "connect-button" -%}{%- include "partials/button/button.njk" -%}
       {%- set text = "View resume" -%}{%- set id = "view-resume-button" -%}{%- include "partials/button/button.njk" -%}
     </div>
-    <img class="hero__hero-image" src="" alt="Karthik Kadambi's portrait"/></div>
+    <div class="hero__hero-image">
+      <img src="/assets/images/site/karthik.jpg" alt="Karthik Kadambi portrait" fetchpriority="high">
+    </div>
 </section>
