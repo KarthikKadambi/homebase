@@ -30,7 +30,7 @@ export default async function(eleventyConfig) {
 		},
 		metadata: {
 			language: "en",
-			title: "Karthik Kadambi's website",
+			title: "Karthik Kadambi | Blog",
 			subtitle: "Learn about web development, and more by Karthik Kadambi, full stack web developer",
 			base: "https://karthikkadambi.com/",
 			author: {
