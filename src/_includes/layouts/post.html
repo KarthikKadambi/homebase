@@ -10,3 +10,6 @@ layout: 'layouts/base.html'
 
 {% set canonical = "https://karthikkadambi.com" ~ page.url %}
 {% include 'partials/webmentions/webmentions.njk' %}
+{% if contentScript %}
+  <script src="{{ contentScript }}" defer></script>
+{% endif %}
