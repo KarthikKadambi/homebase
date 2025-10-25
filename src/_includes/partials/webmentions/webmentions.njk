@@ -1,3 +1,4 @@
+{% if webmentions and webmentions | length > 0 %}
 <section class="webmentions">
   <h2 class="header-branding">Webmentions</h2>
   <p>If you liked this article and think others should read it, please share it.</p>
@@ -17,3 +18,4 @@
     {% endfor %}
   </ul>
 </section>
+{% endif %}
