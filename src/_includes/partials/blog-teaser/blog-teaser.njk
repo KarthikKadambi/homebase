@@ -1,6 +1,6 @@
 <section class="blog-teaser" aria-label="{{ ariaLabel | default(heading | default('Featured blog posts')) }}">
   <h2 class="blog-teaser__heading">{{ heading | default('Featured posts') }}</h2>
-  <div class="grid three-columns" data-layout="thirds">{% for post in collections.posts %}
+  <div class="grid three-columns" data-layout="thirds">{% for post in collections.posts | reverse %}
       <article class="flow | blog-teaser__article">
         <h3 class="blog-teaser__article-heading"><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
         {% set teaser = post.templateContent | striptags | truncate(125, false, '...') %}
