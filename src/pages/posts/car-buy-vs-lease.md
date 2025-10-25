@@ -4,6 +4,7 @@ description: 'New to America and realizing how essential a car is? This guide br
 tags:
   - posts
   - travel
+date: 2025-10-25T16:43:00-07:00
 ---
 <p>Maybe you come from a country where leasing doesn’t exist — you either buy a car or use public transport.
 But in the U.S., leasing is a huge part of how people drive new cars without buying them outright.</p>

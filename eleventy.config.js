@@ -28,9 +28,9 @@ export default async function(eleventyConfig) {
 			name: "posts",
 			limit: 0,
 		},
-		posthtml: {
-    		updated: (item) => item.data.updated || item.data.lastModified || item.date
-  		},
+		itemOptions: {
+			date: (item) => item.data.date || item.page.date,
+		},
 		metadata: {
 			language: "en",
 			title: "Karthik Kadambi | Blog",
