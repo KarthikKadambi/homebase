@@ -15,7 +15,7 @@ eleventyComputed:
 {% set posts = collections[tag] | default([]) %}
 {% if posts | length %}
 <ul>
-  {% for post in posts %}
+{% for post in posts | reverse %}
     <li>
       <a href="{{ post.url }}">{{ post.data.title or post.fileSlug }}</a>
     </li>
