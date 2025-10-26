@@ -11,6 +11,11 @@ title: 'Articles and more'
 {% set heading = "Latest posts" %}
 {% set ariaLabel = "Latest blog posts" %}
 {% include "partials/blog-teaser/blog-teaser.njk" %}
+<section class="flow" aria-label="Tags and Notes">
+  <h2 class="header-branding">Tags & Notes</h2>
+  <p><a href="/tags">Filter by tags</a>
+  <a href="/notes">Notes</a></p>
+</section>
 <section class="flow" aria-label="Latest talks">
   <h2 class="header-branding">Talks</h2>
   <p>No talks yet.</p>
