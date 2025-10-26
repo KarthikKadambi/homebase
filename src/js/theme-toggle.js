@@ -67,7 +67,7 @@ function init() {
 
     const viewResumeButton = document.querySelector('#view-resume-button');
     viewResumeButton && viewResumeButton.addEventListener('click', () => {
-        window.open('/path/to/resume.pdf', '_blank');
+        window.open('/resume.pdf', '_blank');
     });
 }
 
