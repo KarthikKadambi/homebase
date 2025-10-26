@@ -49,6 +49,16 @@ export default async function(eleventyConfig) {
 		}
   		return encodeURIComponent(text.replace(/,/g, ' -'));
 	});
+
+	eleventyConfig.addCollection("tagList", function(collectionApi) {
+		const tagsSet = new Set();
+		collectionApi.getAll().forEach(item => {
+		if (Array.isArray(item.data.tags)) {
+			item.data.tags.forEach(t => tagsSet.add(t));
+		}
+		});
+		return [...tagsSet].sort();
+  	});
     
     return {
         markdownTemplateEngine: 'njk',
