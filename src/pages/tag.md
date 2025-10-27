@@ -7,6 +7,7 @@ permalink: /tags/{{ tag | slug }}/
 eleventyComputed:
   title: "Posts realted to {{ tag | slug }}"
   description: "Posts related to {{ tag | slug }} from Karthik Kadambi."
+eleventyExcludeFromCollections: true
 ---
 <div class="section-inset">
   <h1 class="header-branding">Tag: {{ tag }}</h1>

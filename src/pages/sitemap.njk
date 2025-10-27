@@ -13,4 +13,24 @@ layout: false
     </url>
 {%- endif -%}
 {%- endfor %}
+
+{# collect unique tags from page frontmatter #}
+{% set _allTags = [] %}
+{% for page in collections.all %}
+  {% if page.data.tags %}
+    {% for tag in page.data.tags %}
+      {% if _allTags.indexOf(tag) == -1 %}
+        {% set _ = _allTags.push(tag) %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+{# emit a sitemap URL for each tag (adjust '/tags/' prefix if your site uses a different tag page path) #}
+{%- for tag in _allTags -%}
+    <url>
+        <loc>{{ site.url }}{{ '/tags/' + (tag | lower | replace(' ', '-') ) + '/' }}</loc>
+        <lastmod>{{ page.date.toISOString() }}</lastmod>
+    </url>
+{%- endfor -%}
 </urlset>
