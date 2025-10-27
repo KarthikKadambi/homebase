@@ -127,7 +127,9 @@ Common examples:
 
 <p>Use the calculator below to plug in your own numbers and see exactly how your monthly payment is determined.</p>
 
-<p>I have just pre-filled the amount based on the quote of my car purchase. Feel free to clear and input your own values and calculate the lease amount.</p>
+<p>I have just pre-filled the amount based on the quote of my car purchase. Hit on calculate lease to check how much i pay :)</p>
+
+<p>Make sure you get the following info when you are trying to get a leased car and hit on clear and input your own values to calculate your monthly payment and the amount you need to pay to take your dream car to home!!.</p>
 
 <div class="section-inset">
     <div class="grid" data-layout="50-50">
