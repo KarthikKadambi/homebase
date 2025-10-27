@@ -92,6 +92,9 @@ export default {
 						name: data.title,
 						headline: data.title,
 						abstract: data.description,
+						datePublished: data.date.toISOString(),
+						dateModified: data.date.toISOString(),
+						image: data.image ? `${data.metadata.url}${data.image}` : `${data.metadata.url}/assets/images/site/karthik.jpg`,
 						url: `${data.metadata.url}${data.page.url}`,
 						mainEntityOfPage: {
 							"@type": "WebPage",

@@ -5,6 +5,7 @@ tags:
   - posts
   - Introduction
 date: 2025-10-22T04:43:00-07:00
+image: /assets/images/posts/hello_world.png
 ---
 Every great journey online begins with a simple “Hello.”
 

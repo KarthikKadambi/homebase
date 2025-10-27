@@ -7,6 +7,7 @@ tags:
   - Cars
 contentScript: /assets/js/posts/car-lease-explained.js
 date: 2025-10-26T16:49:00-07:00
+image: /assets/images/posts/leasing.png
 ---
 <p>So you have decided to lease your car and have an establised credit score. Let's explore in detail on what is car lease, understand its core concepts and how to get a best deal.</p>
 
