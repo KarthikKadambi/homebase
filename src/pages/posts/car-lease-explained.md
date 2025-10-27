@@ -46,15 +46,7 @@ Think of it as:
 
 It includes the negotiated vehicle price (selling price) plus any extra costs you decide to roll into the lease.
 
-<h2 class="header-branding">🧮 Formula</h2>
-Gross Cap Cost
-=
-Selling Price
-+
-Rolled-in Fees and Add-ons
-Gross Cap Cost=Selling Price+Rolled-in Fees and Add-ons
-
-<h2 class="header-branding">🧾 Then Comes the Adjustment</h2>
+<h2 class="header-branding">🧾 Cap cost reductions</h2>
 
 Once you subtract any Cap Cost Reductions (down payment, trade-in, or rebates), you get your Adjusted/Net Cap Cost — the number actually used in your lease math.
 
@@ -64,24 +56,25 @@ Net capitalized cost — also called adjusted cap cost — is the final amount y
 
 It’s basically the "loan amount" for a lease.
 
+<h2 class="header-branding">Net cap cost summary</h2>
+
 | Step | Calculation                                                 | Meaning                                   |
 | ---- | ----------------------------------------------------------- | ----------------------------------------- |
 | 1️⃣  | **MSRP – Dealer Discount = Selling Price**                  | You negotiate this part.                  |
 | 2️⃣  | **Selling Price + Rolled-In Fees/Add-Ons = Gross Cap Cost** | This is what you’re choosing to finance.  |
 | 3️⃣  | **Gross Cap Cost – Cap Cost Reduction = Net Cap Cost**      | Final amount used for lease calculations. |
 
+<p>Lets talk about fees</p>
 
-<h2 class="header-branding">1️⃣ DMV / License Fees</h2>
+<h2 class="header-branding">DMV / License Fees</h2>
 
-What it is:
-These are government registration fees for your car — not dealer markups.
-They cover:
+These are government registration fees for your car — not dealer markups. They cover:
 
-Vehicle registration
+* Vehicle registration
 
-Title transfer
+* Title transfer
 
-License plates
+* License plates
 
 Local county fees (sometimes emissions or tire fees in California)
 
@@ -89,45 +82,37 @@ Typical cost (CA example): $400–$700 depending on the car’s value.
 
 When paid:
 
-Usually part of your drive-off amount (paid upfront).
+* Usually part of your drive-off amount (paid upfront).
 
-But you can choose to roll it into the lease (then you pay interest on it).
+* But you can choose to roll it into the lease (then you pay interest on it).
 
-In your quote: $473 — totally normal for Fremont, CA.
+<h2 class="header-branding">Total Upfront Fees</h2>
 
-<h2 class="header-branding">2️⃣ Total Upfront Fees</h2>
-
-What it is:
 All the miscellaneous small charges that are paid at signing (not financed).
+
 Examples:
 
-Doc fee (dealer paperwork charge)
+* Doc fee (dealer paperwork charge)
 
-First month’s payment (sometimes)
+* Tire/battery fee
 
-Tire/battery fee
+* Electronic filing fee
 
-Electronic filing fee
+* Tax on upfront items
 
-Tax on upfront items
+<h2 class="header-branding">Capped Fees (Capitalized Fees)</h2>
 
-In your quote: $126.75 — likely covers doc + tire fees.
-These are one-time and don’t affect your monthly payment if you pay them upfront.
-
-<h2 class="header-branding">3️⃣ Capped Fees (Capitalized Fees)</h2>
-
-What it is:
 Fees that you choose to “capitalize” (roll in) — meaning they get added to your gross cap cost and financed over the term.
 
 Common examples:
 
-Bank acquisition fee (often $650–$995)
+* Bank acquisition fee (often $650–$995)
 
-Dealer service fees
+* Dealer service fees
 
-Any optional protection add-ons (if rolled in)
+* Any optional protection add-ons (if rolled in)
 
-In your quote: $650 — that’s very likely the bank acquisition fee (mandatory from the lender, not negotiable).
+<h2 class="header-branding">Fees summary</h2>
 
 | Fee Type                           | What It Covers                                 | Typical Amount | How It’s Paid         | Impact on Lease                   |
 | ---------------------------------- | ---------------------------------------------- | -------------- | --------------------- | --------------------------------- |
@@ -135,54 +120,57 @@ In your quote: $650 — that’s very likely the bank acquisition fee (mandatory
 | **Total Upfront Fees**             | Doc, tire, and small admin fees                | $100–$300      | Paid upfront          | No effect on cap cost             |
 | **Capped Fees (Capitalized Fees)** | Bank acquisition fee or rolled-in dealer costs | $650–$995      | Rolled into the lease | Raises monthly payment (financed) |
 
-
-<h2 class="header-branding">Understanding the Extra Fees</h2>
-
-Disposition Fee – charged when you return the car, typically $300–$500.
-
-GAP Insurance – protects you if the car is totaled and the payout doesn’t cover the remaining lease.
-
-Maintenance Plan – optional but can save money on scheduled services.
-
-
-<h2 class="header-branding">Example</h2>
-Let’s break down a real-world lease quote step by step and learn how each number fits into the monthly payment formula.
+<p>Disposition Fee – charged when you return the car, typically $300–$500.</p>
 
 <h2 class="header-branding">Embedded lease calculator</h2>
 <p>Understanding your lease quote helps you make smarter financial decisions. Once you break it down, the “mystery math” of leasing becomes simple—just depreciation + finance + fees.</p>
 
 <p>Use the calculator below to plug in your own numbers and see exactly how your monthly payment is determined.</p>
 
+<p>I have just pre-filled the amount based on the quote of my car purchase. Feel free to clear and input your own values and calculate the lease amount.</p>
+
 <div class="section-inset">
     <div class="grid" data-layout="50-50">
         <form>
             <h3 class="header-branding">Calculator</h3>
-            <input type="text" placeholder="MSRP" id="sticker-price" value="32665"/>
-            <input type="text" placeholder="Dealer discount" id="dealer-discount" value="2665" />
-            <input type ="text" placeholder="Rolled-in Items" id="rolled-in-items" value="2495"/>
-            <input type="text" placeholder="Capitalized cost reduction" id="cap-cost-reduction" value="25" />
-            <input type ="text" placeholder="Incentives" id="manufacturer-incentives" value="0" />
-            <input type="text" placeholder="Residual value in percentage" id="residual-value-percent" value="63" />
-            <input type="text" placeholder="Money factor" id="money-factor" value="0.00243"/>
-            <input type="text" placeholder="Non rolled-in items" id="non-rolled-in-items" value="600" />
-            <input type="text" placeholder="Lease term" id="lease-term" value="36" />
-            <input type="text" placeholder="Lease term" id="tax-rate" value="10.25" />
-            <input type="button" value="Calculate lease" id="calculate-lease-button" />
-            <input type="reset" />
-        </form>
+                <label for="sticker-price">MSRP(Sticker price)</label>
+                <input id="sticker-price" type="text" value="32665" />
+                <label for="dealer-discount">Dealer discount</label>
+                <input id="dealer-discount" type="text" value="2665" />
+                <label for="rolled-in-items">Sum of Rolled‑in items(Capped fees + Add-ons)</label>
+                <input id="rolled-in-items" type="text" value="2495" />
+                <label for="cap-cost-reduction">Capitalized cost reduction(Downpayment)</label>
+                <input id="cap-cost-reduction" type="text" value="25" />
+                <label for="manufacturer-incentives">Manufacturer incentives(Factory lease cash)</label>
+                <input id="manufacturer-incentives" type="text" value="0" />
+                <label for="residual-value-percent">Residual value(%)</label>
+                <input id="residual-value-percent" type="text" value="63" />
+                <label for="money-factor">Money factor</label>
+                <input id="money-factor" type="text" value="0.00243" />
+                <label for="non-rolled-in-items">Non rolled‑in items(DMV + Upfront TTL fees)</label>
+                <input id="non-rolled-in-items" type="text" value="600" />
+                <label for="lease-term">Lease term(months)</label>
+                <input id="lease-term" type="text" value="36" />
+                <label for="tax-rate">Tax rate(%)</label>
+                <input id="tax-rate" type="text" value="10.25" />
+                Find your tax rate <a href="https://cdtfa.ca.gov/taxes-and-fees/rates.aspx" rel="nofollow" target="_blank">here</a>
+                <input type="button" value="Calculate lease" id="calculate-lease-button" />
+                <input type="button" value="Clear" id="clear-lease-button" />
+             </form>
         <div>
-            <h3 class="header-branding">Output</h3>
-            <p><strong>MSRP:</strong> <span id="out-msrp">—</span></p>
-            <p><strong>Selling Price:</strong> <span id="out-selling-price">—</span></p>
-            <p><strong>Gross Cap Cost:</strong> <span id="out-gross-cap-cost">—</span></p>
-            <p><strong>Cap Cost Reduction:</strong> <span id="out-cap-cost-reduction">—</span></p>
-            <p><strong>Net Capitalized Cost:</strong> <span id="out-net-cap-cost">—</span></p>
-            <p><strong>Residual Value:</strong> <span id="out-residual-value">—</span></p>
-            <p><strong>Monthly Depreciation:</strong> <span id="out-monthly-depr">—</span></p>
-            <p><strong>Monthly Finance Charge:</strong> <span id="out-monthly-finance">—</span></p>
-            <p><strong>Monthly Tax:</strong> <span id="out-monthly-tax">—</span></p>
-            <p><strong>Monthly Payment (incl. tax):</strong> <span id="out-monthly-payment">—</span></p>
-            <p><strong>Total Due at Signing:</strong> <span id="out-total-due">—</span></p>
-         </div>
-     </div>
- </div>
+             <h3 class="header-branding">Output</h3>
+                <p><strong>MSRP:</strong> <span id="out-msrp"></span></p>
+                <p><strong>Selling Price:</strong> <span id="out-selling-price"></span></p>
+                <p><strong>Gross Cap Cost:</strong> <span id="out-gross-cap-cost"></span></p>
+                <p><strong>Cap Cost Reduction:</strong> <span id="out-cap-cost-reduction"></span></p>
+                <p><strong>Net Capitalized Cost:</strong> <span id="out-net-cap-cost"></span></p>
+                <p><strong>Residual Value:</strong> <span id="out-residual-value"></span></p>
+                <p><strong>APR:</strong> <span id="out-apr"></span></p>
+                <p><strong>Monthly Depreciation:</strong> <span id="out-monthly-depr"></span></p>
+                <p><strong>Monthly Finance Charge:</strong> <span id="out-monthly-finance"></span></p>
+                <p><strong>Monthly Tax:</strong> <span id="out-monthly-tax"></span></p>
+                <p class="header-branding"><strong>Monthly Payment (incl. tax):</strong> <span id="out-monthly-payment"></span></p>
+                <p class="header-branding"><strong>Total Due at Signing:</strong> <span id="out-total-due"></span></p>
+          </div>
+      </div>
+  </div>

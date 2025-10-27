@@ -18,6 +18,8 @@ So now you’re faced with one of your first big American decisions:</p>
 
 <blockquote>Do you buy or lease your first car?</blockquote>
 
+<p>Already decided that you want to lease, check this out: <a href="/posts/car-lease-explained">Leasing explained</a></p>
+
 <p>Let’s walk through what both mean — and what’s smarter when you’re just getting started in the U.S.</p>
 
 <h2 class="header-branding">💰 Option 1: Buying a Car</h2>
@@ -85,12 +87,7 @@ Let’s say you’re looking at a car with a price of $30,000.
 
 <b>Buying it:</b> around $600/month, but after 3 years, it’s worth about $20,000, which you can sell or trade in.
 
-<h2 class="header-branding">🛣️ The Bottom Line</h2>
-
-For most immigrants, your first car isn’t just transportation — it’s independence.
-Leasing gives flexibility and lower payments; buying builds ownership and financial foundation.
-
-Once your credit and plans are stable, go ahead and buy your dream ride.
+<h2 class="header-branding">Comparison matrix</h2>
 
 | Concept            | Buying                                                | Leasing                                                          |
 | ------------------ | ----------------------------------------------------- | ---------------------------------------------------------------- |
@@ -102,3 +99,10 @@ Once your credit and plans are stable, go ahead and buy your dream ride.
 | **Customization**  | Free to modify.                                       | Usually not allowed — must return in near-original condition.    |
 | **Maintenance**    | All on you.                                           | Sometimes included in the lease package.                         |
 | **Best For**       | Long-term use, equity building.                       | Short-term use, new cars, lower payments.                        |
+
+<h2 class="header-branding">🛣️ The Bottom Line</h2>
+
+For most immigrants, your first car isn’t just transportation — it’s independence.
+Leasing gives flexibility and lower payments; buying builds ownership and financial foundation.
+
+Once your credit and plans are stable, go ahead and buy your dream ride.
