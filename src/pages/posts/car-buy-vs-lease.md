@@ -23,6 +23,8 @@ So now you’re faced with one of your first big American decisions:</p>
 
 <p>Let’s walk through what both mean — and what’s smarter when you’re just getting started in the U.S.</p>
 
+<p><strong>NOTE: </strong>The core concept of buying and leasing is the same everywhere. But the rules, taxes, popularity, and financial structure vary a lot depending on the country or region. You can still use this guide and correlate how the same concepts apply in your region just with a few practical differences.</p>
+
 <h2 class="header-branding">💰 Option 1: Buying a Car</h2>
 
 <p>Buying means you’re purchasing the car — either with cash or through a loan. Once the loan is paid off, the car is fully yours.</p>

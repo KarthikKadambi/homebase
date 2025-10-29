@@ -9,9 +9,11 @@ contentScript: /assets/js/posts/car-lease-explained.js
 date: 2025-10-26T16:49:00-07:00
 image: /assets/images/posts/leasing.png
 ---
-<p>So you have decided to lease your car and have an establised credit score. Let's explore in detail on what is car lease, understand its core concepts and how to get a best deal.</p>
+<p>So you have decided to lease your car in U.S and have an establised credit score. Let's explore in detail on what is car lease, understand its core concepts and how to get a best deal.</p>
 
-<p>If you want to learn more on what is the difference between buying vs leasing, then please check this article: <a href="/posts/car-buy-vs-lease">Buy vs lease</a></p>
+<p>If you want to learn more on what is the difference between buying vs leasing, then please check this article: <a href="/posts/car-buy-vs-lease">Buy vs Lease</a></p>
+
+<p><strong>NOTE: </strong>The core concept of leasing is the same everywhere. But the rules, taxes, popularity, and financial structure vary a lot depending on the country or region. You can still use this guide and correlate how the same concepts apply in your region just with a few practical differences.</p>
 
 <h2 class="header-branding">🚘 What Is a Car Lease?</h2>
 
@@ -132,6 +134,8 @@ Common examples:
 
 <p>Make sure you get the following info when you are trying to get a leased car and hit on clear and input your own values to calculate your monthly payment and the amount you need to pay to take your dream car to home!!.</p>
 
+<p>Also, find your tax rate, for example for state of California in US you can find it for every county <a href="https://cdtfa.ca.gov/taxes-and-fees/rates.aspx" rel="nofollow" target="_blank">here</a></p>
+
 <div class="section-inset">
     <div class="grid" data-layout="50-50">
         <form>
@@ -156,7 +160,6 @@ Common examples:
                 <input id="lease-term" type="text" value="36" />
                 <label for="tax-rate">Tax rate(%)</label>
                 <input id="tax-rate" type="text" value="10.25" />
-                Find your tax rate <a href="https://cdtfa.ca.gov/taxes-and-fees/rates.aspx" rel="nofollow" target="_blank">here</a>
                 <input type="button" value="Calculate lease" id="calculate-lease-button" />
                 <input type="button" value="Clear" id="clear-lease-button" />
              </form>
