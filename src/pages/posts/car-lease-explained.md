@@ -125,6 +125,9 @@ Common examples:
 
 <p>Disposition Fee – charged when you return the car, typically $300–$500.</p>
 
+<p><strong>NOTE: </strong>If you are viewing this article as part of RSS feed reader, then you wouldnt be able to see the calculator below as it may cause issues to feed reader. Visit <a href="https://karthikkadambi.com/posts/car-lease-explained/">here</a> to access the calculator.</p>
+
+<!-- feed-exclude-start -->
 <h2 class="header-branding">Embedded lease calculator</h2>
 <p>Understanding your lease quote helps you make smarter financial decisions. Once you break it down, the “mystery math” of leasing becomes simple—just depreciation + finance + fees.</p>
 
@@ -140,43 +143,44 @@ Common examples:
     <div class="grid" data-layout="50-50">
         <form>
             <h3 class="header-branding">Calculator</h3>
-                <label for="sticker-price">MSRP(Sticker price)</label>
-                <input id="sticker-price" type="text" value="32665" />
-                <label for="dealer-discount">Dealer discount</label>
-                <input id="dealer-discount" type="text" value="2665" />
-                <label for="rolled-in-items">Sum of Rolled‑in items(Capped fees + Add-ons)</label>
-                <input id="rolled-in-items" type="text" value="2495" />
-                <label for="cap-cost-reduction">Capitalized cost reduction(Downpayment)</label>
-                <input id="cap-cost-reduction" type="text" value="25" />
-                <label for="manufacturer-incentives">Manufacturer incentives(Factory lease cash)</label>
-                <input id="manufacturer-incentives" type="text" value="0" />
-                <label for="residual-value-percent">Residual value(%)</label>
-                <input id="residual-value-percent" type="text" value="63" />
-                <label for="money-factor">Money factor</label>
-                <input id="money-factor" type="text" value="0.00243" />
-                <label for="non-rolled-in-items">Non rolled‑in items(DMV + Upfront TTL fees)</label>
-                <input id="non-rolled-in-items" type="text" value="600" />
-                <label for="lease-term">Lease term(months)</label>
-                <input id="lease-term" type="text" value="36" />
-                <label for="tax-rate">Tax rate(%)</label>
-                <input id="tax-rate" type="text" value="10.25" />
-                <input type="button" value="Calculate lease" id="calculate-lease-button" />
-                <input type="button" value="Clear" id="clear-lease-button" />
-             </form>
+            <label for="sticker-price">MSRP(Sticker price)</label>
+            <input id="sticker-price" type="text" value="32665" />
+            <label for="dealer-discount">Dealer discount</label>
+            <input id="dealer-discount" type="text" value="2665" />
+            <label for="rolled-in-items">Sum of Rolled‑in items(Capped fees + Add-ons)</label>
+            <input id="rolled-in-items" type="text" value="2495" />
+            <label for="cap-cost-reduction">Capitalized cost reduction(Downpayment)</label>
+            <input id="cap-cost-reduction" type="text" value="25" />
+            <label for="manufacturer-incentives">Manufacturer incentives(Factory lease cash)</label>
+            <input id="manufacturer-incentives" type="text" value="0" />
+            <label for="residual-value-percent">Residual value(%)</label>
+            <input id="residual-value-percent" type="text" value="63" />
+            <label for="money-factor">Money factor</label>
+            <input id="money-factor" type="text" value="0.00243" />
+            <label for="non-rolled-in-items">Non rolled‑in items(DMV + Upfront TTL fees)</label>
+            <input id="non-rolled-in-items" type="text" value="600" />
+            <label for="lease-term">Lease term(months)</label>
+            <input id="lease-term" type="text" value="36" />
+            <label for="tax-rate">Tax rate(%)</label>
+            <input id="tax-rate" type="text" value="10.25" />
+            <input type="button" value="Calculate lease" id="calculate-lease-button" />
+            <input type="button" value="Clear" id="clear-lease-button" />
+        </form>
         <div>
-             <h3 class="header-branding">Output</h3>
-                <p><strong>MSRP:</strong> <span id="out-msrp"></span></p>
-                <p><strong>Selling Price:</strong> <span id="out-selling-price"></span></p>
-                <p><strong>Gross Cap Cost:</strong> <span id="out-gross-cap-cost"></span></p>
-                <p><strong>Cap Cost Reduction:</strong> <span id="out-cap-cost-reduction"></span></p>
-                <p><strong>Net Capitalized Cost:</strong> <span id="out-net-cap-cost"></span></p>
-                <p><strong>Residual Value:</strong> <span id="out-residual-value"></span></p>
-                <p><strong>APR:</strong> <span id="out-apr"></span></p>
-                <p><strong>Monthly Depreciation:</strong> <span id="out-monthly-depr"></span></p>
-                <p><strong>Monthly Finance Charge:</strong> <span id="out-monthly-finance"></span></p>
-                <p><strong>Monthly Tax:</strong> <span id="out-monthly-tax"></span></p>
-                <p class="header-branding"><strong>Monthly Payment (incl. tax):</strong> <span id="out-monthly-payment"></span></p>
-                <p class="header-branding"><strong>Total Due at Signing:</strong> <span id="out-total-due"></span></p>
-          </div>
-      </div>
-  </div>
+            <h3 class="header-branding">Output</h3>
+            <p><strong>MSRP:</strong> <span id="out-msrp"></span></p>
+            <p><strong>Selling Price:</strong> <span id="out-selling-price"></span></p>
+            <p><strong>Gross Cap Cost:</strong> <span id="out-gross-cap-cost"></span></p>
+            <p><strong>Cap Cost Reduction:</strong> <span id="out-cap-cost-reduction"></span></p>
+            <p><strong>Net Capitalized Cost:</strong> <span id="out-net-cap-cost"></span></p>
+            <p><strong>Residual Value:</strong> <span id="out-residual-value"></span></p>
+            <p><strong>APR:</strong> <span id="out-apr"></span></p>
+            <p><strong>Monthly Depreciation:</strong> <span id="out-monthly-depr"></span></p>
+            <p><strong>Monthly Finance Charge:</strong> <span id="out-monthly-finance"></span></p>
+            <p><strong>Monthly Tax:</strong> <span id="out-monthly-tax"></span></p>
+            <p class="header-branding"><strong>Monthly Payment (incl. tax):</strong> <span id="out-monthly-payment"></span></p>
+            <p class="header-branding"><strong>Total Due at Signing:</strong> <span id="out-total-due"></span></p>
+        </div>
+    </div>
+</div>
+<!-- feed-exclude-end -->

@@ -44,6 +44,25 @@ export default async function(eleventyConfig) {
 		}
 	});
 
+	// Eleventy lifecycle note:
+	// Eleventy renders templates (including feed XML templates produced by the feed plugin),
+	// then calls any transforms added via eleventyConfig.addTransform for each rendered output.
+	// The feed plugin does not need to "know" about this transform — Eleventy will run it
+	// on the rendered feed file (outputPath will be something like "feed/feed.xml"),
+	// so we restrict the transform to XML/feed paths below.
+	// Strip feed-exclude blocks from feed outputs (XML). Keeps HTML pages unchanged.
+	eleventyConfig.addTransform("stripFeedExcludesForFeeds", function(content, outputPath) {
+		if (!outputPath || typeof content !== "string") return content;
+		if (outputPath.endsWith(".xml") || /\/feed\/|feed\.xml$/i.test(outputPath)) {
+			// remove literal HTML comments
+			const rawPattern = /<!--\s*feed-exclude-start\s*-->[\s\S]*?<!--\s*feed-exclude-end\s*-->/gi;
+			// remove escaped HTML comments (e.g. &lt;!-- feed-exclude-start --&gt; ... &lt;!-- feed-exclude-end --&gt;)
+			const escapedPattern = /&lt;!--\s*feed-exclude-start\s*--&gt;[\s\S]*?&lt;!--\s*feed-exclude-end\s*--&gt;/gi;
+			return content.replace(rawPattern, "").replace(escapedPattern, "");
+		}
+		return content;
+	});
+	
 	eleventyConfig.addFilter("cloudinaryEncode", function(text) {
 		if (!text || typeof text !== 'string') {
 			return '';
