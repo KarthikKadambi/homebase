@@ -1,12 +1,12 @@
 ---
-description: 'New to America and realizing how essential a car is? This guide breaks down whether you should buy or lease, what each option means, and how to choose the right one as a newcomer.'
-title: 'Buy vs Lease a Car | Guide for New U.S. Movers'
+date: 2025-10-25T16:43:00-07:00
+description: New to America and realizing how essential a car is? This guide breaks down whether you should buy or lease, what each option means, and how to choose the right one as a newcomer.
+image: /assets/images/posts/buy_vs_lease.png
+title: Buy vs Lease a Car | Guide for New U.S. Movers
 tags:
   - posts
   - Finance
   - Cars
-date: 2025-10-25T16:43:00-07:00
-image: /assets/images/posts/buy_vs_lease.png
 ---
 <p>Maybe you come from a country where leasing doesn’t exist — you either buy a car or use public transport.
 But in the U.S., leasing is a huge part of how people drive new cars without buying them outright.</p>

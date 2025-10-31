@@ -1,6 +1,6 @@
 ---
-description: "Full Stack Web Developer, Teacher, UX & Personal Finance Enthusiast, Aspiring AI Engineer"
-title: 'About Karthik Kadambi | My Story & Journey'
+description: Full Stack Web Developer, Teacher, UX & Personal Finance Enthusiast, Aspiring AI Engineer
+title: About Karthik Kadambi | My Story & Journey
 ---
 <section class="section-inset" aria-label="Hero section about Karthik Kadambi">
   <div class="flow">

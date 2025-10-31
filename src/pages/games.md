@@ -1,6 +1,6 @@
 ---
-title: Board Games
 description: List of board games played by Karthik Kadambi
+title: Board Games | My Favorite Games Collection
 ---
 
 <section class="section-inset">

@@ -1,6 +1,6 @@
 ---
-description: "The tools Karthik Kadambi uses"
-title: 'What Karthik Kadambi Uses | Tools & Setup'
+description: The tools Karthik Kadambi uses
+title: What Karthik Kadambi Uses | Tools & Setup
 ---
 <section class="section-inset" aria-label="Hero section on what Karthik Kadambi uses">
   <div class="flow">

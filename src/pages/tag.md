@@ -1,13 +1,13 @@
 ---
+eleventyComputed:
+  description: "Posts related to {{ tag | slug }} from Karthik Kadambi."
+  title: "{{ tag | slug }} Posts | By Karthik Kadambi"
+eleventyExcludeFromCollections: true
 pagination:
   data: collections.tagList
   size: 1
   alias: tag
 permalink: /tags/{{ tag | slug }}/
-eleventyComputed:
-  title: "{{ tag | slug }} Posts | By Karthik Kadambi"
-  description: "Posts related to {{ tag | slug }} from Karthik Kadambi."
-eleventyExcludeFromCollections: true
 ---
 <div class="section-inset">
   <h1 class="header-branding">Tag: {{ tag }}</h1>
