@@ -12,11 +12,17 @@ title: All Tags | Explore Topics by Karthik Kadambi
     {% set tagLower = tag %}
     {% if tagLower != "all" and tagLower != "posts" %}
       <li>
-        <a href="/tags/{{ tag | slug }}/">
-          {{ tag }}
-          {% if collections[tag] %}
-            ({{ collections[tag] | length }})
-          {% endif %}
+        {% set tagKey = tag | default('untitled') %}
+        {% set tagSlug = (tagKey) | slug %}
+        {% if collections[tag] %}
+          {% set tagCount = collections[tag] | length %}
+        {% else %}
+          {% set tagCount = 0 %}
+        {% endif %}
+        <a href="/tags/{{ tagSlug }}/"
+           title="View posts tagged '{{ tagKey }}'"
+           aria-label="View posts tagged '{{ tagKey }}' ({{ tagCount }})">
+          {{ tagKey }} ({{ tagCount }})
         </a>
       </li>
     {% endif %}
