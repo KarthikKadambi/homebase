@@ -1,6 +1,6 @@
 ---
 description: "Full Stack Web Developer, Teacher, UX & Personal Finance Enthusiast, Aspiring AI Engineer"
-title: 'About Karthik Kadambi'
+title: 'About Karthik Kadambi | My Story & Journey'
 ---
 <section class="section-inset" aria-label="Hero section about Karthik Kadambi">
   <div class="flow">
@@ -73,10 +73,11 @@ title: 'About Karthik Kadambi'
   <section aria-label="Beyond code">
     <h2 class="header-branding">Beyond Code</h2>
       <ul>
-        <li>Traveling and planning road trips.</li>
-        <li>Exploring personal finance (and optimizing for fun & rewards).</li>
-        <li>Reading, learning, and tinkering with side projects.</li>
+        <li>Traveling and planning road trips. Check my <a href="/travel/">travel map</a>.</li>
+        <li>Exploring personal finance (and optimizing for fun & rewards). Check <a href ="/tags/finance/">finance related posts</a>.</li>
+        <li>I love board games. Check list of <a href="/games/">board games i play</a>.</li>
         <li>Still repenting that I haven’t started learning piano yet 🎹.</li>
+        <li>Reading, learning, and tinkering with side projects.</li>
       </ul>
   </section>
 

@@ -1,6 +1,6 @@
 ---
 title: Notes
-description: Notes by Karthik Kadambi
+description: Notes | Quick Thoughts by Karthik Kadambi
 ---
 <div class="section-inset">
     <h1 class="header-branding">Notes</h1>

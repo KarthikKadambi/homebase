@@ -5,7 +5,7 @@ pagination:
   alias: tag
 permalink: /tags/{{ tag | slug }}/
 eleventyComputed:
-  title: "Posts realted to {{ tag | slug }}"
+  title: "{{ tag | slug }} Posts | By Karthik Kadambi"
   description: "Posts related to {{ tag | slug }} from Karthik Kadambi."
 eleventyExcludeFromCollections: true
 ---

@@ -1,6 +1,6 @@
 ---
 description: "Learn about web development, and more by Karthik Kadambi, full stack web developer"
-title: 'Articles and more'
+title: 'Articles and More | Karthik Kadambi'
 ---
 <section class="section-inset" aria-label="Hero section for content">
   <div class="flow">

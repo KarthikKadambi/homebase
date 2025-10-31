@@ -1,6 +1,6 @@
 ---
-title: 'Car Leasing Explained: How to Read and Calculate Your Lease Quote'
 description: 'A clear, practical guide to understanding car lease quotes, with formulas for residual value, monthly payment, and costs—plus an embedded calculator to test your own numbers'
+title: 'Car Leasing Explained | Understand and Calculate your quote'
 tags:
   - posts
   - Finance

@@ -1,6 +1,6 @@
 ---
-title: "Hello, World — A New Beginning in Tech, Travel, Finance, and Everyday Living"
 description: "Karthik Kadambi launches his personal blog — sharing insights on technology, travel, finance, and practical life hacks. A space for curious minds to explore ideas that connect creativity and clarity."
+title: "Hello World | New Beginning in Tech, Travel, Finance, Lifestyle"
 tags:
   - posts
   - Introduction
