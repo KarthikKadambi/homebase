@@ -1,5 +1,5 @@
 ---
-description: The tools Karthik Kadambi uses
+description: The hardware, software, and services Karthik Kadambi uses for development and productivity.
 title: What Karthik Kadambi Uses | Tools & Setup
 ---
 <section class="section-inset" aria-label="Hero section on what Karthik Kadambi uses">

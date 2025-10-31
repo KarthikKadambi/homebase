@@ -1,5 +1,5 @@
 ---
-description: Full Stack Web Developer, Teacher, UX & Personal Finance Enthusiast, Aspiring AI Engineer
+description: Learn who Karthik Kadambi is - a full stack developer sharing a journey through tech, UX, finance and travel.
 title: About Karthik Kadambi | My Story & Journey
 ---
 <section class="section-inset" aria-label="Hero section about Karthik Kadambi">

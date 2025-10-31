@@ -1,5 +1,5 @@
 ---
-description: Interactive map of places Karthik Kadambi has visited around the world.
+description: Interactive map showing places Karthik Kadambi has visited around the world.
 title: Travel Map | Places I've Explored Worldwide
 ---
 <section class="section-inset">

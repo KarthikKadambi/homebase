@@ -1,5 +1,5 @@
 ---
-description: Full Stack Web Developer, Teacher, UX & Personal Finance Enthusiast, Aspiring AI Engineer
+description: Full Stack Web Developer, Aspiring AI Engineer, UX Travel and Finance Enthusiast.
 title: Karthik Kadambi | Full Stack Web Developer
 ---
 <div class="flow">

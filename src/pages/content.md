@@ -1,5 +1,5 @@
 ---
-description: Learn about web development, and more by Karthik Kadambi, full stack web developer
+description: Explore articles on web development, AI, finance, and travel by Karthik Kadambi.
 title: Articles and More | Karthik Kadambi
 ---
 <section class="section-inset" aria-label="Hero section for content">

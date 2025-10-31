@@ -1,5 +1,5 @@
 ---
-description: List of board games played by Karthik Kadambi
+description: Discover board games Karthik Kadambi owns — strategy classics, party favorites, and personal picks.
 title: Board Games | My Favorite Games Collection
 ---
 
