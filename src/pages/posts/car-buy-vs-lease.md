@@ -19,7 +19,7 @@ So now you’re faced with one of your first big American decisions:</p>
 
 <blockquote>Do you buy or lease your first car?</blockquote>
 
-<p>Already decided that you want to lease, check this out: <a href="/posts/car-lease-explained">Leasing explained</a></p>
+<p>Already decided that you want to lease, check this out: <a href="/posts/car-lease-explained/">Leasing explained</a></p>
 
 <p>Let’s walk through what both mean — and what’s smarter when you’re just getting started in the U.S.</p>
 
