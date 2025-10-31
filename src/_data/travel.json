@@ -1,0 +1,281 @@
+[
+    {
+        "name": "Los Angeles",
+        "lat": 34.0522,
+        "lng": -118.2437,
+        "continent": "North America",
+        "country": "USA",
+        "state": "California"
+    },
+    {
+        "name": "San Francisco",
+        "lat": 37.7749,
+        "lng": -122.4194,
+        "continent": "North America",
+        "country": "USA",
+        "state": "California"
+    },
+    {
+        "name": "Siskiyou County",
+        "lat": 41.5912,
+        "lng": -122.5407,
+        "continent": "North America",
+        "country": "USA",
+        "state": "California"
+    },
+    {
+        "name": "Alameda County",
+        "lat": 37.6017,
+        "lng": -121.7195,
+        "continent": "North America",
+        "country": "USA",
+        "state": "California"
+    },
+    {
+        "name": "Shasta County",
+        "lat": 40.7909,
+        "lng": -122.4179,
+        "continent": "North America",
+        "country": "USA",
+        "state": "California"
+    },
+    {
+        "name": "Santa Clara County",
+        "lat": 37.3337,
+        "lng": -121.8907,
+        "continent": "North America",
+        "country": "USA",
+        "state": "California"
+    },
+    {
+        "name": "Fresno County",
+        "lat": 36.9859,
+        "lng": -119.2321,
+        "continent": "North America",
+        "country": "USA",
+        "state": "California"
+    },
+    {
+        "name": "Napa County",
+        "lat": 38.5025,
+        "lng": -122.2654,
+        "continent": "North America",
+        "country": "USA",
+        "state": "California"
+    },
+    {
+        "name": "Santa Cruz County",
+        "lat": 37.0454,
+        "lng": -122.0102,
+        "continent": "North America",
+        "country": "USA",
+        "state": "California"
+    },
+    {
+        "name": "Ventura County",
+        "lat": 34.3705,
+        "lng": -119.1391,
+        "continent": "North America",
+        "country": "USA",
+        "state": "California"
+    },
+    {
+        "name": "Santa Barbara County",
+        "lat": 34.4208,
+        "lng": -119.6982,
+        "continent": "North America",
+        "country": "USA",
+        "state": "California"
+    },
+    {
+        "name": "San Luis Obispo County",
+        "lat": 35.3100,
+        "lng": -120.4357,
+        "continent": "North America",
+        "country": "USA",
+        "state": "California"
+    },
+    {
+        "name": "Monterey County",
+        "lat": 36.3134,
+        "lng": -121.3542,
+        "continent": "North America",
+        "country": "USA",
+        "state": "California"
+    },
+    {
+        "name": "San Mateo County",
+        "lat": 37.4337,
+        "lng": -122.4014,
+        "continent": "North America",
+        "country": "USA",
+        "state": "California"
+    },
+    {
+        "name": "Marin County",
+        "lat": 38.0834,
+        "lng": -122.7633,
+        "continent": "North America",
+        "country": "USA",
+        "state": "California"
+    },
+    {
+        "name": "Sonoma County",
+        "lat": 38.5780,
+        "lng": -122.9888,
+        "continent": "North America",
+        "country": "USA",
+        "state": "California"
+    },
+    {
+        "name": "El Dorado County",
+        "lat": 38.7426,
+        "lng": -120.4358,
+        "continent": "North America",
+        "country": "USA",
+        "state": "California"
+    },
+    {
+        "name": "Mariposa County",
+        "lat": 37.5742,
+        "lng": -119.9060,
+        "continent": "North America",
+        "country": "USA",
+        "state": "California"
+    },
+    {
+        "name": "Mono County",
+        "lat": 37.9219,
+        "lng": -118.9529,
+        "continent": "North America",
+        "country": "USA",
+        "state": "California"
+    },
+    {
+        "name": "Klamath County",
+        "lat": 42.6959,
+        "lng": -121.6142,
+        "continent": "North America",
+        "country": "USA",
+        "state": "Oregon"
+    },
+    {
+        "name": "Clark County",
+        "lat": 36.0796,
+        "lng": -115.0940,
+        "continent": "North America",
+        "country": "USA",
+        "state": "Nevada"
+    },
+    {
+        "name": "Garfield County",
+        "lat": 37.8825,
+        "lng": -111.4193,
+        "continent": "North America",
+        "country": "USA",
+        "state": "Utah"
+    },
+    {
+        "name": "Kane County",
+        "lat": 37.2544,
+        "lng": -112.4291,
+        "continent": "North America",
+        "country": "USA",
+        "state": "Utah"
+    },
+    {
+        "name": "Anchorage Municipality",
+        "lat": 61.2181,
+        "lng": -149.9003,
+        "continent": "North America",
+        "country": "USA",
+        "state": "Alaska"
+    },
+    {
+        "name": "Fairbanks North Star Borough",
+        "lat": 64.8378,
+        "lng": -147.7164,
+        "continent": "North America",
+        "country": "USA",
+        "state": "Alaska"
+    },
+      {
+    "name": "Singapore",
+    "lat": 1.3521,
+    "lng": 103.8198,
+    "continent": "Asia",
+    "country": "Singapore"
+  },
+  {
+    "name": "Thailand",
+    "lat": 15.8700,
+    "lng": 100.9925,
+    "continent": "Asia",
+    "country": "Thailand"
+  },
+  {
+    "name": "Malaysia",
+    "lat": 4.2105,
+    "lng": 101.9758,
+    "continent": "Asia",
+    "country": "Malaysia"
+  },
+  {
+    "name": "Karnataka",
+    "lat": 15.3173,
+    "lng": 75.7139,
+    "continent": "Asia",
+    "country": "India"
+  },
+  {
+    "name": "Andhra Pradesh",
+    "lat": 15.9129,
+    "lng": 79.7400,
+    "continent": "Asia",
+    "country": "India"
+  },
+  {
+    "name": "Telangana",
+    "lat": 17.9784,
+    "lng": 79.5941,
+    "continent": "Asia",
+    "country": "India"
+  },
+  {
+    "name": "Maharashtra",
+    "lat": 19.7515,
+    "lng": 75.7139,
+    "continent": "Asia",
+    "country": "India"
+  },
+  {
+    "name": "Tamil Nadu",
+    "lat": 11.1271,
+    "lng": 78.6569,
+    "continent": "Asia",
+    "country": "India"
+  },
+  {
+    "name": "New Delhi",
+    "lat": 28.6139,
+    "lng": 77.2090,
+    "continent": "Asia",
+    "country": "India"
+  },
+  {
+    "name": "Dubai",
+    "lat": 25.276987,
+    "lng": 55.296249,
+    "continent": "Asia",
+    "country": "United Arab Emirates",
+    "state": "Dubai"
+  },
+  {
+    "name": "Abu Dhabi",
+    "lat": 24.4539,
+    "lng": 54.3773,
+    "continent": "Asia",
+    "country": "United Arab Emirates",
+    "state": "Abu Dhabi"
+  }
+]
