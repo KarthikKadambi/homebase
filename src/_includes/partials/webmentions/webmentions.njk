@@ -7,9 +7,9 @@
       {% if mention['wm-target'] == canonical %}
         <li>
           {% if mention['wm-property'] == 'like-of' %}
-            👍 <a href="{{ mention.url }}" rel="nofollow" target="_blank">{{ mention.author.name or mention.url }}</a> liked this.
+            👍 <a href="{{ mention.url }}" rel="nofollow noopener noreferrer" target="_blank">{{ mention.author.name or mention.url }}</a> liked this.
           {% elif mention['wm-property'] == 'repost-of' %}
-            🔁 <a href="{{ mention.url }}" rel="nofollow" target="_blank">{{ mention.author.name or mention.url }}</a> reposted this.
+            🔁 <a href="{{ mention.url }}" rel="nofollow noopener noreferrer" target="_blank">{{ mention.author.name or mention.url }}</a> reposted this.
           {% elif mention.content and mention.content.text %}
             💬 <strong>{{ mention.author.name or mention.url }}</strong>: {{ mention.content.text | safe }}
           {% endif %}

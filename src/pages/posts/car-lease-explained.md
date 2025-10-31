@@ -137,7 +137,7 @@ Common examples:
 
 <p>Make sure you get the following info when you are trying to get a leased car and hit on clear and input your own values to calculate your monthly payment and the amount you need to pay to take your dream car to home!!.</p>
 
-<p>Also, find your tax rate, for example for state of California in US you can find it for every county <a href="https://cdtfa.ca.gov/taxes-and-fees/rates.aspx" rel="nofollow" target="_blank">here</a></p>
+<p>Also, find your tax rate, for example for state of California in US you can find it for every county <a href="https://cdtfa.ca.gov/taxes-and-fees/rates.aspx" rel="nofollow noopener noreferrer" target="_blank">here</a></p>
 
 <div class="section-inset">
     <div class="grid" data-layout="50-50">
