@@ -13,8 +13,11 @@ title: Articles and More | Karthik Kadambi
 {% include "partials/blog-teaser/blog-teaser.njk" %}
 <section class="flow" aria-label="Tags and Notes">
   <h2 class="header-branding">Tags & Notes</h2>
-  <p><a href="/tags/">Filter by tags</a>
-  <a href="/notes/">Notes</a></p>
+  <ul>
+    <li><a href="/tags/">Filter by specific tags</a></li>
+    <li><a href="/tags/posts/">All tagged posts</a></li>
+    <li><a href="/notes/">View Notes</a></li>
+  </ul>
 </section>
 <section class="flow" aria-label="Latest talks">
   <h2 class="header-branding">Talks</h2>

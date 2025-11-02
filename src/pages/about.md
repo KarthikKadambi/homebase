@@ -14,13 +14,11 @@ title: About Karthik Kadambi | My Story & Journey
     <p>Karthik Kadambi is a Full Stack Web Developer, design system enthusiast and an aspiring AI engineer from Bengaluru, Karnataka, India, and currently residing in Fremont, California, USA,  with over 13 years of industry experience. Known for crafting fast, accessible, and scalable web experiences, Karthik brings a unique blend of frontend finesse and backend depth to every project. He believes in building with empathy — respecting user's time, devices, and bandwidth — and champions clean architecture, performance, and accessibility as non‑negotiables in modern web development.
     Karthik has contributed to everything from early-stage startup apps to large-scale enterprise systems, combining a sharp technical mind with a deep care for user experience and maintainability.</p>
   </section>
-
   <section aria-label="Journey">
     <h2 class="header-branding">My Journey</h2>
     <h3>Early childhood and education</h3>
     <p>Born in 1990, I began my academic journey at Saraswathi Vidya Nikethan, where I completed my early schooling. I continued at Sri Vani Education Centre until March 2005, which provided a strong academic foundation and encouraged holistic development. During my time there, I was also an active member of the National Cadet Corps (NCC) Air wing, which helped instill discipline, leadership, and a sense of civic responsibility.</p>
     <p>I then pursued my pre-university education at KLE, focusing on science, and completed it in May 2007. From 2007 to 2011, I attended SJBIT (S.J.B. Institute of Technology), where I earned a degree in Computer Science and Engineering, laying the groundwork for my career in the tech industry.</p>
-
     <h3>Professional</h3>
     <p>After completing my degree in Computer Science and Engineering in 2011, I began my professional journey in the tech industry. Over the years, I have worked with a range of organizations, each contributing to my growth as an IT professional.</p>
     <ul>
@@ -40,17 +38,14 @@ title: About Karthik Kadambi | My Story & Journey
         <li>Currently leading development of revenue-critical lead forms, which connect users with agents and drive core business KPIs. This role has allowed me to contribute to high-traffic, customer-facing features in a modern web stack, driving both user experience improvements and business value.</li>
       </ul>
     </ul>
-
     <p>
       Full-stack developer bridging cultures from <em>Bengaluru</em> to <em>Bay Area</em>.
     </p>
-
     <div class="grid">
       <img src="/assets/images/site/Karnataka.svg" alt="Karnataka state flag" loading="lazy">
       <img src="/assets/images/site/California.svg" alt="California state flag" loading="lazy">
     </div>
   </section>
-
   <section aria-label="Skills">
     <h2 class="header-branding">What I Do</h2>
     <p>I specialize in building scalable, secure, and high-performance web applications with a strong focus on <strong>cloud architecture</strong> and <strong>AI integration</strong>.</p>
@@ -63,13 +58,11 @@ title: About Karthik Kadambi | My Story & Journey
       <li><b>Security & Performance:</b> Applying best security practices like CSP, HSTS, and Permissions-Policy headers, leveraging Cloudflare for security and CDN, conducting Lighthouse audits, and optimizing SEO and asset delivery for fast, secure, and discoverable web apps.</li>
     </ul>
   </section>
-
   <section aria-label="Philosophy">
     <h2 class="header-branding">My Philosophy</h2>
     <p>Great software is empathetic — it respects users’ time, bandwidth, and attention. I aim to make the web delightful and accessible, even on slow connections and small screens.</p>
     <p>Beyond coding, I enjoy mentoring, contributing to open source, blogging, and embracing continuous learning.</p>
   </section>
-
   <section aria-label="Beyond code">
     <h2 class="header-branding">Beyond Code</h2>
       <ul>
@@ -80,7 +73,6 @@ title: About Karthik Kadambi | My Story & Journey
         <li>Reading, learning, and tinkering with side projects.</li>
       </ul>
   </section>
-
   <section aria-label="Contact">
     <h2 class="header-branding">Let’s Connect</h2>
     Want to collaborate, talk tech, or build something together?

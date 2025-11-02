@@ -15,12 +15,7 @@ permalink: /tags/{{ tag | slug }}/
 </div>
 {% set posts = collections[tag] | default([]) %}
 {% if posts | length %}
-<ul>
-{% for post in posts | reverse %}
-    <li>
-      <a href="{{ post.url }}">{{ post.data.title or post.fileSlug }}</a>
-    </li>
-  {% endfor %}
+<ul>{% for post in posts | reverse %}<li><a href="{{ post.url }}">{{ post.data.title or post.fileSlug }}</a></li>{% endfor %}
 </ul>
 {% else %}
 <p>No posts found for this tag.</p>
