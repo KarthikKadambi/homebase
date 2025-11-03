@@ -16,48 +16,39 @@ tags:
 <p><strong>NOTE: </strong>The core concept of leasing is the same everywhere. But the rules, taxes, popularity, and financial structure vary a lot depending on the country or region. You can still use this guide and correlate how the same concepts apply in your region just with a few practical differences.</p>
 
 <h3 class="header-branding">🚘 What Is a Car Lease?</h3>
-
-A car lease is essentially a long-term rental agreement usually 2 to 4 years where you pay to use a car rather than own it.
-You’re paying for the car’s depreciation (the value it loses while you drive it) plus finance charges and fees.
-
-At the end of the lease, you return the car, unless you choose to buy it out at its residual value.
-
+<p>A car lease is essentially a long-term rental agreement usually 2 to 4 years where you pay to use a car rather than own it.</p>
+<p>You’re paying for the car’s depreciation (the value it loses while you drive it) plus finance charges and fees.</p>
+<p>At the end of the lease, you return the car, unless you choose to buy it out at its residual value.</p>
 <p>Leasing a car often feels confusing, especially when you see a quote full of terms like money factor, residual value, and cap cost. But once you understand what each number means, you can tell if you’re getting a good deal or overpaying for your lease.</p>
 
 <h3 class="header-branding">🚗 MSRP: The Lease Starting Point</h3>
-
-MSRP is the sticker price — the manufacturer’s suggested price for the car before any negotiation, dealer discounts, or incentives.
-It’s mainly used for two key purposes in a lease:
+<p>MSRP is the sticker price — the manufacturer’s suggested price for the car before any negotiation, dealer discounts, or incentives.</p>
+<p>It’s mainly used for two key purposes in a lease:</p>
 
 | Role                               | Description                                                                                                                                                                                             |
 | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **1️⃣ Residual Value Calculation** | The **residual value** (what the car will be worth at lease end) is *always a percentage of MSRP* — not the negotiated price. <br>→ Example: If residual = 63% and MSRP = $32,665 → Residual = $20,579. |
 | **2️⃣ Benchmark for Negotiation**  | Dealers start from MSRP but you negotiate down to the **selling price** (also called “agreed-upon value”). That lower number becomes the **basis for your cap cost**, which determines your payment.    |
 
+<p></p>
+
 <h3 class="header-branding">💰 Selling Price (a.k.a. Agreed-Upon Value)</h3>
 
-The selling price in a car lease is the negotiated price of the car — just like when you buy one outright.
-It’s what you and the dealer agree the car is worth before any taxes, fees, or reductions are applied.
+<p>The selling price in a car lease is the negotiated price of the car — just like when you buy one outright.
+It’s what you and the dealer agree the car is worth before any taxes, fees, or reductions are applied.</p>
 
 <h3 class="header-branding">💵 Gross Capitalized Cost</h3>
-
-The Gross Capitalized Cost is the starting total amount the lease company uses before subtractting any down payment or credits.
-
-Think of it as:
-
-“Everything you’re choosing to finance through the lease.”
-
-It includes the negotiated vehicle price (selling price) plus any extra costs you decide to roll into the lease.
+<p>The Gross Capitalized Cost is the starting total amount the lease company uses before subtractting any down payment or credits.</p>
+<p>Think of it as:</p>
+<p>“Everything you’re choosing to finance through the lease.”</p>
+<p>It includes the negotiated vehicle price (selling price) plus any extra costs you decide to roll into the lease.</p>
 
 <h3 class="header-branding">🧾 Cap cost reductions</h3>
-
-Once you subtract any Cap Cost Reductions (down payment, trade-in, or rebates), you get your Adjusted/Net Cap Cost — the number actually used in your lease math.
+<p>Once you subtract any Cap Cost Reductions (down payment, trade-in, or rebates), you get your Adjusted/Net Cap Cost — the number actually used in your lease math.</p>
 
 <h3 class="header-branding">🧾 Net (or Adjusted) Capitalized Cost</h3>
-
-Net capitalized cost — also called adjusted cap cost — is the final amount you’re financing in your lease after all additions and reductions.
-
-It’s basically the "loan amount" for a lease.
+<p>Net capitalized cost — also called adjusted cap cost — is the final amount you’re financing in your lease after all additions and reductions.</p>
+<p>It’s basically the "loan amount" for a lease.</p>
 
 <h3 class="header-branding">Net cap cost summary</h3>
 
@@ -67,11 +58,11 @@ It’s basically the "loan amount" for a lease.
 | 2️⃣  | **Selling Price + Rolled-In Fees/Add-Ons = Gross Cap Cost** | This is what you’re choosing to finance.  |
 | 3️⃣  | **Gross Cap Cost – Cap Cost Reduction = Net Cap Cost**      | Final amount used for lease calculations. |
 
-<p>Lets talk about fees</p>
+<p>Lets talk about fees:</p>
 
 <h3 class="header-branding">DMV / License Fees</h3>
 
-These are government registration fees for your car — not dealer markups. They cover:
+<p>These are government registration fees for your car — not dealer markups. They cover:</p>
 
 * Vehicle registration
 
@@ -79,11 +70,11 @@ These are government registration fees for your car — not dealer markups. They
 
 * License plates
 
-Local county fees (sometimes emissions or tire fees in California)
+<p>Local county fees (sometimes emissions or tire fees in California)</p>
 
-Typical cost (CA example): $400–$700 depending on the car’s value.
+<p>Typical cost (CA example): $400–$700 depending on the car’s value.</p>
 
-When paid:
+<p>When paid:</p>
 
 * Usually part of your drive-off amount (paid upfront).
 
@@ -91,9 +82,9 @@ When paid:
 
 <h3 class="header-branding">Total Upfront Fees</h3>
 
-All the miscellaneous small charges that are paid at signing (not financed).
+<p>All the miscellaneous small charges that are paid at signing (not financed).</p>
 
-Examples:
+<p>Examples:</p>
 
 * Doc fee (dealer paperwork charge)
 
@@ -105,9 +96,9 @@ Examples:
 
 <h3 class="header-branding">Capped Fees (Capitalized Fees)</h3>
 
-Fees that you choose to “capitalize” (roll in) — meaning they get added to your gross cap cost and financed over the term.
+<p>Fees that you choose to “capitalize” (roll in) — meaning they get added to your gross cap cost and financed over the term.</p>
 
-Common examples:
+<p>Common examples:</p>
 
 * Bank acquisition fee (often $650–$995)
 
@@ -142,7 +133,7 @@ Common examples:
 <div class="section-inset">
     <div class="grid" data-layout="50-50">
         <form aria-labelledby="Lease calculator">
-            <h3 class="header-branding">Caslculator</h3>
+            <h3 class="header-branding">Calculator</h3>
             <label for="sticker-price">MSRP(Sticker price)</label>
             <input id="sticker-price" type="text" value="32665" />
             <label for="dealer-discount">Dealer discount</label>

@@ -82,6 +82,8 @@ Credit requirement — newcomers may need a co-signer or higher deposit.
 | You drive a lot (15k+ miles/year)                  | Buy                         | Avoid mileage penalties.                                           |
 | You like driving new cars every few years          | Lease                       | Always under warranty with newer features.                         |
 
+<p></p>
+
 <h3 class="header-branding">💡 Example Scenario</h3>
 
 Let’s say you’re looking at a car with a price of $30,000.
@@ -102,6 +104,8 @@ Let’s say you’re looking at a car with a price of $30,000.
 | **Customization**  | Free to modify.                                       | Usually not allowed — must return in near-original condition.    |
 | **Maintenance**    | All on you.                                           | Sometimes included in the lease package.                         |
 | **Best For**       | Long-term use, equity building.                       | Short-term use, new cars, lower payments.                        |
+
+<p></p>
 
 <h3 class="header-branding">🛣️ The Bottom Line</h3>
 
