@@ -1,0 +1,36 @@
+.leaflet-control-zoom a,
+.leaflet-control-layers-toggle {
+  width: 48px !important;
+  height: 48px !important;
+  line-height: 48px !important;
+  font-size: 1.2rem !important;
+}
+
+.leaflet-control {
+  margin: 8px !important;
+}
+
+.leaflet-bar a {
+  padding: 8px !important;
+}
+
+.skip-map {
+  position: absolute;
+  left: -9999px;
+}
+
+.skip-map:focus {
+  left: 8px;
+  top: 8px;
+  background: #000;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  z-index: 1000;
+}
+
+.leaflet-popup-close-button {
+  width: 36px;
+  height: 36px;
+  font-size: 1.2rem;
+}

@@ -13,6 +13,8 @@ export default async function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy({ 'src/fonts': 'assets/fonts' });
     eleventyConfig.addPassthroughCopy({ 'src/images': 'assets/images' });
 	eleventyConfig.addPassthroughCopy({ 'src/js': 'assets/js' });
+	eleventyConfig.addPassthroughCopy({ 'src/vendor/css': 'assets/css' });
+	eleventyConfig.addPassthroughCopy({ 'src/vendor/js': 'assets/js' });
     eleventyConfig.addPassthroughCopy({ 'src/robots.txt': 'robots.txt' });
 	eleventyConfig.addPassthroughCopy({ 'src/resume.pdf': 'resume.pdf' });
     eleventyConfig.addPassthroughCopy({ 'src/site.webmanifest': 'site.webmanifest' });

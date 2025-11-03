@@ -2,11 +2,12 @@
 description: Interactive map showing places Karthik Kadambi has visited around the world.
 title: Travel Map | Places I've Explored Worldwide
 ---
+
 <section class="section-inset">
     <h1 class="header-branding">🌍 My Travel Map</h1>
     <p>The world is a book and those who do not travel read only one page.</p>
 </section>
-{# <a href="#after-map" class="skip-map">Skip interactive map</a> #}
+<a href="#after-map" class="skip-map">Skip interactive map</a>
 <div id="map" style="height: 600px; border-radius: 8px;"></div>
 {# <div id="after-map" tabindex="-1"></div> #}
 <form>
@@ -20,182 +21,10 @@ title: Travel Map | Places I've Explored Worldwide
     </select>
 </form>
 
-<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-<style>
-    .leaflet-control-zoom a,
-.leaflet-control-layers-toggle {
-  width: 48px !important;
-  height: 48px !important;
-  line-height: 48px !important;
-  font-size: 1.2rem !important;
-}
-
-.leaflet-control {
-  margin: 8px !important;
-}
-
-.leaflet-bar a {
-  padding: 8px !important;
-}
-
-.skip-map {
-  position: absolute;
-  left: -9999px;
-}
-.skip-map:focus {
-  left: 8px;
-  top: 8px;
-  background: #000;
-  color: #fff;
-  padding: 4px 8px;
-  border-radius: 4px;
-  z-index: 1000;
-}
-
-.leaflet-popup-close-button {
-  width: 36px;
-  height: 36px;
-  font-size: 1.2rem;
-}
-</style>
-
 <script>
-    const places = {{ travel | dump | safe }};
-    const map = L.map('map').setView([20, 0], 2);
-
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19,
-        detectRetina: true,
-        attribution: '&copy; OpenStreetMap contributors'
-    }).addTo(map);
-
-    const continentFilter = document.getElementById('continentFilter');
-    const stateFilter = document.getElementById('stateFilter');
-
-    // 🗺️ Build unique continent list
-    const continents = [...new Set(places.map(p => p.continent))].sort();
-    continents.forEach(cont => {
-        const opt = document.createElement('option');
-        opt.value = cont;
-        opt.textContent = cont;
-        continentFilter.appendChild(opt);
-    });
-
-    // 🧭 Build state list (will be filtered dynamically)
-    function updateStateOptions(selectedContinent) {
-        stateFilter.innerHTML = '<option value="all">All States / Regions</option>';
-        const filtered = selectedContinent === 'all'
-            ? places
-            : places.filter(p => p.continent === selectedContinent);
-
-        const states = [...new Set(filtered
-            .map(p => p.state || p.country)
-            .filter(Boolean)
-        )].sort();
-
-        states.forEach(s => {
-            const opt = document.createElement('option');
-            opt.value = s;
-            opt.textContent = s;
-            stateFilter.appendChild(opt);
-        });
-    }
-
-    updateStateOptions('all'); // initial
-
-    function updateMarkers() {
-        const continent = continentFilter.value;
-        const region = stateFilter.value;
-
-        // Clear markers
-        map.eachLayer(layer => {
-            if (layer instanceof L.Marker) map.removeLayer(layer);
-        });
-
-        // Filter & add markers
-        const filtered = places.filter(p =>
-            (continent === 'all' || p.continent === continent) &&
-            (region === 'all' || p.state === region || p.country === region)
-        );
-
-        filtered.forEach(p => {
-            L.marker([p.lat, p.lng])
-                .addTo(map)
-                .bindPopup(`<strong>${p.name}</strong><br>${p.state || p.country || ''}`);
-        });
-
-        // 🧭 Auto-zoom behavior
-        if (region !== 'all') {
-            // Zoom to selected state or country
-            const regionPoints = places.filter(p =>
-                p.state === region || p.country === region
-            );
-
-            if (regionPoints.length > 0) {
-                const bounds = L.latLngBounds(regionPoints.map(p => [p.lat, p.lng]));
-                map.fitBounds(bounds, { padding: [50, 50] });
-            }
-        } else if (continent !== 'all') {
-            // Zoom to continent
-            if (continent === 'Asia') {
-                map.setView([15, 90], 4);
-            } else if (continent === 'North America') {
-                map.setView([37, -95], 3);
-            } else {
-                const contPoints = places.filter(p => p.continent === continent);
-                const bounds = L.latLngBounds(contPoints.map(p => [p.lat, p.lng]));
-                map.fitBounds(bounds, { padding: [50, 50] });
-            }
-        } else {
-            // Global view
-            map.setView([20, 0], 2);
-        }
-    }
-
-    // 🌍 Handle continent change
-    continentFilter.addEventListener('change', e => {
-        updateStateOptions(e.target.value);
-        updateMarkers();
-    });
-
-    // 🏙️ Handle state change
-    stateFilter.addEventListener('change', updateMarkers);
-
-    // Run once on load
-    updateMarkers();
-
-    map.on('load', () => {
-  document.querySelector('.leaflet-control-zoom-in')?.setAttribute('aria-label', 'Zoom in');
-  document.querySelector('.leaflet-control-zoom-out')?.setAttribute('aria-label', 'Zoom out');
-  document.querySelector('.leaflet-control-attribution')?.setAttribute('aria-hidden', 'true');
-});
-// Hide non-interactive map layers from screen readers
-map.whenReady(() => {
-  // Hide non-interactive panes from assistive tech
-  const hiddenSelectors = [
-    '.leaflet-tile-pane',
-    '.leaflet-shadow-pane',
-    '.leaflet-overlay-pane',
-    '.leaflet-tooltip-pane'
-  ];
-  hiddenSelectors.forEach(sel => {
-    document.querySelectorAll(sel).forEach(el => {
-      el.setAttribute('aria-hidden', 'true');
-      el.setAttribute('role', 'presentation');
-    });
-  });
-
-  // 🧩 Fix for the failing element: markers
-  document.querySelectorAll('img.leaflet-marker-icon').forEach(img => {
-    img.setAttribute('alt', '');
-    img.setAttribute('aria-hidden', 'true');
-    img.removeAttribute('tabindex'); // prevent keyboard focus
-    img.setAttribute('role', 'presentation');
-  });
-
-  // Label zoom buttons (optional a11y improvement)
-  document.querySelector('.leaflet-control-zoom-in')?.setAttribute('aria-label', 'Zoom in');
-  document.querySelector('.leaflet-control-zoom-out')?.setAttribute('aria-label', 'Zoom out');
-});
+  window.travelData = {{ travel | dump | safe }};
 </script>
+<script src="/assets/js/leaflet.js" defer></script>
+<script src="/assets/js/travel.js" defer></script>
+<link rel="stylesheet" href="/assets/css/leaflet.css"/>
+<link rel="stylesheet" href="/assets/css/leaflet-a11y.css"/>
