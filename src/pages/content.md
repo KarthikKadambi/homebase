@@ -1,12 +1,12 @@
 ---
 description: Explore articles on web development, AI, finance, and travel by Karthik Kadambi.
-title: Articles and More | Karthik Kadambi
+title: Articles | Karthik Kadambi
 ---
 
 <section class="section-inset" aria-label="Hero section for content">
   <div class="flow">
     <h1 class="header-branding">Articles</h1>
-    <p>Learn about Web development, Personal Finance, Travel and More.</p>
+    <p>Learn about Web development, Personal finance, Travel and More.</p>
   </div>
 </section>
 {% set heading = "Latest posts" %}

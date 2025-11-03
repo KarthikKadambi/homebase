@@ -1,10 +1,10 @@
 ---
 description: Discover board games Karthik Kadambi owns — strategy classics, party favorites, and personal picks.
-title: Board Games | My Favorite Games Collection
+title: Board games | Karthik Kadambi board games collection
 ---
 
 <section class="section-inset">
-    <h1 class="header-branding">🎲 Board Games I Own</h1>
+    <h1 class="header-branding">🎲 Board games</h1>
     <p>Life is more fun if you play games.</p>
 </section>
 

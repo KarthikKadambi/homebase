@@ -1,10 +1,10 @@
 ---
 description: Interactive map showing places Karthik Kadambi has visited around the world.
-title: Travel Map | Places I've Explored Worldwide
+title: My Travel map | Places I've explored worldwide
 ---
 
 <section class="section-inset">
-    <h1 class="header-branding">🌍 My Travel Map</h1>
+    <h1 class="header-branding">🌍 My Travel map</h1>
     <p>The world is a book and those who do not travel read only one page.</p>
 </section>
 <a href="#after-map" class="skip-map">Skip interactive map</a>

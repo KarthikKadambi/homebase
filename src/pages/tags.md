@@ -1,6 +1,6 @@
 ---
 description: Tags of posts from Karthik Kadambi
-title: All Tags | Explore Topics by Karthik Kadambi
+title: All Tags
 ---
 <div class="section-inset">
     <h1 class="header-branding">{{ title }}</h1>
