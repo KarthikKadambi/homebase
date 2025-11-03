@@ -63,6 +63,7 @@ export default async function(eleventyConfig) {
 		return content;
 	});
 	
+	// Custom filter: Cloudinary encode
 	eleventyConfig.addFilter("cloudinaryEncode", function(text) {
 		if (!text || typeof text !== 'string') {
 			return '';
@@ -70,16 +71,17 @@ export default async function(eleventyConfig) {
   		return encodeURIComponent(text.replace(/,/g, ' -'));
 	});
 
-	  // Custom filter: find note by slug
-  eleventyConfig.addFilter("findNoteBySlug", (notes, slug) => {
-    return notes.find((n) => n.data.slug === slug);
-  });
+	// Custom filter: find note by slug
+  	eleventyConfig.addFilter("findNoteBySlug", (notes, slug) => {
+    	return notes.find((n) => n.data.slug === slug);
+  	});
 
-// Filter: intersection of tags (without lodash)
-  eleventyConfig.addFilter("intersect", (arr1 = [], arr2 = []) => {
-    return arr1.filter((t) => arr2.includes(t));
-  });
+	// Custom Filter: intersection of tags
+  	eleventyConfig.addFilter("intersect", (arr1 = [], arr2 = []) => {
+    	return arr1.filter((t) => arr2.includes(t));
+  	});
 
+	// Collection: tag list
 	eleventyConfig.addCollection("tagList", function(collectionApi) {
 		const tagsSet = new Set();
 		collectionApi.getAll().forEach(item => {

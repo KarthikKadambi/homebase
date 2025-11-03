@@ -8,7 +8,7 @@ permalink: /sitemap.xml
 {%- for page in collections.all -%}
 {%- if not (page.url.includes('/feed/') or page.url.includes('feed.xml')) %}
     <url>
-        <loc>{{ site.url }}{{ page.url | url }}</loc>
+        <loc>{{ metadata.url }}{{ page.url | url }}</loc>
         <lastmod>{{ page.date.toISOString() }}</lastmod>
     </url>
 {%- endif -%}
@@ -29,7 +29,7 @@ permalink: /sitemap.xml
 {# emit a sitemap URL for each tag (adjust '/tags/' prefix if your site uses a different tag page path) #}
 {%- for tag in _allTags -%}
     <url>
-        <loc>{{ site.url }}{{ '/tags/' + (tag | lower | replace(' ', '-') ) + '/' }}</loc>
+        <loc>{{ metadata.url }}{{ '/tags/' + (tag | lower | replace(' ', '-') ) + '/' }}</loc>
         <lastmod>{{ page.date.toISOString() }}</lastmod>
     </url>
 {%- endfor -%}

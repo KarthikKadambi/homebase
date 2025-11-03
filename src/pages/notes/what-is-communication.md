@@ -1,19 +1,23 @@
 ---
 date: 2025-11-02T12:00:00-07:00
 description: Learn how communication works—sender, medium, signals, and feedback—and why it’s the starting point for understanding computer networks and the Internet.
-title: What Is Communication | The Foundation of Networking
+image: /assets/images/posts/communication.png
 slug: what-is-communication
+title: What Is Communication | The Foundation of Networking
 tags:
  - notes
  - Internet
 ---
 
-<p>Communication is the process of transferring information from one point to another.</p>
-<p>In human communication, we share information through speech, writing, or gestures — all using sound waves, text, or body language as our medium.</p>
-<p>In technological communication, devices exchange information through electrical (wires), optical (fiber), or radio (wireless) signals — translating digital data into physical energy that can travel across distance.</p>
+Communication is the process of transferring information from one point to another.
+
+In human communication, we share information through speech, writing, or gestures — all using sound waves, text, or body language as our medium.
+
+In technological communication, devices exchange information through electrical (wires), optical (fiber), or radio (wireless) signals — translating digital data into physical energy that can travel across distance.
 
 <h3 class="header-branding">🧠 Basic communication model</h3>
-<p>Every communication system has these elements.</p>
+
+Every communication system has these elements.
 
 | Component                | Role                                                          |
 | ------------------------ | ------------------------------------------------------------- |
@@ -54,21 +58,19 @@ tags:
 | **Analog signal**  | Continuous wave (varies smoothly) | Sound, radio  |
 | **Digital signal** | Discrete 0s and 1s (on/off)       | Computer data |
 
-<p>When a computer sends data:</p>
-<ul>
-    <li>It encodes bits (1s and 0s) into voltage, light, or radio waves.</li>
-    <li>The receiver decodes those signals back into bits.</li>
-</ul>
+When a computer sends data:
+* It encodes bits (1s and 0s) into voltage, light, or radio waves.
+* The receiver decodes those signals back into bits.
 
 <h3 class="header-branding">🔁 Encoding & Modulation</h3>
-<p>You can think of this as:</p>
-<ul>
-    <li>Turning 0s and 1s into something that can physically travel.</li>
-    <li>Encoding → transforms data into signals (e.g., Manchester, NRZ).</li>
-    <li>Modulation → changes a carrier wave to represent data (AM, FM, QAM).</li>
-</ul>
 
-<p>So when your phone sends data over Wi-Fi or 5G, it’s actually modulating radio waves with bits of information.</p>
+You can think of this as:
+
+* Turning 0s and 1s into something that can physically travel.
+* Encoding → transforms data into signals (e.g., Manchester, NRZ).
+* Modulation → changes a carrier wave to represent data (AM, FM, QAM).
+
+So when your phone sends data over Wi-Fi or 5G, it’s actually modulating radio waves with bits of information.
 
 <h3 class="header-branding">🧮 Key Performace terms</h3>
 
@@ -80,7 +82,7 @@ tags:
 | **Noise**      | Unwanted interference that distorts signals                                |
 | **Error rate** | Percentage of bits that get corrupted                                      |
 
-<p>Every medium and technology balances these trade-offs.</p>
+Every medium and technology balances these trade-offs.
 
 <h3 class="header-branding">🔄 Synchronization</h3>
 
@@ -97,7 +99,7 @@ Asynchronous communication: independent timing, with start/stop markers (serial 
 | **Analog**  | Continuous wave carries info (amplitude, frequency, phase)  | Old telephones, radio, TV |
 | **Digital** | Discrete bits; noise-resistant; easily encrypted and stored | Computers, Internet, VoIP |
 
-<p>The move from analog → digital made networking possible — because digital data can be compressed, corrected, and routed easily.</p>
+The move from analog → digital made networking possible — because digital data can be compressed, corrected, and routed easily.
 
 <h3 class="header-branding">📡 Data Communication vs Networking</h3>
 
@@ -106,7 +108,7 @@ Asynchronous communication: independent timing, with start/stop markers (serial 
 | **Communication** | Transferring data between two points                          | Your PC ↔ printer |
 | **Networking**    | Connecting many communication links with rules and addressing | The Internet      |
 
-<p>So, data communication is one-to-one; networking is many-to-many.</p>
+So, data communication is one-to-one; networking is many-to-many.
 
 <blockquote>
     Networking is just structured, large-scale communication.<br/>

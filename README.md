@@ -10,12 +10,12 @@
 * images - Images that are used on the site.
 * pages/<page>.md - The template file for respective page.
 * pages/posts/<post>.md - The template file for respective post.
+* pages/notes/<note>.md - The template file for respective note.
 * pages/sitemap.njk - The sitemap template file.
 * robots.txt - Implements Robots exclusion protocol.
 * site.webmanifest - Web manifest.
 
 ## Packages
-
 * **@11ty/eleventy** Static site generator.
 * **@11ty/eleventy-plugin-rss** A pack of Eleventy filters for generating Atom, JSON and RSS feeds using the Nunjucks templating engine.
 * **concurrently** Run multiple commands concurrently.

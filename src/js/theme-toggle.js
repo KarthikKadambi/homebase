@@ -55,6 +55,7 @@ function init() {
         updateColorScheme(newScheme);
     });
 
+    // Home page buttons - connect and view resume
     const connectButton = document.querySelector('#connect-button');
     connectButton && connectButton.addEventListener('click', () => {
         location.href = 'mailto:ramens.regress_8l@icloud.com?subject-=Let\'s%20Connect';
@@ -64,7 +65,6 @@ function init() {
         }, 500);
         window.addEventListener('blur', () => clearTimeout(timeout));
     });
-
     const viewResumeButton = document.querySelector('#view-resume-button');
     viewResumeButton && viewResumeButton.addEventListener('click', () => {
         window.open('/resume.pdf', '_blank');

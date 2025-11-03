@@ -78,31 +78,28 @@ document.getElementById('calculate-lease-button').addEventListener('click', func
     setText('out-total-due', formatCurrency(result.totalDueAtSigning));
 });
 
-const clearButton = document.getElementById('clear-lease-button');
-if (clearButton) {
-    clearButton.addEventListener('click', function() {
-        const inputIds = [
-            'sticker-price','dealer-discount','rolled-in-items','cap-cost-reduction',
-            'manufacturer-incentives','residual-value-percent','money-factor',
-            'non-rolled-in-items','lease-term','tax-rate'
-        ];
-        inputIds.forEach(id => {
-            const el = document.getElementById(id);
-            if (el) el.value = '';
-        });
-
-        const outputIds = [
-            'out-msrp','out-selling-price','out-gross-cap-cost','out-cap-cost-reduction',
-            'out-net-cap-cost','out-residual-value','out-apr','out-monthly-depr','out-monthly-finance',
-            'out-monthly-tax','out-monthly-payment','out-total-due'
-        ];
-        outputIds.forEach(id => {
-            const el = document.getElementById(id);
-            if (el) el.textContent = '--';
-        });
-
-        // optional: focus first input
-        const first = document.getElementById('sticker-price');
-        if (first) first.focus();
+document.getElementById('clear-lease-button').addEventListener('click', function() {
+    const inputIds = [
+        'sticker-price','dealer-discount','rolled-in-items','cap-cost-reduction',
+        'manufacturer-incentives','residual-value-percent','money-factor',
+        'non-rolled-in-items','lease-term','tax-rate'
+    ];
+    inputIds.forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.value = '';
     });
-}
+
+    const outputIds = [
+        'out-msrp','out-selling-price','out-gross-cap-cost','out-cap-cost-reduction',
+        'out-net-cap-cost','out-residual-value','out-apr','out-monthly-depr','out-monthly-finance',
+        'out-monthly-tax','out-monthly-payment','out-total-due'
+    ];
+    outputIds.forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.textContent = '--';
+    });
+
+    // optional: focus first input
+    const first = document.getElementById('sticker-price');
+    if (first) first.focus();
+});

@@ -9,21 +9,25 @@ tags:
   - Finance
   - Cars
 ---
-<p>So you have decided to lease your car in U.S and have an establised credit score. Let's explore in detail on what is car lease, understand its core concepts and how to get a best deal.</p>
 
-<p>If you want to learn more on what is the difference between buying vs leasing, then please check this article: <a href="/posts/car-buy-vs-lease/">Buy vs Lease</a></p>
+So you have decided to lease your car in U.S and have an establised credit score. Let's explore in detail on what is car lease, understand its core concepts and how to get a best deal.
 
-<p><strong>NOTE: </strong>The core concept of leasing is the same everywhere. But the rules, taxes, popularity, and financial structure vary a lot depending on the country or region. You can still use this guide and correlate how the same concepts apply in your region just with a few practical differences.</p>
+If you want to learn more on what is the difference between buying vs leasing, then please check this article: <a href="/posts/car-buy-vs-lease/">Buy vs Lease</a>
+
+**NOTE:** The core concept of leasing is the same everywhere. But the rules, taxes, popularity, and financial structure vary a lot depending on the country or region. You can still use this guide and correlate how the same concepts apply in your region just with a few practical differences.
 
 <h3 class="header-branding">🚘 What Is a Car Lease?</h3>
-<p>A car lease is essentially a long-term rental agreement usually 2 to 4 years where you pay to use a car rather than own it.</p>
-<p>You’re paying for the car’s depreciation (the value it loses while you drive it) plus finance charges and fees.</p>
-<p>At the end of the lease, you return the car, unless you choose to buy it out at its residual value.</p>
-<p>Leasing a car often feels confusing, especially when you see a quote full of terms like money factor, residual value, and cap cost. But once you understand what each number means, you can tell if you’re getting a good deal or overpaying for your lease.</p>
+A car lease is essentially a long-term rental agreement usually 2 to 4 years where you pay to use a car rather than own it.
+You’re paying for the car’s depreciation (the value it loses while you drive it) plus finance charges and fees.
+
+At the end of the lease, you return the car, unless you choose to buy it out at its residual value.
+
+Leasing a car often feels confusing, especially when you see a quote full of terms like money factor, residual value, and cap cost. But once you understand what each number means, you can tell if you’re getting a good deal or overpaying for your lease.
 
 <h3 class="header-branding">🚗 MSRP: The Lease Starting Point</h3>
-<p>MSRP is the sticker price — the manufacturer’s suggested price for the car before any negotiation, dealer discounts, or incentives.</p>
-<p>It’s mainly used for two key purposes in a lease:</p>
+MSRP is the sticker price — the manufacturer’s suggested price for the car before any negotiation, dealer discounts, or incentives.
+
+It’s mainly used for two key purposes in a lease:
 
 | Role                               | Description                                                                                                                                                                                             |
 | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -34,21 +38,25 @@ tags:
 
 <h3 class="header-branding">💰 Selling Price (a.k.a. Agreed-Upon Value)</h3>
 
-<p>The selling price in a car lease is the negotiated price of the car — just like when you buy one outright.
-It’s what you and the dealer agree the car is worth before any taxes, fees, or reductions are applied.</p>
+The selling price in a car lease is the negotiated price of the car — just like when you buy one outright.
+It’s what you and the dealer agree the car is worth before any taxes, fees, or reductions are applied.
 
 <h3 class="header-branding">💵 Gross Capitalized Cost</h3>
-<p>The Gross Capitalized Cost is the starting total amount the lease company uses before subtractting any down payment or credits.</p>
-<p>Think of it as:</p>
-<p>“Everything you’re choosing to finance through the lease.”</p>
-<p>It includes the negotiated vehicle price (selling price) plus any extra costs you decide to roll into the lease.</p>
+The Gross Capitalized Cost is the starting total amount the lease company uses before subtractting any down payment or credits.
+
+Think of it as:
+“Everything you’re choosing to finance through the lease.”
+
+It includes the negotiated vehicle price (selling price) plus any extra costs you decide to roll into the lease.
 
 <h3 class="header-branding">🧾 Cap cost reductions</h3>
-<p>Once you subtract any Cap Cost Reductions (down payment, trade-in, or rebates), you get your Adjusted/Net Cap Cost — the number actually used in your lease math.</p>
+
+Once you subtract any Cap Cost Reductions (down payment, trade-in, or rebates), you get your Adjusted/Net Cap Cost — the number actually used in your lease math.
 
 <h3 class="header-branding">🧾 Net (or Adjusted) Capitalized Cost</h3>
-<p>Net capitalized cost — also called adjusted cap cost — is the final amount you’re financing in your lease after all additions and reductions.</p>
-<p>It’s basically the "loan amount" for a lease.</p>
+Net capitalized cost — also called adjusted cap cost — is the final amount you’re financing in your lease after all additions and reductions.
+
+It’s basically the "loan amount" for a lease.
 
 <h3 class="header-branding">Net cap cost summary</h3>
 
@@ -58,7 +66,7 @@ It’s what you and the dealer agree the car is worth before any taxes, fees, or
 | 2️⃣  | **Selling Price + Rolled-In Fees/Add-Ons = Gross Cap Cost** | This is what you’re choosing to finance.  |
 | 3️⃣  | **Gross Cap Cost – Cap Cost Reduction = Net Cap Cost**      | Final amount used for lease calculations. |
 
-<p>Lets talk about fees:</p>
+Lets talk about fees:
 
 <h3 class="header-branding">DMV / License Fees</h3>
 
@@ -70,11 +78,11 @@ It’s what you and the dealer agree the car is worth before any taxes, fees, or
 
 * License plates
 
-<p>Local county fees (sometimes emissions or tire fees in California)</p>
+Local county fees (sometimes emissions or tire fees in California)
 
-<p>Typical cost (CA example): $400–$700 depending on the car’s value.</p>
+Typical cost (CA example): $400–$700 depending on the car’s value.
 
-<p>When paid:</p>
+When paid:
 
 * Usually part of your drive-off amount (paid upfront).
 
@@ -82,9 +90,9 @@ It’s what you and the dealer agree the car is worth before any taxes, fees, or
 
 <h3 class="header-branding">Total Upfront Fees</h3>
 
-<p>All the miscellaneous small charges that are paid at signing (not financed).</p>
+All the miscellaneous small charges that are paid at signing (not financed).
 
-<p>Examples:</p>
+Examples:
 
 * Doc fee (dealer paperwork charge)
 
@@ -96,9 +104,9 @@ It’s what you and the dealer agree the car is worth before any taxes, fees, or
 
 <h3 class="header-branding">Capped Fees (Capitalized Fees)</h3>
 
-<p>Fees that you choose to “capitalize” (roll in) — meaning they get added to your gross cap cost and financed over the term.</p>
+Fees that you choose to “capitalize” (roll in) — meaning they get added to your gross cap cost and financed over the term.
 
-<p>Common examples:</p>
+Common examples:
 
 * Bank acquisition fee (often $650–$995)
 
@@ -114,21 +122,22 @@ It’s what you and the dealer agree the car is worth before any taxes, fees, or
 | **Total Upfront Fees**             | Doc, tire, and small admin fees                | $100–$300      | Paid upfront          | No effect on cap cost             |
 | **Capped Fees (Capitalized Fees)** | Bank acquisition fee or rolled-in dealer costs | $650–$995      | Rolled into the lease | Raises monthly payment (financed) |
 
-<p>Disposition Fee – charged when you return the car, typically $300–$500.</p>
+Disposition Fee – charged when you return the car, typically $300–$500.
 
-<p><strong>NOTE: </strong>If you are viewing this article as part of RSS feed reader, then you wouldnt be able to see the calculator below as it may cause issues to feed reader. Visit <a href="https://karthikkadambi.com/posts/car-lease-explained/">here</a> to access the calculator.</p>
+**NOTE:** If you are viewing this article as part of RSS feed reader, then you wouldnt be able to see the calculator below as it may cause issues to feed reader. Visit <a href="https://karthikkadambi.com/posts/car-lease-explained/">here</a> to access the calculator.
 
 <!-- feed-exclude-start -->
 <h3 class="header-branding">Embedded lease calculator</h3>
-<p>Understanding your lease quote helps you make smarter financial decisions. Once you break it down, the “mystery math” of leasing becomes simple—just depreciation + finance + fees.</p>
 
-<p>Use the calculator below to plug in your own numbers and see exactly how your monthly payment is determined.</p>
+Understanding your lease quote helps you make smarter financial decisions. Once you break it down, the “mystery math” of leasing becomes simple—just depreciation + finance + fees.
 
-<p>I have just pre-filled the amount based on the quote of my car purchase. Hit on calculate lease to check how much i pay :)</p>
+Use the calculator below to plug in your own numbers and see exactly how your monthly payment is determined.
 
-<p>Make sure you get the following info when you are trying to get a leased car and hit on clear and input your own values to calculate your monthly payment and the amount you need to pay to take your dream car to home!!.</p>
+I have just pre-filled the amount based on the quote of my car purchase. Hit on calculate lease to check how much i pay :)
 
-<p>Also, find your tax rate, for example for state of California in US you can find it for every county <a href="https://cdtfa.ca.gov/taxes-and-fees/rates.aspx" rel="nofollow noopener noreferrer" target="_blank">here</a></p>
+Make sure you get the following info when you are trying to get a leased car and hit on clear and input your own values to calculate your monthly payment and the amount you need to pay to take your dream car to home!!.
+
+Also, find your tax rate, for example for state of California in US you can find it for every county <a href="https://cdtfa.ca.gov/taxes-and-fees/rates.aspx" rel="nofollow noopener noreferrer" target="_blank">here</a>
 
 <div class="section-inset">
     <div class="grid" data-layout="50-50">

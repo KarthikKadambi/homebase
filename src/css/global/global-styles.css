@@ -115,7 +115,7 @@ form > * + * {
   }
 }
 
-/* Speicific styles - to remove */
+/* Speicific styles - to fine tune */
 .section-inset {
   background: light-dark(#F5F5F6, #1C1C22);
   padding: var(--space-m);
@@ -135,6 +135,7 @@ blockquote{
     padding: 0 0 0 26px;    
     position: relative;
 }
+
 blockquote:before {
     content: "";
     border-left: 6px solid var(--accent-color);

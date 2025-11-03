@@ -14,38 +14,38 @@ layout: 'layouts/base.html'
     {%- endif -%}
 
   {{ content | safe }}
-{% if notes %}
-  <section class="related-notes">
-    <h2>Related Notes</h2>
-    <ul>
-      {% for slug in notes %}
-        {% set note = collections.notes | findNoteBySlug(slug) %}
-        {% if note %}
-          <li><a href="{{ note.url }}">{{ note.data.title }}</a></li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </section>
-{% else %}
-  {# Optional fallback: link by shared tags #}
-  {% set related = [] %}
-  {% for note in collections.notes %}
-    {% if note.data.tags | intersect(page.tags) | length %}
-      {% set related = related | push(note) %}
-    {% endif %}
-  {% endfor %}
-
-  {% if related.length %}
+  {% if notes %}
     <section class="related-notes">
-      <h2>Notes with similar topics</h2>
+      <h2>Related Notes</h2>
       <ul>
-        {% for note in related %}
-          <li><a href="{{ note.url }}">{{ note.data.title }}</a></li>
+        {% for slug in notes %}
+          {% set note = collections.notes | findNoteBySlug(slug) %}
+          {% if note %}
+            <li><a href="{{ note.url }}">{{ note.data.title }}</a></li>
+          {% endif %}
         {% endfor %}
       </ul>
     </section>
+  {% else %}
+    {# Optional fallback: link by shared tags #}
+    {% set related = [] %}
+    {% for note in collections.notes %}
+      {% if note.data.tags | intersect(page.tags) | length %}
+        {% set related = related | push(note) %}
+      {% endif %}
+    {% endfor %}
+
+    {% if related.length %}
+      <section class="related-notes">
+        <h2>Notes with similar topics</h2>
+        <ul>
+          {% for note in related %}
+            <li><a href="{{ note.url }}">{{ note.data.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
   {% endif %}
-{% endif %}
 </article>
 
 {% set canonical = "https://karthikkadambi.com" ~ page.url %}
