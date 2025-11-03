@@ -39,7 +39,7 @@ It’s mainly used for two key purposes in a lease:
 The selling price in a car lease is the negotiated price of the car — just like when you buy one outright.
 It’s what you and the dealer agree the car is worth before any taxes, fees, or reductions are applied.
 
-<h3 class="header-branding">💵 Gross Capitalized Cost (Gross Cap Cost)</h3>
+<h3 class="header-branding">💵 Gross Capitalized Cost</h3>
 
 The Gross Capitalized Cost is the starting total amount the lease company uses before subtractting any down payment or credits.
 
@@ -141,8 +141,8 @@ Common examples:
 
 <div class="section-inset">
     <div class="grid" data-layout="50-50">
-        <form>
-            <h3 class="header-branding">Calculator</h3>
+        <form aria-labelledby="Lease calculator">
+            <h3 class="header-branding">Caslculator</h3>
             <label for="sticker-price">MSRP(Sticker price)</label>
             <input id="sticker-price" type="text" value="32665" />
             <label for="dealer-discount">Dealer discount</label>

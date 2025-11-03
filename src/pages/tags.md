@@ -20,9 +20,8 @@ title: All Tags | Explore Topics by Karthik Kadambi
         {% set tagCount = 0 %}
       {% endif %}
       <a href="/tags/{{ tagSlug }}/"
-          title="View posts tagged '{{ tagKey }}'"
-          aria-label="View posts tagged '{{ tagKey }}' ({{ tagCount }})">
-        {{ tagKey }} ({{ tagCount }})
+          aria-label="View articles tagged to {{ tagKey }} ({{ tagCount }})">
+        View articles tagged to {{ tagKey }} ({{ tagCount }})
       </a>
     </li>
   {% endif %}

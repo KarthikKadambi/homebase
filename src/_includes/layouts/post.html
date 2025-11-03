@@ -2,7 +2,6 @@
 layout: 'layouts/base.html'
 ---
 <article>
-  <header>
     {%- set parts = title.split('|') -%}
     {%- if parts.length > 1 -%}
       <h1 class="header-branding">{{- parts[0] | trim -}}</h1>
@@ -13,7 +12,7 @@ layout: 'layouts/base.html'
     {%- else -%}
       <h1 class="header-branding">{{- title | trim -}}</h1>
     {%- endif -%}
-  </header>   
+
   {{ content | safe }}
 {% if notes %}
   <section class="related-notes">
