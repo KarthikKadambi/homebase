@@ -1,5 +1,5 @@
 /*
   X-Frame-Options: SAMEORIGIN
-  Content-Security-Policy: default-src 'self'; style-src 'self' 'unsafe-inline'
+  Content-Security-Policy: default-src 'self'; img-src 'self' https://tile.openstreetmap.org data:; style-src 'self' 'unsafe-inline'
   Permissions-Policy: camera=(), microphone=(), geolocation=(), fullscreen=()
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
