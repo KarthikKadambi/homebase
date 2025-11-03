@@ -8,7 +8,9 @@ title: Travel Map | Places I've Explored Worldwide
     <p>The world is a book and those who do not travel read only one page.</p>
 </section>
 <a href="#after-map" class="skip-map">Skip interactive map</a>
-<div id="map" style="height: 600px; border-radius: 8px;"></div>
+<div id="map" 
+     style="height: 600px; border-radius: 8px;"
+     data-travel-locations='{{ travel | dump | safe }}'></div>
 {# <div id="after-map" tabindex="-1"></div> #}
 <form>
     <label for="continentFilter">Continent:</label>
@@ -21,9 +23,6 @@ title: Travel Map | Places I've Explored Worldwide
     </select>
 </form>
 
-<script>
-  window.travelData = {{ travel | dump | safe }};
-</script>
 <script src="/assets/js/leaflet.js" defer></script>
 <script src="/assets/js/travel.js" defer></script>
 <link rel="stylesheet" href="/assets/css/leaflet.css"/>

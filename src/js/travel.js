@@ -1,4 +1,5 @@
-const places = window.travelData || [];
+const mapElement = document.getElementById('map');
+const places = JSON.parse(mapElement.dataset.travelLocations);
 const map = L.map('map').setView([20, 0], 2);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
