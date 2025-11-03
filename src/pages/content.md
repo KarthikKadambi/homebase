@@ -12,18 +12,21 @@ title: Articles and More | Karthik Kadambi
 {% set heading = "Latest posts" %}
 {% set ariaLabel = "Latest blog posts" %}
 {% include "partials/blog-teaser/blog-teaser.njk" %}
+<blockquote>Posts are long-form articles that explore broader topics or ideas in depth. They often combine multiple notes, examples, or insights into a cohesive narrative — like guides, essays, or deep dives that connect related concepts.</blockquote>
+<p><a href="/posts/">>> Click here to read all the posts <<</a></p>
+{% set heading = "Latest notes" %}
+{% set ariaLabel = "Latest blog notes" %}
+{% set collectionName = "notes" %}
+{% include "partials/blog-teaser/blog-teaser.njk" %}
+<blockquote>Notes are short, focused pieces of content that capture a single idea, concept, or reference. They’re smaller than full posts and often serve as building blocks — quick explanations, definitions, or insights that can later be linked or combined into larger posts.</blockquote>
+<p><a href="/notes/">>> Click here to read all the notes <<</a></p>
 <section class="flow" aria-label="Filter articles">
   <h2 class="header-branding">Filter articles</h2>
   <ul>
     <li><a href="/tags/">Filter by specific tags</a></li>
   </ul>
 </section>
-<section class="flow" aria-label="Latest blog notes">
-  <h2 class="header-branding">Latest notes</h2>
-  <p>Notes are short, focused pieces of content that capture a single idea, concept, or reference. They’re smaller than full posts and often serve as building blocks — quick explanations, definitions, or insights that can later be linked or combined into larger posts.</p>
-  <p><a href="/notes/">Click here to read the notes</a></p>
-</section>
 <section class="flow" aria-label="Latest talks">
-  <h2 class="header-branding">Talks</h2>
+  <h2 class="header-branding">Latest talks</h2>
   <p>No talks yet.</p>
 </section>
