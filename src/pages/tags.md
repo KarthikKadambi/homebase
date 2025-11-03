@@ -4,13 +4,13 @@ title: All Tags | Explore Topics by Karthik Kadambi
 ---
 <div class="section-inset">
     <h1 class="header-branding">{{ title }}</h1>
-    <p>Collection of all the tags tagged to my posts.</p>
+    <p>Collection of all the tags tagged to my notes and posts.</p>
 </div>
 {% if collections.tagList %}
 <ul>
 {% for tag in collections.tagList %}
   {% set tagLower = tag %}
-  {% if tagLower != "all" and tagLower != "posts" %}
+  {% if tagLower != "all" %}
     <li>
       {% set tagKey = tag | default('untitled') %}
       {% set tagSlug = (tagKey) | slug %}

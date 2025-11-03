@@ -3,9 +3,50 @@ layout: 'layouts/base.html'
 ---
 <article>
   <header>
-    <h1 class="header-branding">{{ title }}</h1>
+    {%- set parts = title.split('|') -%}
+    {%- if parts.length > 1 -%}
+      <h1 class="header-branding">{{- parts[0] | trim -}}</h1>
+      {%- set sub = parts[1] | trim -%}
+      {%- if sub -%}
+        <h2 class="header-sub">{{- sub -}}</h2>
+      {%- endif -%}
+    {%- else -%}
+      <h1 class="header-branding">{{- title | trim -}}</h1>
+    {%- endif -%}
   </header>   
   {{ content | safe }}
+{% if notes %}
+  <section class="related-notes">
+    <h2>Related Notes</h2>
+    <ul>
+      {% for slug in notes %}
+        {% set note = collections.notes | findNoteBySlug(slug) %}
+        {% if note %}
+          <li><a href="{{ note.url }}">{{ note.data.title }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+{% else %}
+  {# Optional fallback: link by shared tags #}
+  {% set related = [] %}
+  {% for note in collections.notes %}
+    {% if note.data.tags | intersect(page.tags) | length %}
+      {% set related = related | push(note) %}
+    {% endif %}
+  {% endfor %}
+
+  {% if related.length %}
+    <section class="related-notes">
+      <h2>Notes with similar topics</h2>
+      <ul>
+        {% for note in related %}
+          <li><a href="{{ note.url }}">{{ note.data.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endif %}
+{% endif %}
 </article>
 
 {% set canonical = "https://karthikkadambi.com" ~ page.url %}

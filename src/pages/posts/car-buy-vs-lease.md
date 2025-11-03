@@ -25,7 +25,7 @@ So now you’re faced with one of your first big American decisions:</p>
 
 <p><strong>NOTE: </strong>The core concept of buying and leasing is the same everywhere. But the rules, taxes, popularity, and financial structure vary a lot depending on the country or region. You can still use this guide and correlate how the same concepts apply in your region just with a few practical differences.</p>
 
-<h2 class="header-branding">💰 Option 1: Buying a Car</h2>
+<h3 class="header-branding">💰 Option 1: Buying a Car</h3>
 
 <p>Buying means you’re purchasing the car — either with cash or through a loan. Once the loan is paid off, the car is fully yours.</p>
 
@@ -47,7 +47,7 @@ Bigger upfront cost — down payment, sales tax, registration, etc.
 
 Maintenance after warranty — older cars can bring surprise costs.
 
-<h2 class="header-branding">🚘 Option 2: Leasing a Car</h2>
+<h3 class="header-branding">🚘 Option 2: Leasing a Car</h3>
 
 Leasing means you’re renting a new car long-term, usually for 2–4 years.
 You’re paying for the car’s depreciation, not the full price.
@@ -72,7 +72,7 @@ Fees for damage — scratches, dents, or worn tires can add up.
 
 Credit requirement — newcomers may need a co-signer or higher deposit.
 
-<h2 class="header-branding">🧭 So, Which Makes Sense for New Immigrants?</h2>
+<h3 class="header-branding">🧭 So, Which Makes Sense for New Immigrants?</h3>
 
 | Situation                                              | Better Option                   | Why                                                                |
 | ------------------------------------------------------ | ------------------------------- | ------------------------------------------------------------------ |
@@ -82,7 +82,7 @@ Credit requirement — newcomers may need a co-signer or higher deposit.
 | You drive a lot (15k+ miles/year)                  | Buy                         | Avoid mileage penalties.                                           |
 | You like driving new cars every few years          | Lease                       | Always under warranty with newer features.                         |
 
-<h2 class="header-branding">💡 Example Scenario</h2>
+<h3 class="header-branding">💡 Example Scenario</h3>
 
 Let’s say you’re looking at a car with a price of $30,000.
 
@@ -90,7 +90,7 @@ Let’s say you’re looking at a car with a price of $30,000.
 
 <b>Buying it:</b> around $600/month, but after 3 years, it’s worth about $20,000, which you can sell or trade in.
 
-<h2 class="header-branding">Comparison matrix</h2>
+<h3 class="header-branding">Comparison matrix</h3>
 
 | Concept            | Buying                                                | Leasing                                                          |
 | ------------------ | ----------------------------------------------------- | ---------------------------------------------------------------- |
@@ -103,7 +103,7 @@ Let’s say you’re looking at a car with a price of $30,000.
 | **Maintenance**    | All on you.                                           | Sometimes included in the lease package.                         |
 | **Best For**       | Long-term use, equity building.                       | Short-term use, new cars, lower payments.                        |
 
-<h2 class="header-branding">🛣️ The Bottom Line</h2>
+<h3 class="header-branding">🛣️ The Bottom Line</h3>
 
 For most immigrants, your first car isn’t just transportation — it’s independence.
 Leasing gives flexibility and lower payments; buying builds ownership and financial foundation.

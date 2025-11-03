@@ -70,6 +70,16 @@ export default async function(eleventyConfig) {
   		return encodeURIComponent(text.replace(/,/g, ' -'));
 	});
 
+	  // Custom filter: find note by slug
+  eleventyConfig.addFilter("findNoteBySlug", (notes, slug) => {
+    return notes.find((n) => n.data.slug === slug);
+  });
+
+// Filter: intersection of tags (without lodash)
+  eleventyConfig.addFilter("intersect", (arr1 = [], arr2 = []) => {
+    return arr1.filter((t) => arr2.includes(t));
+  });
+
 	eleventyConfig.addCollection("tagList", function(collectionApi) {
 		const tagsSet = new Set();
 		collectionApi.getAll().forEach(item => {

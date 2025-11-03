@@ -16,7 +16,7 @@ permalink: /sitemap.xml
 
 {# collect unique tags from page frontmatter #}
 {% set _allTags = [] %}
-{% for page in collections.posts %}
+{% for page in collections.all %}
   {% if page.data.tags %}
     {% for tag in page.data.tags %}
       {% if _allTags.indexOf(tag) == -1 %}

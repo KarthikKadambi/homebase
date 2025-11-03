@@ -1,0 +1,24 @@
+---
+layout: 'layouts/base.html'
+---
+<article>
+  <header>
+    {%- set parts = title.split('|') -%}
+    {%- if parts.length > 1 -%}
+      <h1 class="header-branding">{{- parts[0] | trim -}}</h1>
+      {%- set sub = parts[1] | trim -%}
+      {%- if sub -%}
+        <h2 class="header-sub">{{- sub -}}</h2>
+      {%- endif -%}
+    {%- else -%}
+      <h1 class="header-branding">{{- title | trim -}}</h1>
+    {%- endif -%}
+  </header>   
+  {{ content | safe }}
+</article>
+
+{% set canonical = "https://karthikkadambi.com" ~ page.url %}
+{% include 'partials/webmentions/webmentions.njk' %}
+{% if contentScript %}
+  <script src="{{ contentScript }}" defer></script>
+{% endif %}
