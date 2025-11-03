@@ -93,7 +93,7 @@ Let’s say you’re looking at a car with a price of $30,000.
 
 **Buying it:** around $600/month, but after 3 years, it’s worth about $20,000, which you can sell or trade in.
 
-<h3 class="header-branding">Comparison matrix</h3>
+<h3 class="header-branding">⚖️ Comparison matrix</h3>
 
 | Concept            | Buying                                                | Leasing                                                          |
 | ------------------ | ----------------------------------------------------- | ---------------------------------------------------------------- |

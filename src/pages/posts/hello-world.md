@@ -10,11 +10,11 @@ tags:
 
 Every great journey online begins with a simple “Hello.”
 
-I’m Karthik Kadambi, and this post marks the start of my personal website — a place where I’ll share insights, experiments, and reflections across the things I care about most: technology, travel, finance, and life optimization.
+I’m Karthik Kadambi, and this post marks the start of my personal website - a place where I’ll share insights, experiments, and reflections across the things I care about most: technology, travel, finance, and life optimization.
 
-For years, I’ve been working at the intersection of tech, design, and systems thinking — building products, exploring ideas, and learning how technology quietly shapes our daily lives. But beyond the screen, I’ve also been fascinated by how travel expands perspective, how financial literacy empowers freedom, and how small life hacks can make a big difference in how we live and work.
+For years, I’ve been working at the intersection of tech, design, and systems thinking - building products, exploring ideas, and learning how technology quietly shapes our daily lives. But beyond the screen, I’ve also been fascinated by how travel expands perspective, how financial literacy empowers freedom, and how small life hacks can make a big difference in how we live and work.
 
-This site is my attempt to connect all those threads — part digital journal, part idea lab.
+This site is my attempt to connect all those threads - part digital journal, part idea lab.
 
 Expect to find:
 

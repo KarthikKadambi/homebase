@@ -49,7 +49,7 @@ Think of it as:
 
 It includes the negotiated vehicle price (selling price) plus any extra costs you decide to roll into the lease.
 
-<h3 class="header-branding">🧾 Cap cost reductions</h3>
+<h3 class="header-branding">↘️ Cap cost reductions</h3>
 
 Once you subtract any Cap Cost Reductions (down payment, trade-in, or rebates), you get your Adjusted/Net Cap Cost — the number actually used in your lease math.
 
@@ -58,7 +58,7 @@ Net capitalized cost — also called adjusted cap cost — is the final amount y
 
 It’s basically the "loan amount" for a lease.
 
-<h3 class="header-branding">Net cap cost summary</h3>
+<h3 class="header-branding">📋 Net cap cost summary</h3>
 
 | Step | Calculation                                                 | Meaning                                   |
 | ---- | ----------------------------------------------------------- | ----------------------------------------- |
@@ -68,7 +68,7 @@ It’s basically the "loan amount" for a lease.
 
 Lets talk about fees:
 
-<h3 class="header-branding">DMV / License Fees</h3>
+<h3 class="header-branding">1️⃣ DMV / License Fees</h3>
 
 <p>These are government registration fees for your car — not dealer markups. They cover:</p>
 
@@ -88,7 +88,7 @@ When paid:
 
 * But you can choose to roll it into the lease (then you pay interest on it).
 
-<h3 class="header-branding">Total Upfront Fees</h3>
+<h3 class="header-branding">2️⃣ Total Upfront Fees</h3>
 
 All the miscellaneous small charges that are paid at signing (not financed).
 
@@ -102,7 +102,7 @@ Examples:
 
 * Tax on upfront items
 
-<h3 class="header-branding">Capped Fees (Capitalized Fees)</h3>
+<h3 class="header-branding">3️⃣ Capped Fees (Capitalized Fees)</h3>
 
 Fees that you choose to “capitalize” (roll in) — meaning they get added to your gross cap cost and financed over the term.
 
@@ -114,7 +114,7 @@ Common examples:
 
 * Any optional protection add-ons (if rolled in)
 
-<h3 class="header-branding">Fees summary</h3>
+<h3 class="header-branding">💸 Fees summary</h3>
 
 | Fee Type                           | What It Covers                                 | Typical Amount | How It’s Paid         | Impact on Lease                   |
 | ---------------------------------- | ---------------------------------------------- | -------------- | --------------------- | --------------------------------- |
@@ -127,7 +127,7 @@ Disposition Fee – charged when you return the car, typically $300–$500.
 **NOTE:** If you are viewing this article as part of RSS feed reader, then you wouldnt be able to see the calculator below as it may cause issues to feed reader. Visit <a href="https://karthikkadambi.com/posts/car-lease-explained/">here</a> to access the calculator.
 
 <!-- feed-exclude-start -->
-<h3 class="header-branding">Embedded lease calculator</h3>
+<h3 class="header-branding">🔢 Embedded lease calculator</h3>
 
 Understanding your lease quote helps you make smarter financial decisions. Once you break it down, the “mystery math” of leasing becomes simple—just depreciation + finance + fees.
 

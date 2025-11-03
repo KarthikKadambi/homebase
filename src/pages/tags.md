@@ -1,9 +1,9 @@
 ---
 description: Tags of posts from Karthik Kadambi
-title: All Tags
+title: All tags | By Karthik Kadambi
 ---
 <div class="section-inset">
-    <h1 class="header-branding">{{ title }}</h1>
+    <h1 class="header-branding">All tags</h1>
     <p>Collection of all the tags tagged to my notes and posts.</p>
 </div>
 {% if collections.tagList %}
