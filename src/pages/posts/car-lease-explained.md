@@ -124,6 +124,14 @@ Common examples:
 
 Disposition Fee – charged when you return the car, typically $300–$500.
 
+<h3 class="header-branding">🤨 Caveats</h3>
+
+There are 3 ways in which car lease tax is calculated:
+
+* Based on total lease payment -  NY, NJ, MN, OH, or GA - Usually uprfont at signing.
+* Gross Capitalized cost - VA, MD, or TX - Usually upfront at signing.
+* Monthly payment - Most states - Spread over the least.
+
 **NOTE:** If you are viewing this article as part of RSS feed reader, then you wouldnt be able to see the calculator below as it may cause issues to feed reader. Visit <a href="https://karthikkadambi.com/posts/car-lease-explained/">here</a> to access the calculator.
 
 <!-- feed-exclude-start -->
@@ -137,7 +145,7 @@ I have just pre-filled the amount based on the quote of my car purchase. Hit on 
 
 Make sure you get the following info when you are trying to get a leased car and hit on clear and input your own values to calculate your monthly payment and the amount you need to pay to take your dream car to home!!.
 
-Also, find your tax rate, for example for state of California in US you can find it for every county <a href="https://cdtfa.ca.gov/taxes-and-fees/rates.aspx" rel="nofollow noopener noreferrer" target="_blank">here</a>
+Also, find your tax rate, for example for state of California in US you can find it for every county <a href="https://cdtfa.ca.gov/taxes-and-fees/rates.aspx" rel="nofollow noopener noreferrer" target="_blank">here</a>. I am using Monthly tax payment in the below calculator which applies for most states. If you are in states which uses total lease payment or gross cap cost then removing monthly tax will give you the monthly payment.
 
 <div class="section-inset">
     <div class="grid" data-layout="50-50">
