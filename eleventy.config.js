@@ -49,7 +49,7 @@ export default async function(eleventyConfig) {
 	// Eleventy lifecycle note:
 	// Eleventy renders templates (including feed XML templates produced by the feed plugin),
 	// then calls any transforms added via eleventyConfig.addTransform for each rendered output.
-	// The feed plugin does not need to "know" about this transform — Eleventy will run it
+	// The feed plugin does not need to "know" about this transform. Eleventy will run it
 	// on the rendered feed file (outputPath will be something like "feed/feed.xml"),
 	// so we restrict the transform to XML/feed paths below.
 	// Strip feed-exclude blocks from feed outputs (XML). Keeps HTML pages unchanged.

@@ -1,5 +1,5 @@
 ---
-description: Discover board games Karthik Kadambi owns — strategy classics, party favorites, and personal picks.
+description: Discover board games Karthik Kadambi owns, strategy classics, party favorites, and personal picks.
 title: Board games | Karthik Kadambi board games collection
 ---
 

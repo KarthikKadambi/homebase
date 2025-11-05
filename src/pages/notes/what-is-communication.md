@@ -1,6 +1,6 @@
 ---
 date: 2025-11-02T12:00:00-07:00
-description: Learn how communication works—sender, medium, signals, and feedback—and why it’s the starting point for understanding computer networks and the Internet.
+description: Learn how communication works and why it’s the starting point for understanding computer networks and the Internet.
 image: /assets/images/posts/communication.png
 slug: what-is-communication
 title: What Is Communication | The Foundation of Networking
@@ -15,7 +15,7 @@ In human communication, we share information through speech, writing or gestures
 
 In technological communication, devices exchange information through electrical (wires), optical (fiber) or radio (wireless) signals, translating digital data into physical energy that can travel across distance.
 
-<h3 class="header-branding">🧠 Basic communication model</h3>
+<h3 class="header-branding">🧠 Basic Communication Model</h3>
 
 Every communication system has these elements.
 
@@ -31,7 +31,7 @@ Every communication system has these elements.
 
 <p></p>
 
-<h3 class="header-branding">⚡ Types of communication</h3>
+<h3 class="header-branding">⚡ Types of Communication</h3>
 
 | Type            | Description                 | Example                   |
 | --------------- | --------------------------- | ------------------------- |
@@ -41,7 +41,7 @@ Every communication system has these elements.
 
 <p></p>
 
-<h3 class="header-branding"> 🔌 Communication mediums</h3>
+<h3 class="header-branding"> 🔌 Communication Mediums</h3>
 
 | Medium                          | Used in                         | Characteristic                   |
 | ------------------------------- | ------------------------------- | -------------------------------- |
@@ -99,7 +99,7 @@ Asynchronous communication: independent timing, with start/stop markers (serial 
 | **Analog**  | Continuous wave carries info (amplitude, frequency, phase)  | Old telephones, radio, TV |
 | **Digital** | Discrete bits; noise-resistant; easily encrypted and stored | Computers, Internet, VoIP |
 
-The move from analog → digital made networking possible — because digital data can be compressed, corrected, and routed easily.
+The move from analog → digital made networking possible because digital data can be compressed, corrected, and routed easily.
 
 <h3 class="header-branding">📡 Data Communication vs Networking</h3>
 

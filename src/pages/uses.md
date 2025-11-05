@@ -11,7 +11,7 @@ title: What Karthik Kadambi Uses | Tools & Setup
 <section class="uses" aria-label="Uses list">
   <img src="/assets/images/site/desk_setup.png" style="margin: auto;" alt="Karthik desk setup" width="1200" height="900" fetchpriority="high"/>
   <p><b><i><u>Disclaimer:</u></i></b> None of the links on this page are affiliate links. As I am currently on an H1B visa, I do not participate in any affiliate or paid-link programs, and do not receive any compensation for these recommendations. All links are purely for reference.</p>
-  <h2 class="header-branding">Desk setup</h2>
+  <h2 class="header-branding">Desk Setup</h2>
   <ul>
     <li>Sweetcrispy Computer Desk - Office 48 Inch Writing Work Student Study Modern Simple Style Wooden Table with Storage Bag & Iron Hook for Home Bedroom - Rustic Brown <a href="https://a.co/d/huTmnja" target="_blank" rel="nofollow noopener noreferrer">Desk link</a></li>
     <li>Ergonomic Office Chair  <a href="https://a.co/d/7X2FuSY" target="_blank" rel="nofollow noopener noreferrer">Chair link</a></li>
@@ -31,21 +31,21 @@ title: What Karthik Kadambi Uses | Tools & Setup
   </ul>
   <h2 class="header-branding">Software</h2>
   <ul>
-    <li>VsCode - <a href="https://code.visualstudio.com/" target="_blank" rel="nofollow noopener noreferrer">VsCode link</a></li>
-    <li>Comet - <a href="https://www.perplexity.ai/comet" target="_blank" rel="nofollow noopener noreferrer">Comet link</a></li>
-    <li>Chrome - <a href="https://www.google.com/chrome/" target="_blank" rel="nofollow noopener noreferrer">Chrome link</a></li>
-    <li>Polypane - <a href="https://polypane.app/" target="_blank" rel="nofollow noopener noreferrer">Polypane link</a></li>
-    <li>Figma - <a href="https://www.figma.com/" target="_blank" rel="nofollow noopener noreferrer">Figma link</a></li>
-    <li>Freeform - <a href="https://apps.apple.com/us/app/freeform/id6443742539" target="_blank" rel="nofollow noopener noreferrer">Freeform link</a></li>
-    <li>Obsidian - <a href="https://obsidian.md/" target="_blank" rel="nofollow noopener noreferrer">Obsidian link</a></li>
-    <li>Perplexity - <a href="https://www.perplexity.ai/" target="_blank" rel="nofollow noopener noreferrer">Perplexity link</a></li>
-    <li>RunJS -  <a href="https://runjs.app/" target="_blank" rel="nofollow noopener noreferrer">RunJS link</a></li>
-    <li>Streaks - <a href="https://streaksapp.com/" target="_blank" rel="nofollow noopener noreferrer">Streaks link</a></li>
-    <li>SEO Spider - <a href="https://www.screamingfrog.co.uk/seo-spider/" target="_blank" rel="nofollow noopener noreferrer">SEO app link</a></li>
-    <li>Goodnotes - <a href="https://www.goodnotes.com/" target="_blank" rel="nofollow noopener noreferrer">Goodnotes link</a></li>
-    <li>Notability - <a href="https://notability.com/" target="_blank" rel="nofollow noopener noreferrer">Notability link</a></li>
-    <li>Homebrew - <a href="https://brew.sh/" target="_blank" rel="nofollow noopener noreferrer">Homebrew link</a></li>
-    <li>Fnm- <a href="https://github.com/Schniz/fnm" target="_blank" rel="nofollow noopener noreferrer">Fnm link</a></li>
+    <li>VsCode <a href="https://code.visualstudio.com/" target="_blank" rel="nofollow noopener noreferrer">VsCode link</a></li>
+    <li>Comet <a href="https://www.perplexity.ai/comet" target="_blank" rel="nofollow noopener noreferrer">Comet link</a></li>
+    <li>Chrome <a href="https://www.google.com/chrome/" target="_blank" rel="nofollow noopener noreferrer">Chrome link</a></li>
+    <li>Polypane <a href="https://polypane.app/" target="_blank" rel="nofollow noopener noreferrer">Polypane link</a></li>
+    <li>Figma <a href="https://www.figma.com/" target="_blank" rel="nofollow noopener noreferrer">Figma link</a></li>
+    <li>Freeform <a href="https://apps.apple.com/us/app/freeform/id6443742539" target="_blank" rel="nofollow noopener noreferrer">Freeform link</a></li>
+    <li>Obsidian <a href="https://obsidian.md/" target="_blank" rel="nofollow noopener noreferrer">Obsidian link</a></li>
+    <li>Perplexity <a href="https://www.perplexity.ai/" target="_blank" rel="nofollow noopener noreferrer">Perplexity link</a></li>
+    <li>RunJS <a href="https://runjs.app/" target="_blank" rel="nofollow noopener noreferrer">RunJS link</a></li>
+    <li>Streaks <a href="https://streaksapp.com/" target="_blank" rel="nofollow noopener noreferrer">Streaks link</a></li>
+    <li>SEO Spider <a href="https://www.screamingfrog.co.uk/seo-spider/" target="_blank" rel="nofollow noopener noreferrer">SEO app link</a></li>
+    <li>Goodnotes <a href="https://www.goodnotes.com/" target="_blank" rel="nofollow noopener noreferrer">Goodnotes link</a></li>
+    <li>Notability <a href="https://notability.com/" target="_blank" rel="nofollow noopener noreferrer">Notability link</a></li>
+    <li>Homebrew <a href="https://brew.sh/" target="_blank" rel="nofollow noopener noreferrer">Homebrew link</a></li>
+    <li>Fnm <a href="https://github.com/Schniz/fnm" target="_blank" rel="nofollow noopener noreferrer">Fnm link</a></li>
   </ul>
   <h2 class="header-branding">Others</h2>
   <ul>

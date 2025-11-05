@@ -8,7 +8,7 @@ tags:
   - Introduction
 ---
 
-Every great journey online begins with a simple "Hello."
+Every great journey online begins with a simple Hello.
 
 I'm Karthik Kadambi, and this post marks the start of my personal website, a place where I'll share insights, experiments and reflections across the things I care about most: technology, travel, finance and life optimization.
 

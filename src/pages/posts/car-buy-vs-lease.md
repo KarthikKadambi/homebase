@@ -32,21 +32,21 @@ Buying means you're purchasing the car, either with cash or through a loan. Once
 
 ✅ Pros
 
-You own it — keep it, sell it, or trade it later.
+You own it, keep it, sell it, or trade it later.
 
-Unlimited miles — drive as much as you want.
+Unlimited miles, drive as much as you want.
 
-Good for long-term stays — pays off if you plan to stay several years.
+Good for long-term stays, pays off if you plan to stay several years.
 
-Builds U.S. credit — loan payments count toward your credit score.
+Builds U.S. credit, loan payments count toward your credit score.
 
 ❌ Cons
 
-Higher monthly payments — you’re paying the full car price plus interest.
+Higher monthly payments, you’re paying the full car price plus interest.
 
-Bigger upfront cost — down payment, sales tax, registration, etc.
+Bigger upfront cost, down payment, sales tax, registration, etc.
 
-Maintenance after warranty — older cars can bring surprise costs.
+Maintenance after warranty, older cars can bring surprise costs.
 
 <h3 class="header-branding">🚘 Option 2: Leasing a Car</h3>
 
@@ -73,12 +73,12 @@ Fees for damage — scratches, dents, or worn tires can add up.
 
 Credit requirement — newcomers may need a co-signer or higher deposit.
 
-<h3 class="header-branding">🧭 So, Which Makes Sense for New Immigrants?</h3>
+<h3 class="header-branding">🧭 Which Makes Sense for New Immigrants?</h3>
 
 | Situation                                              | Better Option                   | Why                                                                |
 | ------------------------------------------------------ | ------------------------------- | ------------------------------------------------------------------ |
 | You just arrived and have little or no U.S. credit | Lease (if approved) or buy used | Leasing may need a co-signer, but used cars are easier to finance. |
-| You’re not sure how long you’ll stay               | Lease                       | Return it when you leave — no resale stress.                       |
+| You’re not sure how long you’ll stay               | Lease                       | Return it when you leave, no resale stress.                       |
 | You plan to settle long-term (4+ years)            | Buy                         | Build equity and credit history.                                   |
 | You drive a lot (15k+ miles/year)                  | Buy                         | Avoid mileage penalties.                                           |
 | You like driving new cars every few years          | Lease                       | Always under warranty with newer features.                         |
@@ -93,16 +93,16 @@ Let's say you're looking at a car with a price of $30,000.
 
 **Buying it:** around $600/month, but after 3 years, it's worth about $20,000 which you can sell or trade in.
 
-<h3 class="header-branding">⚖️ Comparison matrix</h3>
+<h3 class="header-branding">⚖️ Comparison Matrix</h3>
 
 | Concept            | Buying                                                | Leasing                                                          |
 | ------------------ | ----------------------------------------------------- | ---------------------------------------------------------------- |
-| **Ownership**      | You own the car once you finish paying off your loan. | You never own the car — you’re paying to use it for a set time.  |
+| **Ownership**      | You own the car once you finish paying off your loan. | You never own the car, you’re paying to use it for a set time.  |
 | **Payments Cover** | Full cost of the car + interest.                      | Only depreciation + interest + fees.                             |
 | **Upfront Cost**   | Often higher (down payment, taxes).                   | Usually lower (first month, registration, small cap reduction).  |
 | **End of Term**    | You keep or sell the car.                             | You return it or buy it at a preset price (residual value).      |
 | **Mileage Limits** | Unlimited.                                            | Limited (usually 10k–15k miles per year). Extra miles cost more. |
-| **Customization**  | Free to modify.                                       | Usually not allowed — must return in near-original condition.    |
+| **Customization**  | Free to modify.                                       | Usually not allowed, must return in near-original condition.    |
 | **Maintenance**    | All on you.                                           | Sometimes included in the lease package.                         |
 | **Best For**       | Long-term use, equity building.                       | Short-term use, new cars, lower payments.                        |
 

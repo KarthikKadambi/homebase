@@ -6,18 +6,18 @@ title: About Karthik Kadambi | My Story & Journey
 <section class="section-inset" aria-label="Hero section about Karthik Kadambi">
   <div class="flow">
     <h1 class="header-branding">About Karthik Kadambi</h1>
-    <p>I'm a software craftsman with 13+ years of experience building web experiences that are fast, accessible, and beautiful.</p>
+    <p>I'm a software craftsman with 13+ years of experience building web experiences that are fast, accessible and beautiful.</p>
   </div>
 </section>
 <section class="flow" aria-label="About Karthik Kadambi">
   <section aria-label="Who is karthik kadambi">
     <h2 class="header-branding">Who is Karthik Kadambi</h2>
 
-    **Karthik Kadambi** is a seasoned **Full Stack Web Developer** with over **13 years of industry experience**, blending frontend finesse with backend depth to craft fast, accessible, and scalable web experiences.
-    
-    Originally from Bengaluru, Karnataka, India, and now residing in Fremont, California, USA, Karthik is a champion of **clean architecture, performance, and accessibility**. His philosophy is to "build with empathy", respecting the user's time, devices, and bandwidth as non-negotiables in modern development.
+    **Karthik Kadambi** is a seasoned **Full Stack Web Developer** with over **13 years of industry experience**, combining frontend expertise with backend proficiency to craft fast, accessible and scalable web experiences.
 
-    From contributing to early-stage startup applications to architecting large-scale enterprise systems, he combines a sharp technical mind with a deep care for **user experience and maintainability**. Karthik is also a dedicated **design system enthusiast and an aspiring AI engineer**.
+    Originally from Bengaluru, Karnataka, India and now residing in Fremont, California, USA, Karthik is a champion of **clean architecture, performance and accessibility**. His philosophy is to <strong>build with empathy</strong>, respecting users' time, devices and bandwidth as essential elements in modern development.
+
+    From contributing to early-stage startup applications to architecting large-scale enterprise systems, he combines technical expertise with a deep focus on **user experience and maintainability**. Karthik is also a dedicated **Design System Enthusiast and an Aspiring AI Engineer**.
   </section>
   <section aria-label="Journey">
     <h2 class="header-branding">My Journey</h2>
@@ -28,7 +28,7 @@ title: About Karthik Kadambi | My Story & Journey
     </section>
     <section aria-label="Professional">
       <h3>Professional</h3>
-      <p>After completing my degree in <strong>Computer Science and Engineering in 2011</strong>, I began my professional journey in the tech industry. Over the years, I have worked with a range of organizations, each contributing to my growth as an IT professional.</p>
+      <p>After completing my degree in <strong>Computer Science and Engineering in 2011</strong>, I began my professional journey in the tech industry. Over the years, I have worked with various organizations, each contributing to my growth as an IT professional.</p>
       <ul>
         <li><b>Kepran Infosoft Pvt Ltd. (Permanent Role):</b> I began my career at Kepran, a startup where I was responsible for designing and developing websites for a variety of clients. This experience helped me build a strong foundation in full-stack web development, client collaboration, and agile delivery.</li>
         <li><b>Qsource (Contractor at Accenture):</b> Through Qsource, I was deployed to Accenture, where I worked on:
@@ -62,7 +62,7 @@ title: About Karthik Kadambi | My Story & Journey
   </section>
   <section aria-label="Skills">
     <h2 class="header-branding">What I Do</h2>
-    <p>I specialize in building scalable, secure, and high-performance web applications with a strong focus on <strong>cloud architecture</strong> and <strong>AI integration</strong>.</p>
+    <p>I specialize in building scalable, secure and high-performance web applications with a strong focus on <strong>cloud architecture</strong> and <strong>AI integration</strong>.</p>
     <ul>
       <li><b>Frontend Development:</b> Building dynamic, maintainable interfaces using React, Next.js, and 11ty, combined with advanced styling techniques like CUBE methodology, Sass, and CSS-in-JS for modular, scalable CSS architecture.</li>
       <li><b>Backend Development & APIs:</b> Designing and developing RESTful APIs and serverless backend solutions with Node.js, integrating third-party services, and building scalable serverless pipelines for efficient business logic execution.</li>

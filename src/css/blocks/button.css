@@ -17,7 +17,7 @@
   overflow: hidden;
 }
 
-/* invisible overlay — boosts measured contrast in Lighthouse */
+/* invisible overlay, boosts measured contrast in Lighthouse */
 .button::after {
   content: "";
   position: absolute;

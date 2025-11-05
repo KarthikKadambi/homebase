@@ -3,7 +3,7 @@ contentScript: /assets/js/posts/car-lease-explained.js
 date: 2025-10-26T16:49:00-07:00
 description: A clear, practical guide to understanding car lease quotes, with formulas for all costs involved and an embedded calculator to play your own numbers.
 image: /assets/images/posts/leasing.png
-title: Car Leasing Explained | Understand and Calculate your quote
+title: Car Leasing Explained | Understand and Calculate your Quote
 tags:
   - posts
   - Finance
@@ -25,18 +25,18 @@ At the end of the lease, you return the car, unless you choose to buy it out at 
 Leasing a car often feels confusing, especially when you see a quote full of terms like money factor, residual value, and cap cost. But once you understand what each number means, you can tell if you're getting a good deal or overpaying for your lease.
 
 <h3 class="header-branding">🚗 MSRP: The Lease Starting Point</h3>
-MSRP is the sticker price — the manufacturer's suggested price for the car before any negotiation, dealer discounts, or incentives.
+MSRP is the sticker price, the manufacturer's suggested price for the car before any negotiation, dealer discounts, or incentives.
 
 It's mainly used for two key purposes in a lease:
 
 | Role                               | Description                                                                                                                                                                                             |
 | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1️⃣ Residual Value Calculation** | The **residual value** (what the car will be worth at lease end) is *always a percentage of MSRP* — not the negotiated price. <br>→ Example: If residual = 63% and MSRP = $32,665 → Residual = $20,579. |
+| **1️⃣ Residual Value Calculation** | The **residual value** (what the car will be worth at lease end) is *always a percentage of MSRP* not the negotiated price. <br>→ Example: If residual = 63% and MSRP = $32,665 → Residual = $20,579. |
 | **2️⃣ Benchmark for Negotiation**  | Dealers start from MSRP but you negotiate down to the **selling price** (also called “agreed-upon value”). That lower number becomes the **basis for your cap cost**, which determines your payment.    |
 
 <p></p>
 
-<h3 class="header-branding">💰 Selling Price (also called Agreed-Upon Value)</h3>
+<h3 class="header-branding">💰 Selling Price</h3>
 
 The selling price in a car lease is the negotiated price of the car, just like when you buy one outright.
 It's what you and the dealer agree the car is worth before any taxes, fees or reductions are applied.
@@ -48,16 +48,16 @@ Think of it as "Everything you're choosing to finance through the lease."
 
 It includes the negotiated vehicle price (selling price) plus any extra costs you decide to roll into the lease.
 
-<h3 class="header-branding">↘️ Cap cost reductions</h3>
+<h3 class="header-branding">↘️ Cap Cost Reductions</h3>
 
-Once you subtract any Cap Cost Reductions (down payment, trade-in, or rebates), you get your Adjusted/Net Cap Cost — the number actually used in your lease math.
+Once you subtract any Cap Cost Reductions (down payment, trade-in, or rebates), you get your Adjusted/Net Cap Cost, the number actually used in your lease math.
 
-<h3 class="header-branding">🧾 Net (or Adjusted) Capitalized Cost</h3>
+<h3 class="header-branding">🧾 Net Capitalized Cost</h3>
 Net capitalized cost, also called adjusted cap cost, is the final amount you're financing in your lease after all additions and reductions.
 
 It's basically the loan amount for a lease.
 
-<h3 class="header-branding">📋 Net cap cost summary</h3>
+<h3 class="header-branding">📋 Net Capitalized Cost Summary</h3>
 
 | Step | Calculation                                                 | Meaning                                   |
 | ---- | ----------------------------------------------------------- | ----------------------------------------- |
@@ -69,7 +69,7 @@ Lets talk about fees:
 
 <h3 class="header-branding">1️⃣ DMV / License Fees</h3>
 
-<p>These are government registration fees for your car — not dealer markups. They cover:</p>
+<p>These are government registration fees for your car and not dealer markups. They cover:</p>
 
 * Vehicle registration
 
@@ -103,7 +103,7 @@ Examples:
 
 <h3 class="header-branding">3️⃣ Capped Fees (Capitalized Fees)</h3>
 
-Fees that you choose to “capitalize” (roll in) — meaning they get added to your gross cap cost and financed over the term.
+Fees that you choose to “capitalize” (roll in), meaning they get added to your gross cap cost and financed over the term.
 
 Common examples:
 
@@ -113,7 +113,7 @@ Common examples:
 
 * Any optional protection add-ons (if rolled in)
 
-<h3 class="header-branding">💸 Fees summary</h3>
+<h3 class="header-branding">💸 Fees Summary</h3>
 
 | Fee Type                           | What It Covers                                 | Typical Amount | How It’s Paid         | Impact on Lease                   |
 | ---------------------------------- | ---------------------------------------------- | -------------- | --------------------- | --------------------------------- |
@@ -134,9 +134,9 @@ There are 3 ways in which car lease tax is calculated:
 **NOTE:** If you are viewing this article as part of RSS feed reader, then you wouldnt be able to see the calculator below as it may cause issues to feed reader. Visit <a href="https://karthikkadambi.com/posts/car-lease-explained/">here</a> to access the calculator.
 
 <!-- feed-exclude-start -->
-<h3 class="header-branding">🔢 Embedded lease calculator</h3>
+<h3 class="header-branding">🔢 Embedded Lease Calculator</h3>
 
-Understanding your lease quote helps you make smarter financial decisions. Once you break it down, the “mystery math” of leasing becomes simple—just depreciation + finance + fees.
+Understanding your lease quote helps you make smarter financial decisions. Once you break it down, the “mystery math” of leasing becomes simple, just depreciation + finance + fees.
 
 Use the calculator below to plug in your own numbers and see exactly how your monthly payment is determined.
 
