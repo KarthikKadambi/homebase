@@ -11,9 +11,9 @@ tags:
 
 Communication is the process of transferring information from one point to another.
 
-In human communication, we share information through speech, writing, or gestures — all using sound waves, text, or body language as our medium.
+In human communication, we share information through speech, writing or gestures, all using sound waves, text or body language as our medium.
 
-In technological communication, devices exchange information through electrical (wires), optical (fiber), or radio (wireless) signals — translating digital data into physical energy that can travel across distance.
+In technological communication, devices exchange information through electrical (wires), optical (fiber) or radio (wireless) signals, translating digital data into physical energy that can travel across distance.
 
 <h3 class="header-branding">🧠 Basic communication model</h3>
 
@@ -33,11 +33,11 @@ Every communication system has these elements.
 
 <h3 class="header-branding">⚡ Types of communication</h3>
 
-| Type            | Description                | Example                   |
-| --------------- | -------------------------- | ------------------------- |
-| **Simplex**     | One-way only               | Monitor displaying output |
-| **Half-duplex** | Two-way, but one at a time | Walkie-talkie             |
-| **Full-duplex** | Two-way simultaneously     | Phone call, Internet data |
+| Type            | Description                 | Example                   |
+| --------------- | --------------------------- | ------------------------- |
+| **Simplex**     | One way only               | Monitor displaying output |
+| **Half-duplex** | Two way, but one at a time | Walkie-talkie            |
+| **Full-duplex** | Two way simultaneously     | Phone call, Internet data |
 
 <p></p>
 
@@ -59,16 +59,16 @@ Every communication system has these elements.
 | **Digital signal** | Discrete 0s and 1s (on/off)       | Computer data |
 
 When a computer sends data:
-* It encodes bits (1s and 0s) into voltage, light, or radio waves.
-* The receiver decodes those signals back into bits.
+* It encodes bits (1s and 0s) into voltage, light or radio waves
+* The receiver decodes those signals back into bits
 
 <h3 class="header-branding">🔁 Encoding & Modulation</h3>
 
 You can think of this as:
 
-* Turning 0s and 1s into something that can physically travel.
-* Encoding → transforms data into signals (e.g., Manchester, NRZ).
-* Modulation → changes a carrier wave to represent data (AM, FM, QAM).
+* Turning 0s and 1s into something that can physically travel
+* Encoding transforms data into signals (e.g., Manchester, NRZ)
+* Modulation changes a carrier wave to represent data (AM, FM, QAM)
 
 So when your phone sends data over Wi-Fi or 5G, it’s actually modulating radio waves with bits of information.
 
@@ -112,5 +112,5 @@ So, data communication is one-to-one; networking is many-to-many.
 
 <blockquote>
     Networking is just structured, large-scale communication.<br/>
-    Communication is the physics; networking is the organization.
+    Communication is the physics. Networking is the organization.
 </blockquote>

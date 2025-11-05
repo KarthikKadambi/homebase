@@ -10,24 +10,24 @@ tags:
   - Cars
 ---
 
-So you have decided to lease your car in U.S and have an establised credit score. Let's explore in detail on what is car lease, understand its core concepts and how to get a best deal.
+So you have decided to lease your car in U.S. and have an established credit score. Let's explore in detail what a car lease is, understand its core concepts and learn how to get the best deal.
 
-If you want to learn more on what is the difference between buying vs leasing, then please check this article: <a href="/posts/car-buy-vs-lease/">Buy vs Lease</a>
+If you want to learn more about the difference between buying and leasing, please check this article: <a href="/posts/car-buy-vs-lease/">Buy vs Lease</a>
 
-**NOTE:** The core concept of leasing is the same everywhere. But the rules, taxes, popularity, and financial structure vary a lot depending on the country or region. You can still use this guide and correlate how the same concepts apply in your region just with a few practical differences.
+**NOTE:** The core concept of leasing is the same everywhere. But the rules, taxes, popularity and financial structure vary a lot depending on the country or region. You can still use this guide and correlate how the same concepts apply in your region with a few practical differences.
 
 <h3 class="header-branding">🚘 What Is a Car Lease?</h3>
-A car lease is essentially a long-term rental agreement usually 2 to 4 years where you pay to use a car rather than own it.
-You’re paying for the car’s depreciation (the value it loses while you drive it) plus finance charges and fees.
+A car lease is essentially a long-term rental agreement, usually 2 to 4 years, where you pay to use a car rather than own it.
+You're paying for the car's depreciation (the value it loses while you drive it), plus finance charges and fees.
 
 At the end of the lease, you return the car, unless you choose to buy it out at its residual value.
 
-Leasing a car often feels confusing, especially when you see a quote full of terms like money factor, residual value, and cap cost. But once you understand what each number means, you can tell if you’re getting a good deal or overpaying for your lease.
+Leasing a car often feels confusing, especially when you see a quote full of terms like money factor, residual value, and cap cost. But once you understand what each number means, you can tell if you're getting a good deal or overpaying for your lease.
 
 <h3 class="header-branding">🚗 MSRP: The Lease Starting Point</h3>
-MSRP is the sticker price — the manufacturer’s suggested price for the car before any negotiation, dealer discounts, or incentives.
+MSRP is the sticker price — the manufacturer's suggested price for the car before any negotiation, dealer discounts, or incentives.
 
-It’s mainly used for two key purposes in a lease:
+It's mainly used for two key purposes in a lease:
 
 | Role                               | Description                                                                                                                                                                                             |
 | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -36,16 +36,15 @@ It’s mainly used for two key purposes in a lease:
 
 <p></p>
 
-<h3 class="header-branding">💰 Selling Price (a.k.a. Agreed-Upon Value)</h3>
+<h3 class="header-branding">💰 Selling Price (also called Agreed-Upon Value)</h3>
 
-The selling price in a car lease is the negotiated price of the car — just like when you buy one outright.
-It’s what you and the dealer agree the car is worth before any taxes, fees, or reductions are applied.
+The selling price in a car lease is the negotiated price of the car, just like when you buy one outright.
+It's what you and the dealer agree the car is worth before any taxes, fees or reductions are applied.
 
 <h3 class="header-branding">💵 Gross Capitalized Cost</h3>
-The Gross Capitalized Cost is the starting total amount the lease company uses before subtractting any down payment or credits.
+The Gross Capitalized Cost is the starting total amount the lease company uses before subtracting any down payment or credits.
 
-Think of it as:
-“Everything you’re choosing to finance through the lease.”
+Think of it as "Everything you're choosing to finance through the lease."
 
 It includes the negotiated vehicle price (selling price) plus any extra costs you decide to roll into the lease.
 
@@ -54,16 +53,16 @@ It includes the negotiated vehicle price (selling price) plus any extra costs yo
 Once you subtract any Cap Cost Reductions (down payment, trade-in, or rebates), you get your Adjusted/Net Cap Cost — the number actually used in your lease math.
 
 <h3 class="header-branding">🧾 Net (or Adjusted) Capitalized Cost</h3>
-Net capitalized cost — also called adjusted cap cost — is the final amount you’re financing in your lease after all additions and reductions.
+Net capitalized cost, also called adjusted cap cost, is the final amount you're financing in your lease after all additions and reductions.
 
-It’s basically the "loan amount" for a lease.
+It's basically the loan amount for a lease.
 
 <h3 class="header-branding">📋 Net cap cost summary</h3>
 
 | Step | Calculation                                                 | Meaning                                   |
 | ---- | ----------------------------------------------------------- | ----------------------------------------- |
 | 1️⃣  | **MSRP – Dealer Discount = Selling Price**                  | You negotiate this part.                  |
-| 2️⃣  | **Selling Price + Rolled-In Fees/Add-Ons = Gross Cap Cost** | This is what you’re choosing to finance.  |
+| 2️⃣  | **Selling Price + Rolled-In Fees/Add-Ons = Gross Cap Cost** | This is what you're choosing to finance.  |
 | 3️⃣  | **Gross Cap Cost – Cap Cost Reduction = Net Cap Cost**      | Final amount used for lease calculations. |
 
 Lets talk about fees:

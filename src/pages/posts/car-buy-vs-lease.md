@@ -9,26 +9,26 @@ tags:
   - Cars
 ---
 
-Maybe you come from a country where leasing doesn’t exist — you either buy a car or use public transport.
+Maybe you come from a country where leasing doesn't exist. You either buy a car or use public transport.
 But in the U.S., leasing is a huge part of how people drive new cars without buying them outright.
 
-You’ve arrived in the U.S., settled into your new apartment, started your job, and are learning how everything works.
+You've arrived in the U.S., settled into your new apartment, started your job and are learning how everything works.
 Then it hits you: getting anywhere without a car is really hard.
 
-Public transport isn’t always reliable, Uber gets expensive, and even grocery runs can be a hassle.
-So now you’re faced with one of your first big American decisions:
+Public transport isn't always reliable, Uber gets expensive and even grocery runs can be a hassle.
+So now you're faced with one of your first big American decisions:
 
 <blockquote>Do you buy or lease your first car?</blockquote>
 
-Already decided that you want to lease, check this out: <a href="/posts/car-lease-explained/">Leasing explained</a>
+Already decided that you want to lease? Check this out: <a href="/posts/car-lease-explained/">Leasing explained</a>
 
-Let’s walk through what both mean — and what’s smarter when you’re just getting started in the U.S.
+Let's walk through what both mean and what's smarter when you're just getting started in the U.S.
 
-**NOTE:** The core concept of buying and leasing is the same everywhere. But the rules, taxes, popularity, and financial structure vary a lot depending on the country or region. You can still use this guide and correlate how the same concepts apply in your region just with a few practical differences.
+**NOTE:** The core concept of buying and leasing is the same everywhere. But the rules, taxes, popularity and financial structure vary a lot depending on the country or region. You can still use this guide and correlate how the same concepts apply in your region just with a few practical differences.
 
 <h3 class="header-branding">💰 Option 1: Buying a Car</h3>
 
-Buying means you’re purchasing the car — either with cash or through a loan. Once the loan is paid off, the car is fully yours.
+Buying means you're purchasing the car, either with cash or through a loan. Once the loan is paid off, the car is fully yours.
 
 ✅ Pros
 
@@ -50,8 +50,8 @@ Maintenance after warranty — older cars can bring surprise costs.
 
 <h3 class="header-branding">🚘 Option 2: Leasing a Car</h3>
 
-Leasing means you’re renting a new car long-term, usually for 2–4 years.
-You’re paying for the car’s depreciation, not the full price.
+Leasing means you're renting a new car long-term, usually for 2 to 4 years.
+You're paying for the car's depreciation, not the full price.
 
 ✅ Pros
 
@@ -87,11 +87,11 @@ Credit requirement — newcomers may need a co-signer or higher deposit.
 
 <h3 class="header-branding">💡 Example Scenario</h3>
 
-Let’s say you’re looking at a car with a price of $30,000.
+Let's say you're looking at a car with a price of $30,000.
 
 **Leasing it for 3 years:** about $450/month, and you simply return it when done.
 
-**Buying it:** around $600/month, but after 3 years, it’s worth about $20,000, which you can sell or trade in.
+**Buying it:** around $600/month, but after 3 years, it's worth about $20,000 which you can sell or trade in.
 
 <h3 class="header-branding">⚖️ Comparison matrix</h3>
 
@@ -110,7 +110,7 @@ Let’s say you’re looking at a car with a price of $30,000.
 
 <h3 class="header-branding">🛣️ The Bottom Line</h3>
 
-For most immigrants, your first car isn’t just transportation — it’s independence.
-Leasing gives flexibility and lower payments; buying builds ownership and financial foundation.
+For most immigrants, your first car isn't just transportation, it's independence.
+Leasing gives flexibility and lower payments. Buying builds ownership and financial foundation.
 
 Once your credit and plans are stable, go ahead and buy your dream ride.
