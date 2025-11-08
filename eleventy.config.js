@@ -70,7 +70,13 @@ export default async function(eleventyConfig) {
 		if (!text || typeof text !== 'string') {
 			return '';
 		}
-  		return encodeURIComponent(text.replace(/,/g, ' -'));
+		const processed = text.replace(/,/g, ' -').replace(/\||%7C/gi, '');
+		if (processed.length > 52) {
+			const chunks = processed.match(/.{1,52}/g) || [];
+			const trimmedChunks = chunks.map(chunk => chunk.trim());
+			return encodeURIComponent(trimmedChunks.join('%0A'));
+		}
+		return encodeURIComponent(processed);
 	});
 
 	// Custom filter: find note by slug
