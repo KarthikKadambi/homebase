@@ -1,5 +1,8 @@
 <section class="blog-teaser" aria-label="{{ ariaLabel | default(heading | default('Featured blog posts')) }}">
-  <h2 class="blog-teaser__heading">{{ heading | default('Featured Posts') }}</h2>
+  {# Set heading level, default to h2 #}
+  {%- set headingLevel = headingLevel | default('h2') -%}
+  {{ ("<" + headingLevel + ' class="blog-teaser__heading">' + (heading | default('Featured Posts')) + "</" + headingLevel + ">") | safe }}
+
   {%- if subheading -%}
     <p class="blog-teaser__subheading">{{ subheading }}</p>
   {%- endif -%}
@@ -12,13 +15,18 @@
     <article class="flow | blog-teaser__article">
         {%- set titleText = post.data.title | default('') -%}
         {%- set parts = titleText.split('|') -%}
-        <h3 class="blog-teaser__article-heading"><a href="{{ post.url }}">
-          {%- if parts.length > 0 and parts[0] -%}
-            {{- parts[0] | trim -}}
-          {%- else -%}
-            {{- titleText | trim -}}
-          {%- endif -%}
-        </a></h3>
+        {%- set articleHeadingLevel = articleHeadingLevel | default('h3') -%}
+        {# Nunjucks does not support ternary, so use if/else #}
+        {%- if parts.length > 0 and parts[0] -%}
+          {%- set articleHeadingText = parts[0] | trim -%}
+        {%- else -%}
+          {%- set articleHeadingText = titleText | trim -%}
+        {%- endif -%}
+        {{ (
+          "<" + articleHeadingLevel + ' class="blog-teaser__article-heading"><a href="' + post.url + '">'
+          + articleHeadingText
+          + "</a></" + articleHeadingLevel + ">"
+        ) | safe }}
         {%- set teaser = post.templateContent | striptags | truncate(125, false, '...') -%}
         <p>{{- teaser -}}</p>
     </article>{%- endfor %}

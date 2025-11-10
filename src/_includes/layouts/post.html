@@ -16,7 +16,7 @@ layout: 'layouts/base.html'
   {{ content | safe }}
   {% if notes %}
     <section class="related-notes">
-      <h2>Related Notes</h2>
+      <h3>Related Notes</h3>
       <ul>
         {% for slug in notes %}
           {% set note = collections.notes | findNoteBySlug(slug) %}
@@ -37,7 +37,7 @@ layout: 'layouts/base.html'
 
     {% if related.length %}
       <section class="related-notes">
-        <h2>Notes with similar topics</h2>
+        <h3>Notes with similar topics</h3>
         <ul>
           {% for note in related %}
             <li><a href="{{ note.url }}">{{ note.data.title }}</a></li>
