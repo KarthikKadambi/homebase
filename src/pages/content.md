@@ -1,6 +1,6 @@
 ---
 description: Explore articles on web development, AI, finance and travel by Karthik Kadambi.
-title: Articles, Notes & Talks | By Karthik Kadambi
+title: Articles and talks | By Karthik Kadambi
 ---
 
 <section class="section-inset" aria-label="Hero section for content">

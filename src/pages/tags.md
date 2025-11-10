@@ -1,6 +1,6 @@
 ---
 description: Tags of posts from Karthik Kadambi
-title: All Tags & Topics | By Karthik Kadambi
+title: All tags and topics | By Karthik Kadambi
 ---
 <div class="section-inset">
     <h1 class="header-branding">All tags</h1>
