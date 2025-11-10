@@ -8,7 +8,7 @@ export default {
           "@id": `${data.metadata.url}/#website`,
           name: data.title,
           description: data.description,
-          url: data.metadata.url,
+          url: `${data.metadata.url}/`,
           publisher: {
             "@type": "Person",
             "@id": `${data.metadata.url}/#person_karthik_kadambi`
