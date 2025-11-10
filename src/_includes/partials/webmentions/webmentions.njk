@@ -2,20 +2,22 @@
 <section class="webmentions" aria-label="Webmentions">
   <h2 class="header-branding">Webmentions</h2>
   <p>If you liked this article and think others should read it, please share it.</p>
-  <ul>
-    {% for mention in webmentions %}
-      {% if mention['wm-target'] == canonical %}
-        <li>
-          {% if mention['wm-property'] == 'like-of' %}
-            👍 <a href="{{ mention.url }}" rel="nofollow noopener noreferrer" target="_blank">{{ mention.author.name or mention.url }}</a> liked this.
-          {% elif mention['wm-property'] == 'repost-of' %}
-            🔁 <a href="{{ mention.url }}" rel="nofollow noopener noreferrer" target="_blank">{{ mention.author.name or mention.url }}</a> reposted this.
-          {% elif mention.content and mention.content.text %}
-            💬 <strong>{{ mention.author.name or mention.url }}</strong>: {{ mention.content.text | safe }}
-          {% endif %}
-        </li>
+  {% set likeCount = 0 %}
+  {% set repostCount = 0 %}
+  {% set commentCount = 0 %}
+  {% for mention in webmentions %}
+    {% if mention['wm-target'] == canonical %}
+      {% if mention['wm-property'] == 'like-of' %}
+        {% set likeCount = likeCount + 1 %}
+      {% elif mention['wm-property'] == 'repost-of' %}
+        {% set repostCount = repostCount + 1 %}
+      {% elif mention.content and mention.content.text %}
+        {% set commentCount = commentCount + 1 %}
       {% endif %}
-    {% endfor %}
-  </ul>
+    {% endif %}
+  {% endfor %}
+  <div>
+    👍 {{ likeCount }} 🔁 {{ repostCount }} 💬 {{ commentCount }}
+  </div>
 </section>
 {% endif %}
