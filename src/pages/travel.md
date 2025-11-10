@@ -7,6 +7,7 @@ title: My Travel map | Places I've explored worldwide
     <h1 class="header-branding">🌍 My Travel map</h1>
     <p>The world is a book and those who do not travel read only one page.</p>
 </section>
+<h2 class="header-branding">Explore my journeys</h2>
 <a href="#after-map" class="skip-map">Skip interactive map</a>
 <div id="map" 
      style="height: 600px; border-radius: 8px;"
