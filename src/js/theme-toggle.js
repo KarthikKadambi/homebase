@@ -55,7 +55,7 @@ function init() {
         updateColorScheme(newScheme);
     });
 
-    // Home page buttons - connect and view resume
+    // Connect and view resume buttons
     const connectButton = document.querySelector('#connect-button');
     connectButton && connectButton.addEventListener('click', () => {
         location.href = 'mailto:ramens.regress_8l@icloud.com?subject-=Let\'s%20Connect';
