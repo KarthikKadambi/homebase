@@ -55,9 +55,9 @@ title: About Karthik Kadambi | My Story & Journey
     <p>
       Full-stack developer bridging cultures from <em>Bengaluru</em> to <em>Bay Area</em>.
     </p>
-    <div class="grid">
-      <img src="/assets/images/site/Karnataka.svg" alt="Karnataka state flag" loading="lazy">
-      <img src="/assets/images/site/California.svg" alt="California state flag" loading="lazy">
+    <div class="grid" data-layout="50-50">
+      <img src="/assets/images/site/Karnataka.svg" alt="Karnataka state flag" loading="lazy" width="450" height="300">
+      <img src="/assets/images/site/California.svg" alt="California state flag" loading="lazy" width="450" height="300">
     </div>
   </section>
   <section aria-label="Skills">
