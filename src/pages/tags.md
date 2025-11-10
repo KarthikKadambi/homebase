@@ -1,5 +1,5 @@
 ---
-description: Tags of posts from Karthik Kadambi
+description: A complete list of all tags and topics used in posts by Karthik Kadambi. Browse and explore articles grouped by their respective tags and subjects.
 title: All tags and topics | By Karthik Kadambi
 ---
 <div class="section-inset">

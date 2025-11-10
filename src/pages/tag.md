@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  description: "Explore posts related to {{ tag | slug }} by Karthik Kadambi."
+  description: "Browse all posts tagged with {{ tag | slug }} by Karthik Kadambi. Discover articles and insights related to this topic."
   title: "{{ tag | slug }} Posts | By Karthik Kadambi"
 eleventyExcludeFromCollections: true
 pagination:
