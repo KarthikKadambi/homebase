@@ -1,6 +1,6 @@
 {% if webmentions and webmentions | length > 0 %}
 <section class="webmentions" aria-label="Webmentions">
-  <h2 class="header-branding">Webmentions</h2>
+  <h3 class="header-branding">Webmentions</h3>
   <p>If you liked this article and think others should read it, please share it.</p>
   {% set likeCount = 0 %}
   {% set repostCount = 0 %}
@@ -16,8 +16,8 @@
       {% endif %}
     {% endif %}
   {% endfor %}
-  <div>
+  <p class="webmentions__summary" style="font-size: 1.5rem;">
     👍 {{ likeCount }} 🔁 {{ repostCount }} 💬 {{ commentCount }}
-  </div>
+  </p>
 </section>
 {% endif %}
