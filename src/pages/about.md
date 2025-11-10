@@ -20,14 +20,14 @@ title: About Karthik Kadambi | My Story & Journey
     From contributing to early-stage startup applications to architecting large-scale enterprise systems, he combines technical expertise with a deep focus on **user experience and maintainability**. Karthik is also a dedicated **Design System Enthusiast and an Aspiring AI Engineer**.
   </section>
   <section aria-label="Journey">
-    <h2 class="header-branding">My Journey</h2>
+    <h3 class="header-branding">My Journey</h3>
     <section aria-label="Early childhood and education">
-      <h3>Early childhood and education</h3>
+      <h4>Early childhood and education</h4>
       <p>Born in 1990, I began my academic journey at <strong>Saraswathi Vidya Nikethan</strong>, where I completed my early schooling. I continued at <strong>Sri Vani Education Centre</strong> until March 2005, which provided a strong academic foundation and encouraged holistic development. During my time there, I was also an active member of the <strong>National Cadet Corps (NCC) Air wing</strong>, which helped instill discipline, leadership, and a sense of civic responsibility.</p>
       <p>I then pursued my pre-university education at <strong>KLE'S Nijalingappa College</strong>, focusing on science, and completed it in May 2007. From 2007 to 2011, I attended <strong>SJBIT (S.J.B. Institute of Technology)</strong>, where I earned a degree in <strong>Computer Science and Engineering</strong>, laying the groundwork for my career in the tech industry.</p>
     </section>
     <section aria-label="Professional">
-      <h3>Professional</h3>
+      <h4>Professional</h4>
       <p>After completing my degree in <strong>Computer Science and Engineering in 2011</strong>, I began my professional journey in the tech industry. Over the years, I have worked with various organizations, each contributing to my growth as an IT professional.</p>
       <ul>
         <li><b>Kepran Infosoft Pvt Ltd. (Permanent Role):</b> I began my career at Kepran, a startup where I was responsible for designing and developing websites for a variety of clients. This experience helped me build a strong foundation in full-stack web development, client collaboration, and agile delivery.</li>
@@ -61,7 +61,7 @@ title: About Karthik Kadambi | My Story & Journey
     </div>
   </section>
   <section aria-label="Skills">
-    <h2 class="header-branding">What I Do</h2>
+    <h3 class="header-branding">What I Do</h3>
     <p>I specialize in building scalable, secure and high-performance web applications with a strong focus on <strong>cloud architecture</strong> and <strong>AI integration</strong>.</p>
     <ul>
       <li><b>Frontend Development:</b> Building dynamic, maintainable interfaces using React, Next.js, and 11ty, combined with advanced styling techniques like CUBE methodology, Sass, and CSS-in-JS for modular, scalable CSS architecture.</li>
@@ -73,11 +73,11 @@ title: About Karthik Kadambi | My Story & Journey
     </ul>
   </section>
   <section aria-label="Philosophy">
-    <h2 class="header-branding">My Philosophy</h2>
+    <h3 class="header-branding">My Philosophy</h3>
     <p>Empathy drives my development process. I champion performance and accessibility to ensure the web is always delightful, fast, and responsible with user's time and resources.</p>
   </section>
   <section aria-label="Beyond code">
-    <h2 class="header-branding">Beyond Code</h2>
+    <h3 class="header-branding">Beyond Code</h3>
       <ul>
         <li>Traveling and planning road trips. Check my <a href="/travel/">travel map</a>.</li>
         <li>Exploring personal finance (and optimizing for fun & rewards). Check <a href ="/tags/finance/">finance related posts</a>.</li>
@@ -86,7 +86,7 @@ title: About Karthik Kadambi | My Story & Journey
       </ul>
   </section>
   <section aria-label="Contact">
-    <h2 class="header-branding">Let’s Connect</h2>
+    <h3 class="header-branding">Let’s Connect</h3>
     Want to collaborate, talk tech, or build something together?
     {%- set text = "Let's connect" -%}{%- set id = "connect-button" -%}{%- include "partials/button/button.njk" -%}
   </section>
