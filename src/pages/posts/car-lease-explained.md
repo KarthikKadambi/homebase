@@ -131,7 +131,7 @@ There are 3 ways in which car lease tax is calculated:
 * Gross Capitalized cost - VA, MD, or TX - Usually upfront at signing.
 * Monthly payment - Most states - Spread over the least.
 
-**NOTE:** If you are viewing this article as part of RSS feed reader, then you wouldnt be able to see the calculator below as it may cause issues to feed reader. Visit <a href="https://karthikkadambi.com/posts/car-lease-explained/">here</a> to access the calculator.
+**NOTE:** If you are viewing this article as part of RSS feed reader, then you wouldnt be able to see the calculator below as it may cause issues to feed reader. Visit <a href="https://karthikkadambi.com/posts/car-lease-explained/">Car lease explained</a> to access the calculator.
 
 <!-- feed-exclude-start -->
 <h3 class="header-branding">🔢 Embedded Lease Calculator</h3>
