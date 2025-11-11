@@ -129,7 +129,6 @@ form > * + * {
   color: var(--accent-color);
 }
 
-// Table styles
 table {
   width: 100%;
   border-collapse: collapse;
