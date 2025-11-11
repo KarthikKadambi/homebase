@@ -30,10 +30,10 @@ MSRP is the sticker price, the manufacturer's suggested price for the car before
 
 It's mainly used for two key purposes in a lease:
 
-| Role                               | Description                                                                                                                                                                                             |
+| Purpose                               | Description                                                                                                                                                                                             |
 | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1️⃣ Residual Value Calculation** | The **residual value** (what the car will be worth at lease end) is *always a percentage of MSRP* not the negotiated price. <br>→ Example: If residual = 63% and MSRP = $32,665 → Residual = $20,579. |
-| **2️⃣ Benchmark for Negotiation**  | Dealers start from MSRP but you negotiate down to the **selling price** (also called “agreed-upon value”). That lower number becomes the **basis for your cap cost**, which determines your payment.    |
+| **Residual Value Calculation** | The **residual value** (what the car will be worth at lease end) is *always a percentage of MSRP* not the negotiated price. <br>→ Example: If residual = 63% and MSRP = $32,665 → Residual = $20,579. |
+| **Benchmark for Negotiation**  | Dealers start from MSRP but you negotiate down to the **selling price** (also called “agreed-upon value”). That lower number becomes the **basis for your cap cost**, which determines your payment.    |
 
 <p></p>
 
@@ -116,7 +116,7 @@ Common examples:
 
 <h3 class="header-branding">💸 Fees Summary</h3>
 
-| Fee Type                           | What It Covers                                 | Typical Amount | How It’s Paid         | Impact on Lease                   |
+| Fee type                           | What it covers                                 | Typical amount | How it’s paid         | Impact on lease                   |
 | ---------------------------------- | ---------------------------------------------- | -------------- | --------------------- | --------------------------------- |
 | **DMV / License Fees**             | Vehicle registration, title transfer, plates   | $400–$700      | Usually upfront       | No interest if paid upfront       |
 | **Total Upfront Fees**             | Doc, tire, and small admin fees                | $100–$300      | Paid upfront          | No effect on cap cost             |

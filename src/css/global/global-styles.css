@@ -129,13 +129,13 @@ form > * + * {
   color: var(--accent-color);
 }
 
+// Blockquote styles
 blockquote{    
     line-height: 52px;
     margin: 28px 0;
     padding: 0 0 0 26px;    
     position: relative;
 }
-
 blockquote:before {
     content: "";
     border-left: 6px solid var(--accent-color);
@@ -143,4 +143,20 @@ blockquote:before {
     bottom: 14px;
     top: 13px;
     left: 0;
+}
+
+// Table styles
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-block: var(--flow-space, var(--space-m));
+}
+th, td {
+  border: var(--stroke);
+  padding: 0.5em 1em;
+  text-align: left;
+}
+th {
+  background-color: var(--accent-color);
+  color: var(--text-color-inverted);
 }

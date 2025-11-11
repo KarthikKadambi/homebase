@@ -16,7 +16,7 @@ In human communication, we share information through speech, writing or gestures
 
 In technological communication, devices exchange information through electrical (wires), optical (fiber) or radio (wireless) signals, translating digital data into physical energy that can travel across distance.
 
-<h3 class="header-branding">🧠 Basic Communication Model</h3>
+<h3 class="header-branding">Basic Communication Model</h3>
 
 Every communication system has these elements.
 
@@ -32,7 +32,7 @@ Every communication system has these elements.
 
 <p></p>
 
-<h3 class="header-branding">⚡ Types of Communication</h3>
+<h3 class="header-branding">Types of Communication</h3>
 
 | Type            | Description                 | Example                   |
 | --------------- | --------------------------- | ------------------------- |
@@ -42,7 +42,7 @@ Every communication system has these elements.
 
 <p></p>
 
-<h3 class="header-branding"> 🔌 Communication Mediums</h3>
+<h3 class="header-branding">Communication Mediums</h3>
 
 | Medium                          | Used in                         | Characteristic                   |
 | ------------------------------- | ------------------------------- | -------------------------------- |
@@ -52,7 +52,7 @@ Every communication system has these elements.
 
 <p></p>
 
-<h3 class="header-branding">🔉 Signals</h3>
+<h3 class="header-branding">Signals</h3>
 
 | Type               | Description                       | Example       |
 | ------------------ | --------------------------------- | ------------- |
@@ -63,7 +63,7 @@ When a computer sends data:
 * It encodes bits (1s and 0s) into voltage, light or radio waves
 * The receiver decodes those signals back into bits
 
-<h3 class="header-branding">🔁 Encoding & Modulation</h3>
+<h3 class="header-branding">Encoding & Modulation</h3>
 
 You can think of this as:
 
@@ -73,7 +73,7 @@ You can think of this as:
 
 So when your phone sends data over Wi-Fi or 5G, it’s actually modulating radio waves with bits of information.
 
-<h3 class="header-branding">🧮 Key Performace terms</h3>
+<h3 class="header-branding">Key Performace terms</h3>
 
 | Term           | Meaning                                                                    |
 | -------------- | -------------------------------------------------------------------------- |
@@ -85,7 +85,7 @@ So when your phone sends data over Wi-Fi or 5G, it’s actually modulating radio
 
 Every medium and technology balances these trade-offs.
 
-<h3 class="header-branding">🔄 Synchronization</h3>
+<h3 class="header-branding">Synchronization</h3>
 
 How do sender and receiver stay “in rhythm”?
 
@@ -93,7 +93,7 @@ Synchronous communication: continuous stream with a shared clock (Ethernet, vide
 
 Asynchronous communication: independent timing, with start/stop markers (serial ports, email).
 
-<h3 class="header-branding">🧠 Analog vs Digital Communication</h3>
+<h3 class="header-branding">Analog vs Digital Communication</h3>
 
 | Type        | How it works                                                | Used in                   |
 | ----------- | ----------------------------------------------------------- | ------------------------- |
@@ -102,7 +102,7 @@ Asynchronous communication: independent timing, with start/stop markers (serial 
 
 The move from analog → digital made networking possible because digital data can be compressed, corrected, and routed easily.
 
-<h3 class="header-branding">📡 Data Communication vs Networking</h3>
+<h3 class="header-branding">Data Communication vs Networking</h3>
 
 | Concept           | Focus                                                         | Example           |
 | ----------------- | ------------------------------------------------------------- | ----------------- |

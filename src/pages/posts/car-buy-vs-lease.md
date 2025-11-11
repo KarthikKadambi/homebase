@@ -76,7 +76,7 @@ Credit requirement — newcomers may need a co-signer or higher deposit.
 
 <h3 class="header-branding">🧭 Which Makes Sense for New Immigrants?</h3>
 
-| Situation                                              | Better Option                   | Why                                                                |
+| Situation                                              | Better option                   | Why?                                                                |
 | ------------------------------------------------------ | ------------------------------- | ------------------------------------------------------------------ |
 | You just arrived and have little or no U.S. credit | Lease (if approved) or buy used | Leasing may need a co-signer, but used cars are easier to finance. |
 | You’re not sure how long you’ll stay               | Lease                       | Return it when you leave, no resale stress.                       |
