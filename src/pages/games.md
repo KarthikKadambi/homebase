@@ -5,10 +5,10 @@ title: Board games | Karthik Kadambi board games collection
 ---
 
 <section class="section-inset">
-    <h1 class="header-branding">🎲 Board games</h1>
+    <h1 class="header-branding">🎲 Board Games</h1>
     <p>Life is more fun if you play games.</p>
 </section>
-<h2 class="header-branding">My games collection</h2>
+<h2 class="header-branding">My Games Collection</h2>
 <ul>
   <li>Ticket to Ride</li>
   <li>7 Wonders</li>
