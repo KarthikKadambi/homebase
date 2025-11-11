@@ -27,9 +27,7 @@ title: Articles and talks | By Karthik Kadambi
 <p><a href="/notes/">View all notes</a></p>
 <section class="flow" aria-label="Filter articles">
   <h3 class="header-branding">Filter Articles</h3>
-  <ul>
-    <li><a href="/tags/">Filter by specific tags</a></li>
-  </ul>
+  <p><a href="/tags/">Filter by specific tags</a></p>
 </section>
 <section class="flow" aria-label="Latest talks">
   <h3 class="header-branding">Latest Talks</h3>

@@ -4,10 +4,10 @@ keywords: tags, topics, Karthik Kadambi, articles, blog, categories, subjects, b
 title: All tags and topics | By Karthik Kadambi
 ---
 <div class="section-inset">
-    <h1 class="header-branding">All tags</h1>
+    <h1 class="header-branding">All Tags</h1>
     <p>Collection of all the tags tagged to my notes and posts.</p>
 </div>
-<h2 class="header-branding">Browse by tag</h2>
+<h2 class="header-branding">Browse by Tag</h2>
 {% if collections.tagList %}
 <ul>
 {% for tag in collections.tagList %}

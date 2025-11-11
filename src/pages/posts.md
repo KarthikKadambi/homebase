@@ -7,7 +7,7 @@ title: Posts | Detailed articles by Karthik Kadambi
     <h1 class="header-branding">Posts</h1>
     <p>Collection of posts by Karthik Kadambi.</p>
 </div>
-{% set heading = "All posts" %}
+{% set heading = "All Posts" %}
 {% set ariaLabel = "All posts" %}
 {% set collectionName = "posts" %}
 {% include "partials/blog-teaser/blog-teaser.njk" %}

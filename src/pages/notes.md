@@ -8,7 +8,7 @@ title: Notes | Quick Thoughts by Karthik Kadambi
     <h1 class="header-branding">Notes</h1>
     <p>Collection of notes by Karthik Kadambi.</p>
 </div>
-{% set heading = "All notes" %}
+{% set heading = "All Notes" %}
 {% set ariaLabel = "All notes" %}
 {% set collectionName = "notes" %}
 {% include "partials/blog-teaser/blog-teaser.njk" %}
