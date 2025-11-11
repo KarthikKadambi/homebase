@@ -1,6 +1,7 @@
 ---
 date: 2025-11-02T12:00:00-07:00
 description: Learn how communication works and why it’s the starting point for understanding computer networks and the Internet.
+keywords: communication, networking, computer networks, signals, analog, digital, data transfer, Karthik Kadambi, Internet, basics, technology
 image: /assets/images/posts/communication.png
 slug: what-is-communication
 title: What Is Communication | The Foundation of Networking
