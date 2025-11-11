@@ -28,18 +28,22 @@ export default async function(eleventyConfig) {
 	eleventyConfig.addCollection("postsAndNotes", function(collectionApi) {
 		const posts = collectionApi.getFilteredByTag("posts");
 		const notes = collectionApi.getFilteredByTag("notes");
-		return [...posts, ...notes].sort((a, b) => {
-			const dateA = a.data.date || a.page.date;
-			const dateB = b.data.date || b.page.date;
-			return dateB - dateA; // newest first
+		const merged = [...posts, ...notes].sort((a, b) => {
+			const getTime = (item) => {
+				const d = item.data.date || item.page.date;
+				const t = d ? new Date(d).getTime() : 0;
+				return isNaN(t) ? 0 : t;
+			};
+			return getTime(a) - getTime(b); // oldest first
 		});
+		return merged;
 	});
 
 	eleventyConfig.addPlugin(feedPlugin, {
 		type: "atom",
 		outputPath: "/feed/feed.xml",
 		collection: {
-			name: "postsAndNotes", // use merged collection
+			name: "postsAndNotes", // this will now reference the global data collection
 			limit: 0,
 		},
 		itemOptions: {
