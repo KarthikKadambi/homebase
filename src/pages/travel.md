@@ -1,5 +1,6 @@
 ---
 description: Interactive map showing places Karthik Kadambi has visited around the world.
+keywords: travel, map, Karthik Kadambi, journeys, destinations, world travel, travel map, places visited, continents, states, interactive
 title: My Travel map | Places I've explored worldwide
 ---
 

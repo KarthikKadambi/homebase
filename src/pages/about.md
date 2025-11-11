@@ -1,5 +1,6 @@
 ---
 description: Learn who Karthik Kadambi is - a full stack developer sharing a journey through tech, UX, finance and travel.
+keywords: Karthik Kadambi, full stack developer, web developer, AI, UX, travel, finance, JavaScript, React, Next.js, Node.js, cloud, design systems, portfolio, about
 title: About Karthik Kadambi | My Story & Journey
 ---
 

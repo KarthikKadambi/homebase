@@ -1,5 +1,6 @@
 ---
 description: Explore articles on web development, AI, finance and travel by Karthik Kadambi.
+keywords: articles, blog, posts, web development, AI, finance, travel, Karthik Kadambi, JavaScript, React, notes, talks, guides, essays
 title: Articles and talks | By Karthik Kadambi
 ---
 

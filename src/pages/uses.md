@@ -1,5 +1,6 @@
 ---
 description: The hardware, software, and services Karthik Kadambi uses for development and productivity.
+keywords: uses, tools, setup, hardware, software, productivity, Karthik Kadambi, developer tools, desk setup, MacBook, apps, workflow
 title: What Karthik Kadambi Uses | Tools & Setup
 ---
 <section class="section-inset" aria-label="Hero section on what Karthik Kadambi uses">

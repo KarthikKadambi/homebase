@@ -1,6 +1,7 @@
 ---
 date: 2025-10-25T16:43:00-07:00
 description: New to America and realizing how essential a car is? This guide breaks down buy vs lease, what each option means, and how to choose the right one.
+keywords: car, buy vs lease, Karthik Kadambi, finance, US immigrants, car ownership, leasing, car buying guide, transportation, credit, new to America
 image: /assets/images/posts/buy_vs_lease.png
 title: Buy vs Lease a Car | Guide for New U.S. Movers
 tags:

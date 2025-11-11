@@ -2,6 +2,7 @@
 eleventyComputed:
   description: "Browse all posts tagged with {{ tag | slug }} by Karthik Kadambi. Discover articles and insights related to this topic."
   title: "{{ tag | slug }} Posts | By Karthik Kadambi"
+  keywords: "tag, tags, {{ tag | slug }}, Karthik Kadambi, articles, blog, topics, posts, insights"
 eleventyExcludeFromCollections: true
 pagination:
   data: collections.tagList

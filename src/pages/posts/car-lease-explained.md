@@ -2,6 +2,7 @@
 contentScript: /assets/js/posts/car-lease-explained.js
 date: 2025-10-26T16:49:00-07:00
 description: A clear, practical guide to understanding car lease quotes, with formulas for all costs involved and an embedded calculator to play your own numbers.
+keywords: car lease, leasing, Karthik Kadambi, finance, car lease calculator, lease quote, car leasing guide, depreciation, money factor, residual value, US cars
 image: /assets/images/posts/leasing.png
 title: Car Leasing Explained | Understand and Calculate your Quote
 tags:
