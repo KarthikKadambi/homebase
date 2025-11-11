@@ -24,11 +24,22 @@ export default async function(eleventyConfig) {
     
     eleventyConfig.addPlugin(HtmlBasePlugin);
 
+	// Custom collection: postsAndNotes (merges posts and notes)
+	eleventyConfig.addCollection("postsAndNotes", function(collectionApi) {
+		const posts = collectionApi.getFilteredByTag("posts");
+		const notes = collectionApi.getFilteredByTag("notes");
+		return [...posts, ...notes].sort((a, b) => {
+			const dateA = a.data.date || a.page.date;
+			const dateB = b.data.date || b.page.date;
+			return dateB - dateA; // newest first
+		});
+	});
+
 	eleventyConfig.addPlugin(feedPlugin, {
 		type: "atom",
 		outputPath: "/feed/feed.xml",
 		collection: {
-			name: "posts",
+			name: "postsAndNotes", // use merged collection
 			limit: 0,
 		},
 		itemOptions: {
