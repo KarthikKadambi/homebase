@@ -19,6 +19,8 @@ title: About Karthik Kadambi | My Story & Journey
     Originally from Bengaluru, Karnataka, India and now residing in Fremont, California, USA, Karthik is a champion of **clean architecture, performance and accessibility**. His philosophy is to <strong>build with empathy</strong>, respecting users' time, devices and bandwidth as essential elements in modern development.
 
     From contributing to early-stage startup applications to architecting large-scale enterprise systems, he combines technical expertise with a deep focus on **user experience and maintainability**. Karthik is also a dedicated **Design System Enthusiast and an Aspiring AI Engineer**.
+
+    Currently working as Senior Lead Engineer at **Brillio**.
   </section>
   <section aria-label="Journey">
     <h3 class="header-branding">My Journey</h3>
