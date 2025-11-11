@@ -129,22 +129,6 @@ form > * + * {
   color: var(--accent-color);
 }
 
-// Blockquote styles
-blockquote{    
-    line-height: 52px;
-    margin: 28px 0;
-    padding: 0 0 0 26px;    
-    position: relative;
-}
-blockquote:before {
-    content: "";
-    border-left: 6px solid var(--accent-color);
-    position: absolute;
-    bottom: 14px;
-    top: 13px;
-    left: 0;
-}
-
 // Table styles
 table {
   width: 100%;
