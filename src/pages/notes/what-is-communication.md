@@ -98,7 +98,7 @@ Every medium and technology balances these trade-offs.
 
 This article covered the fundamentals of communication that apply to all systems—human, technological, analog, and digital.
 
-To understand how computers specifically exchange digital information, read about [Data Communication](/notes/data-communication), which focuses on bits, bytes, protocols, and computer networking.
+To understand how computers specifically exchange digital information, read about [Data Communication](/notes/data-communication/), which focuses on bits, bytes, protocols, and computer networking.
 
 <blockquote>
     Communication is the universal concept.<br/>

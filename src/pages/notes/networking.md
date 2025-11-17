@@ -9,7 +9,7 @@ tags:
  - Internet
 ---
 
-Now that you understand [communication](/notes/what-is-communication) and [data communication](/notes/data-communication), the next step is learning how multiple devices connect together. That is where networking begins.
+Now that you understand [communication](/notes/what-is-communication/) and [data communication](/notes/data-communication/), the next step is learning how multiple devices connect together. That is where networking begins.
 
 Networking is the system that allows computers, phones, routers, and servers to communicate in an organized and scalable way. It decides how data should travel, how devices are identified, and how information reaches the right destination.
 

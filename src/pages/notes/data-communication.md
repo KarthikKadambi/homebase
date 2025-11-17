@@ -13,7 +13,7 @@ Before computers can form networks and before the Internet can exist, the most i
 
 Data communication is the exchange of digital information between two devices using a transmission medium such as wire, fiber, or wireless radio signals.
 
-If you want to understand general communication theory first, read [What is Communication](/notes/what-is-communication). This article focuses specifically on how computers exchange digital data.
+If you want to understand general communication theory first, read [What is Communication](/notes/what-is-communication/). This article focuses specifically on how computers exchange digital data.
 
 <h3 class="header-branding">What is Data Communication</h3>
 

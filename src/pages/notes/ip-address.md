@@ -9,7 +9,7 @@ tags:
  - Internet
 ---
 
-Now that you understand [networking](/notes/networking) and how devices connect, the next question is: how does data know where to go?
+Now that you understand [networking](/notes/networking/) and how devices connect, the next question is: how does data know where to go?
 
 Every device on a network needs a unique way to identify itself. Without an identifier, data would not know where to go. This identifier is called an IP address.
 
