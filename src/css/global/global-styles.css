@@ -115,6 +115,10 @@ form > * + * {
   }
 }
 
+a:not([class]) {
+  text-decoration-color: var(--accent-color);
+}
+
 /* Speicific styles - to fine tune */
 .section-inset {
   background: light-dark(#F5F5F6, #1C1C22);
