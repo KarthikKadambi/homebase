@@ -25,7 +25,7 @@ title: About Karthik Kadambi | My Story & Journey
   <section aria-label="Journey">
     <h3 class="header-branding">My Journey</h3>
     <section aria-label="Early childhood and education">
-      <h4>Early childhood and education</h4>
+      <h4>Early Childhood and Education</h4>
       <p>Born in 1990, I began my academic journey at <strong>Saraswathi Vidya Nikethan</strong>, where I completed my early schooling. I continued at <strong>Sri Vani Education Centre</strong> until March 2005, which provided a strong academic foundation and encouraged holistic development. During my time there, I was also an active member of the <strong>National Cadet Corps (NCC) Air wing</strong>, which helped instill discipline, leadership, and a sense of civic responsibility.</p>
       <p>I then pursued my pre-university education at <strong>KLE'S Nijalingappa College</strong>, focusing on science, and completed it in May 2007. From 2007 to 2011, I attended <strong>SJBIT (S.J.B. Institute of Technology)</strong>, where I earned a degree in <strong>Computer Science and Engineering</strong>, laying the groundwork for my career in the tech industry.</p>
     </section>
