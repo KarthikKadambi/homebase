@@ -11,7 +11,7 @@ title: What Karthik Kadambi Uses | Tools & Setup
 </section>
 <section class="uses" aria-label="Uses list">
   <img src="/assets/images/site/desk_setup.webp" style="margin: auto;" alt="Karthik desk setup" width="1200" height="900" fetchpriority="high"/>
-  <h2 class="header-branding">My development & productivity tools</h2>
+  <h2 class="header-branding">My Development & Productivity Tools</h2>
   <p><b><i><u>Disclaimer:</u></i></b> None of the links on this page are affiliate links. As I am currently on an H1B visa, I do not participate in any affiliate or paid-link programs, and do not receive any compensation for these recommendations. All links are purely for reference.</p>
   <h3 class="header-branding">Desk Setup</h3>
   <ul>
