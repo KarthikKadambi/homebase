@@ -16,11 +16,13 @@ title: Articles and talks | By Karthik Kadambi
 {% set headingLevel = "h3" %}
 {% set articleHeadingLevel = "h4" %}
 {% set ariaLabel = "Latest blog posts" %}
+{% set maxPosts = 6 %}
 {% set subheading = "Posts are long-form articles that explore broader topics or ideas in depth. They often combine multiple notes, examples or insights into a cohesive narrative, like guides, essays or deep dives that connect related concepts." %}
 {% include "partials/blog-teaser/blog-teaser.njk" %}
 <p><a href="/posts/">View all posts</a></p>
 {% set heading = "Latest Notes" %}
 {% set ariaLabel = "Latest blog notes" %}
+{% set maxPosts = 6 %}
 {% set subheading = "Notes are short, focused pieces of content that capture a single idea, concept or reference. They're smaller than full posts and often serve as building blocks: quick explanations, definitions or insights that can later be linked or combined into larger posts." %}
 {% set collectionName = "notes" %}
 {% include "partials/blog-teaser/blog-teaser.njk" %}

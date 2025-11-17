@@ -9,9 +9,11 @@
 
   {# Ensure we use the Eleventy "collections" global and have sensible defaults #}
   {%- set collectionName = collectionName | default('posts') -%}
+  {%- set maxPosts = maxPosts | default(3) -%}
   {%- set posts = (collections[collectionName] | default([])) | reverse -%}
 
   <div class="grid three-columns" data-layout="thirds">{% for post in posts -%}
+    {%- if loop.index0 < maxPosts -%}
     <article class="flow | blog-teaser__article">
         {%- set titleText = post.data.title | default('') -%}
         {%- set parts = titleText.split('|') -%}
@@ -29,6 +31,8 @@
         ) | safe }}
         {%- set teaser = post.templateContent | striptags | truncate(125, false, '...') -%}
         <p>{{- teaser -}}</p>
-    </article>{%- endfor %}
+    </article>
+    {%- endif -%}
+    {%- endfor %}
   </div>
 </section>
