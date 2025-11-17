@@ -178,16 +178,6 @@ If you remember three rules, you understand subnetting:
 Everything else is math on top of this idea.
 You do not need deep math unless you take certifications like CCNA.
 
-<h3 class="header-branding">Small Visual Explanation</h3>
-
-Here is a simple way to imagine a subnet:
-
-`192.168.1.0/24`
-Represents a big room with 256 chairs.
-
-**Subnetting cuts the room into smaller rooms.**
-Each smaller room has fewer chairs but better organization and control.
-
 <h3 class="header-branding">Conclusion</h3>
 
 Subnetting is a method to divide networks into smaller and more manageable parts. It makes networks more secure, more organized, and more efficient. You now understand what network bits and host bits are, how CIDR works, how subnets are created, and why subnetting is essential for routing.

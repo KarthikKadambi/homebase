@@ -26,7 +26,11 @@ Expect to find:
 
 I like to think of this as a long-term experiment: learning in public, exploring openly and hopefully adding value to anyone who stops by.
 
-As I start this new journey, I want to take a moment to thank my wife, Neha Pradeep, for being my biggest supporter and creative inspiration. Her passion for food and storytelling brings so much color to our lives. You can experience it yourself on her YouTube channel, <a href="https://www.youtube.com/@Veggiedelicacies" rel="nofollow noopener" target="_blank">Veggie Delicacies</a>.
+As I start this new journey, I want to take a moment to thank my wife, Neha Pradeep, for being my biggest supporter and creative inspiration. Her passion for food and storytelling brings so much color to our lives.
+
+<div class="external-link-box">
+  <strong>Check It Out:</strong> Experience Neha's culinary creativity on her YouTube channel <a href="https://www.youtube.com/@Veggiedelicacies" rel="nofollow noopener noreferrer" target="_blank">Veggie Delicacies</a>
+</div>
 
 So, consider this post my first footprint:
 - ✅ Site's live

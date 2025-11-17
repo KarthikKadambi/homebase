@@ -145,7 +145,11 @@ I have just pre-filled the amount based on the quote of my car purchase. Hit on 
 
 Make sure you get the following info when you are trying to get a leased car and hit on clear and input your own values to calculate your monthly payment and the amount you need to pay to take your dream car to home!!.
 
-Also, find your tax rate, for example for state of California in US you can find it for every county <a href="https://cdtfa.ca.gov/taxes-and-fees/rates.aspx" rel="nofollow noopener noreferrer" target="_blank">here</a>. I am using Monthly tax payment in the below calculator which applies for most states. If you are in states which uses total lease payment or gross cap cost then removing monthly tax will give you the monthly payment.
+I am using Monthly tax payment in the below calculator which applies for most states. If you are in states which uses total lease payment or gross cap cost then removing monthly tax will give you the monthly payment.
+
+<div class="external-link-box">
+  <strong>Find Your Tax Rate:</strong> For California residents, find your county tax rate at <a href="https://cdtfa.ca.gov/taxes-and-fees/rates.aspx" rel="nofollow noopener noreferrer" target="_blank">CDTFA Tax Rates</a>
+</div>
 
 <div class="section-inset">
     <div class="grid" data-layout="50-50">
