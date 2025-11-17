@@ -5,7 +5,9 @@
         "lng": -118.2437,
         "continent": "North America",
         "country": "USA",
-        "state": "California"
+        "state": "California",
+        "post": "/posts/los-angeles/",
+        "draft": true
     },
     {
         "name": "San Francisco",
@@ -13,7 +15,9 @@
         "lng": -122.4194,
         "continent": "North America",
         "country": "USA",
-        "state": "California"
+        "state": "California",
+        "post": "/posts/san-francisco/",
+        "draft": true
     },
     {
         "name": "Siskiyou County",
@@ -21,7 +25,9 @@
         "lng": -122.5407,
         "continent": "North America",
         "country": "USA",
-        "state": "California"
+        "state": "California",
+        "post": "/posts/siskiyou-county/",
+        "draft": true
     },
     {
         "name": "Alameda County",
@@ -29,7 +35,9 @@
         "lng": -121.7195,
         "continent": "North America",
         "country": "USA",
-        "state": "California"
+        "state": "California",
+        "post": "/posts/alameda-county/",
+        "draft": true
     },
     {
         "name": "Shasta County",
@@ -37,7 +45,9 @@
         "lng": -122.4179,
         "continent": "North America",
         "country": "USA",
-        "state": "California"
+        "state": "California",
+        "post": "/posts/shasta-county/",
+        "draft": true
     },
     {
         "name": "Santa Clara County",
@@ -45,7 +55,9 @@
         "lng": -121.8907,
         "continent": "North America",
         "country": "USA",
-        "state": "California"
+        "state": "California",
+        "post": "/posts/santa-clara-county/",
+        "draft": true
     },
     {
         "name": "Fresno County",
@@ -53,7 +65,9 @@
         "lng": -119.2321,
         "continent": "North America",
         "country": "USA",
-        "state": "California"
+        "state": "California",
+        "post": "/posts/fresno-county/",
+        "draft": true
     },
     {
         "name": "Napa County",
@@ -61,7 +75,9 @@
         "lng": -122.2654,
         "continent": "North America",
         "country": "USA",
-        "state": "California"
+        "state": "California",
+        "post": "/posts/napa-county/",
+        "draft": true
     },
     {
         "name": "Santa Cruz County",
@@ -69,7 +85,9 @@
         "lng": -122.0102,
         "continent": "North America",
         "country": "USA",
-        "state": "California"
+        "state": "California",
+        "post": "/posts/santa-cruz-county/",
+        "draft": true
     },
     {
         "name": "Ventura County",
@@ -77,7 +95,9 @@
         "lng": -119.1391,
         "continent": "North America",
         "country": "USA",
-        "state": "California"
+        "state": "California",
+        "post": "/posts/ventura-county/",
+        "draft": true
     },
     {
         "name": "Santa Barbara County",
@@ -85,7 +105,9 @@
         "lng": -119.6982,
         "continent": "North America",
         "country": "USA",
-        "state": "California"
+        "state": "California",
+        "post": "/posts/santa-barbara-county/",
+        "draft": true
     },
     {
         "name": "San Luis Obispo County",
@@ -93,7 +115,9 @@
         "lng": -120.4357,
         "continent": "North America",
         "country": "USA",
-        "state": "California"
+        "state": "California",
+        "post": "/posts/san-luis-obispo-county/",
+        "draft": true
     },
     {
         "name": "Monterey County",
@@ -101,7 +125,9 @@
         "lng": -121.3542,
         "continent": "North America",
         "country": "USA",
-        "state": "California"
+        "state": "California",
+        "post": "/posts/monterey-county/",
+        "draft": true
     },
     {
         "name": "San Mateo County",
@@ -109,7 +135,9 @@
         "lng": -122.4014,
         "continent": "North America",
         "country": "USA",
-        "state": "California"
+        "state": "California",
+        "post": "/posts/san-mateo-county/",
+        "draft": true
     },
     {
         "name": "Marin County",
@@ -117,7 +145,9 @@
         "lng": -122.7633,
         "continent": "North America",
         "country": "USA",
-        "state": "California"
+        "state": "California",
+        "post": "/posts/marin-county/",
+        "draft": true
     },
     {
         "name": "Sonoma County",
@@ -125,7 +155,9 @@
         "lng": -122.9888,
         "continent": "North America",
         "country": "USA",
-        "state": "California"
+        "state": "California",
+        "post": "/posts/sonoma-county/",
+        "draft": true
     },
     {
         "name": "El Dorado County",
@@ -133,7 +165,9 @@
         "lng": -120.4358,
         "continent": "North America",
         "country": "USA",
-        "state": "California"
+        "state": "California",
+        "post": "/posts/el-dorado-county/",
+        "draft": true
     },
     {
         "name": "Mariposa County",
@@ -141,7 +175,9 @@
         "lng": -119.9060,
         "continent": "North America",
         "country": "USA",
-        "state": "California"
+        "state": "California",
+        "post": "/posts/mariposa-county/",
+        "draft": true
     },
     {
         "name": "Mono County",
@@ -149,7 +185,9 @@
         "lng": -118.9529,
         "continent": "North America",
         "country": "USA",
-        "state": "California"
+        "state": "California",
+        "post": "/posts/mono-county/",
+        "draft": true
     },
     {
         "name": "Klamath County",
@@ -157,7 +195,9 @@
         "lng": -121.6142,
         "continent": "North America",
         "country": "USA",
-        "state": "Oregon"
+        "state": "Oregon",
+        "post": "/posts/klamath-county/",
+        "draft": true
     },
     {
         "name": "Clark County",
@@ -165,7 +205,9 @@
         "lng": -115.0940,
         "continent": "North America",
         "country": "USA",
-        "state": "Nevada"
+        "state": "Nevada",
+        "post": "/posts/clark-county/",
+        "draft": true
     },
     {
         "name": "Garfield County",
@@ -173,7 +215,9 @@
         "lng": -111.4193,
         "continent": "North America",
         "country": "USA",
-        "state": "Utah"
+        "state": "Utah",
+        "post": "/posts/garfield-county/",
+        "draft": true
     },
     {
         "name": "Kane County",
@@ -181,7 +225,9 @@
         "lng": -112.4291,
         "continent": "North America",
         "country": "USA",
-        "state": "Utah"
+        "state": "Utah",
+        "post": "/posts/kane-county/",
+        "draft": true
     },
     {
         "name": "Anchorage Municipality",
@@ -189,7 +235,9 @@
         "lng": -149.9003,
         "continent": "North America",
         "country": "USA",
-        "state": "Alaska"
+        "state": "Alaska",
+        "post": "/posts/anchorage-municipality/",
+        "draft": true
     },
     {
         "name": "Fairbanks North Star Borough",
@@ -197,70 +245,90 @@
         "lng": -147.7164,
         "continent": "North America",
         "country": "USA",
-        "state": "Alaska"
+        "state": "Alaska",
+        "post": "/posts/fairbanks-north-star-borough/",
+        "draft": true
     },
       {
     "name": "Singapore",
     "lat": 1.3521,
     "lng": 103.8198,
     "continent": "Asia",
-    "country": "Singapore"
+    "country": "Singapore",
+    "post": "/posts/singapore/",
+    "draft": true
   },
   {
     "name": "Thailand",
     "lat": 15.8700,
     "lng": 100.9925,
     "continent": "Asia",
-    "country": "Thailand"
+    "country": "Thailand",
+    "post": "/posts/thailand/",
+    "draft": true
   },
   {
     "name": "Malaysia",
     "lat": 4.2105,
     "lng": 101.9758,
     "continent": "Asia",
-    "country": "Malaysia"
+    "country": "Malaysia",
+    "post": "/posts/malaysia/",
+    "draft": true
   },
   {
     "name": "Karnataka",
     "lat": 15.3173,
     "lng": 75.7139,
     "continent": "Asia",
-    "country": "India"
+    "country": "India",
+    "post": "/posts/karnataka/",
+    "draft": true
   },
   {
     "name": "Andhra Pradesh",
     "lat": 15.9129,
     "lng": 79.7400,
     "continent": "Asia",
-    "country": "India"
+    "country": "India",
+    "post": "/posts/andhra-pradesh/",
+    "draft": true
   },
   {
     "name": "Telangana",
     "lat": 17.9784,
     "lng": 79.5941,
     "continent": "Asia",
-    "country": "India"
+    "country": "India",
+    "post": "/posts/telangana/",
+    "draft": true
   },
   {
     "name": "Maharashtra",
     "lat": 19.7515,
     "lng": 75.7139,
     "continent": "Asia",
-    "country": "India"
+    "country": "India",
+    "post": "/posts/maharashtra/",
+    "draft": true
   },
   {
     "name": "Tamil Nadu",
     "lat": 11.1271,
     "lng": 78.6569,
     "continent": "Asia",
-    "country": "India"
+    "country": "India",
+    "post": "/posts/tamil-nadu/",
+    "draft": true
   },
   {
     "name": "New Delhi",
     "lat": 28.6139,
     "lng": 77.2090,
     "continent": "Asia",
-    "country": "India"
+    "country": "India",
+    "post": "/posts/new-delhi/",
+    "draft": true
   },
   {
     "name": "Dubai",
@@ -268,7 +336,9 @@
     "lng": 55.296249,
     "continent": "Asia",
     "country": "United Arab Emirates",
-    "state": "Dubai"
+    "state": "Dubai",
+    "post": "/posts/dubai/",
+    "draft": true
   },
   {
     "name": "Abu Dhabi",
@@ -276,6 +346,8 @@
     "lng": 54.3773,
     "continent": "Asia",
     "country": "United Arab Emirates",
-    "state": "Abu Dhabi"
+    "state": "Abu Dhabi",
+    "post": "/posts/abu-dhabi/",
+    "draft": true
   }
 ]

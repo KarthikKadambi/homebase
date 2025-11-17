@@ -58,9 +58,10 @@ function updateMarkers() {
     );
 
     filtered.forEach(p => {
+        const linkHTML = p.draft ? '' : `<br><a href="${p.post}" target="_blank">View Post</a>`;
         L.marker([p.lat, p.lng])
             .addTo(map)
-            .bindPopup(`<strong>${p.name}</strong><br>${p.state || p.country || ''}`);
+            .bindPopup(`<strong>${p.name}</strong><br>${p.state || p.country || ''}${linkHTML}`);
     });
 
     // 🧭 Auto-zoom behavior
