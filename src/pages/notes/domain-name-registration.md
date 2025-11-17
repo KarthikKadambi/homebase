@@ -4,7 +4,7 @@ description: Learn how domain names are registered, managed, and connected to we
 keywords: domain names, domain registration, registrar, registry, ICANN, DNS, nameservers, TLD, website hosting, domain management, DNS records
 image: /assets/images/posts/domain.png
 slug: domain-name-registration
-title: Domain Names Explained | How They Are Registered and Managed
+title: Domain Registration | How to Register and Manage
 tags:
  - notes
  - Internet
