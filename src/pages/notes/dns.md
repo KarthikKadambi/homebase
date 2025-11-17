@@ -1,5 +1,5 @@
 ---
-date: 2025-11-22T20:25:00-07:00
+date: 2025-11-16T20:25:00-07:00
 description: Learn how DNS converts domain names to IP addresses. Understand DNS servers, records, lookup process, caching, and security.
 keywords: DNS, Domain Name System, DNS servers, DNS records, A record, AAAA record, CNAME, recursive resolver, root servers, TLD servers, authoritative servers, DNS lookup, DNS caching, DoH, DoT, domain names, IP addresses, name resolution
 slug: dns
@@ -9,13 +9,13 @@ tags:
  - Internet
 ---
 
-Every website on the internet is hosted on a server that has an IP address. Humans are not good at remembering long numbers. So the internet uses DNS, also called the Domain Name System. DNS converts human-readable names into machine-friendly IP addresses.
+Every website on the Internet is hosted on a server that has an IP address. Humans are not good at remembering long numbers. So the internet uses DNS, also called the Domain Name System. DNS converts human-readable names into machine-friendly IP addresses.
 
 When you type `google.com` or `youtube.com`, DNS finds the correct IP address and sends it back to your device. Without DNS, the internet would not be usable.
 
 This article explains DNS in a simple and practical way, from domain names to DNS servers to the entire lookup process.
 
-<h3 class="header-branding">What Is DNS</h3>
+<h3 class="header-branding">What is DNS</h3>
 
 DNS stands for Domain Name System.
 It is a global directory system that maps domain names to IP addresses.
@@ -72,6 +72,10 @@ DNS is not a single server. It is a hierarchy of multiple server types.
 - There are 13 root server clusters around the world.
 - They know where to find Top-Level Domain servers.
 
+<div class="external-link-box">
+  <strong>Root Servers:</strong> View the official list of root DNS servers at <a href="https://www.iana.org/domains/root/servers" target="_blank" rel="nofollow noopener noreferrer">IANA Root Servers</a> and learn more at <a href="https://root-servers.org/" target="_blank" rel="nofollow noopener noreferrer">Root Servers Organization</a>
+</div>
+
 **2. TLD Servers**
 
 They manage domains based on extension.
@@ -95,8 +99,11 @@ If you own `example.com`, the authoritative server stores your site's IP address
 This is the DNS server your device talks to first.
 It might be your ISP DNS, or public DNS like:
 
+- Comcast ISP DNS
 - Google DNS: `8.8.8.8`
 - Cloudflare DNS: `1.1.1.1`
+
+
 
 Recursive resolver does the full lookup on your behalf.
 
@@ -122,7 +129,7 @@ Stores plain text. Used for verification and authentication.
 
 You do not need all records now. Start with A, AAAA, and CNAME.
 
-<h3 class="header-branding">How DNS Lookup Works: Step by Step</h3>
+<h3 class="header-branding">How DNS Lookup Works</h3>
 
 Here is the exact flow when you type a domain name.
 
@@ -143,8 +150,7 @@ The root server does not know the IP.
 It tells the resolver: go ask the `.com` TLD server.
 
 **Step 5. Resolver asks the TLD Server:**
-The TLD server does not know the IP.
-It tells the resolver: go ask the authoritative server for `example.com`.
+The TLD server does not know the IP. It tells the resolver, go ask the authoritative server for `example.com`.
 
 **Step 6. Resolver asks the Authoritative Server:**
 The authoritative server gives the actual IP address.
@@ -158,7 +164,11 @@ Your device now knows exactly where to send packets.
 
 This entire flow usually takes a few milliseconds.
 
-<h3 class="header-branding">DNS Caching: Why Websites Load Faster the Second Time</h3>
+<div class="external-link-box">
+  <strong>Visual Guide:</strong> For a visual explanation, check out <a href="https://howdns.works/" target="_blank" rel="nofollow noopener noreferrer">How DNS Works</a>
+</div>
+
+<h3 class="header-branding">DNS Caching</h3>
 
 DNS results are stored temporarily for faster performance.
 Caching happens in multiple places:
@@ -175,7 +185,7 @@ TTL (Time To Live) controls how long DNS results stay in cache.
 
 This is why websites load faster after the first visit. Once the IP is found, DNS stores the result for a short time to avoid repeating the entire lookup.
 
-<h3 class="header-branding">Dynamic IP Changes Do Not Break Websites</h3>
+<h3 class="header-branding">Dynamic IP Changes do not break Websites</h3>
 
 A website can change its server IP address without affecting users.
 Only the DNS record needs to be updated.
@@ -220,20 +230,9 @@ Encrypts DNS traffic at a lower level.
 
 Services like Cloudflare and Google provide encrypted DNS.
 
-<h3 class="header-branding">Real-World Example of DNS Lookup</h3>
-
-Let us say you visit `youtube.com`.
-
-1. Browser checks cache
-2. Device asks resolver
-3. Resolver asks root
-4. Root redirects to `.com` TLD
-5. TLD redirects to Google's authoritative server
-6. Resolver gets A record with IP
-7. Resolver returns the IP to your device
-8. Your browser connects to the YouTube server
-
-Every website works this way.
+<div class="external-link-box">
+  <strong>Learn More:</strong> Explore DNS services from <a href="https://one.one.one.one/dns/" target="_blank" rel="nofollow noopener noreferrer">Cloudflare DNS</a> and <a href="https://developers.google.com/speed/public-dns" target="_blank" rel="nofollow noopener noreferrer">Google Public DNS</a>
+</div>
 
 <h3 class="header-branding">Conclusion</h3>
 

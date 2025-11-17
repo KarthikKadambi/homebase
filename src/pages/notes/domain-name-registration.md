@@ -1,5 +1,5 @@
 ---
-date: 2025-11-16T20:25:00-07:00
+date: 2025-11-22T20:25:00-07:00
 description: Learn how domain names are registered, managed, and connected to websites. Understand registrars, registries, DNS, and nameservers.
 keywords: domain names, domain registration, registrar, registry, ICANN, DNS, nameservers, TLD, website hosting, domain management, DNS records
 image: /assets/images/posts/domain.png
@@ -12,7 +12,7 @@ tags:
 
 Every website begins with a domain name. Before DNS can map a domain to an IP address, the domain must be registered. This article explains how domain names are created, bought, owned, and managed.
 
-<h3 class="header-branding">What Is a Domain Name</h3>
+<h3 class="header-branding">What is a Domain Name</h3>
 
 A domain name is a unique, human-readable label used to identify websites.
 
@@ -32,6 +32,10 @@ Domain names are managed through an international system.
 The Internet Corporation for Assigned Names and Numbers.
 It oversees domain name policies globally.
 
+<div class="external-link-box">
+  <strong>Learn More:</strong> New to domain names? Read the <a href="https://www.icann.org/en/beginners" target="_blank" rel="nofollow noopener noreferrer">ICANN Beginners Guide</a>
+</div>
+
 **Registries:**
 
 Organizations that manage specific TLDs.
@@ -41,11 +45,16 @@ Organizations that manage specific TLDs.
 - Public Interest Registry manages `.org`
 - Google manages `.app` and `.dev`
 
+<div class="external-link-box">
+  <strong>Registry Operators:</strong> View the complete list of TLD registry operators at <a href="https://www.icann.org/en/contracted-parties/registry-operators/resources/listings" target="_blank" rel="nofollow noopener noreferrer">ICANN Registry Listings</a>
+</div>
+
 **Registrars:**
 
 Companies where you buy domains.
 
 **Examples:**
+- Porkbun
 - Namecheap
 - GoDaddy
 - Cloudflare
@@ -54,7 +63,11 @@ Companies where you buy domains.
 
 Registrars interact with registries on your behalf.
 
-<h3 class="header-branding">How a Domain Name Is Structured</h3>
+<div class="external-link-box">
+  <strong>Accredited Registrars:</strong> View the full list of ICANN accredited registrars at <a href="https://www.icann.org/en/contracted-parties/accredited-registrars/list-of-accredited-registrars" target="_blank" rel="nofollow noopener noreferrer">ICANN Registrar Listings</a>
+</div>
+
+<h3 class="header-branding">How a Domain Name is Structured</h3>
 
 **Example:**
 `blog.example.com`
@@ -74,6 +87,10 @@ Registering a domain is simple.
 **Step 1: Search for availability**
 
 Use a registrar to check if the name is free.
+
+<div class="external-link-box">
+  <strong>Domain Search:</strong> Search and register domains at <a href="https://porkbun.com/" target="_blank" rel="nofollow noopener noreferrer">Porkbun</a>
+</div>
 
 **Step 2: Choose the TLD**
 
@@ -100,7 +117,7 @@ You set:
 
 This connects the domain to your hosting server.
 
-<h3 class="header-branding">What Are Nameservers</h3>
+<h3 class="header-branding">What are Nameservers</h3>
 
 Nameservers are DNS servers responsible for your domain.
 They store DNS records that define where your website lives.
@@ -112,7 +129,7 @@ They store DNS records that define where your website lives.
 
 You set nameservers at your registrar.
 
-<h3 class="header-branding">How Domains Point to Websites</h3>
+<h3 class="header-branding">How Domains point to Websites</h3>
 
 After registering a domain, you configure DNS.
 
@@ -136,7 +153,7 @@ If you forget to renew:
 
 Large companies often enable auto-renew to avoid losing domains.
 
-<h3 class="header-branding">Difference Between Domain Name and Hosting</h3>
+<h3 class="header-branding">Difference between Domain Name and Hosting</h3>
 
 People often confuse the two.
 
