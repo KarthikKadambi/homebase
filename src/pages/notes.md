@@ -4,7 +4,7 @@ keywords: notes, quick thoughts, Karthik Kadambi, tech, finance, travel, learnin
 title: Notes | Quick Thoughts by Karthik Kadambi
 pagination:
     data: collections.notes
-    size: 7
+    size: 10
     alias: pagedNotes
     reverse: true
 ---
@@ -33,10 +33,10 @@ pagination:
 {%- if pagination.href.next or pagination.href.previous %}
 <nav class="pagination" aria-label="Pagination">
     {%- if pagination.href.previous %}
-    <a href="{{ pagination.href.previous }}">← Newer</a>
+    <a rel="next" href="{{ pagination.href.previous }}">← Newer</a>
     {%- endif %}
     {%- if pagination.href.next %}
-    <a href="{{ pagination.href.next }}">Older →</a>
+    <a rel="prev" href="{{ pagination.href.next }}">Older →</a>
     {%- endif %}
 </nav>
 {%- endif %}

@@ -3,7 +3,7 @@ date: 2025-11-16T20:25:00-07:00
 description: Learn how DNS converts domain names to IP addresses. Understand DNS servers, records, lookup process, caching, and security.
 keywords: DNS, Domain Name System, DNS servers, DNS records, A record, AAAA record, CNAME, recursive resolver, root servers, TLD servers, authoritative servers, DNS lookup, DNS caching, DoH, DoT, domain names, IP addresses, name resolution
 slug: dns
-title: DNS Explained | How Domain Names Convert to IP Addresses
+title: DNS Explained | Domain Names to IP Addresses
 tags:
  - notes
  - Internet
