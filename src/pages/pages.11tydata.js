@@ -30,7 +30,7 @@ export default {
 						"sameAs": [
 							"https://github.com/KarthikKadambi",
 							"https://karthikkadambi.substack.com",
-							"https://linkedin.com/in/kkadambi",
+							"https://www.linkedin.com/in/kkadambi",
 							"https://mastodon.social/@karthikkadambi",
 							"https://youtube.com/user/karthik24590",
 							"https://linktr.ee/karthikkadambi"
@@ -66,9 +66,9 @@ export default {
 							"givenName": "Neha",
 							"familyName": "Pradeep",
 							"sameAs": [
-								"https://www.youtube.com/@Veggiedelicacies",
+								"https://youtube.com/@Veggiedelicacies",
 								"https://www.linkedin.com/in/neha-pradeep-7b152147",
-								"https://www.instagram.com/veggie_delicacies"
+								"https://instagram.com/veggie_delicacies"
 							]
           				}	
 					},
