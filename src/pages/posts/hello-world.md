@@ -19,23 +19,23 @@ This site is my attempt to connect all those threads, part digital journal, part
 
 Expect to find:
 
-- 🧠 Tech deep dives on tools, workflows and problem-solving
-- 🌍 Travel stories and lessons from the road
-- 💰 Personal finance insights for modern, intentional living
-- ⚙️ Productivity tips and life hacks to simplify complexity
+- 🧠 Tech deep dives on tools, workflows and problem-solving.
+- 🌍 Travel stories and lessons from the road.
+- 💰 Personal finance insights for modern, intentional living.
+- ⚙️ Productivity tips and life hacks to simplify complexity.
 
 I like to think of this as a long-term experiment: learning in public, exploring openly and hopefully adding value to anyone who stops by.
 
 As I start this new journey, I want to take a moment to thank my wife, Neha Pradeep, for being my biggest supporter and creative inspiration. Her passion for food and storytelling brings so much color to our lives.
 
 <div class="external-link-box">
-  <strong>Check It Out:</strong> Experience Neha's culinary creativity on her YouTube channel <a href="https://www.youtube.com/@Veggiedelicacies" rel="nofollow noopener noreferrer" target="_blank">Veggie Delicacies</a>
+  <strong>Check It Out:</strong> Experience Neha's culinary recipes and experiments on her YouTube channel <a href="https://www.youtube.com/@Veggiedelicacies" rel="nofollow noopener noreferrer" target="_blank">Veggie Delicacies</a>
 </div>
 
 So, consider this post my first footprint:
-- ✅ Site's live
-- ✅ Words are flowing
-- ✅ The adventure begins
+- ✅ Site's live.
+- ✅ Words are flowing.
+- ✅ The adventure begins.
 
 If any of this resonates, you can follow along or reach out through the links in the footer.
 

@@ -22,15 +22,13 @@ Every communication system has these elements.
 
 | Component                | Role                                                          |
 | ------------------------ | ------------------------------------------------------------- |
-| **Sender (Transmitter)** | Creates and sends the message                                 |
-| **Receiver**             | Accepts and interprets it                                     |
-| **Message**              | The actual information to be sent                             |
-| **Medium (Channel)**     | The path through which the message travels (wire, air, fiber) |
-| **Encoder/Decoder**      | Converts message into signals and back                        |
-| **Noise**                | Anything that distorts the signal                             |
-| **Feedback**             | Response from receiver (optional, in two-way systems)         |
-
-<p></p>
+| **Sender (Transmitter)** | Creates and sends the message.                                 |
+| **Receiver**             | Accepts and interprets it.                                     |
+| **Message**              | The actual information to be sent.                             |
+| **Medium (Channel)**     | The path through which the message travels (wire, air, fiber). |
+| **Encoder/Decoder**      | Converts message into signals and back.                        |
+| **Noise**                | Anything that distorts the signal.                             |
+| **Feedback**             | Response from receiver (optional, in two-way systems).         |
 
 <h3 class="header-branding">Signals</h3>
 
@@ -42,8 +40,6 @@ Every communication system has these elements.
 Analog signals vary continuously (like a sine wave), while digital signals have discrete states (on/off, high/low).
 
 The move from analog → digital made modern networking possible because digital data can be compressed, corrected, and routed easily.
-
-<p></p>
 
 <h3 class="header-branding">Encoding & Modulation</h3>
 
@@ -62,8 +58,6 @@ When your phone sends data over Wi-Fi or 5G, it modulates radio waves to carry i
 | **Optical fiber (light)**       | Long-distance Internet backbone | Very high speed, low loss        |
 | **Wireless (radio, microwave)** | Wi-Fi, 4G/5G, satellite         | Mobility, but interference-prone |
 
-<p></p>
-
 <h3 class="header-branding">Types of Communication</h3>
 
 | Type            | Description                 | Example                   |
@@ -71,8 +65,6 @@ When your phone sends data over Wi-Fi or 5G, it modulates radio waves to carry i
 | **Simplex**     | One way only               | Monitor displaying output |
 | **Half-duplex** | Two way, but one at a time | Walkie-talkie            |
 | **Full-duplex** | Two way simultaneously     | Phone call, Internet data |
-
-<p></p>
 
 <h3 class="header-branding">Synchronization</h3>
 
@@ -86,11 +78,11 @@ How do sender and receiver stay "in rhythm"?
 
 | Term           | Meaning                                                                    |
 | -------------- | -------------------------------------------------------------------------- |
-| **Bandwidth**  | Maximum amount of data that can be transmitted per second (e.g., 100 Mbps) |
-| **Latency**    | Time delay for data to reach destination                                   |
-| **Throughput** | Actual data rate achieved                                                  |
-| **Noise**      | Unwanted interference that distorts signals                                |
-| **Error rate** | Percentage of bits that get corrupted                                      |
+| **Bandwidth**  | Maximum amount of data that can be transmitted per second (e.g., 100 Mbps). |
+| **Latency**    | Time delay for data to reach destination.                                   |
+| **Throughput** | Actual data rate achieved.                                                  |
+| **Noise**      | Unwanted interference that distorts signals.                                |
+| **Error rate** | Percentage of bits that get corrupted.                                      |
 
 Every medium and technology balances these trade-offs.
 

@@ -94,7 +94,7 @@ Not all IP addresses are the same. Some are visible on the Internet, others are 
 - `10.0.0.0` to `10.255.255.255`
 - `172.16.0.0` to `172.31.255.255`
 
-<h3 class="header-branding">How data Ttravels using IP: High Level Flow</h3>
+<h3 class="header-branding">How data travels using IP: High Level Flow</h3>
 
 You request a website.
 

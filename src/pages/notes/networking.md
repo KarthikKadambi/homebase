@@ -136,8 +136,6 @@ A protocol is a set of rules that defines how data is transmitted and received.
 
 Without protocols, devices from different manufacturers could not communicate.
 
-**Common protocols:**
-
 **HTTP/HTTPS:** Web browsing
 
 **TCP:** Reliable data transfer

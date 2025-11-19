@@ -8,27 +8,27 @@ title: All tags and topics | By Karthik Kadambi
     <p>Collection of all the tags tagged to my notes and posts.</p>
 </div>
 <h2 class="header-branding">Browse by Tag</h2>
-{% if collections.tagList %}
+{% if collections.tagList -%}
 <ul>
-{% for tag in collections.tagList %}
-  {% set tagLower = tag %}
-  {% if tagLower != "all" %}
-    <li>
-      {% set tagKey = tag | default('untitled') %}
-      {% set tagSlug = (tagKey) | slug %}
-      {% if collections[tag] %}
-        {% set tagCount = collections[tag] | length %}
-      {% else %}
-        {% set tagCount = 0 %}
-      {% endif %}
+{%- for tag in collections.tagList -%}
+  {%- set tagLower = tag -%}
+  {%- if tagLower != "all" -%}
+  <li>
+      {%- set tagKey = tag | default('untitled') -%}
+      {%- set tagSlug = (tagKey) | slug -%}
+      {%- if collections[tag] -%}
+        {%- set tagCount = collections[tag] | length -%}
+      {%- else -%}
+        {%- set tagCount = 0 -%}
+      {%- endif -%}
       <a href="/tags/{{ tagSlug }}/"
           aria-label="View articles tagged to {{ tagKey }} ({{ tagCount }})">
         View articles tagged to {{ tagKey }} ({{ tagCount }})
       </a>
-    </li>
-  {% endif %}
-{% endfor %}
+  </li>
+  {%- endif -%}
+{%- endfor -%}
 </ul>
-{% else %}
+{%- else -%}
 <p>No tag list found in your Eleventy collections.</p> 
-{% endif %}
+{%- endif %}

@@ -21,7 +21,7 @@ So now you're faced with one of your first big American decisions:
 
 <blockquote>Do you buy or lease your first car?</blockquote>
 
-Already decided that you want to lease? Check this out: <a href="/posts/car-lease-explained/">Leasing explained</a>
+Already decided that you want to lease? Check this out: <a href="/posts/car-lease-explained/">Leasing explained</a>.
 
 Let's walk through what both mean and what's smarter when you're just getting started in the U.S.
 
@@ -56,23 +56,23 @@ You're paying for the car's depreciation, not the full price.
 
 ✅ Pros
 
-Lower monthly payments — you only pay for the value the car loses.
+Lower monthly payments. You only pay for the value the car loses.
 
-New car, less hassle — always under warranty and usually maintenance-free.
+New car, less hassle. Always under warranty and usually maintenance-free.
 
-Smaller upfront cost — often just the first month and registration.
+Smaller upfront cost. Often just the first month and registration.
 
-Easier budget planning — fixed monthly payments.
+Easier budget planning. Fixed monthly payments.
 
 ❌ Cons
 
-No ownership — you return it at the end (or buy it for its “residual value”).
+No ownership. You return it at the end (or buy it for its "residual value").
 
-Mileage limits — most leases allow 10k–12k miles per year; extra costs for more.
+Mileage limits. Most leases allow 10k–12k miles per year; extra costs for more.
 
-Fees for damage — scratches, dents, or worn tires can add up.
+Fees for damage. Scratches, dents, or worn tires can add up.
 
-Credit requirement — newcomers may need a co-signer or higher deposit.
+Credit requirement. Newcomers may need a co-signer or higher deposit.
 
 <h3 class="header-branding">🧭 Which Makes Sense for New Immigrants?</h3>
 

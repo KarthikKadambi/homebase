@@ -23,8 +23,6 @@ Data communication is the process where two devices send and receive data using 
 
 For communication to work successfully, there are five essential components.
 
-Every data communication system consists of:
-
 **Sender:**
 The device that initiates the message. Example: your laptop.
 
@@ -95,8 +93,6 @@ Bandwidth is size of the pipe. Latency is how fast water flows.
 
 Noise, interference, and weak signals can corrupt bits. So techniques exist to detect errors.
 
-**Techniques:**
-
 **Parity bit:** Adds a bit that indicates if the number of 1s is odd or even.
 
 **Checksum:** Adds up the data and sends that value along with the packet.
@@ -107,9 +103,7 @@ If the receiver detects a mismatch, it requests the sender to retransmit.
 
 <h3 class="header-branding">Flow Control: Preventing Data Overload</h3>
 
-What if a fast device sends data to a slower device. The slower one may get overwhelmed.
-
-Flow control solves that.
+What if a fast device sends data to a slower device. The slower one may get overwhelmed. Flow control solves that.
 
 **Stop and Wait:**
 Sender sends one chunk of data and waits for acknowledgment.
