@@ -7,35 +7,13 @@
 
 <div class="itinerary-page">
     <div class="no-print" style="text-align: right; margin-bottom: 1rem; display: flex; gap: 0.5rem; justify-content: flex-end;">
-        <button onclick="shareItinerary()" style="background: #4CAF50; color: white; border: none; padding: 0.5rem 1rem; border-radius: 4px; cursor: pointer; font-weight: bold;">
+        <button onclick="shareItinerary('{{ itinerary.title }}', '{{ itinerary.intro | striptags | truncate(100) }}')" style="background: #4CAF50; color: white; border: none; padding: 0.5rem 1rem; border-radius: 4px; cursor: pointer; font-weight: bold;">
             🔗 Share
         </button>
-        <button onclick="window.print()" style="background: #E03C31; color: white; border: none; padding: 0.5rem 1rem; border-radius: 4px; cursor: pointer; font-weight: bold;">
+        <button onclick="printPdf()" style="background: #E03C31; color: white; border: none; padding: 0.5rem 1rem; border-radius: 4px; cursor: pointer; font-weight: bold;">
             🖨️ Print / Save as PDF
         </button>
     </div>
-
-    <script>
-    async function shareItinerary() {
-        const shareData = {
-            title: '{{ itinerary.title }}',
-            text: '{{ itinerary.intro | striptags | truncate(100) }}',
-            url: window.location.href
-        };
-
-        try {
-            if (navigator.share) {
-                await navigator.share(shareData);
-            } else {
-                // Fallback: Copy to clipboard
-                await navigator.clipboard.writeText(window.location.href);
-                alert('Link copied to clipboard!');
-            }
-        } catch (err) {
-            console.log('Share failed:', err);
-        }
-    }
-    </script>
 
     <header class="itinerary-header">
         <h1 class="itinerary-title">{{ itinerary.title }}</h1>

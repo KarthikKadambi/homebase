@@ -22,8 +22,10 @@
     background: none;
   }
 
-  .no-print {
-    display: none;
+  .no-print,
+  .site-head,
+  .site-foot {
+    display: none !important;
   }
 
   .itinerary-page {
@@ -32,12 +34,6 @@
     box-shadow: none;
     margin: 0;
     padding: 0;
-  }
-
-  /* Hide site header/footer if they exist outside this container */
-  .site-head,
-  .site-foot {
-    display: none !important;
   }
 
   @page {
