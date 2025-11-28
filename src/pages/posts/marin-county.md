@@ -1,5 +1,5 @@
 ---
-title: Exploring Marin County - Redwoods and Seashores
+title: Exploring Marin County | Redwoods and Seashores
 date: 2025-11-19
 description: Wandering through the ancient redwoods of Muir Woods and the rugged coast of Point Reyes.
 tags:

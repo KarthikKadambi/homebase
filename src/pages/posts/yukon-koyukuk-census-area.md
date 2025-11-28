@@ -1,5 +1,5 @@
 ---
-title: Exploring Yukon-Koyukuk Census Area - Crossing the Arctic Circle
+title: Exploring Yukon-Koyukuk Census Area | Crossing the Arctic Circle
 date: 2025-11-27
 description: A journey up the Dalton Highway to cross the Arctic Circle latitude.
 tags:

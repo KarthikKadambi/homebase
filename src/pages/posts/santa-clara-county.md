@@ -1,5 +1,5 @@
 ---
-title: Exploring Santa Clara County - Innovation and Design
+title: Exploring Santa Clara County | Innovation and Design
 date: 2025-11-19
 description: A visit to the heart of Silicon Valley and the architectural marvel of Apple Park.
 tags:

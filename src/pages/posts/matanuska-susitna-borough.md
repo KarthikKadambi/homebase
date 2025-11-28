@@ -1,5 +1,5 @@
 ---
-title: Exploring Matanuska-Susitna Borough - Walking on Ice
+title: Exploring Matanuska-Susitna Borough | Walking on Ice
 date: 2025-11-27
 description: A thrilling trek onto the massive Matanuska Glacier.
 tags:

@@ -1,5 +1,5 @@
 ---
-title: Exploring Fresno County - Giants of the Forest
+title: Exploring Fresno County | Giants of the Forest
 date: 2025-11-19
 description: Walking among the giant sequoias in Sequoia and Kings Canyon National Parks.
 tags:

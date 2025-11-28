@@ -1,5 +1,5 @@
 ---
-title: Exploring Shasta County - The Wonder of Burney Falls
+title: Exploring Shasta County | The Wonder of Burney Falls
 date: 2025-11-19
 description: Witnessing the breathtaking beauty of McArthur-Burney Falls in Shasta County.
 tags:

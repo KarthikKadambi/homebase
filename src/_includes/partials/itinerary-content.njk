@@ -71,7 +71,7 @@
 
             {% if itinerary.tripLinks %}
             <div class="itinerary-section">
-                <h3 class="itinerary-day-header">Links to Book</h3>
+                <h3 class="itinerary-day-header">Links to Book and Outro</h3>
                 {% for item in itinerary.tripLinks %}
                 <div class="itinerary-item">
                     {% if item.title %}<h4>{{ item.title }}</h4>{% endif %}
@@ -148,5 +148,10 @@
             </div>
             {% endif %}
         </aside>
+    </div>
+
+    <div style="margin-top: 3rem; padding: 1.5rem; background-color: #f5f5f5; border-left: 4px solid #E03C31; font-size: 0.85rem; color: #666;">
+        <strong style="display: block; margin-bottom: 0.5rem; color: #333;">Disclaimer:</strong>
+        <p style="margin: 0;">I have no affiliation with any of the links provided in this itinerary and will not earn any income from them. These recommendations are provided solely to help you plan your trip.</p>
     </div>
 </div>

@@ -1,5 +1,5 @@
 ---
-title: Exploring San Luis Obispo County - Castles and Coastlines
+title: Exploring San Luis Obispo County | Castles and Coastlines
 date: 2025-11-19
 description: Discovering the grandeur of Hearst Castle and the seaside charm of Pismo Beach.
 tags:

@@ -1,5 +1,5 @@
 ---
-title: Exploring Alameda County - Holiday Lights and Local Charm
+title: Exploring Alameda County | Holiday Lights and Local Charm
 date: 2025-11-19
 description: A visit to Alameda County, featuring the spectacular Deacon Dave's House of the Dove.
 tags:

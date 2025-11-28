@@ -1,5 +1,5 @@
 ---
-title: Exploring Monterey County - The Dramatic Coastline
+title: Exploring Monterey County | The Dramatic Coastline
 date: 2025-11-19
 description: A road trip through the stunning landscapes of Big Sur, 17-Mile Drive, and Carmel-by-the-Sea.
 tags:

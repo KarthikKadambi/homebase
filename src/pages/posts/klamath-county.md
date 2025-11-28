@@ -1,5 +1,5 @@
 ---
-title: Exploring Klamath County - The Deep Blue of Crater Lake
+title: Exploring Klamath County | The Deep Blue of Crater Lake
 date: 2025-11-19
 description: Witnessing the intense blue waters of Crater Lake National Park in Oregon.
 tags:

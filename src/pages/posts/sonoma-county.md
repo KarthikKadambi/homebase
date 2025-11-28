@@ -1,5 +1,5 @@
 ---
-title: Exploring Sonoma County - Art and Inspiration
+title: Exploring Sonoma County | Art and Inspiration
 date: 2025-11-19
 description: A visit to the Charles M. Schulz Museum in Santa Rosa.
 tags:

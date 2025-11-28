@@ -1,5 +1,5 @@
 ---
-title: Exploring Los Angeles - A Journey Through Hollywood and the Coast
+title: Exploring Los Angeles | A Journey Through Hollywood and the Coast
 date: 2025-11-19
 description: Discovering the magic of Los Angeles, from the glitz of Hollywood to the sunny vibes of Santa Monica and Venice Beach.
 tags:

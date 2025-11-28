@@ -1,5 +1,5 @@
 ---
-title: Exploring Fairbanks North Star Borough - Northern Lights and Winter Magic
+title: Exploring Fairbanks North Star Borough | Northern Lights and Winter Magic
 date: 2025-11-27
 description: A winter wonderland adventure in Fairbanks, featuring hot springs, dog sledding, and a visit to the North Pole.
 tags:

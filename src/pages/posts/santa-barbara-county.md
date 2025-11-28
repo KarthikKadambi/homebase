@@ -1,5 +1,5 @@
 ---
-title: Exploring Santa Barbara County - Danish Charm in Solvang
+title: Exploring Santa Barbara County | Danish Charm in Solvang
 date: 2025-11-19
 description: A delightful visit to Solvang, the Danish capital of America.
 tags:

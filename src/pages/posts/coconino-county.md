@@ -1,5 +1,5 @@
 ---
-title: Exploring Coconino County - Light and Stone in Page
+title: Exploring Coconino County | Light and Stone in Page
 date: 2025-11-19
 description: Capturing the ethereal beauty of Antelope Canyon and the dramatic curve of Horseshoe Bend.
 tags:

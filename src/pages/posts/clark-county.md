@@ -1,5 +1,5 @@
 ---
-title: Exploring Clark County - Engineering Marvels and Canyons
+title: Exploring Clark County | Engineering Marvels and Canyons
 date: 2025-11-19
 description: Visiting the Hoover Dam and the Grand Canyon West Rim from Las Vegas.
 tags:

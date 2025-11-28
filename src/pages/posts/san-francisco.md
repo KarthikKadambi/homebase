@@ -1,5 +1,5 @@
 ---
-title: Exploring San Francisco - Fog, Hills, and Iconic Landmarks
+title: Exploring San Francisco | Fog, Hills, and Iconic Landmarks
 date: 2025-11-19
 description: A journey through San Francisco's most famous sights, from the Golden Gate to the bustling Fisherman's Wharf.
 tags:
