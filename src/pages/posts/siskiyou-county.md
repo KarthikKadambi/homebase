@@ -1,5 +1,5 @@
 ---
-title: Exploring Siskiyou County - Majestic Mountains and Waterfalls
+title: Exploring Siskiyou County | Majestic Mountains and Waterfalls
 date: 2025-11-19
 description: Venturing into Northern California's wilderness to see Mount Shasta and cascading waterfalls.
 tags:
@@ -9,7 +9,7 @@ tags:
 
 Siskiyou County is a testament to the raw power of nature. Dominated by the snow-capped peak of Mount Shasta, this region offers some of the most serene and spectacular landscapes in California.
 
-## Highlights of the Trip
+## Highlights of the Siskiyou County
 
 ### Mount Shasta
 - **Mt Shasta**: The spiritual and physical anchor of the region, visible from miles away.

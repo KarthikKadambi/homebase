@@ -9,7 +9,7 @@ tags:
 
 The Matanuska-Susitna Borough offers some of Alaska's most accessible and dramatic glacial scenery.
 
-## Highlights of the Trip
+## Highlights of the Matanuska-Susitna Borough
 
 ### Glaciers
 - **Matanuska Glacier**: A valley glacier that you can actually walk on. Exploring the blue ice features, crevasses, and moulins was a once-in-a-lifetime experience. The sheer scale of the ice is humbling.

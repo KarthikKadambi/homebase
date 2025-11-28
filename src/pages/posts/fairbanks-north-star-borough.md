@@ -9,7 +9,7 @@ tags:
 
 Fairbanks is the heart of Alaska's interior, a place where winter is embraced with enthusiasm and warmth. From soaking in hot springs to meeting Santa, it's a land of unique experiences.
 
-## Highlights of the Trip
+## Highlights of the North Star Borough
 
 ### Winter Activities
 - **Chena Hot Springs**: Soaking in the natural mineral hot springs while surrounded by snow and ice. A truly magical experience, especially if you catch the aurora overhead.

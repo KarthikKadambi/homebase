@@ -9,7 +9,7 @@ tags:
 
 Monterey County offers some of the most breathtaking coastal scenery in the world. From the iconic Bixby Bridge to the serene beaches of Carmel, every turn on Highway 1 is a postcard moment.
 
-## Highlights of the Trip
+## Highlights of the Monterey County
 
 ### Scenic Drives
 - **17-Mile Drive**: A scenic road through Pebble Beach, famous for the Lone Cypress and spectacular ocean views.

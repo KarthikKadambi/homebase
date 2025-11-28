@@ -9,7 +9,7 @@ tags:
 
 Fresno County serves as the gateway to some of the most impressive forests on Earth. The sheer scale of the trees here is humbling and awe-inspiring.
 
-## Highlights of the Trip
+## Highlights of the Fresno County
 
 ### National Parks
 - **Sequoia National Park**: Home to the General Sherman Tree, the largest tree on Earth by volume.

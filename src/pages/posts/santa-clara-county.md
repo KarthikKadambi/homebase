@@ -9,7 +9,7 @@ tags:
 
 Santa Clara County is the global center of technology and innovation. Amidst the office parks and startups, there are landmarks of modern design that draw visitors from around the world.
 
-## Highlights of the Trip
+## Highlights of the Santa Clara County
 
 ### Silicon Valley
 - **Apple Park Visitor Center**: A stunning gateway to Apple's spaceship campus, featuring an augmented reality model, a rooftop terrace with views of the main building, and exclusive merchandise.

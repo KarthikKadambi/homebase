@@ -9,7 +9,7 @@ tags:
 
 Los Angeles is a city of endless possibilities, where the entertainment industry meets the laid-back California coast. My visit to the City of Angels was a whirlwind of iconic sights, movie magic, and stunning sunsets.
 
-## Highlights of the Trip
+## Highlights of the Los Angeles
 
 ### Hollywood Magic
 No trip to LA is complete without diving into the world of cinema.

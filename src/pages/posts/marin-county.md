@@ -9,7 +9,7 @@ tags:
 
 Just across the Golden Gate Bridge lies Marin County, a haven of natural beauty. It's a place where ancient forests meet the wild Pacific Ocean.
 
-## Highlights of the Trip
+## Highlights of the Marin County
 
 ### Nature
 - **Muir Woods National Monument**: Walking among the towering old-growth coast redwoods in this cathedral of nature.

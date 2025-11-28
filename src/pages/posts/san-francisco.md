@@ -9,7 +9,7 @@ tags:
 
 San Francisco captivates with its rolling hills, Victorian architecture, and stunning bay views. It's a city that feels both historic and forward-looking, with a charm that is uniquely its own.
 
-## Highlights of the Trip
+## Highlights of the San Francisco
 
 ### Waterfront & Classics
 - **Fisherman's Wharf & Pier 39**: The bustling heart of tourism, complete with sea lions and clam chowder.

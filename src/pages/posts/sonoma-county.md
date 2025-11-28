@@ -9,7 +9,7 @@ tags:
 
 Sonoma County is known for its wine, but it also holds a special place for art and nostalgia.
 
-## Highlights of the Trip
+## Highlights of the Sonoma County
 
 ### Santa Rosa
 - **Charles M. Schulz Museum**: A heartwarming tribute to the creator of *Peanuts*. Seeing the original comic strips and learning about Schulz's life was a delight for any Snoopy fan.
