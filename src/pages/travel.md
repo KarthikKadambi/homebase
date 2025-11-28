@@ -15,15 +15,25 @@ title: My Travel map | Places I've explored worldwide
      data-travel-locations='{{ travel | dump | safe }}'></div>
 {# <div id="after-map" tabindex="-1"></div> #}
 <form>
-    <label for="continentFilter">Continent:</label>
+    <h3 class="header-branding">Filter by Continent or State</h3>
+    <label for="continentFilter">Continent Filter:</label>
     <select id="continentFilter">
         <option value="all">All Continents</option>
     </select>
-    <label for="stateFilter">State / Region:</label>
+    <label for="stateFilter">State Filter:</label>
     <select id="stateFilter">
         <option value="all">All States</option>
     </select>
 </form>
+
+<h3 class="header-branding">Itineraries</h3>
+
+<p>All itineraries below are from my personal travels. Each journey has been carefully documented with detailed day-by-day plans, costs, packing lists, number of people and insider tips based on my firsthand experiences exploring these incredible destinations.</p>
+
+<h4>From San Jose, CA</h4>
+<ul>
+    <li><a href="/itineraries/alaska-winter/">View Alaska Winter Itinerary</a></li>
+</ul>
 
 <script src="/assets/js/leaflet.js" defer></script>
 <script src="/assets/js/travel.js" defer></script>

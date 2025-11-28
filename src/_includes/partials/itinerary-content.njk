@@ -1,0 +1,171 @@
+{% set totalCost = 0 %}
+{% if itinerary.costs %}
+    {% for cost in itinerary.costs.breakdown %}
+        {% set totalCost = totalCost + cost.amount %}
+    {% endfor %}
+{% endif %}
+
+<div class="itinerary-page">
+    <div class="no-print" style="text-align: right; margin-bottom: 1rem; display: flex; gap: 0.5rem; justify-content: flex-end;">
+        <button onclick="shareItinerary()" style="background: #4CAF50; color: white; border: none; padding: 0.5rem 1rem; border-radius: 4px; cursor: pointer; font-weight: bold;">
+            🔗 Share
+        </button>
+        <button onclick="window.print()" style="background: #E03C31; color: white; border: none; padding: 0.5rem 1rem; border-radius: 4px; cursor: pointer; font-weight: bold;">
+            🖨️ Print / Save as PDF
+        </button>
+    </div>
+
+    <script>
+    async function shareItinerary() {
+        const shareData = {
+            title: '{{ itinerary.title }}',
+            text: '{{ itinerary.intro | striptags | truncate(100) }}',
+            url: window.location.href
+        };
+
+        try {
+            if (navigator.share) {
+                await navigator.share(shareData);
+            } else {
+                // Fallback: Copy to clipboard
+                await navigator.clipboard.writeText(window.location.href);
+                alert('Link copied to clipboard!');
+            }
+        } catch (err) {
+            console.log('Share failed:', err);
+        }
+    }
+    </script>
+
+    <header class="itinerary-header">
+        <h1 class="itinerary-title">{{ itinerary.title }}</h1>
+        <div class="itinerary-meta">{{ itinerary.location }} • {{ itinerary.date }}</div>
+    </header>
+
+    <img src="{{ itinerary.heroImage }}" alt="{{ itinerary.title }}" class="itinerary-hero">
+
+    <div class="itinerary-content">
+        <div class="itinerary-intro">
+            {{ itinerary.intro }}
+        </div>
+
+        <div class="itinerary-main">
+            {% if itinerary.preTrip %}
+            <div class="itinerary-section">
+                <h3 class="itinerary-day-header">Before You Go</h3>
+                {% for item in itinerary.preTrip %}
+                <div class="itinerary-item">
+                    {% if item.title %}<h4>{{ item.title }}</h4>{% endif %}
+                    <p>{{ item.description }}</p>
+                    {% if item.list %}
+                    <ul style="margin-top: 0.5rem;">
+                        {% for listItem in item.list %}
+                        <li>{{ listItem }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+            {% endif %}
+
+            {% for dayInfo in itinerary.days %}
+            <div class="itinerary-section">
+                <h3 class="itinerary-day-header">Day {{ dayInfo.day }}: {{ dayInfo.title }}</h3>
+                {% for item in dayInfo.items %}
+                <div class="itinerary-item">
+                    <h4>{{ item.title }}</h4>
+                    <p>{{ item.description }}</p>
+                    {% if item.list %}
+                    <ul style="margin-top: 0.5rem;">
+                        {% for listItem in item.list %}
+                        <li>{{ listItem }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+            {% endfor %}
+
+            {% if itinerary.tripLinks %}
+            <div class="itinerary-section">
+                <h3 class="itinerary-day-header">Links to Book</h3>
+                {% for item in itinerary.tripLinks %}
+                <div class="itinerary-item">
+                    {% if item.title %}<h4>{{ item.title }}</h4>{% endif %}
+                    {% if item.description %}<p>{{ item.description }}</p>{% endif %}
+                    {% if item.list %}
+                    <ul style="margin-top: 0.5rem;">
+                        {% for listItem in item.list %}
+                        <li>
+                            {% if listItem.url %}
+                            <a href="{{ listItem.url }}" target="_blank" rel="noopener noreferrer nofollow" style="color: #E03C31; text-decoration: underline;">
+                                {{ listItem.text }}
+                            </a>
+                            {% else %}
+                            {{ listItem }}
+                            {% endif %}
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+
+        <aside class="itinerary-sidebar">
+            <h3>Trip Facts</h3>
+            {% for fact in itinerary.facts %}
+            <div class="itinerary-fact">
+                <span style="flex: 1;">{{ fact.label }}</span>
+                <strong style="text-align: right;">{{ fact.value }}</strong>
+            </div>
+            {% endfor %}
+            
+            <div style="margin-top: 2rem;">
+                <h3>Packing List</h3>
+                <ul style="list-style: disc; padding-left: 1rem; font-size: 0.9rem;">
+                    {% for item in itinerary.packingList %}
+                    <li>{{ item }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            {% if itinerary.costs %}
+            <div style="margin-top: 2rem;">
+                <h3>Cost Breakup</h3>
+                <p style="font-size: 0.85rem; color: #666; margin-bottom: 1rem;">For {{ itinerary.costs.travelers }} travelers</p>
+                {% for cost in itinerary.costs.breakdown %}
+                <div class="itinerary-fact">
+                    <span style="flex: 1;">{{ cost.category }}</span>
+                    <strong style="text-align: right;">${{ cost.amount }}</strong>
+                </div>
+                {% endfor %}
+                <div class="itinerary-fact" style="margin-top: 1rem; padding-top: 1rem; border-top: 2px solid #E03C31; font-size: 1.1rem;">
+                    <span style="flex: 1;"><strong>Total</strong></span>
+                    <strong style="color: #E03C31; text-align: right;">
+                        ${{ totalCost }}
+                    </strong>
+                </div>
+                <p style="font-size: 0.75rem; color: #999; margin-top: 0.5rem;">Per person: ${{ (totalCost / itinerary.costs.travelers) | round }}</p>
+            </div>
+            {% endif %}
+
+            {% if itinerary.weather %}
+            <div style="margin-top: 2rem;">
+                <h3>Weather Note</h3>
+                <p style="font-size: 0.85rem; color: #666; margin-bottom: 1rem;">{{ itinerary.weather.note }}</p>
+                {% for expectation in itinerary.weather.expectations %}
+                <div style="margin-bottom: 1rem;">
+                    <strong style="display: block; margin-bottom: 0.25rem; font-size: 0.9rem;">{{ expectation.condition }}</strong>
+                    <p style="font-size: 0.85rem; margin: 0;">{{ expectation.description }}</p>
+                </div>
+                {% endfor %}
+            </div>
+            {% endif %}
+        </aside>
+    </div>
+</div>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/global.css' | url }}">
+    <!-- Preloads -->
+    <link rel="preload" href="{{ '/assets/fonts/AtkinsonHyperlegibleNext-Regular.woff2' | url }}" as="font" type="font/woff2" crossorigin> 
+    <link rel="preload" href="{{ '/assets/fonts/AtkinsonHyperlegibleNext-Italic.woff2' | url }}" as="font" type="font/woff2" crossorigin> 
+    <link rel="preload" href="{{ '/assets/fonts/AtkinsonHyperlegibleNext-Medium.woff2' | url }}" as="font" type="font/woff2" crossorigin> 
+    <link rel="preload" href="{{ '/assets/fonts/AtkinsonHyperlegibleNext-MediumItalic.woff2' | url }}" as="font" type="font/woff2" crossorigin> 
+    <link rel="preload" href="{{ '/assets/fonts/AtkinsonHyperlegibleNext-Bold.woff2' | url }}" as="font" type="font/woff2" crossorigin>
+    
+    <style>
+        /* Ensure background graphics are printed */
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+        }
+    </style>
+</head>
+<body class="bg-white text-slate-900">
+    <main>
+        {{ content | safe }}
+    </main>
+</body>
+</html>

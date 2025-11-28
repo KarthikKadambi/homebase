@@ -1,0 +1,271 @@
+{
+  "title": "Alaska Winter Adventure",
+  "location": "Alaska, USA",
+  "date": "November 2025",
+  "duration": "7 Days",
+  "heroImage": "/assets/images/posts/alaska.png",
+  "intro": "Experience the magic of Alaska in winter from glaciers to hot springs, the arctic circle to dog sledding, cloudy skies to magical auroras. A week-long adventure through the last frontier.",
+  "preTrip": [
+    {
+        "title": "Trip Overview",
+        "description": "Preparing for an unforgettable winter adventure in Alaska. This itinerary covers all the essentials for a 7-day trip, including travel plans, accommodation, activities, packing tips, and cost breakdowns. Our trip was from November 20 till November 26, 2025."
+    },
+    {
+        "title": "Our Plan",
+        "list": [
+          "Northern Lights are not guaranteed, plan multiple viewing opportunities.",
+          "Book all the flights, hotels, tours and gear in advance.",
+          "Budget for internal travel, food and gratuities.",
+          "Carry ready-to-eat meals and snacks for most days. Also during air travel, we plan to use airport lounges to have meals. On other days, we will eat at local diners and restaurants.",
+          "Pack couple of inner, mid, and outer layers for extreme cold weather."
+        ]
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Journey to the Last Frontier",
+      "items": [
+        {
+          "title": "Air Travel",
+          "description": "We reached San Jose Mineta International Airport early morning around 5AM and our flight was at 8AM. We planned to eat a heavy breakfast at priority pass lounge and post that out journey started to Seattle Tacome Inteenational Airport"
+        },
+        {
+            "description": "From Seattle, we had a layover of 3 hours, so we had a nice meal at priority pass lounge and then boarded our flight to Ted Stevens Anchorage International Airport. We reached Anchorage around 4PM local time."
+        },
+        {
+          "title": "Accommodation",
+          "description": "We had booked our stay at The Wildbirch hotel for 2 nights in Anchorage. This hotel is located close to the airport and downtown Anchorage. We reached the hotel by cab and checked in. If you are Hyatt member, you can get microwave in your room for free and this comes handy for ready to eat meals."
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "title": "Glacier Exploration",
+      "items": [
+        {
+          "title": "Matanuska Glacier",
+          "description": "Explore one of Alaska's most accessible glaciers. Walk on ancient ice and marvel at the blue crevasses. We had booked a guided tour with Greatland Adventures and we were picked up at 8AM from our hotel and it was a 2-hour drive to the glacier and we stopped mid at a frozen long lake to take some pictures. The tour was great and the guide was very knowledgeable about the glacier and its formation. The tour also had lunch included and we had nice burger with fries and hot chocolate at long rifle lodge near the glacier. We were dropped back at 4PM at our hotel and after freshening up, we walked around in downtown Anchorage."
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "title": "North to Fairbanks",
+      "items": [
+        {
+          "title": "Air Travel",
+          "description": "We started our day early and had a nice free breakfast at Crimson resturant inside the hotel took a cab to Anchorage airport for our flight to Fairbanks. The flight duration is around 1 hour and we reached Fairbanks by 12PM local time."
+        },
+        {
+          "title": "Accommodation",
+          "description": "We had booked our accommodation at Pike's Waterfront Lodge which is located close to the river and downtown Fairbanks. We reached the hotel by free shuttle from hotel and checked in."
+        },
+        {
+            "title": "Reindeer",
+            "description": "Next to pikes lodge, there is Reindeer ranger station where we saw reindeers up close."
+        },
+        {
+          "title": "Rental Gear Pickup",
+          "description": "We had booked for rental outer wear and went in cab to pick up our rental gear from Alaska outdoor gear outfitters. They have a wide range of extreme cold weather gear for rent and we had booked our gear in advance online. After picking up the gear, we went back to hotel and relaxed for the evening. The rooms have microwave and we had our ready to eat meals and relaxed for the night."
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "title": "Arctic Circle Adventure",
+      "items": [
+        {
+          "title": "Full Day Tour",
+          "description": "Cross the Arctic Circle at 66°33' North. Journey along the Dalton Highway with stunning views of the Brooks Range. After the free breakfast at hotel, our hotel provided free drop off to Northern Alaska Tour Company for our full day Arctic Circle tour. The tour started at 8AM and we were driven in a comfortable van with heated seats. We stopped at Arctic circle trading post and then at dalton highway and alaskan pipeline. Post that we reached the Yukon river camp cafe around 3PM had our packed meals. We reached the Arctic circle sign around 5PM. Post that we started our return and stopped again at Yukon river camp cafe for dinner. We reached back to Arctic Circle Trading post aroung 12AM and there we witnessed magical Aurora Borealis display. It was a surreal experience to see the green and pink lights dancing in the sky. We were dropped back at our hotel around 4AM."
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "title": "Natural Hot Springs",
+      "items": [
+        {
+          "title": "Chena Hot Springs Resort",
+          "description": "We had booked a shuttle to pick us up from pikes to chena hot springs resort. We started around 11AM and reached the resort at 1PM."
+        },
+        {
+            "title": "Ice Museum",
+            "description": "We visited the Aurora Ice Museum which is a fantastic display of ice sculptures and art. The ice bar serves drinks in ice glasses, although the museum experience was average, we enjoyed appletini."
+        },
+        {
+            "title": "Geothermal and Greenhouse Tour",
+            "description": "We took the guided tour of the geothermal plant and greenhouse. It was fascinating to see how they use geothermal energy to grow vegetables in the middle of winter in Alaska."
+        },
+        {
+          "title": "Hot Springs Soak",
+          "description": "Relax in the natural hot springs surrounded by snowy landscapes. We spent the evening soaking in the hot springs and enjoying the serene environment. We had our packed dinner and departed back via shuttle to pikes lodge at around 10PM and reached back at 12PM. On the way back, we saw beautiful aurora display again."
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "title": "Winter Traditions",
+      "items": [
+        {
+          "title": "Santa Claus House",
+          "description": "Visit the famous Santa Claus House in North Pole, Alaska. Explore holiday-themed shops and meet Santa himself. Also saw reindeers up close at the reindeer ranch next to Santa Claus house."
+        },
+        {
+          "title": "Dog Sledding",
+          "description": "Experience authentic Alaskan dog sledding at Rod's Alaskan Guide Service. We had an amazing time mushing the dogs through the snowy trails. The experience was exhilarating and we learned a lot about the history and culture of dog sledding in Alaska."
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "title": "Journey Home",
+      "items": [
+        {
+          "title": "Return Travel",
+          "description": "Fairbanks to San Jose via connecting flights from seattle. We had midnight 12AM flight from Fairbanks to Seattle and then from Seattle to San Jose. We reached back home safely with wonderful memories of our Alaskan winter adventure."
+        }
+      ]
+    }
+  ],
+  "tripLinks": [
+    {
+        "title": "Flight Bookings",
+        "description": "Book your flights to and within Alaska:",
+        "list": [
+            {
+                "text": "Alaska airlines",
+                "url": "https://www.alaskaair.com/"
+            }
+        ]
+    },
+    {
+        "title": "Accommodation",
+        "description": "Reserve your stays at these hotels:",
+        "list": [
+            {
+                "text": "The Wildbirch Hotel, Anchorage",
+                "url": "https://www.wildbirchhotel.com/"
+            },
+            {
+                "text": "Pike's Waterfront Lodge, Fairbanks",
+                "url": "https://pikeslodge.com/"
+            }
+        ]
+    },
+        {
+        "title": "Tour Bookings",
+        "description": "Reserve these activities in advance:",
+        "list": [
+            {
+                "text": "Greatland Adventures - Matanuska Glacier Tour",
+                "url": "https://www.greatlandadventures.com/matanuska-glacier-winter-tour/"
+            },
+            {
+                "text": "Northern Alaska Tour Company - Arctic Circle Tour",
+                "url": "https://www.northernalaska.com/tours/arctic-circle-aurora-drive-adventure/"
+            },
+            {
+                "text": "Chena Hot Springs Resort",
+                "url": "https://chenahotsprings.com/"
+            },
+            {
+                "text": "Rod's Alaskan Guide Service - Dog Sledding",
+                "url": "https://www.rodsalaskanguideservice.com/dog-sledding"
+            }
+        ]
+    },
+    {
+        "title": "Gear Rental",
+        "description": "Rent extreme cold weather gear here:",
+        "list": [
+            {
+                "text": "Alaska Outdoor Gear Outfitters",
+                "url": "https://www.alaskaoutdoorgear.com/"
+            }
+        ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Duration",
+      "value": "7 Days"
+    },
+    {
+      "label": "Best Season",
+      "value": "Winter"
+    },
+    {
+      "label": "Transport",
+      "value": "Air + Cabs + Tours"
+    },
+    {
+      "label": "Base Cities",
+      "value": "Anchorage & Fairbanks"
+    }
+  ],
+  "packingList": [
+    "Thermal base layers",
+    "Fleece mid-layers",
+    "Extreme cold weather gear (-20°F rated)",
+    "Insulated boots",
+    "Camera with extra batteries",
+    "Sunglasses for snow glare",
+    "Aurora camera settings guide"
+  ],
+  "costs": {
+    "currency": "USD",
+    "travelers": 2,
+    "breakdown": [
+      {
+        "category": "Air",
+        "amount": 1200
+      },
+      {
+        "category": "Cab",
+        "amount": 200
+      },
+      {
+        "category": "Food",
+        "amount": 100
+      },
+      {
+        "category": "Stay",
+        "amount": 900
+      },
+      {
+        "category": "Tours",
+        "amount": 2250
+      },
+      {
+        "category": "Gear Rental",
+        "amount": 350
+      },
+      {
+        "category": "Gratuities",
+        "amount": 100
+      },
+      {
+        "category": "Souvenirs",
+        "amount": 100
+      }
+    ]
+  },
+  "weather": {
+    "note": "Winter in Alaska brings extreme cold and variable conditions",
+    "expectations": [
+      {
+        "condition": "Cloudy Skies",
+        "description": "Common in winter, may obscure aurora viewing. Check forecasts and have backup nights planned."
+      },
+      {
+        "condition": "Aurora Borealis",
+        "description": "Peak season! Clear, dark nights offer spectacular colorful displays of Northern Lights (green, pink, purple)."
+      },
+      {
+        "condition": "Temperature",
+        "description": "Expect -10°F to -30°F. Fairbanks is colder than Anchorage."
+      }
+    ]
+  }
+}
