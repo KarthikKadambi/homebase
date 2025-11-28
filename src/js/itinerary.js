@@ -1,7 +1,7 @@
-async function shareItinerary(title, text) {
+async function shareItinerary() {
     const shareData = {
-        title: title,
-        text: text,
+        title: document.title,
+        text: 'Check out my itinerary!',
         url: window.location.href
     };
 
@@ -9,7 +9,6 @@ async function shareItinerary(title, text) {
         if (navigator.share) {
             await navigator.share(shareData);
         } else {
-            // Fallback: Copy to clipboard
             await navigator.clipboard.writeText(window.location.href);
             alert('Link copied to clipboard!');
         }
@@ -21,3 +20,17 @@ async function shareItinerary(title, text) {
 function printPdf() {
     window.print();
 }
+
+// Add event listeners when DOM is ready
+document.addEventListener('DOMContentLoaded', function() {
+    const shareBtn = document.getElementById('shareBtn');
+    const printBtn = document.getElementById('printBtn');
+    
+    if (shareBtn) {
+        shareBtn.addEventListener('click', shareItinerary);
+    }
+    
+    if (printBtn) {
+        printBtn.addEventListener('click', printPdf);
+    }
+});

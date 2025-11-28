@@ -7,10 +7,10 @@
 
 <div class="itinerary-page">
     <div class="no-print" style="text-align: right; margin-bottom: 1rem; display: flex; gap: 0.5rem; justify-content: flex-end;">
-        <button onclick="shareItinerary('{{ itinerary.title }}', '{{ itinerary.intro | striptags | truncate(100) }}')" style="background: #4CAF50; color: white; border: none; padding: 0.5rem 1rem; border-radius: 4px; cursor: pointer; font-weight: bold;">
+        <button id="shareBtn" style="background: #4CAF50; color: white; border: none; padding: 0.5rem 1rem; border-radius: 4px; cursor: pointer; font-weight: bold;">
             🔗 Share
         </button>
-        <button onclick="printPdf()" style="background: #E03C31; color: white; border: none; padding: 0.5rem 1rem; border-radius: 4px; cursor: pointer; font-weight: bold;">
+        <button id="printBtn" style="background: #E03C31; color: white; border: none; padding: 0.5rem 1rem; border-radius: 4px; cursor: pointer; font-weight: bold;">
             🖨️ Print / Save as PDF
         </button>
     </div>
