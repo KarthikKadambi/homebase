@@ -17,20 +17,25 @@ async function shareItinerary() {
     }
 }
 
-function printPdf() {
-    window.print();
-}
-
 // Add event listeners when DOM is ready
 document.addEventListener('DOMContentLoaded', function() {
+    const homeBtn = document.getElementById('homeBtn');
     const shareBtn = document.getElementById('shareBtn');
     const printBtn = document.getElementById('printBtn');
     
+    if (homeBtn) {
+        homeBtn.addEventListener('click', function() {
+            window.location.href = '/about/';
+        });
+    }
+
     if (shareBtn) {
         shareBtn.addEventListener('click', shareItinerary);
     }
     
     if (printBtn) {
-        printBtn.addEventListener('click', printPdf);
+        printBtn.addEventListener('click', function() {
+            window.print();
+        });
     }
 });
