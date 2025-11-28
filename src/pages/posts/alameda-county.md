@@ -9,9 +9,9 @@ tags:
 
 Alameda County offers a diverse mix of experiences in the East Bay. One of the most memorable stops was a local legend that lights up the night.
 
-## Highlights of the Alameda County
+### Highlights of the Alameda County
 
-### Livermore
+#### Livermore
 - **Deacon Dave's House**: Also known as "Casa del Pomba," this home in Livermore is famous for its incredible Christmas light display, a true labor of love that draws visitors from all over.
 
 <div id="map-container">

@@ -9,9 +9,9 @@ tags:
 
 Just across the Golden Gate Bridge lies Marin County, a haven of natural beauty. It's a place where ancient forests meet the wild Pacific Ocean.
 
-## Highlights of the Marin County
+### Highlights of the Marin County
 
-### Nature
+#### Nature
 - **Muir Woods National Monument**: Walking among the towering old-growth coast redwoods in this cathedral of nature.
 - **Point Reyes National Seashore**: A vast expanse of protected coastline with dramatic cliffs, beaches, and the historic lighthouse.
 

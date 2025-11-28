@@ -9,9 +9,9 @@ tags:
 
 Napa Valley is world-renowned for its vineyards, but it also hides architectural surprises. One such gem transports you straight to the hills of Tuscany.
 
-## Highlights of the Napa County
+### Highlights of the Napa County
 
-### Calistoga
+#### Calistoga
 - **Castello di Amorosa**: An authentically built 13th-century inspired Tuscan castle and winery. Exploring its ramparts, courtyard, and underground cellars was a highlight of the trip.
 
 <div id="map-container">

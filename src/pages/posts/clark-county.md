@@ -9,9 +9,9 @@ tags:
 
 Clark County is synonymous with Las Vegas, but it's also the launching point for incredible adventures into the desert Southwest.
 
-## Highlights of the Clark County
+### Highlights of the Clark County
 
-### Landmarks
+#### Landmarks
 - **Hoover Dam**: An engineering marvel on the border of Nevada and Arizona, taming the mighty Colorado River.
 - **Grand Canyon West Rim**: Located on the Hualapai Indian Reservation, this rim offers stunning views and the famous Skywalk.
 

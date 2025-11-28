@@ -9,9 +9,9 @@ tags:
 
 Klamath County is home to one of the most stunning natural wonders in the United States. The volcanic legacy of this region has created a landscape unlike any other.
 
-## Highlights of the Klamath County
+### Highlights of the Klamath County
 
-### National Park
+#### National Park
 - **Crater Lake National Park**: The deepest lake in the United States, famous for its deep blue color and water clarity. Formed by the collapse of the volcano Mount Mazama, it's a breathtaking sight.
 
 <div id="map-container">

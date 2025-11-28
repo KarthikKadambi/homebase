@@ -9,13 +9,13 @@ tags:
 
 Siskiyou County is a testament to the raw power of nature. Dominated by the snow-capped peak of Mount Shasta, this region offers some of the most serene and spectacular landscapes in California.
 
-## Highlights of the Siskiyou County
+### Highlights of the Siskiyou County
 
-### Mount Shasta
+#### Mount Shasta
 - **Mt Shasta**: The spiritual and physical anchor of the region, visible from miles away.
 - **Lake Siskiyou**: A beautiful alpine lake reflecting the mountain's grandeur.
 
-### Waterfalls
+#### Waterfalls
 - **McCloud Falls**: A series of three stunning waterfalls on the McCloud River, each with its own unique character.
 
 <div id="map-container">

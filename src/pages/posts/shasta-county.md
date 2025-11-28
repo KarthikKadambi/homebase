@@ -9,9 +9,9 @@ tags:
 
 Shasta County is a gateway to outdoor adventure. Among its many treasures, one waterfall stands out as a must-see natural wonder.
 
-## Highlights of the Shasta County
+### Highlights of the Shasta County
 
-### Burney Falls
+#### Burney Falls
 - **McArthur-Burney Falls**: Often called the "Eighth Wonder of the World," this waterfall is not just water over a cliff but a wall of weeping springs that creates a mesmerizing curtain of water.
 
 <div id="map-container">

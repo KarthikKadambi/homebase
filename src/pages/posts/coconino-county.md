@@ -9,9 +9,9 @@ tags:
 
 In the high desert of Northern Arizona, wind and water have sculpted masterpieces of sandstone. Page is the gateway to these geological wonders.
 
-## Highlights of the Coconino County
+### Highlights of the Coconino County
 
-### Page, AZ
+#### Page, AZ
 - **Antelope Canyon**: A slot canyon famous for its wave-like structure and the light beams that shine down into the openings. Walking through it feels like entering another world.
 - **Horseshoe Bend**: A dramatic, horseshoe-shaped incised meander of the Colorado River. Standing on the edge of the cliff offers a dizzying and spectacular view.
 
