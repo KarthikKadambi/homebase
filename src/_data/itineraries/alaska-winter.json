@@ -222,6 +222,36 @@
       "value": "Anchorage & Fairbanks"
     }
   ],
+  "ratings": [
+    {
+      "category": "Travel Costs",
+      "score": 5
+    },
+    {
+      "category": "Tour Costs",
+      "score": 5
+    },
+    {
+      "category": "Instagrammable Places Covered",
+      "score": 3
+    },
+    {
+      "category": "Adventure Level",
+      "score": 3
+    },
+    {
+      "category": "Food Experience",
+      "score": 3
+    },
+    {
+      "category": "Cultural Immersion",
+      "score": 3
+    },
+    {
+      "category": "Wildlife",
+      "score": 2
+    }
+  ],
   "packingList": [
     "Thermal base layers",
     "Fleece mid-layers",

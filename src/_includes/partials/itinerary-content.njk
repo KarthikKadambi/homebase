@@ -106,6 +106,23 @@
             </div>
             {% endfor %}
             
+            {% if itinerary.ratings %}
+            <div style="margin-top: 2rem;">
+                <h3>Karthik's Rating</h3>
+                <p style="font-size: 0.75rem; margin-bottom: 1rem;">1🌴 - Low | 5🌴 - High</p>
+                {% for rating in itinerary.ratings %}
+                <div style="margin-bottom: 1rem;">
+                    <div style="font-size: 0.9rem; font-weight: 500; margin-bottom: 0.25rem;">{{ rating.category }}</div>
+                    <div style="font-size: 1.2rem;">
+                        {% for i in range(1, 6) %}
+                            {% if i <= rating.score %}🌴{% else %}🌑{% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% endif %}
+            
             <div style="margin-top: 2rem;">
                 <h3>Packing List</h3>
                 <ul style="list-style: disc; padding-left: 1rem; font-size: 0.9rem;">
