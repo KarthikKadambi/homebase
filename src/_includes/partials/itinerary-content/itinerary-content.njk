@@ -20,10 +20,13 @@
 
     <header class="itinerary-header">
         <h1 class="itinerary-title">{{ itinerary.title }}</h1>
+        {% if subtitle %}
+        <h2 class="itinerary-subtitle">{{ subtitle }}</h2>
+        {% endif %}
         <div class="itinerary-meta">{{ itinerary.location }} • {{ itinerary.date }}</div>
     </header>
 
-    <img src="{{ itinerary.heroImage }}" alt="{{ itinerary.title }}" class="itinerary-hero">
+    <img src="{{ itinerary.heroImage }}" alt="{{ itinerary.title }}" class="itinerary-hero" width="730" height="300" loading="eager">
 
     <div class="itinerary-content">
         <div class="itinerary-intro">
@@ -189,6 +192,12 @@
             </div>
             {% endif %}
         </aside>
+    </div>
+
+    <div class="no-print" style="margin-top: 3rem; text-align: center;">
+        <a href="/travel/" style="display: inline-block; background: #E03C31; color: white; text-decoration: none; padding: 1rem 2rem; border-radius: 4px; font-weight: bold; font-size: 1rem; transition: all 0.3s ease;">
+            ← Browse More Itineraries
+        </a>
     </div>
 
     <div style="margin-top: 3rem; padding: 1.5rem; background-color: #f5f5f5; border-left: 4px solid #E03C31; font-size: 0.85rem; color: #666;">
