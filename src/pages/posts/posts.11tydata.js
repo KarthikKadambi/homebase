@@ -1,8 +1,8 @@
 export default {
-    layout: 'layouts/post.html',
-    eleventyComputed: {
+	layout: 'layouts/post.html',
+	eleventyComputed: {
 		schemaorg: (data) => {
-            return {
+			return {
 				"@context": "https://schema.org",
 				"@graph": [
 					{
@@ -52,9 +52,9 @@ export default {
 						},
 						"alumniOf": [
 							{
-							"@type": "CollegeOrUniversity",
-							"name": "S.J.B. Institute of Technology (SJBIT)",
-							"url": "https://sjbit.edu.in/"
+								"@type": "CollegeOrUniversity",
+								"name": "S.J.B. Institute of Technology (SJBIT)",
+								"url": "https://sjbit.edu.in/"
 							}
 						],
 						"image": `${data.metadata.url}/assets/images/site/karthik.jpg`,
@@ -65,26 +65,11 @@ export default {
 							"givenName": "Neha",
 							"familyName": "Pradeep",
 							"sameAs": [
-							"https://youtube.com/@Veggiedelicacies",
-							"https://www.linkedin.com/in/neha-pradeep-7b152147",
-							"https://instagram.com/veggie_delicacies"
+								"https://youtube.com/@Veggiedelicacies",
+								"https://www.linkedin.com/in/neha-pradeep-7b152147",
+								"https://instagram.com/veggie_delicacies"
 							]
-          				}
-					},
-					{
-						"@type": "WebPage",
-						"@id": `${data.metadata.url}/content/#webpage`,
-						name: 'Content',
-						description: 'Posts and articles by Karthik Kadambi',
-						url: `${data.metadata.url}${data.page.url}`,
-						isPartOf: {
-							"@type": "WebSite",
-							"@id": `${data.metadata.url}/#website`,
-						},
-						author: {
-							"@type": "Person",
-							"@id": `${data.metadata.url}/#person_karthik_kadambi`
-						},
+						}
 					},
 					{
 						"@type": "Article",
@@ -96,9 +81,9 @@ export default {
 						dateModified: data.date.toISOString(),
 						image: data.image ? `${data.metadata.url}${data.image}` : `${data.metadata.url}/assets/images/site/karthik.jpg`,
 						url: `${data.metadata.url}${data.page.url}`,
-						mainEntityOfPage: {
-							"@type": "WebPage",
-							"@id": `${data.metadata.url}/content/#webpage`,
+						isPartOf: {
+							"@type": "WebSite",
+							"@id": `${data.metadata.url}/#website`,
 						},
 						author: {
 							"@type": "Person",
@@ -106,7 +91,7 @@ export default {
 						},
 					}
 				]
-        	};
+			};
 		},
 	}
 }
