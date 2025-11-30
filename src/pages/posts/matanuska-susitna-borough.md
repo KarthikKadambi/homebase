@@ -1,7 +1,8 @@
 ---
 title: Exploring Matanuska-Susitna Borough | Walking on Ice
 date: 2025-11-27
-description: A thrilling trek onto the massive Matanuska Glacier.
+description: Experience a thrilling trek on the massive Matanuska Glacier, exploring blue ice features and stunning crevasses.
+keywords: Matanuska-Susitna Borough, Matanuska Glacier, Alaska glaciers, glacier trekking, ice hiking, Alaska adventure
 tags:
   - travel
   - Matanuska-Susitna Borough

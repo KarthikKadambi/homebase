@@ -2,6 +2,7 @@
 title: Exploring Alameda County | Holiday Lights and Local Charm
 date: 2025-11-19
 description: A visit to Alameda County, featuring the spectacular Deacon Dave's House of the Dove.
+keywords: Alameda County, Karthik Kadambi, travel, Livermore, Deacon Dave's House, Casa del Pomba, Christmas lights, holiday display, East Bay, California, local attractions
 tags:
   - travel
   - Alameda County

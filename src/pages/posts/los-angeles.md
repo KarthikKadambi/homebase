@@ -1,7 +1,8 @@
 ---
-title: Exploring Los Angeles | A Journey Through Hollywood and the Coast
+title: Los Angeles | Hollywood and Coastal Vibes
 date: 2025-11-19
-description: Discovering the magic of Los Angeles, from the glitz of Hollywood to the sunny vibes of Santa Monica and Venice Beach.
+description: Discover the magic of Los Angeles from Hollywood's glitz to Santa Monica and Venice Beach's sunny coastal vibes.
+keywords: Los Angeles, Hollywood, Universal Studios, Warner Bros Studio, Santa Monica, Venice Beach, Griffith Observatory, Hollywood Sign
 tags:
   - travel
   - Los Angeles

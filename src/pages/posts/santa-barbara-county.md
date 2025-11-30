@@ -1,7 +1,8 @@
 ---
 title: Exploring Santa Barbara County | Danish Charm in Solvang
 date: 2025-11-19
-description: A delightful visit to Solvang, the Danish capital of America.
+description: Experience the fairy tale charm of Solvang, the Danish Capital of America, with windmills, bakeries, and European atmosphere.
+keywords: Santa Barbara County, Solvang, Danish Capital of America, windmills, aebleskiver, Santa Ynez Valley, California travel
 tags:
   - travel
   - Santa Barbara County

@@ -2,6 +2,7 @@
 title: Exploring Napa County | A Castle in Wine Country
 date: 2025-11-19
 description: Stepping back in time at the medieval-style Castello di Amorosa in Napa Valley.
+keywords: Napa County, Karthik Kadambi, travel, Napa Valley, Castello di Amorosa, wine country, Calistoga, Tuscan castle, winery, California vineyards, wine tasting, medieval architecture
 tags:
   - travel
   - Napa County

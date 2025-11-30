@@ -2,6 +2,7 @@
 title: Exploring Santa Clara County | Innovation and Design
 date: 2025-11-19
 description: A visit to the heart of Silicon Valley and the architectural marvel of Apple Park.
+keywords: Santa Clara County, Karthik Kadambi, travel, Silicon Valley, Apple Park, Apple Park Visitor Center, Cupertino, technology, innovation, modern architecture, California, tech landmarks, augmented reality
 tags:
   - travel
   - Santa Clara County

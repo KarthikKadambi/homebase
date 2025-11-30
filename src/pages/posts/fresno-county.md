@@ -2,6 +2,7 @@
 title: Exploring Fresno County | Giants of the Forest
 date: 2025-11-19
 description: Walking among the giant sequoias in Sequoia and Kings Canyon National Parks.
+keywords: Fresno County, Karthik Kadambi, travel, Sequoia National Park, Kings Canyon National Park, General Sherman Tree, giant sequoias, California, national parks, hiking, wilderness, redwoods
 tags:
   - travel
   - Fresno County

@@ -1,7 +1,8 @@
 ---
-title: Exploring Fairbanks North Star Borough | Northern Lights and Winter Magic
+title: Fairbanks | Northern Lights and Winter Magic
 date: 2025-11-27
-description: A winter wonderland adventure in Fairbanks, featuring hot springs, dog sledding, and a visit to the North Pole.
+description: Experience Alaska's winter wonderland with hot springs, dog sledding, and a magical visit to the North Pole in Fairbanks.
+keywords: Fairbanks, Northern Lights, aurora borealis, Chena Hot Springs, dog sledding, North Pole Alaska, Santa Claus House, Alaska winter
 tags:
   - travel
   - Fairbanks North Star Borough

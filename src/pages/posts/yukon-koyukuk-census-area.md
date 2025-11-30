@@ -1,7 +1,8 @@
 ---
-title: Exploring Yukon-Koyukuk Census Area | Crossing the Arctic Circle
+title: Yukon-Koyukuk | Crossing the Arctic Circle
 date: 2025-11-27
-description: A journey up the Dalton Highway to cross the Arctic Circle latitude.
+description: Journey up the Dalton Highway to cross into the Arctic Circle at latitude 66°33′N and experience true Alaskan wilderness.
+keywords: Yukon-Koyukuk, Arctic Circle, Dalton Highway, Alaska Arctic, trans-Alaska pipeline, boreal forest, latitude 66°33′N
 tags:
   - travel
   - Yukon-Koyukuk Census Area
