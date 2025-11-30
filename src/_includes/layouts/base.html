@@ -52,24 +52,19 @@
     <link rel="me" href="https://mastodon.social/@karthikkadambi">
 </head>
 
-{% if not overrideBody %}
 <body>
+{% if not overrideBody %}
     {% include "partials/site-head/site-head.njk" %}
     <main class="wrapper">
         {{ content | safe }}
     </main>
     {% include "partials/footer/footer.njk" %}
+    <script src="{{ '/assets/js/theme-toggle.js' | url }}" defer></script>
+{% else %}
+    {{ content | safe }}
+    <script src="/assets/js/itinerary.js" defer></script>
+{% endif %}
     <!-- Add schema.org structured data as JSON-LD -->
     <script type="application/ld+json">{{ schemaorg | dump | safe }}</script>
-    <script src="{{ '/assets/js/theme-toggle.js' | url }}" defer></script>
 </body>
-{% else %}
-<body class="bg-white text-slate-900">
-    <main>
-        {{ content | safe }}
-    </main>
-    <script type="application/ld+json">{{ schemaorg | dump | safe }}</script>
-    <script src="/assets/js/itinerary.js" defer></script>
-</body>
-{% endif %}
 </html>

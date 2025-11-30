@@ -32,14 +32,15 @@
       "title": "Journey to the Last Frontier",
       "items": [
         {
-          "title": "Air Travel",
+          "title": "Air Travel 1",
           "description": "We reached San Jose Mineta International Airport early morning around 5AM and our flight was at 8AM. We planned to eat a heavy breakfast at priority pass lounge and post that our journey started to Seattle Tacoma International Airport"
         },
         {
+          "title": "Layover",
           "description": "From Seattle, we had a layover of 3 hours, so we had a nice meal at priority pass lounge and then boarded our flight to Ted Stevens Anchorage International Airport. We reached Anchorage around 4PM local time."
         },
         {
-          "title": "Accommodation",
+          "title": "Accommodation 1",
           "description": "We had booked our stay at The Wildbirch hotel for 2 nights in Anchorage. This hotel is located close to the airport and downtown Anchorage. We reached the hotel by cab and checked in. If you are Hyatt member, you can get microwave in your room for free and this comes handy for ready to eat meals."
         }
       ]
@@ -59,11 +60,11 @@
       "title": "North to Fairbanks",
       "items": [
         {
-          "title": "Air Travel",
+          "title": "Air Travel 2",
           "description": "We started our day early and had a nice free breakfast at Crimson restaurant inside the hotel took a cab to Anchorage airport for our flight to Fairbanks. The flight duration is around 1 hour and we reached Fairbanks by 12PM local time."
         },
         {
-          "title": "Accommodation",
+          "title": "Accommodation 2",
           "description": "We had booked our accommodation at Pike's Waterfront Lodge which is located close to the river and downtown Fairbanks. We reached the hotel by free shuttle from hotel and checked in."
         },
         {
@@ -150,7 +151,7 @@
       "list": [
         {
           "text": "The Wildbirch Hotel, Anchorage",
-          "url": "https://www.wildbirchhotel.com/"
+          "url": "https://wildbirchhotel.com/"
         },
         {
           "text": "Pike's Waterfront Lodge, Fairbanks",
@@ -176,7 +177,7 @@
         },
         {
           "text": "Rod's Alaskan Guide Service - Dog Sledding",
-          "url": "https://www.rodsalaskanguideservice.com/dog-sledding"
+          "url": "https://rodsalaskanguideservice.com/dog-sledding/"
         }
       ]
     },
