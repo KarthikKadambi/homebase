@@ -34,8 +34,11 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     if (printBtn) {
-        printBtn.addEventListener('click', function() {
+        printBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            e.stopImmediatePropagation();
             window.print();
-        });
+        }, { once: true });
     }
 });
