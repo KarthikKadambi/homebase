@@ -69,6 +69,9 @@ function init() {
     viewResumeButton && viewResumeButton.addEventListener('click', () => {
         window.open('/resume.pdf', '_blank');
     });
+
+    // Disable right-click context menu
+    document.addEventListener('contextmenu', event => event.preventDefault());
 }
 
 // Run initialization
