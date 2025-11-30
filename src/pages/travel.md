@@ -32,7 +32,7 @@ title: My Travel map | Places I've explored worldwide
 
 <h4>From San Jose, CA</h4>
 <ul>
-    <li><a href="/itineraries/alaska-winter/">View Alaska Winter Itinerary</a></li>
+    <li><a href="/itineraries/alaska-winter/">View Alaska Winter Adventure Itinerary</a></li>
 </ul>
 
 <script src="/assets/js/leaflet.js" defer></script>

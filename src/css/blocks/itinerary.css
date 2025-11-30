@@ -1,4 +1,5 @@
 /* Itinerary Magazine Layout */
+@import 'itinerary-toc.css';
 
 .itinerary-page {
   --itinerary-bg: #ffffff;
@@ -40,6 +41,8 @@
     margin: 0.5cm;
     size: A4;
   }
+
+
 }
 
 .itinerary-header {
@@ -120,11 +123,28 @@
 .itinerary-sidebar {
   grid-column: 2;
   background: #f4f4f4;
-  padding: 1.5rem;
+  padding: 1.5rem 1rem;
   border-radius: 4px;
   height: fit-content;
   position: sticky;
   top: 1rem;
+  max-height: calc(100vh - 2rem);
+  overflow-y: auto;
+  scrollbar-width: thin;
+  /* Adjust for scrollbar */
+}
+
+.itinerary-sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.itinerary-sidebar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.itinerary-sidebar::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
 }
 
 .itinerary-sidebar h3 {
@@ -145,22 +165,38 @@
   font-size: 0.9rem;
 }
 
+.itinerary-fact span {
+  flex: 1;
+}
+
 .itinerary-fact strong {
   font-weight: 600;
-  white-space: nowrap;
+  text-align: right;
+  /* Allow wrapping if needed to prevent overflow */
+  white-space: normal;
 }
 
 @media (max-width: 768px) {
   .itinerary-content {
     grid-template-columns: 1fr;
   }
-  
+
   .itinerary-main,
   .itinerary-sidebar {
     grid-column: 1;
   }
-  
+
   .itinerary-sidebar {
     position: static;
+  }
+}
+
+@media print {
+  .itinerary-sidebar {
+    position: static !important;
+    max-height: none !important;
+    overflow: visible !important;
+    height: auto !important;
+    padding-right: 1.5rem !important;
   }
 }

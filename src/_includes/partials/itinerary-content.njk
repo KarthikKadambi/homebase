@@ -30,6 +30,30 @@
             {{ itinerary.intro }}
         </div>
 
+        <div class="itinerary-toc">
+            <h3>Table of Contents</h3>
+            <div class="toc-grid">
+                {% if itinerary.preTrip %}
+                <div class="toc-item">
+                    <span class="toc-day">Intro</span>
+                    <span class="toc-title">Before You Go</span>
+                </div>
+                {% endif %}
+                {% for dayInfo in itinerary.days %}
+                <div class="toc-item">
+                    <span class="toc-day">Day {{ dayInfo.day }}</span>
+                    <span class="toc-title">{{ dayInfo.title }}</span>
+                </div>
+                {% endfor %}
+                {% if itinerary.tripLinks %}
+                <div class="toc-item">
+                    <span class="toc-day">Info</span>
+                    <span class="toc-title">Links & Outro</span>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+
         <div class="itinerary-main">
             {% if itinerary.preTrip %}
             <div class="itinerary-section">
@@ -101,8 +125,8 @@
             <h3>Trip Facts</h3>
             {% for fact in itinerary.facts %}
             <div class="itinerary-fact">
-                <span style="flex: 1;">{{ fact.label }}</span>
-                <strong style="text-align: right;">{{ fact.value }}</strong>
+                <span>{{ fact.label }}</span>
+                <strong>{{ fact.value }}</strong>
             </div>
             {% endfor %}
             
