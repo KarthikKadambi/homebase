@@ -82,8 +82,8 @@ p {
 }
 
 ::selection {
-  background-color: var(--bg-color);
-  color: var(--selection-color));
+  background-color: #ccc;
+  color: light-dark(#000, #fff);
 }
 
 hr {

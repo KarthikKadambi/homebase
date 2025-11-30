@@ -44,5 +44,4 @@
   --accent-color: light-dark(var(--color-secondary), var(--color-primary)); ;
   --accent-alt-color: light-dark(var(--color-primary), var(--color-secondary));
   --focus-color: var(--color-primary);
-  --selection-color: rgba(255,215,0,0.3);
 }
