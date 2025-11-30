@@ -1,11 +1,11 @@
 ---
-title: Siskiyou County | Mountains and Waterfalls
-date: 2025-11-19
+date: 2025-11-22
 description: Venture into Northern California's wilderness to explore Mount Shasta's majestic peak and the stunning McCloud Falls.
 keywords: Siskiyou County, Mount Shasta, Lake Siskiyou, McCloud Falls, Northern California, waterfalls, mountain hiking
 tags:
   - travel
   - Siskiyou County
+title: Siskiyou County | Mountains and Waterfalls
 ---
 
 Siskiyou County is a testament to the raw power of nature. Dominated by the snow-capped peak of Mount Shasta, this region offers some of the most serene and spectacular landscapes in California.

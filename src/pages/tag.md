@@ -1,13 +1,13 @@
 ---
 eleventyComputed:
   description: "Browse all posts tagged with {{ tag | slug }} by Karthik Kadambi. Discover articles and insights related to this topic."
-  title: "{{ tag | slug }} Posts | By Karthik Kadambi"
   keywords: "tag, tags, {{ tag | slug }}, Karthik Kadambi, articles, blog, topics, posts, insights"
+  title: "{{ tag | slug }} Posts | By Karthik Kadambi"
 eleventyExcludeFromCollections: true
 pagination:
+  alias: tag
   data: collections.tagList
   size: 1
-  alias: tag
 permalink: /tags/{{ tag | slug }}/
 ---
 <div class="section-inset">

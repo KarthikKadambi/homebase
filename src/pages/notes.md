@@ -1,12 +1,12 @@
 ---
 description: Short notes and quick thoughts by Karthik Kadambi on tech, finance, travel and daily learning.
 keywords: notes, quick thoughts, Karthik Kadambi, tech, finance, travel, learning, snippets, ideas, blog
-title: Notes | Quick Thoughts by Karthik Kadambi
 pagination:
     data: collections.notes
     size: 10
     alias: pagedNotes
     reverse: true
+title: Notes | Quick Thoughts by Karthik Kadambi
 ---
 
 <div class="section-inset">

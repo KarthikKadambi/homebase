@@ -1,11 +1,11 @@
 ---
-title: Exploring Marin County | Redwoods and Seashores
-date: 2025-11-19
+date: 2025-11-22
 description: Wandering through the ancient redwoods of Muir Woods and the rugged coast of Point Reyes.
 keywords: Marin County, Karthik Kadambi, travel, Muir Woods, Point Reyes National Seashore, redwoods, coast redwoods, Golden Gate Bridge, California coast, hiking, lighthouse, nature, Pacific Ocean
 tags:
   - travel
   - Marin County
+title: Exploring Marin County | Redwoods and Seashores
 ---
 
 Just across the Golden Gate Bridge lies Marin County, a haven of natural beauty. It's a place where ancient forests meet the wild Pacific Ocean.

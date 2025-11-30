@@ -1,11 +1,11 @@
 ---
-title: Los Angeles | Hollywood and Coastal Vibes
-date: 2025-11-19
+date: 2025-11-22
 description: Discover the magic of Los Angeles from Hollywood's glitz to Santa Monica and Venice Beach's sunny coastal vibes.
 keywords: Los Angeles, Hollywood, Universal Studios, Warner Bros Studio, Santa Monica, Venice Beach, Griffith Observatory, Hollywood Sign
 tags:
   - travel
   - Los Angeles
+title: Los Angeles | Hollywood and Coastal Vibes
 ---
 
 Los Angeles is a city of endless possibilities, where the entertainment industry meets the laid-back California coast. My visit to the City of Angels was a whirlwind of iconic sights, movie magic, and stunning sunsets.

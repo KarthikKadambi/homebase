@@ -1,11 +1,11 @@
 ---
-title: Exploring Sonoma County | Art and Inspiration
-date: 2025-11-19
+date: 2025-11-22
 description: Visit the Charles M. Schulz Museum in Santa Rosa to celebrate the beloved creator of Peanuts and Snoopy.
 keywords: Sonoma County, Charles M Schulz Museum, Santa Rosa, Peanuts, Snoopy, art museums, California travel
 tags:
   - travel
   - Sonoma County
+title: Exploring Sonoma County | Art and Inspiration
 ---
 
 Sonoma County is known for its wine, but it also holds a special place for art and nostalgia.

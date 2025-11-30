@@ -1,11 +1,11 @@
 ---
-title: Exploring Shasta County | The Wonder of Burney Falls
-date: 2025-11-19
+date: 2025-11-22
 description: Witnessing the breathtaking beauty of McArthur-Burney Falls in Shasta County.
 keywords: Shasta County, Karthik Kadambi, travel, Burney Falls, McArthur-Burney Falls, waterfall, California, Northern California, natural wonders, outdoor adventure, state park, hiking
 tags:
   - travel
   - Shasta County
+title: Exploring Shasta County | The Wonder of Burney Falls
 ---
 
 Shasta County is a gateway to outdoor adventure. Among its many treasures, one waterfall stands out as a must-see natural wonder.

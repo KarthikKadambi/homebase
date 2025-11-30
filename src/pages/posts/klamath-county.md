@@ -1,11 +1,11 @@
 ---
-title: Exploring Klamath County | The Deep Blue of Crater Lake
-date: 2025-11-19
+date: 2025-11-22
 description: Witnessing the intense blue waters of Crater Lake National Park in Oregon.
 keywords: Klamath County, Karthik Kadambi, travel, Crater Lake National Park, Oregon, Mount Mazama, volcanic lake, deepest lake, blue water, national park, natural wonders, photography
 tags:
   - travel
   - Klamath County
+title: Exploring Klamath County | The Deep Blue of Crater Lake
 ---
 
 Klamath County is home to one of the most stunning natural wonders in the United States. The volcanic legacy of this region has created a landscape unlike any other.

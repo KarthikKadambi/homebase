@@ -1,11 +1,11 @@
 ---
-title: Exploring Clark County | Engineering Marvels and Canyons
-date: 2025-11-19
+date: 2025-11-22
 description: Explore the engineering marvel of Hoover Dam and the breathtaking views at Grand Canyon West Rim from Las Vegas.
 keywords: Clark County, Hoover Dam, Grand Canyon West Rim, Las Vegas, Nevada, Arizona, Colorado River, Skywalk
 tags:
   - travel
   - Clark County
+title: Exploring Clark County | Engineering Marvels and Canyons
 ---
 
 Clark County is synonymous with Las Vegas, but it's also the launching point for incredible adventures into the desert Southwest.

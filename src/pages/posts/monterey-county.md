@@ -1,11 +1,11 @@
 ---
-title: Exploring Monterey County | The Dramatic Coastline
-date: 2025-11-19
+date: 2025-11-22
 description: A road trip through the stunning landscapes of Big Sur, 17-Mile Drive, and Carmel-by-the-Sea.
 keywords: Monterey County, Karthik Kadambi, travel, Big Sur, Highway 1, Bixby Bridge, 17-Mile Drive, Carmel-by-the-Sea, Pebble Beach, Lone Cypress, Pfeiffer Big Sur, Carmel Beach, California coast, scenic drive, road trip
 tags:
   - travel
   - Monterey County
+title: Exploring Monterey County | The Dramatic Coastline
 ---
 
 Monterey County offers some of the most breathtaking coastal scenery in the world. From the iconic Bixby Bridge to the serene beaches of Carmel, every turn on Highway 1 is a postcard moment.

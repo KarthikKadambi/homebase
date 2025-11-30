@@ -1,11 +1,11 @@
 ---
-title: Exploring San Luis Obispo County | Castles and Coastlines
-date: 2025-11-19
+date: 2025-11-22
 description: Discovering the grandeur of Hearst Castle and the seaside charm of Pismo Beach.
 keywords: San Luis Obispo County, Karthik Kadambi, travel, Hearst Castle, San Simeon, Pismo Beach, Central Coast, California coast, William Randolph Hearst, beach towns, historic estates, coastal travel
 tags:
   - travel
   - San Luis Obispo County
+title: Exploring San Luis Obispo County | Castles and Coastlines
 ---
 
 San Luis Obispo County captures the essence of the California Central Coast, blending history, opulence, and relaxed beach vibes.

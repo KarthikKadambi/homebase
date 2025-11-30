@@ -1,11 +1,11 @@
 ---
-title: Exploring Coconino County | Light and Stone in Page
-date: 2025-11-19
+date: 2025-11-22
 description: Capturing the ethereal beauty of Antelope Canyon and the dramatic curve of Horseshoe Bend.
 keywords: Coconino County, Karthik Kadambi, travel, Page Arizona, Antelope Canyon, Horseshoe Bend, slot canyon, Colorado River, Northern Arizona, sandstone, geological wonders, photography
 tags:
   - travel
   - Coconino County
+title: Exploring Coconino County | Light and Stone in Page
 ---
 
 In the high desert of Northern Arizona, wind and water have sculpted masterpieces of sandstone. Page is the gateway to these geological wonders.

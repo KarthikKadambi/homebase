@@ -1,11 +1,11 @@
 ---
-title: Exploring San Francisco | Fog, Hills, and Iconic Landmarks
-date: 2025-11-19
+date: 2025-11-22
 description: A journey through San Francisco's most famous sights, from the Golden Gate to the bustling Fisherman's Wharf.
 keywords: San Francisco, Karthik Kadambi, travel, Golden Gate Bridge, Fisherman's Wharf, Pier 39, Lombard Street, Cable Car, Twin Peaks, Coit Tower, Palace of Fine Arts, Ferry Building, Ghirardelli Square, California, city travel, Bay Area
 tags:
   - travel
   - San Francisco
+title: Exploring San Francisco | Fog, Hills, and Iconic Landmarks
 ---
 
 San Francisco captivates with its rolling hills, Victorian architecture, and stunning bay views. It's a city that feels both historic and forward-looking, with a charm that is uniquely its own.
