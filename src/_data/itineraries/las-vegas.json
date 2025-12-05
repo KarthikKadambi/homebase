@@ -1,0 +1,238 @@
+{
+    "title": "Las Vegas Trip",
+    "location": "Las Vegas, Nevada, USA",
+    "date": "October 2024",
+    "duration": "5 Days",
+    "heroImage": "/assets/images/posts/vegas.png",
+    "intro": "A 5-day trip to Las Vegas exploring the Strip, Fremont Street, and nearby natural wonders like Antelope Canyon and Grand Canyon.",
+    "preTrip": [
+        {
+            "title": "Trip Overview",
+            "description": "A 5-day trip from October 3rd to October 8th, covering the best of Las Vegas city life and surrounding natural attractions."
+        }
+    ],
+    "days": [
+        {
+            "day": 1,
+            "title": "The Strip & Fremont",
+            "items": [
+                {
+                    "title": "Parking",
+                    "description": "I had booked long term parking from Oct 3 3:30 am till Oct 8 3:30 am. We reached SFO airport at around 4 am and parked the car and checked in for our flight."
+                },
+                {
+                    "title": "Breakfast",
+                    "description": "We had breakfast at the priority pass lounge and started our journey to Las Vegas at around 5.30 am."
+                },
+                {
+                    "title": "Stay",
+                    "description": "Took a cab and we got a early check-in at the Hilton Vacation Club Polo Towers Las Vegas and dumped the bags."
+                },
+                {
+                    "title": "Strip Walk",
+                    "description": "Walking along the famous Las Vegas Strip, exploring the iconic hotels and casinos."
+                },
+                {
+                    "title": "Fremont Street",
+                    "description": "Came back to hotel and freshened up. Took a cab to Fremont Street Experience for the light show and vibrant atmosphere."
+                }
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Natural Wonders",
+            "items": [
+                {
+                    "title": "Antelope Canyon & Horseshoe Bend from Las Vegas with Lunch",
+                    "description": "We started at 5 am and walked to the pick up point and our pickup was at 5:30 am. We visited horseshoe bend and post that we visited antelope canyon x and we came back to las vegas at around 8.30 pm."
+                }
+            ]
+        },
+        {
+            "day": 3,
+            "title": "Grand Canyon & Shows",
+            "items": [
+                {
+                    "title": "Grand Canyon West",
+                    "description": "We started at 6 am and walked to the pick up point and our pickup was at 6:30 am. We visited hoover dam photo stop and post that we stopped for photos of joshu tree and reached the eagle point at grand canyon west rim and then we went to the skywalk to get some photos and hiked a bit near the eagle point and on the way back we got to see big horn sheep up close and reached vegas at around 8.30 pm."
+                },
+                {
+                    "title": "Cirque du Soleil",
+                    "description": "We freshened up and went to Treasure island for Cirque du Soleil show and then we went to the hotel."
+                }
+            ]
+        },
+        {
+            "day": 4,
+            "title": "Leisure Day",
+            "items": [
+                {
+                    "title": "City Exploration",
+                    "description": "Walk around the city, explore hotels, or do some shopping."
+                }
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Art & Landmarks",
+            "items": [
+                {
+                    "title": "Arte Museum",
+                    "description": "Visit the immersive Arte Museum."
+                },
+                {
+                    "title": "Las Vegas Sign",
+                    "description": "Photo opportunity at the famous 'Welcome to Fabulous Las Vegas' sign."
+                },
+                {
+                    "title": "Back home",
+                    "description": "We had a return flight back home late night and we reached back early morning at SFO airport."
+                }
+            ]
+        }
+    ],
+    "tripLinks": [
+        {
+            "title": "Parking",
+            "description": "Airport Parking:",
+            "list": [
+                {
+                    "text": "SFO Parking",
+                    "url": "https://www.flysfo.com/passengers/parking"
+                }
+            ]
+        },
+        {
+            "title": "Tours",
+            "description": "Booked tours:",
+            "list": [
+                {
+                    "text": "Antelope Canyon & Horseshoe Bend Tour",
+                    "url": "https://nationalparkexpress.com/antelope-canyon/antelope-canyon-x-horseshoe-bend-tour-from-las-vegas-with-lunch/"
+                },
+                {
+                    "text": "Grand Canyon West & Hoover Dam Tour",
+                    "url": "https://nationalparkexpress.com/grand-canyon/grand-canyon-west-hoover-dam-photo-stop-day-tour-from-las-vegas-with-skywalk-and-dining-voucher/"
+                }
+            ]
+        },
+        {
+            "title": "Accommodation",
+            "description": "Hotel Stay:",
+            "list": [
+                {
+                    "text": "Hilton Vacation Club Polo Towers Las Vegas",
+                    "url": "https://www.hilton.com/en/hotels/lasptgv-hilton-vacation-club-polo-towers-las-vegas/"
+                }
+            ]
+        },
+        {
+            "title": "Flights",
+            "description": "Flights:",
+            "list": [
+                {
+                    "text": "Southwest Airlines",
+                    "url": "https://www.southwest.com/"
+                }
+            ]
+        }
+    ],
+    "facts": [
+        {
+            "label": "Duration",
+            "value": "5 Days"
+        },
+        {
+            "label": "Season",
+            "value": "Spring/Fall"
+        },
+        {
+            "label": "Transport",
+            "value": "Walking + Tours"
+        },
+        {
+            "label": "Base City",
+            "value": "Las Vegas"
+        }
+    ],
+    "ratings": [
+        {
+            "category": "Travel Costs",
+            "score": 4
+        },
+        {
+            "category": "Tour Costs",
+            "score": 3
+        },
+        {
+            "category": "Instagrammable Places Covered",
+            "score": 3
+        },
+        {
+            "category": "Entertainment",
+            "score": 5
+        },
+        {
+            "category": "Food",
+            "score": 4
+        },
+        {
+            "category": "Adventure",
+            "score": 1
+        }
+    ],
+    "packingList": [
+        "Comfortable walking shoes",
+        "Camera",
+        "Sunscreen",
+        "Sunglasses",
+        "Evening wear for shows"
+    ],
+    "costs": {
+        "currency": "USD",
+        "travelers": 2,
+        "breakdown": [
+            {
+                "category": "Parking",
+                "amount": 90
+            },
+            {
+                "category": "Tours",
+                "amount": 800
+            },
+            {
+                "category": "Stay",
+                "amount": 800
+            },
+            {
+                "category": "Food",
+                "amount": 400
+            },
+            {
+                "category": "Shows",
+                "amount": 300
+            },
+            {
+                "category": "Flights",
+                "amount": 1000
+            },
+            {
+                "category": "Cabs",
+                "amount": 110
+            }
+        ]
+    },
+    "weather": {
+        "note": "October weather in Las Vegas is generally pleasant.",
+        "expectations": [
+            {
+                "condition": "Sunny",
+                "description": "Expect plenty of sunshine."
+            },
+            {
+                "condition": "Temperature",
+                "description": "Highs around 80°F (27°C), lows around 60°F (15°C)."
+            }
+        ]
+    }
+}
