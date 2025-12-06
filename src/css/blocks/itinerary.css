@@ -18,6 +18,10 @@
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
+#watermark {
+  display: none;
+}
+
 @media print {
   body {
     background: none;
@@ -50,6 +54,19 @@
     padding-right: 1.5rem !important;
   }
 
+  #watermark.print-only {
+    display: block;
+    position: fixed;
+    bottom: 1cm;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.5;
+    font-size: 12pt;
+    color: #666;
+    text-align: center;
+    z-index: 1000;
+    pointer-events: none;
+  }
 }
 
 .itinerary-header {
