@@ -62,7 +62,12 @@ title: My Travel map | Places I've explored worldwide
 
 <h4>2017</h4>
 <ul>
-    <li><a href="/itineraries/dubai-abu-dhabi/">Dubai & Abu Dhabi Itinerary</a></li>
+    <li><a href="/itineraries/dubai-abu-dhabi/">Dubai & Abu Dhabi</a></li>
+</ul>
+
+<h4>2015</h4>
+<ul>
+    <li><a href="/itineraries/kl-singapore/">Kuala Lumpur & Singapore</a></li>
 </ul>
 
 <script src="/assets/js/leaflet.js" defer></script>

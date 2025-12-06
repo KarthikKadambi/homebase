@@ -2,22 +2,204 @@
     "title": "Los Angeles Getaway",
     "location": "Los Angeles, California, USA",
     "date": "May 2023",
-    "duration": "TBD",
-    "heroImage": "/assets/images/posts/placeholder.png",
-    "intro": "Exploring the City of Angels.",
+    "duration": "5 Days",
+    "heroImage": "/assets/images/posts/los-angeles.png",
+    "intro": "Exploring the entertainment capital of the world, from Hollywood studios to sunny beaches and cultural landmarks.",
     "preTrip": [],
-    "days": [],
-    "tripLinks": [],
-    "facts": [],
-    "ratings": [],
-    "packingList": [],
+    "days": [
+        {
+            "day": 1,
+            "title": "Arrival in LA",
+            "items": [
+                {
+                    "title": "Flight to LA",
+                    "description": "Departed San Jose Airport (SJC) at 9:30 AM and arrived at Los Angeles International Airport (LAX) at 12:15 PM."
+                },
+                {
+                    "title": "Check-in",
+                    "description": "Reached Hyatt Place Glendale and checked in for our stay."
+                }
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Universal Studios Hollywood",
+            "items": [
+                {
+                    "title": "Full Day at Universal Studios",
+                    "description": "Reached the park early at 8:00 AM to maximize the day. Explored the Wizarding World of Harry Potter, took the Studio Tour, and enjoyed thrilling rides. Stayed until 8:30 PM."
+                }
+            ]
+        },
+        {
+            "day": 3,
+            "title": "Hollywood Highlights",
+            "items": [
+                {
+                    "title": "Hollywood Sign",
+                    "description": "Viewed the iconic Hollywood Sign from Mulholland Highway at 8:30 AM for great photo opportunities."
+                },
+                {
+                    "title": "Warner Bros. Studio Tour",
+                    "description": "Took the comprehensive WB Studio Tour at 10:45 AM, exploring sets, soundstages, and the DC Universe exhibit."
+                },
+                {
+                    "title": "Griffith Observatory",
+                    "description": "Visited Griffith Observatory at 4:30 PM for stunning views of the city and the cosmos."
+                }
+            ]
+        },
+        {
+            "day": 4,
+            "title": "City & Coast",
+            "items": [
+                {
+                    "title": "Hollywood Walk of Fame",
+                    "description": "Strolled along the famous stars on Hollywood Boulevard."
+                },
+                {
+                    "title": "Petersen Automotive Museum",
+                    "description": "Explored one of the world's largest automotive museums."
+                },
+                {
+                    "title": "Venice Beach & Canals",
+                    "description": "Walked the eclectic boardwalk and the serene, picturesque canals of Venice."
+                },
+                {
+                    "title": "Santa Monica Pier",
+                    "description": "Ended the day at the historic pier, enjoying the ocean breeze and carnival atmosphere."
+                }
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Downtown Culture",
+            "items": [
+                {
+                    "title": "Angels Flight",
+                    "description": "Rode the historic Angels Flight funicular railway."
+                },
+                {
+                    "title": "The Broad",
+                    "description": "Visited the contemporary art museum with its distinctive honeycomb architecture."
+                },
+                {
+                    "title": "Exposition Park",
+                    "description": "Explored the urban park known for its museums and sport facilities."
+                }
+            ]
+        }
+    ],
+    "tripLinks": [
+        {
+            "title": "Flight Bookings",
+            "description": "Recommended airline:",
+            "list": [
+                {
+                    "text": "Southwest Airlines",
+                    "url": "https://www.southwest.com/"
+                }
+            ]
+        },
+        {
+            "title": "Accommodation",
+            "description": "Where we stayed:",
+            "list": [
+                {
+                    "text": "Hyatt Place Glendale",
+                    "url": "https://www.hyatt.com/hyatt-place/en-US/laxzg-hyatt-place-glendale-los-angeles"
+                }
+            ]
+        },
+        {
+            "title": "Attractions",
+            "description": "Book tickets in advance:",
+            "list": [
+                {
+                    "text": "Universal Studios Hollywood Tickets",
+                    "url": "https://store.universalstudioshollywood.com/en/us/store/c/uh_ice_default_pb_tickets"
+                },
+                {
+                    "text": "Warner Bros. Studio Tour",
+                    "url": "https://www.wbstudiotour.com/"
+                }
+            ]
+        }
+    ],
+    "facts": [
+        {
+            "label": "Duration",
+            "value": "5 Days"
+        },
+        {
+            "label": "Season",
+            "value": "Spring"
+        },
+        {
+            "label": "Transport",
+            "value": "Flight + Car"
+        }
+    ],
+    "ratings": [
+        {
+            "category": "Travel Cost",
+            "score": 3
+        },
+        {
+            "category": "Tour Cost",
+            "score": 3
+        },
+        {
+            "category": "Instagrammable Spots",
+            "score": 4
+        },
+        {
+            "category": "Food Experience",
+            "score": 3
+        },
+        {
+            "category": "Entertainment",
+            "score": 4
+        }
+    ],
+    "packingList": [
+        "Casual clothing (layers recommended)",
+        "Beach wear / Swimsuit",
+        "Sunscreen",
+        "Sunglasses",
+        "Walking shoes",
+        "Hat or cap",
+        "Power bank for long days",
+        "Reusable water bottle"
+    ],
     "costs": {
         "currency": "USD",
         "travelers": 2,
-        "breakdown": []
+        "breakdown": [
+            {
+                "category": "Flight",
+                "amount": 750
+            },
+            {
+                "category": "Cabs",
+                "amount": 200
+            },
+            {
+                "category": "Tours",
+                "amount": 350
+            },
+            {
+                "category": "Food",
+                "amount": 400
+            },
+            {
+                "category": "Stay",
+                "amount": 830
+            }
+        ]
     },
     "weather": {
-        "note": "",
+        "note": "Pleasant Southern California spring weather",
         "expectations": []
     }
 }

@@ -2,22 +2,144 @@
     "title": "Napa & Sonoma Wine Country",
     "location": "Napa Valley & Sonoma County, California, USA",
     "date": "July 2023",
-    "duration": "TBD",
-    "heroImage": "/assets/images/posts/placeholder.png",
-    "intro": "A summer escape to California's premier wine regions.",
+    "duration": "2 Days",
+    "heroImage": "/assets/images/posts/napa-sonoma.png",
+    "intro": "A delightful weekend exploring the scenic vineyards, towns, and attractions of Napa and Sonoma.",
     "preTrip": [],
-    "days": [],
-    "tripLinks": [],
-    "facts": [],
-    "ratings": [],
-    "packingList": [],
+    "days": [
+        {
+            "day": 1,
+            "title": "Napa Valley Highlights",
+            "items": [
+                {
+                    "title": "Drive to Napa",
+                    "description": "Started early around 6:00 AM. Stopped at the iconic 'Welcome to Napa Valley' sign for photos."
+                },
+                {
+                    "title": "Castello di Amorosa",
+                    "description": "Explored the stunning medieval-style Tuscan castle and winery in Calistoga."
+                },
+                {
+                    "title": "Old Faithful Geyser",
+                    "description": "Visited the geyser in Calistoga, one of the few 'old faithful' geysers in the world."
+                },
+                {
+                    "title": "Downtown Napa",
+                    "description": "Strolled through downtown Napa, enjoying the riverfront and atmosphere."
+                },
+                {
+                    "title": "Grape Crusher Statue",
+                    "description": "Stopped to see the famous Grape Crusher Statue, a symbol of Napa's winemaking heritage."
+                },
+                {
+                    "title": "Stay",
+                    "description": "Checked into our Airbnb at Santa Rosa."
+                }
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Sonoma & Peanuts",
+            "items": [
+                {
+                    "title": "Charles M. Schulz Museum",
+                    "description": "Visited the museum dedicated to the creator of the Peanuts comic strip."
+                },
+                {
+                    "title": "Lunch",
+                    "description": "Enjoyed a meal at Delhi Belly."
+                },
+                {
+                    "title": "Sonoma TrainTown Railroad",
+                    "description": "Visited the railroad-themed amusement park with miniature trains."
+                },
+                {
+                    "title": "Thornburg Normandy Village",
+                    "description": "Explored this hidden gem of storybook-style cottages in Berkeley (on the way back)."
+                },
+                {
+                    "title": "Return",
+                    "description": "Headed back home after a fun-filled weekend."
+                }
+            ]
+        }
+    ],
+    "tripLinks": [
+        {
+            "title": "Winery Tours",
+            "description": "Book tours in advance:",
+            "list": [
+                {
+                    "text": "Castello di Amorosa Tour Booking",
+                    "url": "https://booking.castellodiamorosa.com/booktour?tid=40"
+                }
+            ]
+        }
+    ],
+    "facts": [
+        {
+            "label": "Duration",
+            "value": "2 Days"
+        },
+        {
+            "label": "Season",
+            "value": "Summer"
+        },
+        {
+            "label": "Transport",
+            "value": "Car"
+        }
+    ],
+    "ratings": [
+        {
+            "category": "Travel Cost",
+            "score": 3
+        },
+        {
+            "category": "Tour Cost",
+            "score": 3
+        },
+        {
+            "category": "Instagrammable Spots",
+            "score": 3
+        },
+        {
+            "category": "Food Experience",
+            "score": 3
+        }
+    ],
+    "packingList": [
+        "Sunscreen",
+        "Sunglasses",
+        "Hat or cap",
+        "Summer clothing (light layers)",
+        "Comfortable walking shoes",
+        "Reusable water bottle"
+    ],
     "costs": {
         "currency": "USD",
         "travelers": 2,
-        "breakdown": []
+        "breakdown": [
+            {
+                "category": "Fuel",
+                "amount": 100
+            },
+            {
+                "category": "Food",
+                "amount": 200
+            },
+            {
+                "category": "Tours",
+                "amount": 200
+            },
+            {
+                "category": "Airbnb",
+                "amount": 200
+            }
+        ]
     },
     "weather": {
-        "note": "",
+        "note": "Warm California summer days",
         "expectations": []
     }
 }

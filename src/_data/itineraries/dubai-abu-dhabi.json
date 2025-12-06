@@ -2,13 +2,123 @@
     "title": "Dubai & Abu Dhabi",
     "location": "Dubai & Abu Dhabi, UAE",
     "date": "September 2017",
-    "duration": "TBD",
-    "heroImage": "/assets/images/posts/placeholder.png",
-    "intro": "Exploring the futuristic cities of the UAE.",
+    "duration": "7 Days",
+    "heroImage": "/assets/images/posts/dubai.png",
+    "intro": "A week-long journey through the dazzling skyscrapers of Dubai and the cultural landmarks of Abu Dhabi.",
     "preTrip": [],
-    "days": [],
+    "days": [
+        {
+            "day": 1,
+            "title": "Arrival in Old Dubai",
+            "items": [
+                {
+                    "title": "Arrival",
+                    "description": "Reached Orient Guest House in Dubai around 5:00 PM. Located in the historic Bastakiya area."
+                }
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Abu Dhabi Tour",
+            "items": [
+                {
+                    "title": "Ferrari World",
+                    "description": "Experienced the thrill of the world's fastest rollercoaster and other attractions at Ferrari World Abu Dhabi."
+                },
+                {
+                    "title": "Sheikh Zayed Grand Mosque",
+                    "description": "Visited the magnificent Grand Mosque, a masterpiece of Islamic architecture."
+                }
+            ]
+        },
+        {
+            "day": 3,
+            "title": "Dubai Creek",
+            "items": [
+                {
+                    "title": "Dhow Cruise",
+                    "description": "Enjoyed a traditional Dhow cruise along the Dubai Creek, soaking in the views of the city's historic and modern skyline."
+                }
+            ]
+        },
+        {
+            "day": 4,
+            "title": "Modern Dubai",
+            "items": [
+                {
+                    "title": "Burj Khalifa",
+                    "description": "Visited the top of the world's tallest building for breathtaking panoramic views."
+                },
+                {
+                    "title": "Dubai Mall",
+                    "description": "Explored the massive Dubai Mall, looking at the Aquarium and fountains."
+                }
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Wildlife & Desert",
+            "items": [
+                {
+                    "title": "Dubai Dolphinarium",
+                    "description": "Watched the dolphin and seal show."
+                },
+                {
+                    "title": "Desert Safari",
+                    "description": "Went on an evening desert safari including dune bashing, camel riding, and a barbecue dinner under the stars."
+                }
+            ]
+        },
+        {
+            "day": 6,
+            "title": "City Exploration",
+            "items": [
+                {
+                    "title": "Bus Tour",
+                    "description": "Took a bus tour to see various city landmarks and get an overview of Dubai's rapid development."
+                }
+            ]
+        },
+        {
+            "day": 7,
+            "title": "The Palm & Sea",
+            "items": [
+                {
+                    "title": "Palm Jumeirah",
+                    "description": "Visited the iconic man-made island."
+                },
+                {
+                    "title": "Night Cruise",
+                    "description": "Enjoyed a relaxing night cruise, seeing the illuminated city from the water."
+                }
+            ]
+        },
+        {
+            "day": 8,
+            "title": "History & Culture",
+            "items": [
+                {
+                    "title": "Dubai Museum",
+                    "description": "Visited the Dubai Museum in Al Fahidi Fort to learn about the city's transformation from a fishing village to a global metropolis."
+                }
+            ]
+        }
+    ],
     "tripLinks": [],
-    "facts": [],
+    "facts": [
+        {
+            "label": "Duration",
+            "value": "8 Days"
+        },
+        {
+            "label": "Season",
+            "value": "Autumn"
+        },
+        {
+            "label": "Transport",
+            "value": "Cabs + Tours"
+        }
+    ],
     "ratings": [],
     "packingList": [],
     "costs": {
@@ -17,7 +127,7 @@
         "breakdown": []
     },
     "weather": {
-        "note": "",
+        "note": "Hot desert climate",
         "expectations": []
     }
 }

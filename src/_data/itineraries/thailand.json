@@ -1,14 +1,106 @@
 {
     "title": "Thailand Adventure",
-    "location": "Thailand",
+    "location": "Phuket & Bangkok, Thailand",
     "date": "October 2019",
-    "duration": "TBD",
-    "heroImage": "/assets/images/posts/placeholder.png",
-    "intro": "A journey through the Land of Smiles.",
+    "duration": "7 Days",
+    "heroImage": "/assets/images/posts/thailand.png",
+    "intro": "A tropical escape to the beaches of Phuket and the bustling city life of Bangkok.",
     "preTrip": [],
-    "days": [],
+    "days": [
+        {
+            "day": 1,
+            "title": "Welcome to Phuket",
+            "items": [
+                {
+                    "title": "Patong Beach",
+                    "description": "Checked into the hotel near Patong Beach on October 1st."
+                },
+                {
+                    "title": "Bangla Walking Street",
+                    "description": "Explored the vibrant nightlife and street food of Bangla Walking Street."
+                }
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Island Hopping",
+            "items": [
+                {
+                    "title": "Island Tour",
+                    "description": "Took a boat tour to explore the stunning nearby islands."
+                }
+            ]
+        },
+        {
+            "day": 3,
+            "title": "Culture & Views",
+            "items": [
+                {
+                    "title": "Big Buddha",
+                    "description": "Visited the majestic Big Buddha temple atop Nakkerd Hills."
+                }
+            ]
+        },
+        {
+            "day": 4,
+            "title": "Travel to Bangkok",
+            "items": [
+                {
+                    "title": "Flight to Bangkok",
+                    "description": "Traveled from Phuket to Bangkok."
+                }
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Art & Illusion",
+            "items": [
+                {
+                    "title": "Trick Eye Museum",
+                    "description": "Visited the interactive 3D art museum for some fun photo opportunities."
+                }
+            ]
+        },
+        {
+            "day": 6,
+            "title": "Wildlife & Heights",
+            "items": [
+                {
+                    "title": "Zoo Experience",
+                    "description": "Visited the zoo and had the unique experience of holding a tiger."
+                },
+                {
+                    "title": "Mahanakhon Skywalk",
+                    "description": "Walked on the glass tray at the top of King Power Mahanakhon for thrilling city views."
+                }
+            ]
+        },
+        {
+            "day": 7,
+            "title": "Stars & Wax",
+            "items": [
+                {
+                    "title": "Madame Tussauds",
+                    "description": "Rubbed shoulders with wax figures of celebrities and historical icons."
+                }
+            ]
+        }
+    ],
     "tripLinks": [],
-    "facts": [],
+    "facts": [
+        {
+            "label": "Duration",
+            "value": "7 Days"
+        },
+        {
+            "label": "Season",
+            "value": "Monsoon/Autumn"
+        },
+        {
+            "label": "Transport",
+            "value": "Flight + Tuk-Tuk"
+        }
+    ],
     "ratings": [],
     "packingList": [],
     "costs": {
@@ -17,7 +109,7 @@
         "breakdown": []
     },
     "weather": {
-        "note": "",
+        "note": "Tropical climate",
         "expectations": []
     }
 }
