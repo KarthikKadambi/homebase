@@ -1,0 +1,23 @@
+{
+    "title": "Dubai & Abu Dhabi",
+    "location": "Dubai & Abu Dhabi, UAE",
+    "date": "September 2017",
+    "duration": "TBD",
+    "heroImage": "/assets/images/posts/placeholder.png",
+    "intro": "Exploring the futuristic cities of the UAE.",
+    "preTrip": [],
+    "days": [],
+    "tripLinks": [],
+    "facts": [],
+    "ratings": [],
+    "packingList": [],
+    "costs": {
+        "currency": "AED",
+        "travelers": 2,
+        "breakdown": []
+    },
+    "weather": {
+        "note": "",
+        "expectations": []
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "title": "Thailand Adventure",
+    "location": "Thailand",
+    "date": "October 2019",
+    "duration": "TBD",
+    "heroImage": "/assets/images/posts/placeholder.png",
+    "intro": "A journey through the Land of Smiles.",
+    "preTrip": [],
+    "days": [],
+    "tripLinks": [],
+    "facts": [],
+    "ratings": [],
+    "packingList": [],
+    "costs": {
+        "currency": "THB",
+        "travelers": 2,
+        "breakdown": []
+    },
+    "weather": {
+        "note": "",
+        "expectations": []
+    }
+}

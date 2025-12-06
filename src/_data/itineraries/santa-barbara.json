@@ -1,0 +1,23 @@
+{
+    "title": "Santa Barbara Weekend",
+    "location": "Santa Barbara, California, USA",
+    "date": "November 2024",
+    "duration": "TBD",
+    "heroImage": "/assets/images/posts/placeholder.png",
+    "intro": "A relaxing weekend in the American Riviera.",
+    "preTrip": [],
+    "days": [],
+    "tripLinks": [],
+    "facts": [],
+    "ratings": [],
+    "packingList": [],
+    "costs": {
+        "currency": "USD",
+        "travelers": 2,
+        "breakdown": []
+    },
+    "weather": {
+        "note": "",
+        "expectations": []
+    }
+}

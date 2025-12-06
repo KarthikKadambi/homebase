@@ -1,0 +1,23 @@
+{
+    "title": "Mammoth Lakes & Tioga Pass",
+    "location": "Mammoth Lakes, California, USA",
+    "date": "June 2025",
+    "duration": "TBD",
+    "heroImage": "/assets/images/posts/placeholder.png",
+    "intro": "Summer exploration of the Eastern Sierra and Yosemite High Country.",
+    "preTrip": [],
+    "days": [],
+    "tripLinks": [],
+    "facts": [],
+    "ratings": [],
+    "packingList": [],
+    "costs": {
+        "currency": "USD",
+        "travelers": 2,
+        "breakdown": []
+    },
+    "weather": {
+        "note": "",
+        "expectations": []
+    }
+}
