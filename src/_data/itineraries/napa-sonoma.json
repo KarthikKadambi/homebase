@@ -117,7 +117,7 @@
         "Reusable water bottle"
     ],
     "costs": {
-        "currency": "USD",
+        "currency": "$",
         "travelers": 2,
         "breakdown": [
             {

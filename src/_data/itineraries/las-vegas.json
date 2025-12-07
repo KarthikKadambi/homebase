@@ -189,7 +189,7 @@
         "Evening wear for shows"
     ],
     "costs": {
-        "currency": "USD",
+        "currency": "$",
         "travelers": 2,
         "breakdown": [
             {

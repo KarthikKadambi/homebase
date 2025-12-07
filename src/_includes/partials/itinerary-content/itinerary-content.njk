@@ -170,16 +170,16 @@
                 {% for cost in itinerary.costs.breakdown %}
                 <div class="itinerary-fact">
                     <span style="flex: 1;">{{ cost.category }}</span>
-                    <strong style="text-align: right;">${{ cost.amount }}</strong>
+                    <strong style="text-align: right;">{{ itinerary.costs.currency }}{{ cost.amount }}</strong>
                 </div>
                 {% endfor %}
                 <div class="itinerary-fact" style="margin-top: 1rem; padding-top: 1rem; border-top: 2px solid #E03C31; font-size: 1.1rem;">
                     <span style="flex: 1;"><strong>Total</strong></span>
                     <strong style="color: #db2000; text-align: right;">
-                        ${{ totalCost }}
+                        {{ itinerary.costs.currency }}{{ totalCost }}
                     </strong>
                 </div>
-                <p style="font-size: 0.75rem; color: #707070; margin-top: 0.5rem;">Per person: ${{ (totalCost / itinerary.costs.travelers) | round }}</p>
+                <p style="font-size: 0.75rem; color: #707070; margin-top: 0.5rem;">Per person: {{ itinerary.costs.currency }}{{ (totalCost / itinerary.costs.travelers) | round }}</p>
             </div>
             {% endif %}
 

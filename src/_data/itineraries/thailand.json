@@ -13,7 +13,7 @@
             "items": [
                 {
                     "title": "Patong Beach",
-                    "description": "Checked into the hotel near Patong Beach on October 1st."
+                    "description": "Checked into the hotel near Patong Beach Hotel on October 1st."
                 },
                 {
                     "title": "Bangla Walking Street",
@@ -23,51 +23,83 @@
         },
         {
             "day": 2,
-            "title": "Island Hopping",
+            "title": "Phi Phi Islands",
             "items": [
                 {
                     "title": "Island Tour",
-                    "description": "Took a boat tour to explore the stunning nearby islands."
+                    "description": "Took a big boat tour to explore the stunning Phi Phi Islands."
                 }
             ]
         },
         {
             "day": 3,
-            "title": "Culture & Views",
+            "title": "Phuket City Tour",
             "items": [
                 {
-                    "title": "Big Buddha",
-                    "description": "Visited the majestic Big Buddha temple atop Nakkerd Hills."
+                    "title": "Wat Chalong Temple",
+                    "description": "Visited the Wat Chalong Temple, a Buddhist temple with stunning views of the city."
+                },
+                {
+                    "title": "Cashew Nut Factory",
+                    "description": "Visited a cashew nut factory to learn about the production process."
+                },
+                {
+                    "title": "Karon Viewport",
+                    "description": "Visited the Karon Viewport for a stunning view of the city."
+                },
+                {
+                    "title": "Procced to Krabi",
+                    "description": "Travelled to Krabi via road"
+                },
+                {
+                    "title": "Deevana Plaza Krabi Ao Nang",
+                    "description": "Checked into the hotel Deevana Plaza Krabi Ao Nang."
                 }
             ]
         },
         {
             "day": 4,
-            "title": "Travel to Bangkok",
+            "title": "Krabi",
             "items": [
                 {
-                    "title": "Flight to Bangkok",
-                    "description": "Traveled from Phuket to Bangkok."
+                    "title": "4 island tour",
+                    "description": "Took a big boat tour for white sands, snorkeling, and the stunning sandbar (Talay Waek) connecting Tup and Mor Islands at low tide, typically done by longtail boat or speedboat from Ao Nang."
                 }
             ]
         },
         {
             "day": 5,
-            "title": "Art & Illusion",
+            "title": "Travel to Pattaya",
             "items": [
                 {
-                    "title": "Trick Eye Museum",
-                    "description": "Visited the interactive 3D art museum for some fun photo opportunities."
+                    "title": "Flight to Pattaya",
+                    "description": "Traveled from Krabi to Pattaya."
+                },
+                {
+                    "title": "Pattaya",
+                    "description": "Checked into the Golden sea hotel Pattaya."
+                },
+                {
+                    "title": "Art in Paradise",
+                    "description": "Visited the Art in Paradise for some fun photo opportunities."
                 }
             ]
         },
         {
             "day": 6,
-            "title": "Wildlife & Heights",
+            "title": "Pattaya",
             "items": [
                 {
-                    "title": "Zoo Experience",
+                    "title": "Transfer from Pattaya to Bangkok",
+                    "description": "Traveled from Pattaya to Bangkok."
+                },
+                {
+                    "title": "Siracha Tiger zoo",
                     "description": "Visited the zoo and had the unique experience of holding a tiger."
+                },
+                {
+                    "title": "Stay",
+                    "description": "Checked into the Ibis Bangkok Sukhumvit 4 hotel."
                 },
                 {
                     "title": "Mahanakhon Skywalk",
@@ -80,8 +112,24 @@
             "title": "Stars & Wax",
             "items": [
                 {
+                    "title": "Golden buddha",
+                    "description": "The Golden Buddha, officially titled Phra Phuttha Maha Suwanna Patimakon, commonly known in Thai as Phra Sukhothai Traimit, is a gold Maravijaya Attitude seated Buddharupa statue, with a weight of 5.5 tonnes. It is located in the temple of Wat Traimit, Bangkok, Thailand."
+                },
+                {
+                    "title": "Wat Mahaputtram",
+                    "description": "Wat Mahaputtram is a Buddhist temple located in the Mahasamudra district of Bangkok, Thailand."
+                },
+                {
+                    "title": "Gems Gallery",
+                    "description": "Gems Gallery is a gemstone and jewelry shop located in the Mahasamudra district of Bangkok, Thailand."
+                },
+                {
                     "title": "Madame Tussauds",
                     "description": "Rubbed shoulders with wax figures of celebrities and historical icons."
+                },
+                {
+                    "title": "Back home",
+                    "description": "Checked out of the hotel and flew back home."
                 }
             ]
         }
@@ -102,14 +150,41 @@
         }
     ],
     "ratings": [],
-    "packingList": [],
+    "packingList": [
+        "Lightweight, breathable clothing (cottons/linens)",
+        "Raincoat, poncho or umbrella (expect showers)",
+        "Waterproof shoes or sandals",
+        "Swimwear for island hopping",
+        "Sun protection (Hat, Sunglasses, Sunscreen)",
+        "Mosquito repellent",
+        "Light jacket/cardigan for air-conditioned malls/flights",
+        "Power bank & universal adapter"
+    ],
     "costs": {
-        "currency": "THB",
+        "currency": "₹",
         "travelers": 2,
-        "breakdown": []
+        "breakdown": [
+            {
+                "category": "Total Cost",
+                "amount": 76365
+            }
+        ]
     },
     "weather": {
-        "note": "Tropical climate",
-        "expectations": []
+        "note": "October is a transitional month. Expect warm, humid weather with a mix of sun and rain. Pattaya may be wetter than usual.",
+        "expectations": [
+            {
+                "condition": "Temperature",
+                "description": "Highs around 31-33°C (88-91°F), Lows around 24-25°C (75-77°F). Warm and humid."
+            },
+            {
+                "condition": "Rainfall",
+                "description": "Likely to encounter rain showers, especially in afternoons/evenings. Pattaya experiences heavy rainfall in October."
+            },
+            {
+                "condition": "Humidity",
+                "description": "Moderate to High humidity (approx 78-85%)."
+            }
+        ]
     }
 }

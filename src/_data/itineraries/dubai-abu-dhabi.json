@@ -3,7 +3,7 @@
     "location": "Dubai & Abu Dhabi, UAE",
     "date": "September 2017",
     "duration": "7 Days",
-    "heroImage": "/assets/images/posts/dubai.png",
+    "heroImage": "/assets/images/posts/dubai-abudhabi.png",
     "intro": "A week-long journey through the dazzling skyscrapers of Dubai and the cultural landmarks of Abu Dhabi.",
     "preTrip": [],
     "days": [
@@ -120,14 +120,49 @@
         }
     ],
     "ratings": [],
-    "packingList": [],
+    "packingList": [
+        "Lightweight, breathable cotton/linen clothes",
+        "Formal/Semi-formal wear for luxury dining/clubs",
+        "Modest clothing for Mosque visits (Long sleeves/pants/scarf)",
+        "Swimwear",
+        "Sun protection (Hat, Sunglasses, High SPF Sunscreen)",
+        "Comfortable walking shoes/sandals",
+        "Light jacket/pashmina for strong air conditioning",
+        "Universal adapter (Type G)"
+    ],
     "costs": {
-        "currency": "AED",
+        "currency": "₹",
         "travelers": 2,
-        "breakdown": []
+        "breakdown": [
+            {
+                "category": "Flights",
+                "amount": 40714
+            },
+            {
+                "category": "Arab Dirham",
+                "amount": 40000
+            },
+            {
+                "category": "Visa",
+                "amount": 24000
+            }
+        ]
     },
     "weather": {
-        "note": "Hot desert climate",
-        "expectations": []
+        "note": "September is hot and humid, transitioning from peak summer. Outdoor activities are best in mornings/evenings.",
+        "expectations": [
+            {
+                "condition": "Temperature",
+                "description": "Highs around 38-39°C (100-102°F), Lows around 27°C (81°F). Very hot days."
+            },
+            {
+                "condition": "Rainfall",
+                "description": "Extremely rare to non-existent in September."
+            },
+            {
+                "condition": "Humidity",
+                "description": "Moderate to High humidity, making it feel hotter."
+            }
+        ]
     }
 }

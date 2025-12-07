@@ -2,48 +2,83 @@
     "title": "Kuala Lumpur & Singapore",
     "location": "Malaysia & Singapore",
     "date": "March 2015",
-    "duration": "10 Days",
-    "heroImage": "/assets/images/posts/placeholder.png",
+    "duration": "11 Days",
+    "heroImage": "/assets/images/posts/singapore-kl.png",
     "intro": "Exploring the vibrant cultures of Malaysia and Singapore.",
-    "preTrip": [],
+    "preTrip": [
+        {
+            "title": "Visas",
+            "description": "We processed our visas through VFS Global to ensure we had the necessary travel documents for both Malaysia and Singapore."
+        },
+        {
+            "title": "Train Connection",
+            "description": "We took a train from Bangalore to Chennai to catch our connecting flight."
+        },
+        {
+            "title": "Flights",
+            "description": "Our flights were booked via TigerAir, offering a convenient connection for our route."
+        },
+        {
+            "title": "Currency & Forex",
+            "description": "We procured foreign currency (Malaysian Ringgit and Singapore Dollars) from a local Forex dealer before departure."
+        }
+    ],
     "days": [
         {
             "day": 1,
-            "title": "Kuala Lumpur City Center",
+            "title": "Bangalore to Chennai & Chennai to Singapore",
             "items": [
                 {
-                    "title": "Bangsar Homestay",
-                    "description": "Check-in and settle down."
+                    "title": "Train Journey",
+                    "description": "Travel from Bangalore to Chennai for the connecting flight."
                 },
                 {
-                    "title": "Aquaria KLCC",
-                    "description": "Explore the oceanarium located beneath the Kuala Lumpur Convention Centre."
-                },
-                {
-                    "title": "Petronas Twin Towers",
-                    "description": "Visit the iconic twin towers and the skybridge."
-                },
-                {
-                    "title": "Menara KL Tower",
-                    "description": "Enjoy panoramic views of the city from the communications tower."
+                    "title": "Flight Journey",
+                    "description": "We had flight at 11.45PM from Chennai and reached Singapore at around 6.30AM."
                 }
             ]
         },
         {
             "day": 2,
+            "title": "Kuala Lumpur City Center",
+            "items": [
+                {
+                    "title": "Singapore to Kuala Lumpur",
+                    "description": "We had a layover for 3 hours and then around 10.20 am departed from Singapre to Kuala Lumpur. We then took ERL express train to Bangsar."
+                },
+                {
+                    "title": "Bangsar Homestay",
+                    "description": "We checked-in at around 12PM and settled down."
+                },
+                {
+                    "title": "Aquaria KLCC",
+                    "description": "Around 2pm we visited Aquaria KLCC. Explore the oceanarium located beneath the Kuala Lumpur Convention Centre."
+                },
+                {
+                    "title": "Menara KL Tower",
+                    "description": "Around 5pm we visited Menara KL Tower. Enjoy panoramic views of the city from the communications tower."
+                },
+                {
+                    "title": "Petronas Twin Towers",
+                    "description": "Around 8pm we visited Petronas Twin Towers. Visit the iconic twin towers and the skybridge."
+                }
+            ]
+        },
+        {
+            "day": 3,
             "title": "Culture and History",
             "items": [
                 {
                     "title": "Batu Caves",
-                    "description": "Visit the limestone hill with a series of caves and cave temples."
+                    "description": "We took a train to Batu Caves. Visit the limestone hill with a series of caves and cave temples."
                 },
                 {
                     "title": "Royal Selangor Visitor Centre",
-                    "description": "Learn about the history of pewter manufacturing."
+                    "description": "We took a train to Royal Selangor Visitor Centre. Learn about the history of pewter manufacturing."
                 },
                 {
                     "title": "Mahamariyamman Temple",
-                    "description": "Visit the oldest Hindu temple in Kuala Lumpur."
+                    "description": "We took a train to Mahamariyamman Temple. Visit the oldest Hindu temple in Kuala Lumpur."
                 },
                 {
                     "title": "Chinatown & Petaling Street",
@@ -56,22 +91,30 @@
             ]
         },
         {
-            "day": 3,
+            "day": 4,
             "title": "Putrajaya Day Trip",
             "items": [
                 {
                     "title": "Cruise Tasik Putrajaya",
                     "description": "Enjoy a scenic cruise on Putrajaya Lake."
+                },
+                {
+                    "title": "Putrajaya Botanic Garden",
+                    "description": "Explore the beautiful gardens and botanical collections."
+                },
+                {
+                    "title": "Sin Sze Si Ya Temple",
+                    "description": "Visit the Buddhist temple and learn about the history of Buddhism in Malaysia."
                 }
             ]
         },
         {
-            "day": 4,
+            "day": 5,
             "title": "Singapore Arrival",
             "items": [
                 {
                     "title": "Geylang",
-                    "description": "Explore the local food scene and architecture."
+                    "description": "We landed in Singapore and took a train card where we can preload the cash and travel. We then took a train to Geylang. Explore the local food scene and architecture."
                 },
                 {
                     "title": "Singapore Flyer",
@@ -80,7 +123,7 @@
             ]
         },
         {
-            "day": 5,
+            "day": 6,
             "title": "Singapore Culture & Arts",
             "items": [
                 {
@@ -122,7 +165,7 @@
             ]
         },
         {
-            "day": 6,
+            "day": 7,
             "title": "Wildlife Encounters",
             "items": [
                 {
@@ -132,11 +175,15 @@
                 {
                     "title": "Singapore Zoo",
                     "description": "Explore the world-famous 'open concept' zoo."
+                },
+                {
+                    "title": "Night Safari",
+                    "description": "Experience the world's first nocturnal wildlife park."
                 }
             ]
         },
         {
-            "day": 7,
+            "day": 8,
             "title": "Iconic Landmarks",
             "items": [
                 {
@@ -162,7 +209,7 @@
             ]
         },
         {
-            "day": 8,
+            "day": 9,
             "title": "Sentosa Island",
             "items": [
                 {
@@ -176,7 +223,7 @@
             ]
         },
         {
-            "day": 9,
+            "day": 10,
             "title": "Universal Studios & Light Show",
             "items": [
                 {
@@ -194,7 +241,7 @@
             ]
         },
         {
-            "day": 10,
+            "day": 11,
             "title": "Changi Heritage",
             "items": [
                 {
@@ -204,21 +251,91 @@
                 {
                     "title": "Changi Beach Park",
                     "description": "Relax at one of the oldest coastal parks in Singapore."
+                },
+                {
+                    "title": "Depart to Bangalore",
+                    "description": "Depart to Bangalore."
                 }
             ]
         }
     ],
     "tripLinks": [],
-    "facts": [],
+    "facts": [
+        {
+            "label": "Duration",
+            "value": "11 Days"
+        },
+        {
+            "label": "Season",
+            "value": "March (Tropical)"
+        },
+        {
+            "label": "Transport",
+            "value": "Flights + Public Transit + Cabs"
+        },
+        {
+            "label": "Base Cities",
+            "value": "Kuala Lumpur & Singapore"
+        }
+    ],
     "ratings": [],
-    "packingList": [],
+    "packingList": [
+        "Light, breathable moisture-wicking clothes (10 sets)",
+        "Comfortable walking shoes & sandals",
+        "Compact umbrella or rain poncho",
+        "Sun protection (Hat, Sunglasses, Sunscreen)",
+        "Swimwear",
+        "Light jacket/cardigan for AC (malls/cinemas)",
+        "Universal Travel Adapter (Type G)",
+        "Insect repellent",
+        "Power bank & cables",
+        "Personal toiletries & medications"
+    ],
     "costs": {
-        "currency": "TBD",
-        "travelers": 2,
-        "breakdown": []
+        "currency": "₹",
+        "travelers": 3,
+        "breakdown": [
+            {
+                "category": "Stay",
+                "amount": 30000
+            },
+            {
+                "category": "Flights",
+                "amount": 130000
+            },
+            {
+                "category": "Train",
+                "amount": 470
+            },
+            {
+                "category": "Visa",
+                "amount": 19500
+            },
+            {
+                "category": "Singapore Dollars",
+                "amount": 140000
+            },
+            {
+                "category": "Malaysia Ringgit",
+                "amount": 30000
+            }
+        ]
     },
     "weather": {
-        "note": "",
-        "expectations": []
+        "note": "March in Kuala Lumpur and Singapore is hot and humid. It marks the end of the northeast monsoon season in Singapore, but expect consistent warmth and frequent showers in both cities.",
+        "expectations": [
+            {
+                "condition": "Temperature",
+                "description": "Highs around 31-33°C (88-91°F) and lows around 23-24°C (73-75°F). Prepare for heat."
+            },
+            {
+                "condition": "Rainfall",
+                "description": "KL sees frequent rain (approx. 14 rainy days). Singapore is in a drier phase but still experiences short, daily showers."
+            },
+            {
+                "condition": "Humidity",
+                "description": "Very high humidity (80%+) in both cities. It can feel muggy."
+            }
+        ]
     }
 }
