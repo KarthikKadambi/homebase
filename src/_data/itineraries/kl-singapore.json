@@ -2,11 +2,212 @@
     "title": "Kuala Lumpur & Singapore",
     "location": "Malaysia & Singapore",
     "date": "March 2015",
-    "duration": "TBD",
+    "duration": "10 Days",
     "heroImage": "/assets/images/posts/placeholder.png",
     "intro": "Exploring the vibrant cultures of Malaysia and Singapore.",
     "preTrip": [],
-    "days": [],
+    "days": [
+        {
+            "day": 1,
+            "title": "Kuala Lumpur City Center",
+            "items": [
+                {
+                    "title": "Bangsar Homestay",
+                    "description": "Check-in and settle down."
+                },
+                {
+                    "title": "Aquaria KLCC",
+                    "description": "Explore the oceanarium located beneath the Kuala Lumpur Convention Centre."
+                },
+                {
+                    "title": "Petronas Twin Towers",
+                    "description": "Visit the iconic twin towers and the skybridge."
+                },
+                {
+                    "title": "Menara KL Tower",
+                    "description": "Enjoy panoramic views of the city from the communications tower."
+                }
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Culture and History",
+            "items": [
+                {
+                    "title": "Batu Caves",
+                    "description": "Visit the limestone hill with a series of caves and cave temples."
+                },
+                {
+                    "title": "Royal Selangor Visitor Centre",
+                    "description": "Learn about the history of pewter manufacturing."
+                },
+                {
+                    "title": "Mahamariyamman Temple",
+                    "description": "Visit the oldest Hindu temple in Kuala Lumpur."
+                },
+                {
+                    "title": "Chinatown & Petaling Street",
+                    "description": "Explore the bustling street market and vibrant culture."
+                },
+                {
+                    "title": "National Museum of Malaysia",
+                    "description": "Discover the rich history and heritage of Malaysia."
+                }
+            ]
+        },
+        {
+            "day": 3,
+            "title": "Putrajaya Day Trip",
+            "items": [
+                {
+                    "title": "Cruise Tasik Putrajaya",
+                    "description": "Enjoy a scenic cruise on Putrajaya Lake."
+                }
+            ]
+        },
+        {
+            "day": 4,
+            "title": "Singapore Arrival",
+            "items": [
+                {
+                    "title": "Geylang",
+                    "description": "Explore the local food scene and architecture."
+                },
+                {
+                    "title": "Singapore Flyer",
+                    "description": "Ride the giant observation wheel for stunning views."
+                }
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Singapore Culture & Arts",
+            "items": [
+                {
+                    "title": "MICA Building",
+                    "description": "Admire the colorful windows of the Old Hill Street Police Station."
+                },
+                {
+                    "title": "People of the River Sculptures",
+                    "description": "View the sculptures along the Singapore River."
+                },
+                {
+                    "title": "Fort Canning Park",
+                    "description": "Walk through the historic hilltop park."
+                },
+                {
+                    "title": "Peranakan Museum",
+                    "description": "Explore the culture of Peranakan communities."
+                },
+                {
+                    "title": "National Museum of Singapore",
+                    "description": "Visit the oldest museum in Singapore."
+                },
+                {
+                    "title": "Singapore Art Museum",
+                    "description": "View contemporary art from Singapore and Southeast Asia."
+                },
+                {
+                    "title": "Little India",
+                    "description": "Experience the vibrant Indian culture and shops."
+                },
+                {
+                    "title": "Mustafa Centre",
+                    "description": "Shop at the 24-hour shopping mall."
+                },
+                {
+                    "title": "Srinivasa Perumal Temple",
+                    "description": "Visit the historic Hindu temple."
+                }
+            ]
+        },
+        {
+            "day": 6,
+            "title": "Wildlife Encounters",
+            "items": [
+                {
+                    "title": "Jurong Bird Park",
+                    "description": "Visit Asia's largest bird park."
+                },
+                {
+                    "title": "Singapore Zoo",
+                    "description": "Explore the world-famous 'open concept' zoo."
+                }
+            ]
+        },
+        {
+            "day": 7,
+            "title": "Iconic Landmarks",
+            "items": [
+                {
+                    "title": "Chinatown",
+                    "description": "Explore the historic district."
+                },
+                {
+                    "title": "Buddha Tooth Relic Temple",
+                    "description": "Visit the impressive temple and museum."
+                },
+                {
+                    "title": "Merlion Park",
+                    "description": "See the iconic Merlion statue."
+                },
+                {
+                    "title": "Esplanade - Theatres on the Bay",
+                    "description": "Visit the performing arts center."
+                },
+                {
+                    "title": "Gardens by the Bay",
+                    "description": "Explore the futuristic park and Supertree Grove."
+                }
+            ]
+        },
+        {
+            "day": 8,
+            "title": "Sentosa Island",
+            "items": [
+                {
+                    "title": "Singapore Cable Car",
+                    "description": "Take a scenic ride to Sentosa Island."
+                },
+                {
+                    "title": "Sentosa Island",
+                    "description": "Enjoy the beaches and attractions."
+                }
+            ]
+        },
+        {
+            "day": 9,
+            "title": "Universal Studios & Light Show",
+            "items": [
+                {
+                    "title": "Universal Studios Singapore",
+                    "description": "Enjoy the rides and attractions at the theme park."
+                },
+                {
+                    "title": "Labrador Nature Reserve",
+                    "description": "Take a nature walk and see historical relics."
+                },
+                {
+                    "title": "Wonder Full Light and Water Show",
+                    "description": "Watch the spectacular light and water show at Marina Bay Sands."
+                }
+            ]
+        },
+        {
+            "day": 10,
+            "title": "Changi Heritage",
+            "items": [
+                {
+                    "title": "Changi Chapel and Museum",
+                    "description": "Learn about the history of WWII in Singapore."
+                },
+                {
+                    "title": "Changi Beach Park",
+                    "description": "Relax at one of the oldest coastal parks in Singapore."
+                }
+            ]
+        }
+    ],
     "tripLinks": [],
     "facts": [],
     "ratings": [],

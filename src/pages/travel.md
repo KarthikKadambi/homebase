@@ -30,7 +30,7 @@ title: My Travel map | Places I've explored worldwide
 
 <p>All itineraries below are from my personal travels. Each journey has been carefully documented with detailed day-by-day plans, costs, packing lists, number of people and insider tips based on my firsthand experiences exploring these incredible destinations.</p>
 
-<h3>From San Jose, CA</h3>
+<h3 class="header-branding">From San Jose, CA</h3>
 
 <h4>2025</h4>
 <ul>
@@ -53,7 +53,7 @@ title: My Travel map | Places I've explored worldwide
     <li><a href="/itineraries/los-angeles/">Los Angeles Getaway Itinerary</a></li>
 </ul>
 
-<h3>From Bangalore, India</h3>
+<h3 class="header-branding">From Bangalore, India</h3>
 
 <h4>2019</h4>
 <ul>
