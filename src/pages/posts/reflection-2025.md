@@ -7,7 +7,7 @@ tags:
   - posts
   - Reflection
   - Life
-title: 2025 Year in Review: Gratitude, Growth, and Next Steps
+title: 2025 Year in Review | Gratitude, Growth, and Next Steps
 ---
 
 As 2025 comes to a close, I find myself sitting with a profound sense of gratitude. It’s been a year of immense learning, some hard truths, and ultimately, a clearer vision for what comes next.
