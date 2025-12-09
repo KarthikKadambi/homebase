@@ -6,7 +6,7 @@
 {% endif %}
 
 <div class="itinerary-page">
-    <div class="no-print" style="margin-bottom: 1rem; display: flex; gap: 0.5rem; justify-content: center;" role="navigation">
+    <div class="no-print" style="margin-bottom: 1rem; display: flex; gap: 0.5rem; justify-content: center;" role="navigation" aria-label="Itinerary tools">
         <button id="homeBtn" style="background: #2196F3; color: white; border: none; padding: 0.5rem 1rem; border-radius: 4px; cursor: pointer; font-weight: bold;">
             🏠 Home
         </button>
@@ -128,8 +128,8 @@
             {% endif %}
         </div>
 
-        <aside class="itinerary-sidebar" tabindex="0">
-            <h3>Trip Facts</h3>
+        <aside class="itinerary-sidebar" aria-labelledby="trip-facts-heading" tabindex="0">
+            <h3 id="trip-facts-heading">Trip Facts</h3>
             {% for fact in itinerary.facts %}
             <div class="itinerary-fact">
                 <span>{{ fact.label }}</span>
@@ -156,7 +156,7 @@
             
             <div style="margin-top: 2rem;">
                 <h3>Packing List</h3>
-                <ul style="list-style: disc; padding-left: 1rem; font-size: 0.9rem;" tabindex="0">
+                <ul style="list-style: disc; padding-left: 1rem; font-size: 0.9rem;">
                     {% for item in itinerary.packingList %}
                     <li>{{ item }}</li>
                     {% endfor %}
@@ -164,7 +164,7 @@
             </div>
 
             {% if itinerary.costs %}
-            <div style="margin-top: 2rem;" tabindex="0">
+            <div style="margin-top: 2rem;">
                 <h3>Cost Breakup</h3>
                 <p style="font-size: 0.85rem; color: #666; margin-bottom: 1rem;">For {{ itinerary.costs.travelers }} travelers</p>
                 {% for cost in itinerary.costs.breakdown %}
@@ -184,7 +184,7 @@
             {% endif %}
 
             {% if itinerary.weather %}
-            <div style="margin-top: 2rem;" tabindex="0">
+            <div style="margin-top: 2rem;">
                 <h3>Weather Note</h3>
                 <p style="font-size: 0.85rem; color: #666; margin-bottom: 1rem;">{{ itinerary.weather.note }}</p>
                 {% for expectation in itinerary.weather.expectations %}
